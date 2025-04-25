@@ -1,0 +1,150 @@
+{
+    "Canine Parvovirus": {
+        "description": "A highly contagious viral disease that affects dogs, causing acute gastrointestinal illness, particularly in puppies.",
+        "severity": "Severe",
+        "treatment": "Immediate veterinary care is essential. Treatment focuses on supportive care, including intravenous fluids to combat dehydration, anti-nausea medications, and antibiotics to prevent secondary bacterial infections.",
+        "causes": "Caused by the canine parvovirus type 2 (CPV-2), which targets rapidly dividing cells in the intestinal tract, bone marrow, and lymph nodes.",
+        "transmission": "The virus is shed in the feces of infected dogs and can survive in the environment for extended periods. Dogs contract the virus through direct contact with infected dogs or by exposure to contaminated environments, surfaces, or objects.",
+        "diagnosis": "Diagnosis is typically made through clinical signs and confirmed with tests such as ELISA, hemagglutination, or PCR to detect the virus in fecal samples.",
+        "what_to_do": "If you suspect your dog has parvovirus, seek immediate veterinary attention. Isolate your dog from other pets to prevent the spread of the virus.",
+        "recovery_time": "With prompt and aggressive treatment, recovery can begin within a week, but full recovery may take several weeks.",
+        "risk_factors": [
+            "Puppies between six weeks and six months old",
+            "Unvaccinated dogs",
+            "Certain breeds like Rottweilers and Dobermans"
+        ],
+        "prevention": "Vaccinate your dog against parvovirus and maintain good hygiene. Avoid exposure to contaminated environments.",
+        "contagious": true
+    },
+    "Infectious Canine Hepatitis": {
+        "description": "A contagious viral disease caused by canine adenovirus type 1 (CAV-1), affecting the liver, kidneys, spleen, lungs, and blood vessels.",
+        "severity": "Moderate to Severe",
+        "treatment": "Supportive care including intravenous fluids, liver-protective medications, and anti-inflammatory drugs. Severe cases may require hospitalization.",
+        "causes": "Caused by canine adenovirus type 1, which infects multiple organs and causes systemic inflammation.",
+        "transmission": "Transmitted via urine, feces, or saliva of infected dogs. The virus can persist in the environment for weeks or months.",
+        "diagnosis": "Blood tests, PCR, and serologic assays to confirm liver involvement and virus presence.",
+        "what_to_do": "Seek veterinary care immediately if your dog shows signs of lethargy, fever, or abdominal pain. Isolate infected pets.",
+        "recovery_time": "Recovery can take 1-2 weeks with supportive care. Some dogs may have lingering complications.",
+        "risk_factors": [
+            "Unvaccinated dogs",
+            "Young dogs under one year of age"
+        ],
+        "prevention": "Vaccination with CAV-2 vaccine, which protects against both CAV-1 and CAV-2.",
+        "contagious": true
+    },
+    "Canine Distemper": {
+        "description": "A serious viral illness that affects the respiratory, gastrointestinal, and nervous systems of dogs and other wildlife.",
+        "severity": "Severe",
+        "treatment": "No cure exists. Treatment includes fluids, anti-seizure medications, and antibiotics for secondary infections.",
+        "causes": "Caused by the canine distemper virus (CDV), related to the measles virus.",
+        "transmission": "Spread through airborne exposure (sneezing or coughing), shared food/water bowls, or contaminated surfaces.",
+        "diagnosis": "Clinical signs, antibody titers, or PCR testing from conjunctival swabs or blood samples.",
+        "what_to_do": "Immediately isolate the dog and consult a veterinarian. Monitor symptoms closely and administer supportive care.",
+        "recovery_time": "Some dogs recover within a few weeks; others may suffer lifelong neurological issues.",
+        "risk_factors": [
+            "Unvaccinated puppies and dogs",
+            "Dogs in shelters or high-density environments"
+        ],
+        "prevention": "Routine vaccination and avoiding contact with infected animals.",
+        "contagious": true
+    },
+    "Canine Herpesvirus": {
+        "description": "A viral infection that primarily affects newborn puppies, often causing respiratory distress, weakness, and sudden death.",
+        "severity": "Moderate to Severe",
+        "treatment": "Supportive care includes keeping puppies warm, hydrated, and nourished. Antiviral medications may be attempted but prognosis is poor in neonates.",
+        "causes": "Caused by canine herpesvirus (CHV), most dangerous to puppies under 3 weeks old.",
+        "transmission": "Spread through direct contact with infected secretions (oral, nasal, vaginal), in utero, or during birth.",
+        "diagnosis": "Post-mortem histopathology, PCR, or virus isolation from affected tissues or secretions.",
+        "what_to_do": "If puppies exhibit lethargy, nasal discharge, or persistent crying, consult a vet immediately and warm the environment.",
+        "recovery_time": "Survivors may recover in 1\u20132 weeks, but mortality is high in neonates.",
+        "risk_factors": [
+            "Breeding kennels",
+            "Unheated puppy areas",
+            "Stress or poor maternal immunity"
+        ],
+        "prevention": "Maintain hygiene and warmth in whelping areas. No widely available vaccine in some regions.",
+        "contagious": true
+    },
+    "Canine Influenza": {
+        "description": "An infectious respiratory disease in dogs caused by canine influenza virus (CIV).",
+        "severity": "Mild to Moderate",
+        "treatment": "Supportive care includes fluids, rest, and monitoring. Severe cases may require hospitalization or antibiotics for secondary infections.",
+        "causes": "Caused by CIV H3N8 or H3N2 strains.",
+        "transmission": "Spread through airborne droplets (coughing, barking), shared objects, and surfaces.",
+        "diagnosis": "PCR testing of nasal swabs or antibody testing.",
+        "what_to_do": "Isolate coughing dogs. Consult a vet if symptoms worsen or fever persists.",
+        "recovery_time": "Most dogs recover in 2\u20133 weeks with rest and care.",
+        "risk_factors": [
+            "Kennels, daycares, or shelters",
+            "Unvaccinated dogs",
+            "Travel or shows"
+        ],
+        "prevention": "Vaccinate dogs at risk. Practice isolation and sanitation during outbreaks.",
+        "contagious": true
+    },
+    "Kennel Cough": {
+        "description": "A contagious respiratory condition characterized by a dry, hacking cough.",
+        "severity": "Mild to Moderate",
+        "treatment": "Usually self-limiting. Supportive care includes rest, humidified air, and possibly cough suppressants or antibiotics.",
+        "causes": "Often caused by Bordetella bronchiseptica, but may involve viruses like parainfluenza.",
+        "transmission": "Spreads rapidly through airborne particles in high-dog-density areas.",
+        "diagnosis": "Based on clinical history and symptoms. No specific test required in mild cases.",
+        "what_to_do": "Allow rest and limit exposure to other dogs. Seek veterinary care if symptoms persist or worsen.",
+        "recovery_time": "Most dogs recover in 1\u20132 weeks.",
+        "risk_factors": [
+            "Dogs in kennels, daycare, or training facilities",
+            "Unvaccinated dogs"
+        ],
+        "prevention": "Bordetella and parainfluenza vaccinations, proper hygiene in group settings.",
+        "contagious": true
+    },
+    "Rabies": {
+        "description": "A fatal viral disease affecting the brain and nervous system, transmitted through the bite of an infected animal.",
+        "severity": "Fatal",
+        "treatment": "There is no effective treatment after symptoms appear. Euthanasia is recommended for safety.",
+        "causes": "Caused by the rabies virus (RABV), which travels via peripheral nerves to the brain.",
+        "transmission": "Through the bite or saliva of an infected animal (e.g., raccoons, bats, dogs).",
+        "diagnosis": "Post-mortem brain tissue analysis. No reliable antemortem diagnostic test.",
+        "what_to_do": "Immediate euthanasia is often required. Any exposure warrants urgent vet attention and public health notification.",
+        "recovery_time": "None \u2013 the disease is nearly always fatal once symptoms begin.",
+        "risk_factors": [
+            "Unvaccinated dogs",
+            "Free-roaming or outdoor access",
+            "Exposure to wildlife"
+        ],
+        "prevention": "Routine vaccination is legally required. Avoid contact with wild animals.",
+        "contagious": true
+    },
+    "Canine Minute Virus": {
+        "description": "A parvovirus-like infection that mainly affects puppies, causing enteritis and occasionally myocarditis.",
+        "severity": "Moderate to Severe",
+        "treatment": "Supportive treatment with fluids, electrolyte management, antibiotics, and nutritional support.",
+        "causes": "Caused by canine minute virus (CPV-1), part of the parvovirus family.",
+        "transmission": "Likely fecal-oral or in utero, but not fully defined. Often subclinical in adults.",
+        "diagnosis": "PCR testing and clinical signs in neonatal puppies.",
+        "what_to_do": "Provide intensive care for affected puppies and isolate them from the rest of the litter.",
+        "recovery_time": "Recovery can take 1\u20132 weeks. Mortality may occur in very young pups.",
+        "risk_factors": [
+            "Puppies under 3 weeks old",
+            "Poor maternal antibody transfer"
+        ],
+        "prevention": "Good hygiene, maternal vaccination, and early veterinary support.",
+        "contagious": true
+    },
+    "Pseudorabies": {
+        "description": "A viral neurological disease seen in dogs exposed to infected swine, leading to intense itching and rapid death.",
+        "severity": "Severe to Fatal",
+        "treatment": "No effective treatment. Death usually occurs within 48 hours of symptom onset.",
+        "causes": "Caused by Suid herpesvirus 1 (SHV-1), primarily affecting pigs but transmissible to dogs.",
+        "transmission": "Ingestion of raw pork, exposure to infected swine or carcasses.",
+        "diagnosis": "Based on history, neurological signs, and confirmed via virus isolation or PCR.",
+        "what_to_do": "Prevent access to pigs or raw pork. Euthanasia may be required in advanced cases.",
+        "recovery_time": "Rare \u2013 most cases are fatal in dogs within 2 days.",
+        "risk_factors": [
+            "Hunting dogs",
+            "Dogs on farms with swine access"
+        ],
+        "prevention": "Prevent exposure to pigs or raw pork. No vaccine available for dogs.",
+        "contagious": false
+    }
+}

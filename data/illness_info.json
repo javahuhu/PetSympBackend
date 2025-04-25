@@ -1,0 +1,53 @@
+{
+    "Canine Coronavirus": {
+      "description": "A highly contagious viral disease affecting the intestines of dogs, causing diarrhea and vomiting.",
+      "severity": "Mild to Moderate",
+      "treatment": "Ensure hydration, provide a bland diet, and monitor symptoms. A vet visit is recommended if symptoms persist beyond 3 days."
+    },
+    "Canine Distemper": {
+      "description": "A serious viral disease that affects the respiratory, gastrointestinal, and nervous systems of dogs. It is highly contagious and often fatal.",
+      "severity": "Severe",
+      "treatment": "Requires immediate veterinary attention. Supportive care includes IV fluids, antibiotics for secondary infections, and seizure management if needed."
+    },
+    "Canine Herpesvirus": {
+      "description": "A viral infection that primarily affects newborn puppies, causing respiratory distress and neurological symptoms. In adult dogs, it may remain latent or cause mild symptoms.",
+      "severity": "Moderate to Severe",
+      "treatment": "Newborn puppies require warmth and supportive care. Infected adult dogs should be monitored for symptoms and isolated to prevent transmission."
+    },
+    "Canine Influenza": {
+      "description": "A contagious respiratory infection in dogs, often causing coughing, nasal discharge, fever, and lethargy.",
+      "severity": "Mild to Moderate",
+      "treatment": "Most cases resolve with rest, hydration, and supportive care. Severe cases may require hospitalization for oxygen therapy and IV fluids."
+    },
+    "Kennel Cough": {
+      "description": "A highly contagious respiratory infection that causes a persistent, dry, hacking cough. It spreads easily in areas with many dogs, such as kennels and dog parks.",
+      "severity": "Mild to Moderate",
+      "treatment": "Mild cases may resolve on their own with rest and hydration. Severe cases may require antibiotics or cough suppressants as prescribed by a vet."
+    },
+    "Canine Parvovirus": {
+      "description": "A highly contagious and often fatal viral infection that attacks the gastrointestinal tract, causing severe vomiting, diarrhea, and dehydration.",
+      "severity": "Severe",
+      "treatment": "Immediate veterinary care is required. Treatment includes IV fluids, anti-nausea medication, and intensive monitoring for secondary infections."
+    },
+    "Rabies": {
+      "description": "A fatal viral disease that affects the nervous system, leading to behavioral changes, aggression, paralysis, and death. It is transmitted through bites from infected animals.",
+      "severity": "Fatal",
+      "treatment": "There is no cure for rabies once symptoms appear. Prevention through vaccination is essential. Any suspected exposure requires immediate veterinary evaluation."
+    },
+    "Canine Minute Virus": {
+      "description": "A parvovirus-related infection that primarily affects young puppies, causing vomiting, diarrhea, and sometimes heart complications.",
+      "severity": "Moderate to Severe",
+      "treatment": "Supportive care includes hydration, electrolyte therapy, and monitoring for secondary bacterial infections. Severe cases may require hospitalization."
+    },
+    "Infectious Canine Hepatitis": {
+      "description": "A viral infection affecting the liver, kidneys, spleen, and lungs of dogs. Symptoms range from mild to life-threatening.",
+      "severity": "Moderate to Severe",
+      "treatment": "Supportive care with IV fluids, liver-protective medications, and monitoring of organ function is necessary. Severe cases may require hospitalization."
+    },
+    "Pseudorabies": {
+      "description": "A viral disease that affects the central nervous system, leading to intense itching, seizures, and paralysis. It is often fatal in dogs.",
+      "severity": "Severe to Fatal",
+      "treatment": "There is no effective treatment for pseudorabies. Supportive care may help manage symptoms, but prevention through avoiding contact with infected animals is crucial."
+    }
+  }
+  

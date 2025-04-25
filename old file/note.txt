@@ -1,0 +1,29 @@
+Canine Coronavirus
+Anorexia, Bloody Diarrhea, Dehydration, Depression, Diarrhea, Foul-Smelling Stool, Lethargy, Loss of Appetite, Mucus in Stool, Orange-Tinted Stool, Sudden Diarrhea, Vomiting
+-----
+Canine Distemper
+Anorexia, Coughing, Dehydration, Depression, Diarrhea, Eye Discharge, Nasal Discharge, Encephalitis, Fever, Hardened Footpads, Lethargy, Muscle Twitching, Paralysis, Pneumonia, Seizures, Sneezing, Vomiting, Weight Loss
+-----
+Canine Herpesvirus
+Abdominal Bloating, Abdominal Pain, Breathing Difficulty, Coughing, Decreased Appetite, Decreased Suckling, Diarrhea, Eye Discharge, Nasal Discharge, Excessive Crying, Eye Inflammation, Fever, Genital Lesions, Gum Hemorrhages, Lethargy, Listlessness, Miscarriage, Petechiae on Gums, Pneumonia, Rashes, Seizures, Sneezing, Stillbirths, Weakness, Weight Loss
+-----
+Canine Influenza
+Coughing, Decreased Appetite, Breathing Difficulty, Fever, Lethargy, Nasal Discharge, Purulent Nasal Discharge, Eye Discharge, Sneezing
+-----
+Kennel Cough
+Coughing, Decreased Appetite, Eye Discharge, Fever, Gagging, Lethargy, Nasal Discharge, Retching, Runny Nose, Sneezing
+-----
+Canine Parvovirus
+Abdominal Pain, Bloody Diarrhea, Dehydration, Depression, Diarrhea, Fever, Lethargy, Loss of Appetite, Severe Vomiting, Vomiting
+-----
+Rabies
+Aggression, Anxiety, Biting at Exposure Site, Confusion, Decreased Appetite, Breathing Difficulty, Swallowing Difficulty, Excessive Drooling, Excessive Salivation, Fearfulness, Fever, Hallucinations, Hydrophobia, Light Sensitivity, Sound Sensitivity, Irritability, Lethargy, Muscle Paralysis, Muscle Twitching, Restlessness, Seizures, Staggering, Uncharacteristic Aggression, Uncharacteristic Friendliness, Vomiting, Weakness
+-----
+Canine Minute Virus
+Abdominal Pain, Anasarca, Anorexia, Bloody Diarrhea, Dehydration, Breathing Difficulty, Fever, Hypothermia, Lethargy, Loss of Appetite, Myocarditis, Profuse Vomiting, Severe Diarrhea, Weight Loss
+-----
+Infectious Canine Hepatitis
+Abdominal Pain, Anorexia, Apathy, Ataxia, Blindness, Bruised Nose and Mouth, Coughing, Dehydration, Depression, Diarrhea, Eye Discharge, Nasal Discharge, Enlarged Tonsils, Enlarged Lymph Nodes, Enlarged Spleen, Swollen Head, Swollen Neck, Swollen Trunk, Eye Inflammation, Fever, Hemorrhagic Diarrhea, Jaundice, Lethargy, Low White Blood Cell Count, Petechiae on Skin, Red Spots on Skin, Seizures, Severe Depression, Severe White Blood Cell Reduction, Spontaneous Bleeding, Thirst, Vomiting, Watery Eye Discharge, Watery Nasal Discharge, Yellow Ears, Yellow Gums, Yellow Skin
+-----
+Pseudorabies
+Aggression, Ataxia, Circling, Coma, Convulsions, Depression, Breathing Difficulty, Disorientation, Swallowing Difficulty, Excessive Salivation, Facial Paralysis, Facial Itching, Fever, Head Pressing, Head Tilt, Hyperesthesia, Hypersalivation, Intense Itching, Irritability, Lethargy, Muscle Spasms, Paralysis, Light Sensitivity, Itching, Drooping Eyelid, Restlessness, Seizures, Tremors, Vocalization, Vomiting, Wandering Aimlessly, Weakness

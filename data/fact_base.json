@@ -1,0 +1,416 @@
+{
+    "owner": "Luna",
+    "symptoms": [
+        {
+            "name": "vomiting"
+        },
+        {
+            "name": "diarrhea"
+        },
+        {
+            "name": "fever"
+        }
+    ],
+    "pet_info": {
+        "breed": "Shih tzu",
+        "size": "Small",
+        "age_years": "1",
+        "age_range": "Puppy"
+    },
+    "user_answers": {
+        "vomiting": {
+            "How long has your pet had vomiting?": "5-7 days",
+            "Is the vomiting Mild or Severe?": "severe"
+        },
+        "diarrhea": {
+            "How long has your pet had diarrhea?": "5-7 days",
+            "Is the diarrhea Watery or Bloody?": "bloody"
+        },
+        "fever": {
+            "How long has your pet had fever?": "8-14 days",
+            "Is the fever Mild, Moderate, or Severe?": "moderate"
+        }
+    },
+    "possible_diagnosis": [
+        {
+            "illness": "Ameba Infection",
+            "matched_symptoms": [
+                "diarrhea",
+                "vomiting"
+            ],
+            "confidence_fc": 0.45,
+            "confidence_gb": 0.19,
+            "confidence_ab": 0.79,
+            "subtype_coverage": 33.33333333333333,
+            "confidence_softmax": 0.0525
+        },
+        {
+            "illness": "Canine Parvovirus",
+            "matched_symptoms": [
+                "diarrhea",
+                "fever",
+                "vomiting"
+            ],
+            "confidence_fc": 0.45,
+            "confidence_gb": 0.2,
+            "confidence_ab": 0.74,
+            "subtype_coverage": 33.33333333333333,
+            "confidence_softmax": 0.0499
+        },
+        {
+            "illness": "Campylobacteriosis (Bacterial Infection)",
+            "matched_symptoms": [
+                "diarrhea",
+                "fever",
+                "vomiting"
+            ],
+            "confidence_fc": 0.54,
+            "confidence_gb": 0.16,
+            "confidence_ab": 0.74,
+            "subtype_coverage": 0.0,
+            "confidence_softmax": 0.0499
+        },
+        {
+            "illness": "Cryptosporidium in Dogs",
+            "matched_symptoms": [
+                "diarrhea",
+                "vomiting"
+            ],
+            "confidence_fc": 0.45,
+            "confidence_gb": 0.1,
+            "confidence_ab": 0.44,
+            "subtype_coverage": 0.0,
+            "confidence_softmax": 0.037
+        },
+        {
+            "illness": "Tapeworms",
+            "matched_symptoms": [
+                "diarrhea",
+                "vomiting"
+            ],
+            "confidence_fc": 0.36,
+            "confidence_gb": 0.1,
+            "confidence_ab": 0.41,
+            "subtype_coverage": 50.0,
+            "confidence_softmax": 0.0359
+        },
+        {
+            "illness": "Canine Distemper",
+            "matched_symptoms": [
+                "diarrhea",
+                "fever",
+                "vomiting"
+            ],
+            "confidence_fc": 0.28,
+            "confidence_gb": 0.08,
+            "confidence_ab": 0.39,
+            "subtype_coverage": 0.0,
+            "confidence_softmax": 0.0352
+        },
+        {
+            "illness": "Canine Minute Virus",
+            "matched_symptoms": [
+                "diarrhea",
+                "fever",
+                "vomiting"
+            ],
+            "confidence_fc": 0.39,
+            "confidence_gb": 0.04,
+            "confidence_ab": 0.39,
+            "subtype_coverage": 25.0,
+            "confidence_softmax": 0.0352
+        },
+        {
+            "illness": "Roundworms",
+            "matched_symptoms": [
+                "diarrhea",
+                "vomiting"
+            ],
+            "confidence_fc": 0.3,
+            "confidence_gb": 0.1,
+            "confidence_ab": 0.35,
+            "subtype_coverage": 33.33333333333333,
+            "confidence_softmax": 0.0338
+        },
+        {
+            "illness": "Coccidia in Dogs",
+            "matched_symptoms": [
+                "diarrhea",
+                "vomiting"
+            ],
+            "confidence_fc": 0.4,
+            "confidence_gb": 0.06,
+            "confidence_ab": 0.35,
+            "subtype_coverage": 0.0,
+            "confidence_softmax": 0.0338
+        },
+        {
+            "illness": "Toxoplasmosis in Dogs",
+            "matched_symptoms": [
+                "diarrhea",
+                "fever",
+                "vomiting"
+            ],
+            "confidence_fc": 0.23,
+            "confidence_gb": 0.08,
+            "confidence_ab": 0.35,
+            "subtype_coverage": 0.0,
+            "confidence_softmax": 0.0338
+        },
+        {
+            "illness": "Chronic Renal Failure",
+            "matched_symptoms": [
+                "diarrhea",
+                "vomiting"
+            ],
+            "confidence_fc": 0.3,
+            "confidence_gb": 0.1,
+            "confidence_ab": 0.35,
+            "subtype_coverage": 33.33333333333333,
+            "confidence_softmax": 0.0338
+        },
+        {
+            "illness": "Leptospirosis",
+            "matched_symptoms": [
+                "diarrhea",
+                "fever",
+                "vomiting"
+            ],
+            "confidence_fc": 0.26,
+            "confidence_gb": 0.04,
+            "confidence_ab": 0.31,
+            "subtype_coverage": 25.0,
+            "confidence_softmax": 0.0325
+        },
+        {
+            "illness": "Clostridial Infections",
+            "matched_symptoms": [
+                "diarrhea",
+                "vomiting"
+            ],
+            "confidence_fc": 0.36,
+            "confidence_gb": 0.03,
+            "confidence_ab": 0.29,
+            "subtype_coverage": 33.33333333333333,
+            "confidence_softmax": 0.0318
+        },
+        {
+            "illness": "Canine Enteric Coronavirus",
+            "matched_symptoms": [
+                "diarrhea",
+                "vomiting"
+            ],
+            "confidence_fc": 0.4,
+            "confidence_gb": 0.07,
+            "confidence_ab": 0.28,
+            "subtype_coverage": 33.33333333333333,
+            "confidence_softmax": 0.0315
+        },
+        {
+            "illness": "Rocky Mountain Spotted Fever",
+            "matched_symptoms": [
+                "diarrhea",
+                "fever",
+                "vomiting"
+            ],
+            "confidence_fc": 0.32,
+            "confidence_gb": 0.0,
+            "confidence_ab": 0.27,
+            "subtype_coverage": 25.0,
+            "confidence_softmax": 0.0312
+        },
+        {
+            "illness": "Addison's Disease",
+            "matched_symptoms": [
+                "diarrhea",
+                "vomiting"
+            ],
+            "confidence_fc": 0.33,
+            "confidence_gb": 0.03,
+            "confidence_ab": 0.25,
+            "subtype_coverage": 33.33333333333333,
+            "confidence_softmax": 0.0306
+        },
+        {
+            "illness": "Infectious Canine Hepatitis",
+            "matched_symptoms": [
+                "diarrhea",
+                "fever",
+                "vomiting"
+            ],
+            "confidence_fc": 0.21,
+            "confidence_gb": 0.0,
+            "confidence_ab": 0.2,
+            "subtype_coverage": 20.0,
+            "confidence_softmax": 0.0291
+        },
+        {
+            "illness": "Chronic Kidney Disease (CKD)",
+            "matched_symptoms": [
+                "diarrhea",
+                "vomiting"
+            ],
+            "confidence_fc": 0.18,
+            "confidence_gb": 0.1,
+            "confidence_ab": 0.16,
+            "subtype_coverage": 0.0,
+            "confidence_softmax": 0.0279
+        },
+        {
+            "illness": "Canine Herpesvirus",
+            "matched_symptoms": [
+                "diarrhea",
+                "fever"
+            ],
+            "confidence_fc": 0.18,
+            "confidence_gb": 0.0,
+            "confidence_ab": 0.09,
+            "subtype_coverage": 0.0,
+            "confidence_softmax": 0.0261
+        },
+        {
+            "illness": "Rabies",
+            "matched_symptoms": [
+                "fever",
+                "vomiting"
+            ],
+            "confidence_fc": 0.13,
+            "confidence_gb": 0.02,
+            "confidence_ab": 0.09,
+            "subtype_coverage": 0.0,
+            "confidence_softmax": 0.0261
+        },
+        {
+            "illness": "Hypertrophic Osteodystrophy",
+            "matched_symptoms": [
+                "fever"
+            ],
+            "confidence_fc": 0.3,
+            "confidence_gb": 0.02,
+            "confidence_ab": 0.09,
+            "subtype_coverage": 0.0,
+            "confidence_softmax": 0.0261
+        },
+        {
+            "illness": "Kidney Stones",
+            "matched_symptoms": [
+                "vomiting"
+            ],
+            "confidence_fc": 0.19,
+            "confidence_gb": 0.02,
+            "confidence_ab": 0.09,
+            "subtype_coverage": 0.0,
+            "confidence_softmax": 0.0261
+        },
+        {
+            "illness": "Streptococcus Infections",
+            "matched_symptoms": [
+                "fever"
+            ],
+            "confidence_fc": 0.16,
+            "confidence_gb": 0.02,
+            "confidence_ab": 0.06,
+            "subtype_coverage": 0.0,
+            "confidence_softmax": 0.0253
+        },
+        {
+            "illness": "Babesiosis",
+            "matched_symptoms": [
+                "fever"
+            ],
+            "confidence_fc": 0.23,
+            "confidence_gb": 0.0,
+            "confidence_ab": 0.06,
+            "subtype_coverage": 0.0,
+            "confidence_softmax": 0.0253
+        },
+        {
+            "illness": "Canine Respiratory Coronavirus",
+            "matched_symptoms": [
+                "fever"
+            ],
+            "confidence_fc": 0.16,
+            "confidence_gb": 0.01,
+            "confidence_ab": 0.05,
+            "subtype_coverage": 0.0,
+            "confidence_softmax": 0.025
+        },
+        {
+            "illness": "Canine Influenza",
+            "matched_symptoms": [
+                "fever"
+            ],
+            "confidence_fc": 0.18,
+            "confidence_gb": 0.01,
+            "confidence_ab": 0.05,
+            "subtype_coverage": 0.0,
+            "confidence_softmax": 0.025
+        },
+        {
+            "illness": "Kennel Cough",
+            "matched_symptoms": [
+                "fever"
+            ],
+            "confidence_fc": 0.16,
+            "confidence_gb": 0.01,
+            "confidence_ab": 0.05,
+            "subtype_coverage": 0.0,
+            "confidence_softmax": 0.025
+        },
+        {
+            "illness": "Lyme Disease",
+            "matched_symptoms": [
+                "fever"
+            ],
+            "confidence_fc": 0.23,
+            "confidence_gb": 0.01,
+            "confidence_ab": 0.05,
+            "subtype_coverage": 0.0,
+            "confidence_softmax": 0.025
+        },
+        {
+            "illness": "Anaerobic Bacterial Infections",
+            "matched_symptoms": [
+                "fever"
+            ],
+            "confidence_fc": 0.2,
+            "confidence_gb": 0.0,
+            "confidence_ab": 0.05,
+            "subtype_coverage": 0.0,
+            "confidence_softmax": 0.025
+        },
+        {
+            "illness": "Actinomycosis (Bacterial Infection)",
+            "matched_symptoms": [
+                "fever"
+            ],
+            "confidence_fc": 0.18,
+            "confidence_gb": 0.01,
+            "confidence_ab": 0.05,
+            "subtype_coverage": 0.0,
+            "confidence_softmax": 0.025
+        },
+        {
+            "illness": "Hookworms",
+            "matched_symptoms": [
+                "diarrhea"
+            ],
+            "confidence_fc": 0.09,
+            "confidence_gb": 0.02,
+            "confidence_ab": 0.05,
+            "subtype_coverage": 50.0,
+            "confidence_softmax": 0.025
+        },
+        {
+            "illness": "Ehrlichiosis",
+            "matched_symptoms": [
+                "fever"
+            ],
+            "confidence_fc": 0.13,
+            "confidence_gb": 0.01,
+            "confidence_ab": 0.04,
+            "subtype_coverage": 0.0,
+            "confidence_softmax": 0.0248
+        }
+    ]
+}

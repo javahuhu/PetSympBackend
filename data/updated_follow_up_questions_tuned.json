@@ -1,0 +1,185 @@
+{
+    "coughing": {
+      "questions": [
+        "How long has your pet had coughing?",
+        "What type of coughing is it? (Dry, Wet, or Honking)"
+      ],
+      "impact": {
+        "1-2 days": 1.1,
+        "3-5 days": 1.2,
+        "6-10 days": 1.1,
+        "11+ days": 1.1,
+        "dry": 1.1,
+        "wet": 1.2,
+        "honking": 1.3
+      }
+    },
+    "fever": {
+      "questions": [
+        "How long has your pet had fever?"
+      ],
+      "impact": {
+        "1-2 days": 1.1,
+        "3-5 days": 1.2,
+        "6-10 days": 1.1,
+        "11+ days": 1.1
+      }
+    },
+    "lethargy": {
+      "questions": [
+        "How long has your pet had lethargy?",
+        "What type of lethargy is it? (Intermittent or Constant)"
+      ],
+      "impact": {
+        "1-2 days": 1.1,
+        "3-5 days": 1.2,
+        "6-10 days": 1.1,
+        "11+ days": 1.1,
+        "intermittent": 1.1,
+        "constant": 1.2
+      }
+    },
+    "sneezing": {
+      "questions": [
+        "How long has your pet had sneezing?",
+        "What type of sneezing is it? (Occasional or Frequent)"
+      ],
+      "impact": {
+        "1-2 days": 1.1,
+        "3-5 days": 1.2,
+        "6-10 days": 1.1,
+        "11+ days": 1.1,
+        "occasional": 1.1,
+        "frequent": 1.2
+      }
+    },
+    "diarrhea": {
+      "questions": [
+        "How long has your pet had diarrhea?",
+        "What type of diarrhea is it? (Watery or Bloody)"
+      ],
+      "impact": {
+        "1-2 days": 1.1,
+        "3-5 days": 1.2,
+        "6-10 days": 1.1,
+        "11+ days": 1.1,
+        "watery": 1.1,
+        "bloody": 1.2
+      }
+    },
+    "nasal discharge": {
+      "questions": [
+        "What type of nasal discharge is it? (Mucus or Bloody)"
+      ],
+      "impact": {
+        "mucus": 1.1,
+        "bloody": 1.2
+      }
+    },
+    "seizures": {
+      "questions": [
+        "How long has your pet had seizures?",
+        "What type of seizures is it? (Mild, Severe, or Cluster)"
+      ],
+      "impact": {
+        "1-2 days": 1.1,
+        "3-5 days": 1.2,
+        "6-10 days": 1.1,
+        "11+ days": 1.1,
+        "mild": 1.1,
+        "severe": 1.2,
+        "cluster": 1.3
+      }
+    },
+    "vomiting": {
+      "questions": [
+        "How long has your pet had vomiting?",
+        "What type of vomiting is it? (Bloody, Foamy, Yellow, or Green)"
+      ],
+      "impact": {
+        "1-2 days": 1.1,
+        "3-5 days": 1.2,
+        "6-10 days": 1.1,
+        "11+ days": 1.1,
+        "bloody": 1.1,
+        "foamy": 1.2,
+        "yellow": 1.3,
+        "green": 1.4
+      }
+    },
+    "weight loss": {
+      "questions": [
+        "How long has your pet had weight loss?"
+      ],
+      "impact": {
+        "1-2 days": 1.1,
+        "3-5 days": 1.2,
+        "6-10 days": 1.1,
+        "11+ days": 1.1
+      }
+    },
+    "breathing difficulty": {
+      "questions": [
+        "How long has your pet had breathing difficulty?",
+        "What type of breathing difficulty is it? (Mild, Severe, or Labored)"
+      ],
+      "impact": {
+        "1-2 days": 1.1,
+        "3-5 days": 1.2,
+        "6-10 days": 1.1,
+        "11+ days": 1.1,
+        "mild": 1.1,
+        "severe": 1.2,
+        "labored": 1.3
+      }
+    },
+    "loss of appetite": {
+      "questions": [
+        "How long has your pet had loss of appetite?"
+      ],
+      "impact": {
+        "1-2 days": 1.1,
+        "3-5 days": 1.2,
+        "6-10 days": 1.1,
+        "11+ days": 1.1
+      }
+    },
+    "itching": {
+      "questions": [
+        "How long has your pet had itching?",
+        "What type of itching is it? (Localized or Generalized)"
+      ],
+      "impact": {
+        "1-2 days": 1.1,
+        "3-5 days": 1.2,
+        "6-10 days": 1.1,
+        "11+ days": 1.1,
+        "localized": 1.1,
+        "generalized": 1.2
+      }
+    },
+    "ear discharge": {
+      "questions": [
+        "What type of ear discharge is it? (Brown or Bloody)"
+      ],
+      "impact": {
+        "brown": 1.1,
+        "bloody": 1.2
+      }
+    },
+    "pain": {
+      "questions": [
+        "How long has your pet had pain?",
+        "What type of pain is it? (Sharp, Dull, or Localized)"
+      ],
+      "impact": {
+        "1-2 days": 1.1,
+        "3-5 days": 1.2,
+        "6-10 days": 1.1,
+        "11+ days": 1.1,
+        "sharp": 1.1,
+        "dull": 1.2,
+        "localized": 1.3
+      }
+    }
+  }

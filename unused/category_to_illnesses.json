@@ -1,0 +1,99 @@
+{
+  "Viral": [
+    "Canine Enteric Coronavirus",
+    "Canine Respiratory Coronavirus",
+    "Canine Distemper",
+    "Canine Herpesvirus",
+    "Canine Influenza",
+    "Kennel Cough",
+    "Canine Parvovirus",
+    "Rabies",
+    "Canine Minute Virus",
+    "Infectious Canine Hepatitis"
+  ],
+  "Bacterial": [
+    "Brucellosis",
+    "Leptospirosis",
+    "Lyme Disease",
+    "Ehrlichiosis",
+    "Rocky Mountain Spotted Fever",
+    "Clostridial Infections",
+    "Anaerobic Bacterial Infections",
+    "Actinomycosis (Bacterial Infection)",
+    "Campylobacteriosis (Bacterial Infection)",
+    "Streptococcus Infections"
+  ],
+  "Parasitic": [
+    "Hookworms",
+    "Tapeworms",
+    "Roundworms",
+    "Fleas",
+    "Ticks",
+    "Heartworm Disease",
+    "Ear Mites",
+    "Cheyletiellosis (Walking Dandruff)",
+    "Chiggers",
+    "Mange (Demodectic and Sarcoptic)",
+    "Sarcoptes scabiei (Scabies)",
+    "Ameba Infection",
+    "Babesiosis",
+    "Coccidia in Dogs",
+    "Cryptosporidium in Dogs",
+    "Toxoplasmosis in Dogs"
+  ],
+  "Musculoskeletal": [
+    "Osteoarthritis",
+    "Hip Dysplasia",
+    "Elbow Dysplasia",
+    "Luxating Patella",
+    "Osteochondritis Dissecans",
+    "Panosteitis",
+    "Legg-Calv\u00e9-Perthes Syndrome",
+    "Back Pain",
+    "Congenital Vertebral Anomalies",
+    "Hypertrophic Osteopathy",
+    "Hypertrophic Osteodystrophy",
+    "Spondylosis",
+    "Masticatory Muscle Myositis"
+  ],
+  "Dental": [
+    "Craniomandibular Osteopathy",
+    "Periodontal Disease",
+    "Tooth Root Abscess",
+    "Gingivitis",
+    "Cavities (Dental Caries)"
+  ],
+  "Cardiovascular": [
+    "von Willebrand Disease",
+    "Thrombocytopenia",
+    "Hemolytic Anemia",
+    "Dilated Cardiomyopathy",
+    "Congestive Heart Failure",
+    "Aortic Stenosis",
+    "Pulmonary Hypertension",
+    "Heart Valve Dysplasia",
+    "Patent Ductus Arteriosus"
+  ],
+  "Neurological": [
+    "Syringomyelia",
+    "Epilepsy",
+    "Cerebellar Hypoplasia",
+    "Polyneuropathy",
+    "Cauda Equina Syndrome",
+    "Tick Paralysis",
+    "Granulomatous Meningoencephalitis",
+    "Laryngeal Paralysis",
+    "Wobbler Disease"
+  ],
+  "Metabolic": [
+    "Diabetes Mellitus",
+    "Addison's Disease",
+    "Cushing's Syndrome"
+  ],
+  "Renal": [
+    "Chronic Kidney Disease (CKD)",
+    "Chronic Renal Failure",
+    "Kidney Stones",
+    "Glomerulonephritis"
+  ]
+}
