@@ -15,10 +15,10 @@ from sklearn.metrics import (
 )
 
 # 📌 Load dataset
-df = pd.read_csv("latest.csv")
+df = pd.read_csv("cat_illness_dataset.csv")
 
 # 📌 Separate features and target
-X = df.drop(columns=["Illness"])
+X = df.drop(columns=["Illness", "Test Case ID"])
 y = df["Illness"]
 
 # 📌 Train-Test Split
@@ -63,8 +63,8 @@ final_model = GradientBoostingClassifier(**best_params, random_state=42)
 final_model.fit(X_train, y_train)
 
 # 💾 Save the trained model
-joblib.dump(final_model, "gradient_model.pkl")
-print("✅ Final model saved as 'gradient_model.pkl'")
+joblib.dump(final_model, "new_cat_gradient_model.pkl")
+print("✅ Final model saved as 'new_cat_gradient_model.pkl'")
 
 # 📊 Make predictions on test set
 y_pred = final_model.predict(X_test)
@@ -91,9 +91,9 @@ sorted_idx = np.argsort(feature_importance)[::-1]
 importance_dict = {
     X.columns[i]: float(feature_importance[i]) for i in range(len(X.columns))
 }
-with open("gradient_feature_importance.json", "w") as f:
+with open("new_cat_gradient_feature_importance.json", "w") as f:
     json.dump(importance_dict, f, indent=2)
-print("✅ Feature importance saved as 'gradient_feature_importance.json'")
+print("✅ Feature importance saved as 'new_cat_gradient_feature_importance.json'")
 
 # 📊 Plot Top 20 Important Features
 top_n = 20

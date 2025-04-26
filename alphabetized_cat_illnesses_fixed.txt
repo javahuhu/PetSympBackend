@@ -1,0 +1,153 @@
+Addison’s Disease in Cats
+Lethargy, Vomiting, Diarrhea, Weight loss, Shaking
+
+Ameba Infection in Cats
+Vomiting, Diarrhea, Dehydration, Lethargy, Weight loss
+
+Anaerobic Bacterial Infections in Cats
+Swelling, Skin wounds, Foul odor from wound, Pus or discharge, Pain when touched, Fever, Lethargy
+
+Arthritis in Cats
+Stiffness, Limping, Difficulty jumping, Less grooming, Irritability
+
+Babesiosis in Cats
+Pale gums, Fever, Lethargy, Weakness, Loss of appetite
+
+Bacterial Infection (Actinomycosis) in Cats
+Swelling, Skin lumps, Draining wounds, Bad odor, Pain, Lethargy
+
+Bacterial Infection (B. bronchiseptica) in Cats
+Sneezing, Coughing, Nasal discharge, Eye discharge, Fever, Loss of appetite
+
+Bacterial Infection (Campylobacteriosis) in Cats
+Diarrhea, Mucus in stool, Vomiting, Weight loss, Lethargy
+
+Bacterial Infection (Leptospirosis) in Cats
+Fever, Vomiting, Diarrhea, Weakness, Jaundice (yellow gums/eyes), Lethargy
+
+Bacterial Infection (Streptococcus) in Cats
+Fever, Lethargy, Swollen joints, Coughing, Nasal discharge
+
+Calicivirus in Cats
+Sneezing, Nasal discharge, Eye discharge, Mouth ulcers, Drooling, Lethargy, Fever, Limping, Loss of appetite
+
+Cat Tooth Abscess
+Swelling face, Drooling, Bad breath, Painful chewing
+
+Cerebellar Hypoplasia in Cats
+Wobbly walk, Head tremors, Uncoordinated movement, Falling
+
+Chronic Renal Failure in Cats
+Increased thirst, Frequent urination, Weight loss, Poor coat, Vomiting
+
+Coccidia in Cats
+Diarrhea, Dehydration, Weight loss, Vomiting, Lethargy
+
+Congestive Heart Failure in Cats
+Breathing difficulty, Lethargy, Coughing, Swollen belly, Loss of appetite
+
+Cushing's Disease (Hyperadrenocorticism) in Cats
+Hair loss, Pot-bellied look, Increased thirst, Thin skin, Lethargy
+
+Demodectic Mange in Cats
+Hair loss, Scabs, Itching, Skin redness, Thickened skin
+
+Dental Issues in Cats
+Bad breath, Drooling, Difficulty eating, Swollen gums, Pawing at mouth
+
+Diabetes in Cats
+Increased thirst, Frequent urination, Weight loss, Increased appetite, Weakness
+
+Ehrlichiosis in Cats
+Fever, Lethargy, Weight loss, Swollen lymph nodes, Nosebleeds
+
+Epilepsy in Cats
+Seizures, Stiffness, Drooling, Confusion, Collapse
+
+Face Nerve Paralysis in Cats
+Drooping face, Inability to blink, Drooling, Uneven whiskers
+
+Feline Distemper (Panleukopenia)
+Vomiting, Diarrhea, Lethargy, Loss of appetite, Fever, Dehydration, Weight loss, Hiding, Unsteady walk
+
+Feline Herpesvirus 1 (FHV-1) Infection
+Sneezing, Nasal discharge, Eye discharge, Squinting, Eye redness, Loss of appetite, Lethargy, Fever
+
+Feline Hypertrophic Cardiomyopathy (HCM) in Cats
+Rapid breathing, Panting, Lethargy, Weakness, Sudden collapse
+
+Giardia in Cats
+Diarrhea, Gas, Weight loss, Soft stool, Lethargy
+
+Gingivitis in Cats
+Red gums, Swollen gums, Bad breath, Drooling, Bleeding gums
+
+Granulomatous Meningoencephalitis (GME)
+Head tilt, Seizures, Walking in circles, Loss of balance, Weakness
+
+Heartworm Disease in Cats
+Coughing, Vomiting, Breathing difficulty, Lethargy, Weight loss
+
+Hip Dysplasia in Cats
+Limping, Difficulty moving, Stiffness, Pain when touched
+
+Hookworms in Cats
+Pale gums, Diarrhea, Weight loss, Poor coat, Lethargy
+
+Hyperthyroidism in Cats
+Weight loss, Increased appetite, Hyperactivity, Vomiting, Rapid heartbeat
+
+Hypothyroidism in Cats
+Weight gain, Lethargy, Hair thinning, Cold intolerance, Dry skin
+
+Kidney Cancer (Adenocarcinoma) in Cats
+Weight loss, Lethargy, Blood in urine, Decreased appetite
+
+Kidney Disease in Cats
+Increased thirst, Frequent urination, Vomiting, Weight loss, Lethargy
+
+Kidney Failure in Cats
+Lethargy, Vomiting, Bad breath, Dehydration, Weight loss
+
+Kidney Infections in Cats
+Fever, Vomiting, Lethargy, Painful abdomen, Frequent urination
+
+Kidney Stones in Cats
+Blood in urine, Painful urination, Frequent urination, Licking genitals
+
+Luxating Patellas in Cats
+Skipping steps, Limping, Sudden leg stretching, Reluctance to move
+
+Periodontal Disease in Cats
+Bad breath, Loose teeth, Gum recession, Bleeding gums, Drooling
+
+Rabies in Cats
+Aggression, Excessive drooling, Disorientation, Unsteady walk, Sudden behavior changes, Difficulty swallowing, Seizures, Paralysis
+
+Roundworms in Cats
+Bloated belly, Vomiting, Diarrhea, Worms in stool, Dull coat
+
+Stomatitis in Cats
+Mouth pain, Drooling, Difficulty eating, Bad breath, Red gums
+
+Tapeworms in Cats
+Scooting, Segments in stool, Vomiting, Weight loss, Increased appetite
+
+Tetralogy of Fallot in Cats
+Blue-tinged gums, Shortness of breath, Weakness, Lethargy, Stunted growth
+
+Tick Paralysis in Cats
+Weakness, Unsteady walk, Paralysis, Change in voice, Difficulty breathing
+
+Tooth Resorption in Cats
+Chattering jaw, Dropping food, Drooling, Pawing at mouth
+
+Toxoplasmosis in Cats
+Fever, Lethargy, Loss of appetite, Difficulty breathing, Eye discharge
+
+Tularemia in Cats
+Fever, Lethargy, Swollen lymph nodes, Skin ulcers, Loss of appetite
+
+Vestibular Disease in Cats
+Head tilt, Loss of balance, Walking in circles, Rapid eye movement, Nausea
+

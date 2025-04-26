@@ -4,14 +4,14 @@ import json
 from tqdm import tqdm
 
 # Load dataset
-df = pd.read_csv("latest.csv")
+df = pd.read_csv("cat_illness_dataset.csv")
 original_df = df.copy()
 
 # Load knowledge base and GB model
-with open("data/updated_knowledge_base_v2_fixed.json", "r") as f:
+with open("data/cat_knowledge_base.json", "r") as f:
     knowledge_base = json.load(f)["rules"]
 
-boosting_model = joblib.load("gradient_model.pkl")
+boosting_model = joblib.load("new model/new_cat_gradient_model.pkl")
 
 # Extract symptom columns
 symptom_cols = [col for col in df.columns if col != "Illness"]
@@ -68,5 +68,5 @@ original_df["GB_Confidence"] = gb_scores
 original_df["Symptom_Match_Ratio"] = symptom_match_ratios
 
 # Save to CSV
-original_df.to_csv("latest_augmented.csv", index=False)
-print("\n✅ Saved: latest_augmented.csv with FC, GB, and Symptom Ratio features.")
+original_df.to_csv("cat_augmented.csv", index=False)
+print("\n✅ Saved: cat_augmented.csv with FC, GB, and Symptom Ratio features.")
