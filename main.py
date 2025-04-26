@@ -30,18 +30,15 @@ app.add_middleware(
 )
 
 # ───── File Paths & Static Loads ─────
-FACT_BASE_PATH             = "data/fact_base.json"
-KNOWLEDGE_BASE_PATH        = "data/updated_knowledge_base_v2_fixed.json"
-ILLNESS_INFO_PATH          = "data/expanded_illness_info_complete.json"
-FOLLOWUP_QUESTIONS_PATH    = "data/updated_follow_up_questions_tuned.json"
-BREED_CATEGORY_MAP_PATH    = "data/breed_category_mapping.json"
-DATASET_PATH               = "data/latest_augmented.csv"
+FACT_BASE_PATH = "data/fact_base.json"
+ILLNESS_INFO_PATH = "data/expanded_illness_info_complete.json"
+FOLLOWUP_QUESTIONS_PATH = "data/updated_follow_up_questions_tuned.json"
+BREED_CATEGORY_MAP_PATH = "data/breed_category_mapping.json"
 
 def load_json(p):
     with open(p) as f:
         return json.load(f)
 
-kb_rules               = load_json(KNOWLEDGE_BASE_PATH)["rules"]
 illness_info_db        = load_json(ILLNESS_INFO_PATH)
 symptom_followups      = load_json(FOLLOWUP_QUESTIONS_PATH)
 breed_category_mapping = load_json(BREED_CATEGORY_MAP_PATH)
