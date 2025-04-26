@@ -9,10 +9,10 @@ from sklearn.utils.class_weight import compute_sample_weight
 import matplotlib.pyplot as plt
 
 # ✅ Load the updated augmented dataset
-df = pd.read_csv("latest_augmented.csv")
+df = pd.read_csv("data/cat_augmented.csv")
 
 # 🔍 Extract features and labels
-X = df.drop(columns=["Illness"])
+X = df.drop(columns=["Illness", "Test Case ID"])
 y = df["Illness"]
 
 # 🔁 Split the dataset with stratification
@@ -39,7 +39,7 @@ final_ada.fit(X_train, y_train, sample_weight=sample_weights)
 # 🧪 Evaluate predictions
 y_pred = final_ada.predict(X_test)
 accuracy = accuracy_score(y_test, y_pred)
-report = classification_report(y_test, y_pred)
+report = classification_report(y_test, y_pred, zero_division=0)
 
 print("\n✅ Final AdaBoost Model Evaluation")
 print(f"📊 Accuracy: {accuracy:.4f}")
@@ -47,8 +47,8 @@ print("🧾 Classification Report:")
 print(report)
 
 # 💾 Save model and feature names
-joblib.dump(final_ada, "adaboost_model.pkl")
-joblib.dump(X.columns.tolist(), "adaboost_selected_features.pkl")
+joblib.dump(final_ada, "new_cat_adaboost_model.pkl")
+joblib.dump(X.columns.tolist(), "new_cat_adaboost_selected_features.pkl")
 
 print("\n✅ Model and feature list saved successfully.")
 
@@ -69,7 +69,6 @@ plt.gca().invert_yaxis()
 plt.title("Top 20 Most Important Features - AdaBoost (With Class Weights)")
 plt.xlabel("Importance Score")
 plt.tight_layout()
-plt.savefig("top_20_features_adaboost_weighted.png")
 plt.show()
 
 probs = final_ada.predict_proba(X_test)
