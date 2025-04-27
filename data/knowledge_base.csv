@@ -1,0 +1,194 @@
+Illness,Symptom,Stage,Weight,Severity,Priority,Age Range,Breed,Size,Confidence
+Canine Coronavirus,Anorexia,Any Stage,1.0,Medium,1.6,Any,Any,Any,0.85
+Canine Coronavirus,Bloody Diarrhea,Any Stage,0.85,High,1.8,Any,Any,Any,0.85
+Canine Coronavirus,Dehydration,Late,0.85,High,1.7,Any,Any,Any,0.85
+Canine Coronavirus,Depression,Any Stage,0.7,Low,1.3,Any,Any,Any,0.85
+Canine Coronavirus,Diarrhea,Any Stage,1.0,Medium,1.6,Any,Any,Any,0.85
+Canine Coronavirus,Foul-Smelling Stool,Any Stage,0.7,Low,1.3,Any,Any,Any,0.85
+Canine Coronavirus,Lethargy,Any Stage,0.8,Medium,1.5,Any,Any,Any,0.85
+Canine Coronavirus,Loss of Appetite,Any Stage,0.8,Medium,1.5,Any,Any,Any,0.85
+Canine Coronavirus,Mucus in Stool,Any Stage,0.4,Low,1.2,Any,Any,Any,0.85
+Canine Coronavirus,Orange-Tinted Stool,Any Stage,0.3,Low,1.1,Any,Any,Any,0.85
+Canine Coronavirus,Sudden Diarrhea,Early,0.85,Medium,1.6,Any,Any,Any,0.85
+Canine Coronavirus,Vomiting,Any Stage,0.8,Medium,1.5,Any,Any,Any,0.85
+Canine Distemper,Anorexia,Any Stage,0.8,Medium,1.5,Any,Any,Any,0.88
+Canine Distemper,Coughing,Early,0.9,Medium,1.6,Any,Any,Any,0.88
+Canine Distemper,Dehydration,Late,0.85,High,1.7,Any,Any,Any,0.88
+Canine Distemper,Depression,Any Stage,0.7,Low,1.3,Any,Any,Any,0.88
+Canine Distemper,Diarrhea,Any Stage,0.8,Medium,1.5,Any,Any,Any,0.88
+Canine Distemper,Eye Discharge,Early,0.9,Medium,1.6,Any,Any,Any,0.88
+Canine Distemper,Nasal Discharge,Early,0.9,Medium,1.6,Any,Any,Any,0.88
+Canine Distemper,Encephalitis,Late,0.6,High,1.4,Any,Any,Any,0.88
+Canine Distemper,Fever,Early,1.0,Medium,1.7,Any,Any,Any,0.88
+Canine Distemper,Hardened Footpads,Late,0.6,High,1.4,Any,Any,Any,0.88
+Canine Distemper,Lethargy,Any Stage,0.8,Medium,1.5,Any,Any,Any,0.88
+Canine Distemper,Muscle Twitching,Late,0.6,High,1.4,Any,Any,Any,0.88
+Canine Distemper,Paralysis,Late,0.6,High,1.4,Any,Any,Any,0.88
+Canine Distemper,Pneumonia,Late,0.5,High,1.4,Any,Any,Any,0.88
+Canine Distemper,Seizures,Late,0.6,High,1.4,Any,Any,Any,0.88
+Canine Distemper,Sneezing,Early,0.8,Low,1.4,Any,Any,Any,0.88
+Canine Distemper,Vomiting,Any Stage,0.8,Medium,1.5,Any,Any,Any,0.88
+Canine Distemper,Weight Loss,Late,0.5,Medium,1.3,Any,Any,Any,0.88
+Canine Herpesvirus,Abdominal Bloating,Any Stage,0.7,Low,1.3,Any,Any,Any,0.85
+Canine Herpesvirus,Abdominal Pain,Any Stage,0.9,Medium,1.6,Any,Any,Any,0.85
+Canine Herpesvirus,Breathing Difficulty,Late,0.9,High,1.7,Any,Any,Any,0.85
+Canine Herpesvirus,Coughing,Early,0.8,Medium,1.5,Any,Any,Any,0.85
+Canine Herpesvirus,Decreased Appetite,Any Stage,0.8,Medium,1.5,Any,Any,Any,0.85
+Canine Herpesvirus,Decreased Suckling,Early,0.7,Medium,1.4,Any,Any,Any,0.85
+Canine Herpesvirus,Diarrhea,Any Stage,0.8,Medium,1.5,Any,Any,Any,0.85
+Canine Herpesvirus,Eye Discharge,Any Stage,0.8,Medium,1.5,Any,Any,Any,0.85
+Canine Herpesvirus,Nasal Discharge,Early,1.0,Medium,1.7,Any,Any,Any,0.85
+Canine Herpesvirus,Excessive Crying,Any Stage,0.7,Low,1.3,Any,Any,Any,0.85
+Canine Herpesvirus,Eye Inflammation,Any Stage,0.8,Medium,1.5,Any,Any,Any,0.85
+Canine Herpesvirus,Fever,Early,0.9,Medium,1.6,Any,Any,Any,0.85
+Canine Herpesvirus,Genital Lesions,Late,0.6,Medium,1.4,Any,Any,Any,0.85
+Canine Herpesvirus,Gum Hemorrhages,Late,0.7,Medium,1.4,Any,Any,Any,0.85
+Canine Herpesvirus,Lethargy,Any Stage,0.8,Medium,1.5,Any,Any,Any,0.85
+Canine Herpesvirus,Listlessness,Any Stage,0.7,Medium,1.4,Any,Any,Any,0.85
+Canine Herpesvirus,Miscarriage,Late,0.6,High,1.4,Any,Any,Any,0.85
+Canine Herpesvirus,Petechiae on Gums,Any Stage,0.7,Medium,1.4,Any,Any,Any,0.85
+Canine Herpesvirus,Pneumonia,Late,0.7,High,1.5,Any,Any,Any,0.85
+Canine Herpesvirus,Rashes,Any Stage,0.7,Low,1.3,Any,Any,Any,0.85
+Canine Herpesvirus,Seizures,Late,0.6,High,1.4,Any,Any,Any,0.85
+Canine Herpesvirus,Sneezing,Early,0.8,Low,1.4,Any,Any,Any,0.85
+Canine Herpesvirus,Stillbirths,Late,0.6,High,1.4,Any,Any,Any,0.85
+Canine Herpesvirus,Weakness,Any Stage,0.7,Medium,1.4,Any,Any,Any,0.85
+Canine Herpesvirus,Weight Loss,Any Stage,0.8,Medium,1.5,Any,Any,Any,0.85
+Canine Influenza,Coughing,Early,1.0,Medium,1.8,Any,Any,Any,0.9
+Canine Influenza,Decreased Appetite,Any Stage,0.8,Medium,1.5,Any,Any,Any,0.9
+Canine Influenza,Breathing Difficulty,Any Stage,0.8,Medium,1.5,Any,Any,Any,0.9
+Canine Influenza,Fever,Early,0.9,Medium,1.6,Any,Any,Any,0.9
+Canine Influenza,Lethargy,Any Stage,0.8,Medium,1.5,Any,Any,Any,0.9
+Canine Influenza,Nasal Discharge,Early,0.9,Medium,1.6,Any,Any,Any,0.9
+Canine Influenza,Purulent Nasal Discharge,Late,0.7,Medium,1.4,Any,Any,Any,0.9
+Canine Influenza,Eye Discharge,Any Stage,0.8,Medium,1.5,Any,Any,Any,0.9
+Canine Influenza,Sneezing,Early,0.8,Low,1.4,Any,Any,Any,0.9
+Kennel Cough,Coughing,Early,1.0,Medium,1.8,Any,Any,Any,0.9
+Kennel Cough,Decreased Appetite,Any Stage,0.8,Medium,1.5,Any,Any,Any,0.9
+Kennel Cough,Eye Discharge,Any Stage,0.8,Medium,1.5,Any,Any,Any,0.9
+Kennel Cough,Fever,Early,0.9,Medium,1.6,Any,Any,Any,0.9
+Kennel Cough,Gagging,Any Stage,0.7,Medium,1.4,Any,Any,Any,0.9
+Kennel Cough,Lethargy,Any Stage,0.8,Medium,1.5,Any,Any,Any,0.9
+Kennel Cough,Nasal Discharge,Early,0.9,Medium,1.6,Any,Any,Any,0.9
+Kennel Cough,Retching,Any Stage,0.7,Medium,1.4,Any,Any,Any,0.9
+Kennel Cough,Runny Nose,Any Stage,0.8,Low,1.4,Any,Any,Any,0.9
+Kennel Cough,Sneezing,Early,0.8,Low,1.4,Any,Any,Any,0.9
+Canine Parvovirus,Abdominal Pain,Any Stage,0.8,Medium,1.5,Puppy,Any,Any,0.9
+Canine Parvovirus,Bloody Diarrhea,Any Stage,1.0,High,1.8,Puppy,Any,Any,0.9
+Canine Parvovirus,Dehydration,Late,0.9,High,1.7,Puppy,Any,Any,0.9
+Canine Parvovirus,Depression,Any Stage,0.7,Medium,1.4,Puppy,Any,Any,0.9
+Canine Parvovirus,Diarrhea,Any Stage,1.0,Medium,1.6,Puppy,Any,Any,0.9
+Canine Parvovirus,Fever,Early,0.9,Medium,1.6,Puppy,Any,Any,0.9
+Canine Parvovirus,Lethargy,Any Stage,0.8,Medium,1.5,Puppy,Any,Any,0.9
+Canine Parvovirus,Loss of Appetite,Any Stage,0.8,Medium,1.5,Puppy,Any,Any,0.9
+Canine Parvovirus,Severe Vomiting,Any Stage,1.0,High,1.8,Puppy,Any,Any,0.9
+Canine Parvovirus,Vomiting,Any Stage,0.8,Medium,1.5,Puppy,Any,Any,0.9
+Rabies,Aggression,Any Stage,1.0,High,1.8,Any,Any,Any,0.95
+Rabies,Anxiety,Any Stage,0.8,Medium,1.5,Any,Any,Any,0.95
+Rabies,Biting at Exposure Site,Early,0.9,High,1.7,Any,Any,Any,0.95
+Rabies,Confusion,Late,0.8,Medium,1.5,Any,Any,Any,0.95
+Rabies,Decreased Appetite,Any Stage,0.8,Medium,1.5,Any,Any,Any,0.95
+Rabies,Breathing Difficulty,Late,0.9,High,1.7,Any,Any,Any,0.95
+Rabies,Swallowing Difficulty,Late,1.0,High,1.8,Any,Any,Any,0.95
+Rabies,Excessive Drooling,Any Stage,0.9,Medium,1.6,Any,Any,Any,0.95
+Rabies,Excessive Salivation,Any Stage,0.9,Medium,1.6,Any,Any,Any,0.95
+Rabies,Fearfulness,Any Stage,0.8,Medium,1.5,Any,Any,Any,0.95
+Rabies,Fever,Early,0.9,Medium,1.6,Any,Any,Any,0.95
+Rabies,Hallucinations,Late,0.8,High,1.5,Any,Any,Any,0.95
+Rabies,Hydrophobia,Late,1.0,High,1.8,Any,Any,Any,0.95
+Rabies,Light Sensitivity,Late,0.7,Medium,1.4,Any,Any,Any,0.95
+Rabies,Sound Sensitivity,Late,0.7,Medium,1.4,Any,Any,Any,0.95
+Rabies,Irritability,Any Stage,0.8,Medium,1.5,Any,Any,Any,0.95
+Rabies,Lethargy,Any Stage,0.8,Medium,1.5,Any,Any,Any,0.95
+Rabies,Muscle Paralysis,Late,0.9,High,1.7,Any,Any,Any,0.95
+Rabies,Muscle Twitching,Late,0.7,Medium,1.4,Any,Any,Any,0.95
+Rabies,Restlessness,Any Stage,0.8,Medium,1.5,Any,Any,Any,0.95
+Rabies,Seizures,Late,0.9,High,1.7,Any,Any,Any,0.95
+Rabies,Staggering,Late,0.8,High,1.5,Any,Any,Any,0.95
+Rabies,Uncharacteristic Aggression,Any Stage,0.9,High,1.7,Any,Any,Any,0.95
+Rabies,Uncharacteristic Friendliness,Any Stage,0.8,Medium,1.5,Any,Any,Any,0.95
+Rabies,Vomiting,Any Stage,0.7,Medium,1.4,Any,Any,Any,0.95
+Rabies,Weakness,Any Stage,0.7,Medium,1.4,Any,Any,Any,0.95
+Canine Minute Virus,Abdominal Pain,Any Stage,0.8,Medium,1.5,Any,Any,Any,0.9
+Canine Minute Virus,Anasarca,Any Stage,0.7,Medium,1.4,Any,Any,Any,0.9
+Canine Minute Virus,Anorexia,Any Stage,0.8,Medium,1.5,Any,Any,Any,0.9
+Canine Minute Virus,Bloody Diarrhea,Any Stage,1.0,High,1.8,Any,Any,Any,0.9
+Canine Minute Virus,Dehydration,Late,0.9,High,1.7,Any,Any,Any,0.9
+Canine Minute Virus,Breathing Difficulty,Any Stage,0.8,Medium,1.5,Any,Any,Any,0.9
+Canine Minute Virus,Fever,Early,0.9,Medium,1.6,Any,Any,Any,0.9
+Canine Minute Virus,Hypothermia,Late,0.8,High,1.6,Any,Any,Any,0.9
+Canine Minute Virus,Lethargy,Any Stage,0.8,Medium,1.5,Any,Any,Any,0.9
+Canine Minute Virus,Loss of Appetite,Any Stage,0.8,Medium,1.5,Any,Any,Any,0.9
+Canine Minute Virus,Myocarditis,Late,0.7,High,1.4,Any,Any,Any,0.9
+Canine Minute Virus,Profuse Vomiting,Any Stage,0.9,High,1.7,Any,Any,Any,0.9
+Canine Minute Virus,Severe Diarrhea,Any Stage,1.0,High,1.8,Any,Any,Any,0.9
+Canine Minute Virus,Weight Loss,Any Stage,0.8,Medium,1.5,Any,Any,Any,0.9
+Infectious Canine Hepatitis,Abdominal Pain,Any Stage,0.8,Medium,1.5,Any,Any,Any,0.9
+Infectious Canine Hepatitis,Anorexia,Any Stage,0.8,Medium,1.5,Any,Any,Any,0.9
+Infectious Canine Hepatitis,Apathy,Any Stage,0.7,Medium,1.4,Any,Any,Any,0.9
+Infectious Canine Hepatitis,Ataxia,Late,0.7,Medium,1.4,Any,Any,Any,0.9
+Infectious Canine Hepatitis,Blindness,Late,0.6,High,1.4,Any,Any,Any,0.9
+Infectious Canine Hepatitis,Bruised Nose and Mouth,Any Stage,0.7,Medium,1.4,Any,Any,Any,0.9
+Infectious Canine Hepatitis,Coughing,Early,0.8,Medium,1.5,Any,Any,Any,0.9
+Infectious Canine Hepatitis,Dehydration,Late,0.9,High,1.7,Any,Any,Any,0.9
+Infectious Canine Hepatitis,Depression,Any Stage,0.7,Medium,1.4,Any,Any,Any,0.9
+Infectious Canine Hepatitis,Diarrhea,Any Stage,0.8,Medium,1.5,Any,Any,Any,0.9
+Infectious Canine Hepatitis,Eye Discharge,Any Stage,0.8,Medium,1.5,Any,Any,Any,0.9
+Infectious Canine Hepatitis,Nasal Discharge,Any Stage,0.8,Medium,1.5,Any,Any,Any,0.9
+Infectious Canine Hepatitis,Enlarged Tonsils,Any Stage,0.7,Medium,1.4,Any,Any,Any,0.9
+Infectious Canine Hepatitis,Enlarged Lymph Nodes,Any Stage,0.7,Medium,1.4,Any,Any,Any,0.9
+Infectious Canine Hepatitis,Enlarged Spleen,Any Stage,0.7,Medium,1.4,Any,Any,Any,0.9
+Infectious Canine Hepatitis,Swollen Head,Late,0.6,High,1.4,Any,Any,Any,0.9
+Infectious Canine Hepatitis,Swollen Neck,Late,0.6,High,1.4,Any,Any,Any,0.9
+Infectious Canine Hepatitis,Swollen Trunk,Late,0.6,High,1.4,Any,Any,Any,0.9
+Infectious Canine Hepatitis,Eye Inflammation,Any Stage,0.8,Medium,1.5,Any,Any,Any,0.9
+Infectious Canine Hepatitis,Fever,Early,0.9,Medium,1.6,Any,Any,Any,0.9
+Infectious Canine Hepatitis,Hemorrhagic Diarrhea,Late,0.8,High,1.6,Any,Any,Any,0.9
+Infectious Canine Hepatitis,Jaundice,Late,1.0,High,1.8,Any,Any,Any,0.9
+Infectious Canine Hepatitis,Lethargy,Any Stage,0.8,Medium,1.5,Any,Any,Any,0.9
+Infectious Canine Hepatitis,Low White Blood Cell Count,Any Stage,0.7,Medium,1.4,Any,Any,Any,0.9
+Infectious Canine Hepatitis,Petechiae on Skin,Any Stage,0.7,Medium,1.4,Any,Any,Any,0.9
+Infectious Canine Hepatitis,Red Spots on Skin,Any Stage,0.6,Medium,1.3,Any,Any,Any,0.9
+Infectious Canine Hepatitis,Seizures,Late,0.7,High,1.4,Any,Any,Any,0.9
+Infectious Canine Hepatitis,Severe Depression,Any Stage,0.8,Medium,1.5,Any,Any,Any,0.9
+Infectious Canine Hepatitis,Severe White Blood Cell Reduction,Late,0.7,High,1.4,Any,Any,Any,0.9
+Infectious Canine Hepatitis,Spontaneous Bleeding,Late,0.7,High,1.4,Any,Any,Any,0.9
+Infectious Canine Hepatitis,Thirst,Any Stage,0.8,Medium,1.5,Any,Any,Any,0.9
+Infectious Canine Hepatitis,Vomiting,Any Stage,0.8,Medium,1.5,Any,Any,Any,0.9
+Infectious Canine Hepatitis,Watery Eye Discharge,Any Stage,0.8,Medium,1.5,Any,Any,Any,0.9
+Infectious Canine Hepatitis,Watery Nasal Discharge,Any Stage,0.8,Medium,1.5,Any,Any,Any,0.9
+Infectious Canine Hepatitis,Yellow Ears,Late,0.6,High,1.4,Any,Any,Any,0.9
+Infectious Canine Hepatitis,Yellow Gums,Late,0.6,High,1.4,Any,Any,Any,0.9
+Infectious Canine Hepatitis,Yellow Skin,Late,0.6,High,1.4,Any,Any,Any,0.9
+Pseudorabies,Aggression,Any Stage,1.0,High,1.8,Any,Any,Any,0.95
+Pseudorabies,Ataxia,Late,0.8,High,1.6,Any,Any,Any,0.95
+Pseudorabies,Circling,Late,0.7,High,1.5,Any,Any,Any,0.95
+Pseudorabies,Coma,Late,0.6,High,1.4,Any,Any,Any,0.95
+Pseudorabies,Convulsions,Late,0.7,High,1.5,Any,Any,Any,0.95
+Pseudorabies,Depression,Any Stage,0.8,Medium,1.5,Any,Any,Any,0.95
+Pseudorabies,Breathing Difficulty,Any Stage,0.8,Medium,1.5,Any,Any,Any,0.95
+Pseudorabies,Disorientation,Late,0.8,High,1.6,Any,Any,Any,0.95
+Pseudorabies,Swallowing Difficulty,Late,1.0,High,1.8,Any,Any,Any,0.95
+Pseudorabies,Excessive Salivation,Any Stage,0.9,Medium,1.6,Any,Any,Any,0.95
+Pseudorabies,Facial Paralysis,Late,0.7,High,1.5,Any,Any,Any,0.95
+Pseudorabies,Facial Itching,Early,0.8,Medium,1.5,Any,Any,Any,0.95
+Pseudorabies,Fever,Early,0.9,Medium,1.6,Any,Any,Any,0.95
+Pseudorabies,Head Pressing,Late,0.8,High,1.6,Any,Any,Any,0.95
+Pseudorabies,Head Tilt,Late,0.7,High,1.5,Any,Any,Any,0.95
+Pseudorabies,Hyperesthesia,Any Stage,0.7,Medium,1.4,Any,Any,Any,0.95
+Pseudorabies,Hypersalivation,Any Stage,0.9,Medium,1.6,Any,Any,Any,0.95
+Pseudorabies,Intense Itching,Any Stage,0.8,Medium,1.5,Any,Any,Any,0.95
+Pseudorabies,Irritability,Any Stage,0.8,Medium,1.5,Any,Any,Any,0.95
+Pseudorabies,Lethargy,Any Stage,0.8,Medium,1.5,Any,Any,Any,0.95
+Pseudorabies,Muscle Spasms,Late,0.7,High,1.5,Any,Any,Any,0.95
+Pseudorabies,Paralysis,Late,0.9,High,1.7,Any,Any,Any,0.95
+Pseudorabies,Light Sensitivity,Late,0.7,Medium,1.4,Any,Any,Any,0.95
+Pseudorabies,Itching,Early,0.8,Medium,1.5,Any,Any,Any,0.95
+Pseudorabies,Drooping Eyelid,Late,0.7,Medium,1.4,Any,Any,Any,0.95
+Pseudorabies,Restlessness,Any Stage,0.8,Medium,1.5,Any,Any,Any,0.95
+Pseudorabies,Seizures,Late,0.9,High,1.7,Any,Any,Any,0.95
+Pseudorabies,Tremors,Late,0.8,High,1.6,Any,Any,Any,0.95
+Pseudorabies,Vocalization,Any Stage,0.7,Medium,1.4,Any,Any,Any,0.95
+Pseudorabies,Vomiting,Any Stage,0.8,Medium,1.5,Any,Any,Any,0.95
+Pseudorabies,Wandering Aimlessly,Late,0.8,High,1.6,Any,Any,Any,0.95
+Pseudorabies,Weakness,Any Stage,0.7,Medium,1.4,Any,Any,Any,0.95

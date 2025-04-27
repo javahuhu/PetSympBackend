@@ -1,9 +1,10 @@
+# main.py
+
 import os
-import re
 import json
-import smtplib
-import uvicorn
 import joblib
+import uvicorn
+import smtplib
 import numpy as np
 import pandas as pd
 from fastapi import FastAPI, HTTPException, Request
@@ -11,9 +12,9 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
+from sklearn.metrics import confusion_matrix, precision_score, recall_score, f1_score
 import firebase_admin
 from firebase_admin import auth, credentials
-from sklearn.metrics import confusion_matrix, precision_score, recall_score, f1_score
 
 # ───── Initialization ─────
 if not firebase_admin._apps:
@@ -29,35 +30,36 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# ───── File Paths & Static Loads ─────
+# ───── Static Paths ─────
 FACT_BASE_PATH = "data/fact_base.json"
 ILLNESS_INFO_PATH = "data/expanded_illness_info_complete.json"
 FOLLOWUP_QUESTIONS_PATH = "data/updated_follow_up_questions_tuned.json"
 BREED_CATEGORY_MAP_PATH = "data/breed_category_mapping.json"
 
-def load_json(p):
-    with open(p) as f:
+# ───── Static Loads ─────
+def load_json(file_path):
+    with open(file_path, "r") as f:
         return json.load(f)
 
-illness_info_db        = load_json(ILLNESS_INFO_PATH)
-symptom_followups      = load_json(FOLLOWUP_QUESTIONS_PATH)
+illness_info_db = load_json(ILLNESS_INFO_PATH)
+symptom_followups = load_json(FOLLOWUP_QUESTIONS_PATH)
 breed_category_mapping = load_json(BREED_CATEGORY_MAP_PATH)
 
-boosting_model    = joblib.load("model/gradient_model.pkl")
-adaboost_model    = joblib.load("model/adaboost_model.pkl")
-selected_features = joblib.load("model/adaboost_selected_features.pkl")
+knowledge_base = []
+boosting_model = None
+adaboost_model = None
+selected_features = []
+df = pd.DataFrame()
+all_symptoms = []
 
-df = pd.read_csv(DATASET_PATH)
-all_symptoms = [c for c in df.columns if c != "Illness"]
-
-# ───── OTP / Password Reset Endpoints ─────
-OTP_STORE    = {}
-EMAIL        = "petsymp0@gmail.com"
+# ───── OTP System ─────
+OTP_STORE = {}
+EMAIL = "petsymp0@gmail.com"
 APP_PASSWORD = "gqox rtam taom hhbb"
 
 class OTPRequest(BaseModel):
     email: str
-    otp:   str
+    otp: str
 
 @app.post("/send-otp")
 async def send_otp(req: OTPRequest):
@@ -65,8 +67,8 @@ async def send_otp(req: OTPRequest):
         OTP_STORE[req.email] = req.otp
         msg = MIMEMultipart("alternative")
         msg["Subject"] = "Your PetSymp OTP Code"
-        msg["From"]    = EMAIL
-        msg["To"]      = req.email
+        msg["From"] = EMAIL
+        msg["To"] = req.email
         html = f"""
         <html><body>
           <h2>PetSymp Email Verification</h2>
@@ -97,83 +99,53 @@ async def reset_password(r: Request):
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Failed to update password: {e}")
 
-# ───── Helper Functions from First Script ─────
-def categorize_age(age):
+# ───── Diagnosis Core Functions ─────
+
+def load_pet_resources(pet_type):
+    if pet_type == "dog":
+        kb = load_json("data/dog_knowledge_base.json")["rules"]
+        boost_model = joblib.load("new model/new_dog_gradient_model.pkl")
+        ada_model = joblib.load("new model/new_dog_adaboost_model.pkl")
+        feats = joblib.load("new model/new_dog_adaboost_selected_features.pkl")
+        dataset = pd.read_csv("data/dog_augmented.csv")
+    else:
+        kb = load_json("data/cat_knowledge_base.json")["rules"]
+        boost_model = joblib.load("new model/new_cat_gradient_model.pkl")
+        ada_model = joblib.load("new model/new_cat_adaboost_model.pkl")
+        feats = joblib.load("new model/new_cat_adaboost_selected_features.pkl")
+        dataset = pd.read_csv("data/cat_augmented.csv")
+    return kb, boost_model, ada_model, feats, dataset
+
+def categorize_age(age, pet_type="dog"):
     try:
-        age = int(age)
+        age = float(age)
     except ValueError:
         return "Unknown"
-    if age <= 1:
-        return "Puppy"
-    elif 1 < age <= 7:
-        return "Adult"
+    if pet_type == "dog":
+        return "Puppy" if age < 1 else "Adult" if age <= 7 else "Senior"
     else:
-        return "Senior"
-
-def validate_size(sz):
-    return sz.capitalize() if isinstance(sz, str) and sz.lower() in ["small","medium","large"] else "Medium"
-
-def parse_duration_range(range_str):
-    if not range_str:
-        return None
-    cleaned = range_str.lower().replace("days", "").replace("day", "").strip()
-    parts = cleaned.split("-")
-    if len(parts) == 2:
-        try:
-            lower = float(parts[0].strip())
-            upper = float(parts[1].strip())
-            return (lower, upper)
-        except ValueError:
-            return None
-    return None
-
-def duration_overlap(user_range_str, expected_range_str):
-    user_interval = parse_duration_range(user_range_str)
-    expected_interval = parse_duration_range(expected_range_str)
-    if user_interval and expected_interval:
-        return max(user_interval[0], expected_interval[0]) <= min(user_interval[1], expected_interval[1])
-    return False
+        return "Kitten" if age < 1 else "Adult" if age <= 10 else "Senior"
 
 def align_features(feature_vector, expected_features):
     feature_vector = feature_vector.copy()
     for feature in expected_features:
         if feature not in feature_vector.columns:
-            feature_vector.loc[:, feature] = 0
+            feature_vector[feature] = 0
     return feature_vector[expected_features]
-
-def compute_subtype_coverage(rule, user_answers):
-    matched = 0
-    total = 0
-    for symptom in rule.get("symptoms", []):
-        symptom_name = symptom["name"].lower().strip()
-        if "subtype" in symptom and symptom["subtype"]:
-            total += 1
-            expected = {
-                sub.strip().lower()
-                for sub in symptom["subtype"].split(",")
-                if sub.strip()
-            }
-            user_response = user_answers.get(symptom_name, {})
-            user_subtype = None
-            for key, val in user_response.items():
-                candidate = val.lower().strip()
-                if candidate in expected:
-                    user_subtype = candidate
-                    break
-            if user_subtype:
-                matched += 1
-    if total == 0:
-        return 0
-    return (matched / total) * 100
-
 def adjust_confidence_with_followups(confidence, symptom_details, illness_name, user_answers):
-    illness_rule = next((r for r in kb_rules if r["illness"] == illness_name), None)
+    """
+    Modify confidence scores based on user follow-up answers and KB expectations.
+    """
+    illness_rule = next((r for r in knowledge_base if r["illness"] == illness_name), None)
     if not illness_rule:
         return confidence
+
     total_multiplier = 1.0
+
     for symptom in symptom_details:
-        symptom_name = (symptom["name"] if isinstance(symptom, dict) else symptom).lower().strip()
-        if symptom_name in symptom_followups and illness_rule:
+        symptom_name = symptom.lower().strip()
+
+        if symptom_name in symptom_followups:
             expected_symptoms = {s["name"].lower(): s for s in illness_rule["symptoms"]}
             if symptom_name in expected_symptoms:
                 expected_data = expected_symptoms[symptom_name]
@@ -186,8 +158,12 @@ def adjust_confidence_with_followups(confidence, symptom_details, illness_name, 
                 ]
 
                 user_response = user_answers.get(symptom_name, {})
-                user_duration = user_response.get(f"How long has your pet had {symptom_name}?", None)
-                user_severity = user_response.get(f"Is the {symptom_name} Mild, Moderate, or Severe?", None)
+                user_duration = user_response.get(
+                    f"How long has your pet had {symptom_name}?", None
+                )
+                user_severity = user_response.get(
+                    f"Is the {symptom_name} Mild, Moderate, or Severe?", None
+                )
 
                 user_subtype = None
                 for question in symptom_followups[symptom_name]["questions"]:
@@ -197,43 +173,52 @@ def adjust_confidence_with_followups(confidence, symptom_details, illness_name, 
                         if expected_subtypes and candidate in expected_subtypes:
                             user_subtype = candidate
                             break
+
                 if not user_subtype and user_severity:
                     candidate = user_severity.lower().strip()
                     if expected_subtypes and candidate in expected_subtypes:
                         user_subtype = candidate
-                user_subtype_clean = user_subtype if user_subtype else None
 
-                impact_values = symptom_followups.get(symptom_name, {}).get("impact", {})
-                severity_impact = impact_values.get(user_severity.lower(), 1.2) if user_severity else 1.2
-                subtype_impact = impact_values.get(user_subtype_clean, 1.2) if user_subtype_clean else 1.2
-
-                if user_duration and expected_duration.lower() != "any":
-                    if duration_overlap(user_duration, expected_duration):
-                        duration_impact = impact_values.get(user_duration.lower(), 1.2)
-                    else:
-                        duration_impact = 0.95
-                else:
-                    duration_impact = 1.2
-
-                kb_match_bonus = 1.0
+                # Severity impact
+                severity_impact = 1.0
                 if user_severity and expected_severity.lower() != "any":
-                    kb_match_bonus *= 1.02 if user_severity.lower() == expected_severity.lower() else 0.95
-                if user_duration and expected_duration.lower() != "any":
-                    kb_match_bonus *= 1.03 if duration_overlap(user_duration, expected_duration) else 0.95
-                if user_subtype_clean and expected_subtypes != ["any"]:
-                    kb_match_bonus *= 1.08 if user_subtype_clean in expected_subtypes else 0.9
+                    if user_severity.lower() == expected_severity.lower():
+                        severity_impact = 1.2
+                    else:
+                        severity_impact = 0.9
 
-                total_multiplier *= (severity_impact * subtype_impact * duration_impact * kb_match_bonus)
+                # Duration impact
+                duration_impact = 1.0
+                if user_duration and expected_duration.lower() != "any":
+                    if expected_duration in user_duration:
+                        duration_impact = 1.2
+                    else:
+                        duration_impact = 0.9
+
+                # Subtype impact
+                subtype_impact = 1.0
+                if expected_subtypes and expected_subtypes != ["any"]:
+                    if user_subtype:
+                        if user_subtype in expected_subtypes:
+                            subtype_impact = 1.3 if len(expected_subtypes) == 1 else 1.1
+                        else:
+                            subtype_impact = 0.7
+                    else:
+                        subtype_impact = 0.85
+
+                total_multiplier *= severity_impact * subtype_impact * duration_impact
+
+    total_multiplier = min(max(total_multiplier, 0.5), 2.0)  # Safety bounds
     return round(confidence * total_multiplier, 2)
 
+
+
+
 def forward_chaining(fact_base):
-    user_symptoms = [
-        s["name"].lower().strip()
-        for s in fact_base["symptoms"]
-        if isinstance(s, dict) and "name" in s
-    ]
+    user_symptoms = [s.lower().strip() for s in fact_base["symptoms"]]
+
     possible_diagnoses = []
-    for rule in kb_rules:
+    for rule in knowledge_base:
         total_weight = sum(symptom["weight"] for symptom in rule["symptoms"])
         matched_weight = sum(
             symptom["weight"]
@@ -250,297 +235,423 @@ def forward_chaining(fact_base):
                     for s in rule["symptoms"]
                     if s["name"].lower().strip() in user_symptoms
                 ],
-                "confidence_fc": confidence_fc
+                "confidence_fc": confidence_fc,
             })
     return possible_diagnoses
 
 def gradient_boosting_ranking(possible_diagnoses, fact_base):
-    user_symptoms = [
-        s["name"].lower().strip()
-        for s in fact_base["symptoms"]
-        if isinstance(s, dict) and "name" in s
-    ]
+    """Uses Gradient Boosting to refine illness ranking based on symptom match, pet info, and follow-up adjustments."""
+
+    user_symptoms = [s.lower().strip() for s in fact_base["symptoms"]]
     pet_info = fact_base["pet_info"]
-    user_answers = fact_base["user_answers"]
-    refined = []
-    for diag in possible_diagnoses:
-        fv = pd.DataFrame([[1 if s in user_symptoms else 0 for s in all_symptoms]], columns=all_symptoms)
-        fv_sel = align_features(fv, boosting_model.feature_names_in_)
-        raw_preds = boosting_model.predict_proba(fv_sel)
-        idx = list(boosting_model.classes_).index(diag["illness"])
-        gb_conf = raw_preds[0][idx]
-        rule = next((r for r in kb_rules if r["illness"] == diag["illness"]), None)
-        if rule:
-            age_match = 1.1 if rule.get("age_range","Any").lower()==pet_info.get("age_range","Any").lower() else 0.85
-            rb, pb = rule.get("breed","Any").strip().lower(), pet_info.get("breed","Any").strip().lower()
-            bc = breed_category_mapping.get(pet_info.get("breed","Any").title(),"").lower()
-            breed_match = 1.0 if rb=="any" else 1.1 if rb in [pb,bc] else 0.9
-            size_match = 1.1 if rule.get("size","Any").lower()==pet_info.get("size","Any").lower() else 0.9
-        else:
-            age_match=breed_match=size_match=1.0
-        final_gb = adjust_confidence_with_followups(
-            round(gb_conf*age_match*breed_match*size_match,2),
-            fact_base["symptoms"], diag["illness"], user_answers
+    user_answers = fact_base.get("user_answers", {})  # ✅ Safe default
+
+    refined_diagnoses = []
+
+    for diagnosis in possible_diagnoses:
+        # Build feature vector
+        feature_vector = pd.DataFrame(
+            [[1 if symptom.lower() in user_symptoms else 0 for symptom in all_symptoms]],
+            columns=all_symptoms,
         )
-        refined.append({
-            "illness": diag["illness"],
-            "matched_symptoms": diag["matched_symptoms"],
-            "confidence_fc": diag["confidence_fc"],
-            "confidence_gb": final_gb
+        feature_vector_selected = align_features(feature_vector[selected_features], boosting_model.feature_names_in_)
+
+        # Model prediction
+        raw_predictions = boosting_model.predict_proba(feature_vector_selected)
+        illness_index = list(boosting_model.classes_).index(diagnosis["illness"])
+        gb_confidence = raw_predictions[0][illness_index]
+
+        # Apply age, breed, size matching
+        rule = next((r for r in knowledge_base if r["illness"] == diagnosis["illness"]), None)
+        if rule:
+            age_match = 1.1 if rule.get("age_range", "Any").lower() == pet_info.get("age_range", "Any").lower() else 0.85
+
+            rule_breed = rule.get("breed", "Any").strip().lower()
+            pet_breed = pet_info.get("breed", "Any").strip().lower()
+            pet_breed_category = breed_category_mapping.get(pet_breed.title(), "").lower()
+
+            if rule_breed == "any":
+                breed_match = 1.0
+            elif rule_breed == pet_breed or rule_breed == pet_breed_category:
+                breed_match = 1.1
+            else:
+                breed_match = 0.9
+
+            size_match = 1.1 if rule.get("size", "Any").lower() == pet_info.get("size", "Any").lower() else 0.9
+        else:
+            age_match = breed_match = size_match = 1.0
+
+        initial_gb_confidence = round(gb_confidence * age_match * breed_match * size_match, 2)
+
+        # ✅ Now dynamically adjust using follow-up answers (just like CLI)
+        final_confidence_gb = adjust_confidence_with_followups(
+            initial_gb_confidence,
+            fact_base["symptoms"],
+            diagnosis["illness"],
+            user_answers,
+        )
+
+        refined_diagnoses.append({
+            "illness": diagnosis["illness"],
+            "matched_symptoms": diagnosis["matched_symptoms"],
+            "confidence_fc": diagnosis["confidence_fc"],
+            "confidence_gb": final_confidence_gb,
         })
-    return refined
+
+    return refined_diagnoses
+
+
 
 def adaboost_ranking(possible_diagnoses, fact_base):
-    user_symptoms = [
-        s["name"].lower().strip()
-        for s in fact_base["symptoms"]
-        if isinstance(s, dict) and "name" in s
-    ]
-    pet_info = fact_base["pet_info"]
-    user_answers = fact_base["user_answers"]
-    refined = []
-    for diag in possible_diagnoses:
-        fv = pd.DataFrame([[1 if s in user_symptoms else 0 for s in all_symptoms]], columns=all_symptoms)
-        fc_sc, gb_sc = diag["confidence_fc"], diag["confidence_gb"]
-        match_ratio = len(diag["matched_symptoms"])/max(len(user_symptoms),1)
-        fv["FC_Confidence"], fv["GB_Confidence"], fv["Symptom_Match_Ratio"] = fc_sc, gb_sc, round(match_ratio,4)
-        fv_ab = align_features(fv, adaboost_model.feature_names_in_)
-        raw_probs = adaboost_model.predict_proba(fv_ab)
-        pred_lbl = adaboost_model.predict(fv_ab)[0]
-        idx = list(adaboost_model.classes_).index(diag["illness"])
-        ab_raw = raw_probs[0][idx]
-        ab_conf = ab_raw + (0.2 if pred_lbl==diag["illness"] else 0)
-        final_score = 0.2*fc_sc + 0.5*gb_sc + 0.3*ab_conf
-        rule = next((r for r in kb_rules if r["illness"]==diag["illness"]),None)
-        penalty = 1.0
-        if rule:
-            ra,pa = rule.get("age_range","any").lower(), pet_info.get("age_range","any").lower()
-            if ra!="any" and ra!=pa: penalty*=0.7
-            rb,pb = rule.get("breed","any").strip().lower(), pet_info.get("breed","any").strip().lower()
-            bc = breed_category_mapping.get(pet_info.get("breed","any").title(),"").lower()
-            if rb!="any" and rb not in [pb,bc]: penalty*=0.85
-            rs,ps = rule.get("size","any").lower(), pet_info.get("size","any").lower()
-            if rs!="any" and rs!=ps: penalty*=0.85
-        adjusted = round(final_score*penalty,2)
-        final_ab = adjust_confidence_with_followups(adjusted, fact_base["symptoms"], diag["illness"], user_answers)
-        nfc = round(min(fc_sc/1.0,1.0),4)
-        ngb = round(min(gb_sc/1.0,1.0),4)
-        nab = round(min(final_ab/1.0,1.0),4)
-        refined.append({
-            "illness": diag["illness"],
-            "matched_symptoms": diag["matched_symptoms"],
-            "confidence_fc": nfc,
-            "confidence_gb": ngb,
-            "confidence_ab": nab
-        })
-    return refined
+    """Uses AdaBoost to re-rank illnesses using model predictions, smart blending, and follow-up dynamic adjustments."""
 
-def add_subtype_coverage_all(diagnoses, fact_base):
-    for d in diagnoses:
-        rule = next((r for r in kb_rules if r["illness"]==d["illness"]),None)
-        d["subtype_coverage"] = compute_subtype_coverage(rule, fact_base["user_answers"]) if rule else 0.0
-    return diagnoses
+    user_symptoms = [s.lower().strip() for s in fact_base["symptoms"]]
+
+
+    pet_info = fact_base["pet_info"]
+    user_answers = fact_base.get("user_answers", {})
+
+    refined_diagnoses = []
+
+    for diagnosis in possible_diagnoses:
+        # Build feature vector
+        feature_vector = pd.DataFrame(
+            [[1 if symptom.lower() in user_symptoms else 0 for symptom in all_symptoms]],
+            columns=all_symptoms,
+        )
+
+        # Add engineered features
+        fc_score = diagnosis["confidence_fc"]
+        gb_score = diagnosis["confidence_gb"]
+        match_ratio = len(diagnosis.get("matched_symptoms", [])) / max(len(user_symptoms), 1)
+
+        feature_vector["FC_Confidence"] = fc_score
+        feature_vector["GB_Confidence"] = gb_score
+        feature_vector["Symptom_Match_Ratio"] = round(match_ratio, 4)
+
+        feature_vector_ab = align_features(feature_vector, adaboost_model.feature_names_in_)
+
+        # Predict AdaBoost
+        raw_probs = adaboost_model.predict_proba(feature_vector_ab)
+        predicted_label = adaboost_model.predict(feature_vector_ab)[0]
+        illness_index = list(adaboost_model.classes_).index(diagnosis["illness"])
+        ab_raw = raw_probs[0][illness_index]
+
+        ab_confidence = ab_raw
+        if predicted_label == diagnosis["illness"]:
+            ab_confidence += 0.2  # Bonus if AdaBoost predicts it
+
+        # Blend FC, GB, AB
+        blended_score = 0.2 * fc_score + 0.5 * gb_score + 0.3 * ab_confidence
+
+        # Apply penalties based on pet info mismatch
+        penalty = 1.0
+        rule = next((r for r in knowledge_base if r["illness"] == diagnosis["illness"]), None)
+        if rule:
+            rule_age = rule.get("age_range", "any").lower()
+            rule_breed = rule.get("breed", "any").lower()
+            rule_size = rule.get("size", "any").lower()
+
+            pet_age = pet_info.get("age_range", "any").lower()
+            pet_breed = pet_info.get("breed", "any").lower()
+            pet_size = pet_info.get("size", "any").lower()
+
+            pet_breed_category = breed_category_mapping.get(pet_breed.title(), "").lower()
+
+            if rule_age != "any" and rule_age != pet_age:
+                penalty *= 0.7  # Strong penalty for age mismatch
+            if rule_breed != "any" and rule_breed not in [pet_breed, pet_breed_category]:
+                penalty *= 0.85  # Moderate penalty for breed mismatch
+            if rule_size != "any" and rule_size != pet_size:
+                penalty *= 0.85  # Moderate penalty for size mismatch
+
+        adjusted_score = round(blended_score * penalty, 2)
+
+        # Apply dynamic follow-up adjustments
+        final_confidence_ab = adjust_confidence_with_followups(
+            adjusted_score,
+            fact_base["symptoms"],
+            diagnosis["illness"],
+            user_answers,
+        )
+
+        normalized_fc = round(min(fc_score, 1.0), 4)
+        normalized_gb = round(min(gb_score, 1.0), 4)
+        normalized_ab = round(min(final_confidence_ab, 1.0), 4)
+
+        refined_diagnoses.append({
+            "illness": diagnosis["illness"],
+            "matched_symptoms": diagnosis["matched_symptoms"],
+            "confidence_fc": normalized_fc,
+            "confidence_gb": normalized_gb,
+            "confidence_ab": normalized_ab,   # ← Softmax will be applied after
+        })
+
+    return refined_diagnoses
+
+
 
 def apply_softmax_to_confidences(diagnoses):
-    scores = np.array([d["confidence_ab"] for d in diagnoses],dtype=float)
+    scores = np.array([d["confidence_ab"] for d in diagnoses], dtype=float)
     exp_scores = np.exp(scores)
-    sm = exp_scores/np.sum(exp_scores)
-    for i,d in enumerate(diagnoses):
-        d["confidence_softmax"] = round(sm[i],4)
+    softmax_probs = exp_scores / np.sum(exp_scores)
+    for i, d in enumerate(diagnoses):
+        d["confidence_softmax"] = round(float(softmax_probs[i]), 4)
     return diagnoses
 
-def build_comparison_output(diagnoses, fact_base):
-    if len(diagnoses)<2: return {}
-    d1,d2 = diagnoses[0],diagnoses[1]
-    r1 = next((r for r in kb_rules if r["illness"]==d1["illness"]),None)
-    r2 = next((r for r in kb_rules if r["illness"]==d2["illness"]),None)
-    if not r1 or not r2: return {}
-    c1 = compute_subtype_coverage(r1,fact_base["user_answers"])
-    c2 = compute_subtype_coverage(r2,fact_base["user_answers"])
-    return {
-        "top_illness": d1["illness"],
-        "second_illness": d2["illness"],
-        "factors": [
-            {"name":"Confidence Score","top":d1["confidence_ab"],"second":d2["confidence_ab"]},
-            {"name":"Weighted Symptom Matches","top":d1["confidence_fc"],"second":d2["confidence_fc"]},
-            {"name":"ML Score Adjustment","top":round(d1["confidence_ab"]-d1["confidence_fc"],2),"second":round(d2["confidence_ab"]-d2["confidence_fc"],2)},
-            {"name":"Subtype Coverage Score","top":round(c1,2),"second":round(c2,2)}
-        ],
-        "reason_summary": {"why_top_ranked_higher":[
-            f"Matched more weighted symptoms ({d1['confidence_fc']} vs {d2['confidence_fc']})",
-            f"Better subtype alignment ({c1}% vs {c2}%)",
-            "Machine learning still favored it after adjustments",
-            "Fewer critical symptoms were missing"
-        ]}
-    }
+def compute_subtype_coverage(illness_rule, user_answers):
+    """
+    Computes a normalized subtype coverage score for an illness.
+    """
+    matched = 0
+    total = 0
+    for symptom in illness_rule.get("symptoms", []):
+        symptom_name = symptom["name"].lower().strip()
+        expected_subtypes = symptom.get("subtype", "")
+        expected_list = [s.strip().lower() for s in expected_subtypes.split(",") if s.strip()]
+        if expected_list:
+            total += 1
+            user_response = user_answers.get(symptom_name, {})
+            for answer in user_response.values():
+                if answer.lower().strip() in expected_list:
+                    matched += 1
+                    break
+    if total == 0:
+        return 0.0
+    return round((matched / total) * 100, 2)
 
-def normalize_fact_base(fb):
-    pi = fb.get("pet_info",{})
-    age = pi.get("age_years") or pi.get("age")
-    if age is not None:
-        pi["age_years"] = str(age)
-        if "age" in pi: del pi["age"]
-    pi["age_range"] = categorize_age(pi.get("age_years","0"))
-    pi["size"] = validate_size(pi.get("size","Medium"))
-    pi["breed"] = pi.get("breed","Any").strip().capitalize()
-    fb["pet_info"] = pi
-    syms = fb.get("symptoms",[])
-    norm = []
-    for s in syms:
-        if isinstance(s,str):
-            norm.append({"name":s.lower().strip()})
-        elif isinstance(s,dict) and "name" in s:
-            norm.append({"name":s["name"].lower().strip()})
-    fb["symptoms"] = norm
-    ua = fb.get("user_answers",{})
-    nua={}
-    for sym,ans in ua.items():
-        key = sym.lower().strip()
-        if isinstance(ans,dict):
-            nua[key] = {q.strip():a for q,a in ans.items()}
-    fb["user_answers"] = nua
-    return fb
 
-def evaluate_illness_performance(target_illness):
-    eval_path = "data/true_vs_predicted.csv"
-    if not os.path.exists(eval_path):
-        return None
-    df_eval = pd.read_csv(eval_path)
-    y_true = df_eval["Illness"].apply(lambda x:1 if x==target_illness else 0)
-    y_pred = df_eval["Predicted"].apply(lambda x:1 if x==target_illness else 0)
-    tn, fp, fn, tp = confusion_matrix(y_true,y_pred).ravel()
-    precision = precision_score(y_true,y_pred,zero_division=0)
-    recall    = recall_score(y_true,y_pred,zero_division=0)
-    f1        = f1_score(y_true,y_pred,zero_division=0)
-    specificity = tn/(tn+fp) if (tn+fp)!=0 else 0
-    accuracy    = (tp+tn)/(tp+tn+fp+fn) if (tp+tn+fp+fn)!=0 else 0
-    return {
-        "illness": target_illness,
-        "confusion_matrix": {"TP":int(tp),"FP":int(fp),"FN":int(fn),"TN":int(tn)},
-        "metrics": {
-            "Accuracy":round(accuracy,4),
-            "Precision":round(precision,4),
-            "Recall":round(recall,4),
-            "Specificity":round(specificity,4),
-            "F1 Score":round(f1,4)
-        }
-    }
-
-def get_metrics_for_illness(illness_name):
-    perf = evaluate_illness_performance(illness_name)
-    if perf is None:
-        return {}
-    m = perf["metrics"]
-    return {"accuracy":m["Accuracy"],"precision":m["Precision"],"recall":m["Recall"],"specificity":m["Specificity"],"f1":m["F1 Score"]}
-
-# ───── Core Diagnose Function & Endpoint ─────
-def diagnose(fact_base):
-    owner = fact_base.get("owner","")
-    fact_base = normalize_fact_base(fact_base)
-    fact_base["owner"] = owner
-    fc = forward_chaining(fact_base)
-    if not fc:
-        return {
-            "owner":owner,
-            "pet_info":fact_base["pet_info"],
-            "symptoms":fact_base["symptoms"],
-            "user_answers":fact_base["user_answers"],
-            "possible_diagnosis":[],
-            "top_diagnoses":[],
-            "allIllness":[],
-            "comparison":{}
-        }
-    gb = gradient_boosting_ranking(fc,fact_base)
-    ab = adaboost_ranking(gb,fact_base)
-    ab = add_subtype_coverage_all(ab,fact_base)
-    ab = apply_softmax_to_confidences(ab)
-    ab.sort(key=lambda d: d["confidence_softmax"], reverse=True)
-    fact_base["possible_diagnosis"] = ab
-    os.makedirs(os.path.dirname(FACT_BASE_PATH), exist_ok=True)
-    with open(FACT_BASE_PATH,"w") as f:
-        json.dump(fact_base, f, indent=4)
-    PROB_THRESHOLD = 0.04
-    filtered = [d for d in ab if d["confidence_softmax"]>=PROB_THRESHOLD]
-    possible = filtered[:3] if filtered else ab[:1] if ab else []
-    top_diagnoses = []
-    for d in ab:
-        rule = next((r for r in kb_rules if r["illness"]==d["illness"]),{})
-        info = illness_info_db.get(d["illness"],{})
-        top_diagnoses.append({
-            "illness": d["illness"],
-            "confidence_fc": d["confidence_fc"],
-            "confidence_gb": d["confidence_gb"],
-            "confidence_ab": d["confidence_ab"],
-            "confidence_softmax": d["confidence_softmax"],
-            "subtype_coverage": d.get("subtype_coverage",0.0),
-            "matched_symptoms": d["matched_symptoms"],
-            "missing_symptoms": sorted(list({s["name"].lower() for s in rule.get("symptoms",[])}-set(d["matched_symptoms"]))),
-            "severity": info.get("severity","Unknown"),
-            "description": info.get("description","No description available."),
-            "treatment": info.get("treatment","No treatment guidelines provided."),
-            "causes": info.get("causes","N/A"),
-            "transmission": info.get("transmission","N/A"),
-            "diagnosis": info.get("diagnosis","N/A"),
-            "what_to_do": info.get("what_to_do","N/A"),
-            "recovery_time": info.get("recovery_time","N/A"),
-            "risk_factors": info.get("risk_factors",[]),
-            "prevention": info.get("prevention","N/A"),
-            "contagious": info.get("contagious",False)
-        })
-    comparison = build_comparison_output(ab,fact_base)
-    return {
-        "owner":owner,
-        "pet_info":fact_base["pet_info"],
-        "symptoms":fact_base["symptoms"],
-        "user_answers":fact_base["user_answers"],
-        "possible_diagnosis":possible,
-        "top_diagnoses":top_diagnoses,
-        "allIllness":ab,
-        "comparison":comparison
-    }
+# ───── Diagnose Endpoint ─────
 
 @app.post("/diagnose")
 async def diagnose_pet(request: Request):
     try:
         fact_base = await request.json()
-        return diagnose(fact_base)
-    except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
 
-# ───── Debug Endpoints ─────
+        pet_type = fact_base.get("pet_type", "dog").lower()
+        global knowledge_base, boosting_model, adaboost_model, selected_features, df, all_symptoms
+        knowledge_base, boosting_model, adaboost_model, selected_features, df = load_pet_resources(pet_type)
+        all_symptoms = [col for col in df.columns if col != "Illness"]
+
+        # ✅ Make sure age_range is always set
+        if "pet_info" in fact_base:
+            if "age_range" not in fact_base["pet_info"]:
+                fact_base["pet_info"]["age_range"] = categorize_age(fact_base["pet_info"].get("age_years", 1), pet_type)
+
+        user_answers = fact_base.get("user_answers", {})  # ✅ Safe default
+
+        possible_diagnoses = forward_chaining(fact_base)
+        if not possible_diagnoses:
+            return {
+                "owner": fact_base.get("owner", "Unknown"),
+                "pet_info": fact_base.get("pet_info", {}),
+                "symptoms": fact_base.get("symptoms", []),
+                "top_diagnoses": [],
+                "possible_diagnosis": [],
+                "allIllness": [],
+                "comparison": {}
+            }
+
+        refined_diagnoses = gradient_boosting_ranking(possible_diagnoses, fact_base)
+        final_diagnoses = adaboost_ranking(refined_diagnoses, fact_base)
+
+        # ✅ Compute subtype_coverage for each diagnosis
+        for d in final_diagnoses:
+            illness_rule = next((r for r in knowledge_base if r["illness"] == d["illness"]), None)
+            d["subtype_coverage"] = compute_subtype_coverage(illness_rule, user_answers) if illness_rule else 0.0
+
+        # ✅ Save raw confidence for comparison
+        for d in final_diagnoses:
+            d["confidence_ab_raw"] = d["confidence_ab"]
+
+        # ✅ Sort first before applying softmax
+        final_diagnoses.sort(key=lambda x: -x["confidence_ab_raw"])
+
+        # ✅ Apply softmax
+        final_diagnoses = apply_softmax_to_confidences(final_diagnoses)
+
+        # ✅ Save to fact base
+        fact_base["possible_diagnosis"] = final_diagnoses
+
+        # ✅ Save locally
+        os.makedirs(os.path.dirname(FACT_BASE_PATH), exist_ok=True)
+        with open(FACT_BASE_PATH, "w") as f:
+            json.dump(fact_base, f, indent=4)
+
+        # ✅ Build comparison
+        comparison = {}
+        if len(final_diagnoses) >= 2:
+            ill1 = final_diagnoses[0]
+            ill2 = final_diagnoses[1]
+            comparison = {
+                "illness_1": ill1["illness"],
+                "illness_2": ill2["illness"],
+                "confidence_score": {
+                    "illness_1": ill1["confidence_ab_raw"],
+                    "illness_2": ill2["confidence_ab_raw"]
+                },
+                "weighted_symptoms": {
+                    "illness_1": ill1["confidence_fc"],
+                    "illness_2": ill2["confidence_fc"]
+                },
+                "ml_adjustment": {
+                    "illness_1": round(ill1["confidence_ab_raw"] - ill1["confidence_fc"], 4),
+                    "illness_2": round(ill2["confidence_ab_raw"] - ill2["confidence_fc"], 4),
+                },
+                "subtype_coverage": {
+                    "illness_1": ill1.get("subtype_coverage", 0.0),
+                    "illness_2": ill2.get("subtype_coverage", 0.0),
+                }
+            }
+
+        return {
+            "owner": fact_base.get("owner", "Unknown"),
+            "pet_info": fact_base.get("pet_info", {}),
+            "symptoms": fact_base.get("symptoms", []),
+            "top_diagnoses": final_diagnoses[:3],
+            "possible_diagnosis": final_diagnoses,
+            "allIllness": final_diagnoses,
+            "comparison": comparison,
+            "fact_base": fact_base
+        }
+
+    except Exception as e:
+        import traceback
+        traceback.print_exc()
+        raise HTTPException(status_code=500, detail=f"Server Error: {str(e)}")
+
+
+
+    
+
+    
+
+    
+
 @app.get("/debug/all-symptoms")
-async def get_all_symptoms():
-    return {r["illness"]: [s["name"] for s in r["symptoms"]] for r in kb_rules}
+async def get_all_symptoms(pet_type: str = "dog"):
+    """Return all symptoms for the given pet type."""
+    kb, _, _, _, _ = load_pet_resources(pet_type.lower())
+    return {r["illness"]: [s["name"] for s in r["symptoms"]] for r in kb}
+
+
+# ───── Evaluation Endpoints ─────
+
+def evaluate_illness_performance(target_illness, pet_type="dog"):
+    """
+    Evaluates the 2x2 confusion matrix and classification metrics
+    for the given illness based on the full labeled dataset.
+    Chooses dog or cat CSV depending on pet type.
+    """
+
+    # Choose correct evaluation file
+    if pet_type.lower().strip() == "dog":
+        eval_path = "data/dog_true_vs_predicted.csv"
+    else:
+        eval_path = "data/cat_true_vs_predicted.csv"
+
+    if not os.path.exists(eval_path):
+        print("⚠️ Evaluation file not found.")
+        return None
+
+    df_eval = pd.read_csv(eval_path)
+
+    # Normalize Illness and Predicted columns
+    df_eval["Illness"] = df_eval["Illness"].astype(str).str.strip().str.lower()
+    df_eval["Predicted"] = df_eval["Predicted"].astype(str).str.strip().str.lower()
+
+    # Normalize target illness
+    target_clean = target_illness.strip().lower()
+
+    # Binary classification: target illness vs all others
+    y_true = df_eval["Illness"].apply(lambda x: 1 if x == target_clean else 0)
+    y_pred = df_eval["Predicted"].apply(lambda x: 1 if x == target_clean else 0)
+
+    cm = confusion_matrix(y_true, y_pred)
+
+    # Handle cases where confusion matrix is 1x1
+    if cm.shape == (2, 2):
+        tn, fp, fn, tp = cm.ravel()
+    elif cm.shape == (1, 1):
+        tn, fp, fn, tp = 0, 0, 0, cm[0, 0]
+    else:
+        tn, fp, fn, tp = 0, 0, 0, 0
+
+    precision = precision_score(y_true, y_pred, zero_division=0)
+    recall = recall_score(y_true, y_pred, zero_division=0)
+    f1 = f1_score(y_true, y_pred, zero_division=0)
+    specificity = tn / (tn + fp) if (tn + fp) != 0 else 0
+    accuracy = (tp + tn) / (tp + tn + fp + fn) if (tp + tn + fp + fn) != 0 else 0
+
+    return {
+        "illness": target_illness,
+        "confusion_matrix": {
+            "TP": int(tp),
+            "FP": int(fp),
+            "FN": int(fn),
+            "TN": int(tn),
+        },
+        "metrics": {
+            "Accuracy": round(accuracy, 4),
+            "Precision": round(precision, 4),
+            "Recall": round(recall, 4),
+            "Specificity": round(specificity, 4),
+            "F1 Score": round(f1, 4),
+        },
+    }
+
+
+@app.get("/metrics/{illness_name}")
+async def read_metrics(illness_name: str, pet_type: str = "dog"):
+    perf = evaluate_illness_performance(illness_name, pet_type)
+    if perf is None:
+        raise HTTPException(status_code=404, detail="Metrics not found")
+    return perf["metrics"]
+
+@app.get("/metrics-with-cm/{illness_name}")
+async def read_metrics_with_cm(illness_name: str, pet_type: str = "dog"):
+    perf = evaluate_illness_performance(illness_name, pet_type)
+    if perf is None:
+        raise HTTPException(status_code=404, detail="Metrics not found")
+    return perf
 
 @app.get("/debug/knowledge-details")
-async def get_knowledge_details(illness: str):
-    rule = next((r for r in kb_rules if r["illness"].lower()==illness.lower()), None)
+async def get_knowledge_details(pet_type: str, illness: str):
+    """Return detailed knowledge base entry for a specific illness."""
+    kb, boost_model, ada_model, feats, dataset = load_pet_resources(pet_type.lower())
+    
+    rule = next((r for r in kb if r["illness"].lower() == illness.lower()), None)
     if not rule:
-        raise HTTPException(status_code=404, detail="Illness not found")
+        raise HTTPException(status_code=404, detail="Illness not found in knowledge base.")
 
     severity_multiplier = {"Low": 0.6, "Medium": 0.8, "High": 1.0, "Moderate": 0.8}
     processed = []
     total_ab_weight = 0.0
-    num_symptoms = max(len(rule["symptoms"]),1)
+    num_symptoms = max(len(rule["symptoms"]), 1)
 
     for symptom in rule["symptoms"]:
         name = symptom["name"]
-        base_weight = symptom.get("weight",1.0)
-        sev_mult = severity_multiplier.get(symptom.get("severity","Medium").capitalize(),0.8)
-        fc_weight = round(base_weight * sev_mult * symptom.get("priority",1.0),2)
-        idx = selected_features.index(name.lower().strip()) if name.lower().strip() in selected_features else None
+        base_weight = symptom.get("weight", 1.0)
+        sev_mult = severity_multiplier.get(symptom.get("severity", "Medium").capitalize(), 0.8)
+        fc_weight = round(base_weight * sev_mult * symptom.get("priority", 1.0), 2)
+
+        key = name.lower().strip()
+        idx = feats.index(key) if key in feats else None
         gb_importance = boosting_model.feature_importances_[idx] if idx is not None else 0.3
-        gb_adjustment = round(fc_weight * gb_importance,2)
-        gb_weight = round(fc_weight + gb_adjustment,2)
-        ab_importance = adaboost_model.feature_importances_[idx] if idx is not None and hasattr(adaboost_model,"feature_importances_") else 0.3
-        ab_factor = round(0.75 + (ab_importance*0.1),2)
-        ab_weight = round(gb_weight * ab_factor,2)
+        gb_adjustment = round(fc_weight * gb_importance, 2)
+        gb_weight = round(fc_weight + gb_adjustment, 2)
+
+        ab_importance = ada_model.feature_importances_[idx] if idx is not None and hasattr(ada_model, "feature_importances_") else 0.3
+        ab_factor = round(0.75 + (ab_importance * 0.1), 2)
+        ab_weight = round(gb_weight * ab_factor, 2)
+
         total_ab_weight += ab_weight
+
         processed.append({
             "name": name,
             "base_weight": base_weight,
-            "severity": symptom.get("severity","Medium"),
-            "priority": symptom.get("priority",1.0),
+            "severity": symptom.get("severity", "Medium"),
+            "priority": symptom.get("priority", 1.0),
             "fc_weight": fc_weight,
             "gb_adjustment": gb_adjustment,
             "gb_weight": gb_weight,
@@ -548,9 +659,13 @@ async def get_knowledge_details(illness: str):
             "ab_weight": ab_weight
         })
 
-    final_confidence = round(min(100,(total_ab_weight/num_symptoms)*100),2)
+    final_confidence = round(min(100, (total_ab_weight / num_symptoms) * 100), 2)
     return {"knowledge": processed, "final_confidence": final_confidence}
 
+    
+
+
 # ───── Run App ─────
+
 if __name__ == "__main__":
     uvicorn.run("main:app", host="0.0.0.0", port=8000, reload=True)
