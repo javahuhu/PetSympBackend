@@ -1,143 +1,94 @@
 {
-    "pet_type": "cat",
-    "pet": "ascaasf",
-    "pet_info": {
-        "age_years": "0.5",
-        "age_range": "Puppy",
-        "size": "Small",
-        "breed": "Shiht"
-    },
+    "owner": "Adobo",
     "symptoms": [
-        {
-            "name": "vomiting"
-        }
+        "bad breath",
+        "oral pain",
+        "loose teeth"
     ],
-    "user_answers": {
-        "vomiting": {
-            "How long has your pet had vomiting?": "2",
-            "What type of vomiting is it? (Bloody, Foamy, Yellow, or Green)": "foamy"
-        }
+    "pet_info": {
+        "age": "1",
+        "breed": "Shih Tzu",
+        "size": "Meduim",
+        "pet_type": "dog",
+        "age_range": "Adult"
     },
+    "user_answers": {},
     "possible_diagnosis": [
         {
-            "illness": "Kidney Failure in Cats",
+            "illness": "Cavities (Dental Caries)",
             "matched_symptoms": [
-                "vomiting"
+                "bad breath",
+                "loose teeth",
+                "oral pain"
             ],
-            "confidence_fc": 0.21,
-            "confidence_gb": 0.07,
-            "confidence_ab": 0.06,
-            "confidence_softmax": 0.0852
+            "confidence_fc": 0.39,
+            "confidence_gb": 0.38,
+            "confidence_ab": 0.33,
+            "subtype_coverage": 0.0,
+            "confidence_ab_raw": 0.33,
+            "confidence_softmax": 0.2087
         },
         {
-            "illness": "Ameba Infection in Cats",
+            "illness": "Tooth Root Abscess",
             "matched_symptoms": [
-                "vomiting"
+                "bad breath",
+                "oral pain"
             ],
-            "confidence_fc": 0.2,
-            "confidence_gb": 0.01,
-            "confidence_ab": 0.04,
-            "confidence_softmax": 0.0835
+            "confidence_fc": 0.26,
+            "confidence_gb": 0.17,
+            "confidence_ab": 0.14,
+            "subtype_coverage": 0.0,
+            "confidence_ab_raw": 0.14,
+            "confidence_softmax": 0.1726
         },
         {
-            "illness": "Bacterial Infection (Campylobacteriosis) in Cats",
+            "illness": "Periodontal Disease",
             "matched_symptoms": [
-                "vomiting"
+                "bad breath",
+                "loose teeth"
             ],
             "confidence_fc": 0.18,
-            "confidence_gb": 0.06,
-            "confidence_ab": 0.04,
-            "confidence_softmax": 0.0835
+            "confidence_gb": 0.09,
+            "confidence_ab": 0.06,
+            "subtype_coverage": 0.0,
+            "confidence_ab_raw": 0.06,
+            "confidence_softmax": 0.1593
         },
         {
-            "illness": "Bacterial Infection (Leptospirosis) in Cats",
+            "illness": "Chronic Renal Failure",
             "matched_symptoms": [
-                "vomiting"
+                "bad breath"
             ],
-            "confidence_fc": 0.15,
-            "confidence_gb": 0.02,
-            "confidence_ab": 0.04,
-            "confidence_softmax": 0.0835
-        },
-        {
-            "illness": "Chronic Renal Failure in Cats",
-            "matched_symptoms": [
-                "vomiting"
-            ],
-            "confidence_fc": 0.17,
-            "confidence_gb": 0.04,
-            "confidence_ab": 0.04,
-            "confidence_softmax": 0.0835
-        },
-        {
-            "illness": "Heartworm Disease in Cats",
-            "matched_symptoms": [
-                "vomiting"
-            ],
-            "confidence_fc": 0.19,
-            "confidence_gb": 0.01,
-            "confidence_ab": 0.04,
-            "confidence_softmax": 0.0835
-        },
-        {
-            "illness": "Kidney Disease in Cats",
-            "matched_symptoms": [
-                "vomiting"
-            ],
-            "confidence_fc": 0.17,
-            "confidence_gb": 0.04,
-            "confidence_ab": 0.04,
-            "confidence_softmax": 0.0835
-        },
-        {
-            "illness": "Kidney Infections in Cats",
-            "matched_symptoms": [
-                "vomiting"
-            ],
-            "confidence_fc": 0.17,
-            "confidence_gb": 0.02,
-            "confidence_ab": 0.04,
-            "confidence_softmax": 0.0835
-        },
-        {
-            "illness": "Coccidia in Cats",
-            "matched_symptoms": [
-                "vomiting"
-            ],
-            "confidence_fc": 0.13,
-            "confidence_gb": 0.01,
-            "confidence_ab": 0.03,
-            "confidence_softmax": 0.0826
-        },
-        {
-            "illness": "Feline Distemper (Panleukopenia)",
-            "matched_symptoms": [
-                "vomiting"
-            ],
-            "confidence_fc": 0.14,
+            "confidence_fc": 0.07,
             "confidence_gb": 0.02,
             "confidence_ab": 0.03,
-            "confidence_softmax": 0.0826
+            "subtype_coverage": 0.0,
+            "confidence_ab_raw": 0.03,
+            "confidence_softmax": 0.1546
         },
         {
-            "illness": "Roundworms in Cats",
+            "illness": "Anaerobic Bacterial Infections",
             "matched_symptoms": [
-                "vomiting"
+                "bad breath"
             ],
-            "confidence_fc": 0.16,
-            "confidence_gb": 0.04,
-            "confidence_ab": 0.03,
-            "confidence_softmax": 0.0826
+            "confidence_fc": 0.1,
+            "confidence_gb": 0.0,
+            "confidence_ab": 0.02,
+            "subtype_coverage": 0.0,
+            "confidence_ab_raw": 0.02,
+            "confidence_softmax": 0.1531
         },
         {
-            "illness": "Tapeworms in Cats",
+            "illness": "Chronic Kidney Disease (CKD)",
             "matched_symptoms": [
-                "vomiting"
+                "bad breath"
             ],
-            "confidence_fc": 0.16,
-            "confidence_gb": 0.02,
-            "confidence_ab": 0.03,
-            "confidence_softmax": 0.0826
+            "confidence_fc": 0.08,
+            "confidence_gb": 0.0,
+            "confidence_ab": 0.01,
+            "subtype_coverage": 0.0,
+            "confidence_ab_raw": 0.01,
+            "confidence_softmax": 0.1516
         }
     ]
 }

@@ -1,0 +1,6438 @@
+{
+    "rules": [
+      {
+        "illness": "Canine Enteric Coronavirus",
+        "type": "Viral",
+        "confidence": 0.9,
+        "age_range": "Puppy",
+        "breed": "Any",
+        "size": "Any",
+        "symptoms": [
+            {
+                "name": "Abdominal Pain",
+                "weight": 1.0,
+                "priority": 1.5,
+                "severity": "Moderate",
+                "duration_range": "1-4 days",
+                "subtype": "",
+                "stage": "Any"
+            },
+            {
+                "name": "Decreased Appetite",
+                "weight": 0.9,
+                "priority": 1.3,
+                "severity": "Low",
+                "duration_range": "1-3 days",
+                "subtype": "",
+                "stage": "Any"
+            },
+            {
+                "name": "Diarrhea",
+                "weight": 1.1,
+                "priority": 1.6,
+                "severity": "Moderate",
+                "duration_range": "1-5 days",
+                "subtype": "Watery, Bloody",
+                "stage": "Any"
+            },
+            {
+                "name": "Lethargy",
+                "weight": 1.0,
+                "priority": 1.4,
+                "severity": "Low",
+                "duration_range": "1-3 days",
+                "subtype": "Constant, Intermittent",
+                "stage": "Any"
+            },
+            {
+                "name": "Vomiting",
+                "weight": 1.2,
+                "priority": 1.7,
+                "severity": "High",
+                "duration_range": "1-3 days",
+                "subtype": "Foamy, Yellow, Bloody",
+                "stage": "Any"
+            }
+        ]
+      },
+      {
+        "illness": "Canine Respiratory Coronavirus",
+        "type": "Viral",
+        "confidence": 0.9,
+        "age_range": "Any",
+        "breed": "Any",
+        "size": "Any",
+        "symptoms": [
+          {
+            "name": "Coughing",
+            "stage": "Early",
+            "weight": 0.4,
+            "severity": "Low",
+            "priority": 2,
+            "duration_range": "1-10 days",
+            "subtype": "Dry, Wet, Honking"
+          },
+          {
+            "name": "Decreased Appetite",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Difficulty Breathing",
+            "stage": "Any",
+            "weight": 0.4,
+            "severity": "Low",
+            "priority": 2,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Eye Discharge",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Fever",
+            "stage": "Early",
+            "weight": 0.4,
+            "severity": "Medium",
+            "priority": 2,
+            "duration_range": "1-3 days",
+            "subtype": ""
+          },
+          {
+            "name": "Lethargy",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "1-14 days",
+            "subtype": "Intermittent, Constant"
+          },
+          {
+            "name": "Nasal Discharge",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Sneezing",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "1-5 days",
+            "subtype": "Occasional, Frequent"
+          }
+        ]
+      },
+      {
+        "illness": "Canine Distemper",
+        "type": "Viral",
+        "confidence": 0.9,
+        "age_range": "Puppy",
+        "breed": "Any",
+        "size": "Any",
+        "symptoms": [
+          {
+            "name": "Coughing",
+            "stage": "Early",
+            "weight": 0.4,
+            "severity": "Low",
+            "priority": 2,
+            "duration_range": "1-10 days",
+            "subtype": "Wet"
+          },
+          {
+            "name": "Dehydration",
+            "stage": "Late",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Depression",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Diarrhea",
+            "stage": "Early",
+            "weight": 0.4,
+            "severity": "Medium",
+            "priority": 2,
+            "duration_range": "1-7 days",
+            "subtype": "Watery"
+          },
+          {
+            "name": "Eye Discharge",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Fever",
+            "stage": "Early",
+            "weight": 0.4,
+            "severity": "Medium",
+            "priority": 2,
+            "duration_range": "1-3 days",
+            "subtype": ""
+          },
+          {
+            "name": "Lethargy",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "1-14 days",
+            "subtype": "Intermittent, Constant"
+          },
+          {
+            "name": "Muscle Twitching",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Nasal Discharge",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": "Mucus, Bloody"
+          },
+          {
+            "name": "Seizures",
+            "stage": "Early",
+            "weight": 0.7,
+            "severity": "High",
+            "priority": 1,
+            "duration_range": "1-2 days",
+            "subtype": "Mild, Severe, Cluster"
+          },
+          {
+            "name": "Sneezing",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "1-5 days",
+            "subtype": "Occasional, Frequent"
+          },
+          {
+            "name": "Vomiting",
+            "stage": "Early",
+            "weight": 0.4,
+            "severity": "Medium",
+            "priority": 2,
+            "duration_range": "1-7 days",
+            "subtype": "Bloody, Foamy, Yellow, Green"
+          },
+          {
+            "name": "Weight Loss",
+            "stage": "Late",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "1-30 days",
+            "subtype": ""
+          }
+        ]
+      },
+      {
+        "illness": "Canine Herpesvirus",
+        "type": "Viral",
+        "confidence": 0.9,
+        "age_range": "Any",
+        "breed": "Any",
+        "size": "Any",
+        "symptoms": [
+          {
+            "name": "Abdominal Pain",
+            "stage": "Early",
+            "weight": 0.2,
+            "severity": "Medium",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Breathing Difficulty",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "1-5 days",
+            "subtype": "Mild, Severe, Labored"
+          },
+          {
+            "name": "Coughing",
+            "stage": "Early",
+            "weight": 0.4,
+            "severity": "Low",
+            "priority": 2,
+            "duration_range": "1-10 days",
+            "subtype": "Wet"
+          },
+          {
+            "name": "Decreased Appetite",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Diarrhea",
+            "stage": "Early",
+            "weight": 0.4,
+            "severity": "Medium",
+            "priority": 2,
+            "duration_range": "1-7 days",
+            "subtype": "Watery"
+          },
+          {
+            "name": "Eye Discharge",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Eye Inflammation",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Excessive Crying",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Fever",
+            "stage": "Early",
+            "weight": 0.4,
+            "severity": "Medium",
+            "priority": 2,
+            "duration_range": "1-3 days",
+            "subtype": ""
+          },
+          {
+            "name": "Lethargy",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "1-14 days",
+            "subtype": "Intermittent, Constant"
+          },
+          {
+            "name": "Nasal Discharge",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": "Clear, Mucus"
+          },
+          {
+            "name": "Seizures",
+            "stage": "Early",
+            "weight": 0.7,
+            "severity": "High",
+            "priority": 1,
+            "duration_range": "1-2 days",
+            "subtype": "Mild, Severe, Cluster"
+          },
+          {
+            "name": "Sneezing",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "1-5 days",
+            "subtype": "Occasional, Frequent"
+          },
+          {
+            "name": "Weakness",
+            "stage": "Late",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Weight Loss",
+            "stage": "Late",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "1-30 days",
+            "subtype": ""
+          }
+        ]
+      },
+      {
+        "illness": "Canine Influenza",
+        "type": "Viral",
+        "confidence": 0.9,
+        "age_range": "Any",
+        "breed": "Any",
+        "size": "Any",
+        "symptoms": [
+          {
+            "name": "Breathing Difficulty",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "1-5 days",
+            "subtype": "Labored, Wheezing"
+          },
+          {
+            "name": "Coughing",
+            "stage": "Early",
+            "weight": 0.4,
+            "severity": "Low",
+            "priority": 2,
+            "duration_range": "1-10 days",
+            "subtype": "Wet"
+          },
+          {
+            "name": "Decreased Appetite",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Eye Discharge",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Fever",
+            "stage": "Early",
+            "weight": 0.4,
+            "severity": "Medium",
+            "priority": 2,
+            "duration_range": "1-3 days",
+            "subtype": ""
+          },
+          {
+            "name": "Lethargy",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "1-14 days",
+            "subtype": "Intermittent, Constant"
+          },
+          {
+            "name": "Nasal Discharge",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": "Clear, Mucus"
+          },
+          {
+            "name": "Sneezing",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "1-5 days",
+            "subtype": "Occasional, Frequent"
+          }
+        ]
+      },
+      {
+        "illness": "Kennel Cough",
+        "type": "Viral",
+        "confidence": 0.9,
+        "age_range": "Any",
+        "breed": "Any",
+        "size": "Any",
+        "symptoms": [
+          {
+            "name": "Coughing",
+            "stage": "Early",
+            "weight": 0.4,
+            "severity": "Low",
+            "priority": 2,
+            "duration_range": "1-10 days",
+            "subtype": "Dry, Honking"
+          },
+          {
+            "name": "Decreased Appetite",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Eye Discharge",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Fever",
+            "stage": "Early",
+            "weight": 0.4,
+            "severity": "Medium",
+            "priority": 2,
+            "duration_range": "1-3 days",
+            "subtype": ""
+          },
+          {
+            "name": "Gagging",
+            "stage": "Early",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Lethargy",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "1-14 days",
+            "subtype": "Intermittent, Constant"
+          },
+          {
+            "name": "Nasal Discharge",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": "Mucus"
+          },
+          {
+            "name": "Retching",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Sneezing",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "1-5 days",
+            "subtype": "Occasional, Frequent"
+          }
+        ]
+      },
+      {
+        "illness": "Canine Parvovirus",
+        "type": "Viral",
+        "confidence": 0.9,
+        "age_range": "Puppy",
+        "breed": "Any",
+        "size": "Any",
+        "symptoms": [
+          {
+            "name": "Abdominal Pain",
+            "stage": "Early",
+            "weight": 0.2,
+            "severity": "Medium",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Dehydration",
+            "stage": "Late",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Depression",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Diarrhea",
+            "stage": "Early",
+            "weight": 0.4,
+            "severity": "Medium",
+            "priority": 2,
+            "duration_range": "1-7 days",
+            "subtype": "Bloody"
+          },
+          {
+            "name": "Fever",
+            "stage": "Early",
+            "weight": 0.4,
+            "severity": "Medium",
+            "priority": 2,
+            "duration_range": "1-3 days",
+            "subtype": ""
+          },
+          {
+            "name": "Lethargy",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "1-14 days",
+            "subtype": "Intermittent, Constant"
+          },
+          {
+            "name": "Loss of Appetite",
+            "stage": "Any",
+            "weight": 0.4,
+            "severity": "Low",
+            "priority": 2,
+            "duration_range": "1-7 days",
+            "subtype": ""
+          },
+          {
+            "name": "Vomiting",
+            "stage": "Early",
+            "weight": 0.4,
+            "severity": "Medium",
+            "priority": 2,
+            "duration_range": "1-7 days",
+            "subtype": "Bloody, Foamy"
+          }
+        ]
+      },
+      {
+        "illness": "Rabies",
+        "type": "Viral",
+        "confidence": 0.9,
+        "age_range": "Any",
+        "breed": "Any",
+        "size": "Any",
+        "symptoms": [
+          {
+            "name": "Aggression",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Anxiety",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Confusion",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Decreased Appetite",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Difficulty Swallowing",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Excessive Drooling",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Fearfulness",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Fever",
+            "stage": "Early",
+            "weight": 0.4,
+            "severity": "Medium",
+            "priority": 2,
+            "duration_range": "1-3 days",
+            "subtype": ""
+          },
+          {
+            "name": "Irritability",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Lethargy",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "1-14 days",
+            "subtype": "Intermittent, Constant"
+          },
+          {
+            "name": "Light Sensitivity",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Muscle Paralysis",
+            "stage": "Late",
+            "weight": 0.7,
+            "severity": "High",
+            "priority": 1,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Restlessness",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Seizures",
+            "stage": "Early",
+            "weight": 0.7,
+            "severity": "High",
+            "priority": 1,
+            "duration_range": "1-2 days",
+            "subtype": "Mild, Severe, Cluster"
+          },
+          {
+            "name": "Sound Sensitivity",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Staggering",
+            "stage": "Any",
+            "weight": 0.7,
+            "severity": "Low",
+            "priority": 1,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Unusual Behavior",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Vomiting",
+            "stage": "Early",
+            "weight": 0.4,
+            "severity": "Medium",
+            "priority": 2,
+            "duration_range": "1-7 days",
+            "subtype": "Bloody, Foamy, Yellow, Green"
+          },
+          {
+            "name": "Weakness",
+            "stage": "Late",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          }
+        ]
+      },
+      {
+        "illness": "Canine Minute Virus",
+        "type": "Viral",
+        "confidence": 0.9,
+        "age_range": "Any",
+        "breed": "Any",
+        "size": "Any",
+        "symptoms": [
+          {
+            "name": "Abdominal Pain",
+            "stage": "Early",
+            "weight": 0.2,
+            "severity": "Medium",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Diarrhea",
+            "stage": "Early",
+            "weight": 0.4,
+            "severity": "Medium",
+            "priority": 2,
+            "duration_range": "1-7 days",
+            "subtype": "Bloody, Watery, Mucus"
+          },
+          {
+            "name": "Dehydration",
+            "stage": "Late",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Breathing Difficulty",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "1-5 days",
+            "subtype": "Mild, Severe, Labored"
+          },
+          {
+            "name": "Fever",
+            "stage": "Early",
+            "weight": 0.4,
+            "severity": "Medium",
+            "priority": 2,
+            "duration_range": "1-3 days",
+            "subtype": ""
+          },
+          {
+            "name": "Hypothermia",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Lethargy",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "1-14 days",
+            "subtype": "Intermittent, Constant"
+          },
+          {
+            "name": "Loss of Appetite",
+            "stage": "Any",
+            "weight": 0.4,
+            "severity": "Low",
+            "priority": 2,
+            "duration_range": "1-7 days",
+            "subtype": ""
+          },
+          {
+            "name": "Vomiting",
+            "stage": "Early",
+            "weight": 0.4,
+            "severity": "Medium",
+            "priority": 2,
+            "duration_range": "1-7 days",
+            "subtype": "Bloody, Foamy, Yellow, Green"
+          },
+          {
+            "name": "Weight Loss",
+            "stage": "Late",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "1-30 days",
+            "subtype": ""
+          }
+        ]
+      },
+      {
+        "illness": "Infectious Canine Hepatitis",
+        "type": "Viral",
+        "confidence": 0.9,
+        "age_range": "Any",
+        "breed": "Any",
+        "size": "Any",
+        "symptoms": [
+          {
+            "name": "Abdominal Pain",
+            "stage": "Early",
+            "weight": 0.2,
+            "severity": "Medium",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Coughing",
+            "stage": "Early",
+            "weight": 0.4,
+            "severity": "Low",
+            "priority": 2,
+            "duration_range": "1-10 days",
+            "subtype": "Dry, Wet, Honking"
+          },
+          {
+            "name": "Dehydration",
+            "stage": "Late",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Depression",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Diarrhea",
+            "stage": "Early",
+            "weight": 0.4,
+            "severity": "Medium",
+            "priority": 2,
+            "duration_range": "1-7 days",
+            "subtype": "Bloody, Watery, Mucus"
+          },
+          {
+            "name": "Eye Discharge",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Eye Inflammation",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Fever",
+            "stage": "Early",
+            "weight": 0.4,
+            "severity": "Medium",
+            "priority": 2,
+            "duration_range": "1-3 days",
+            "subtype": ""
+          },
+          {
+            "name": "Jaundice",
+            "stage": "Late",
+            "weight": 0.2,
+            "severity": "Medium",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Lethargy",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "1-14 days",
+            "subtype": "Intermittent, Constant"
+          },
+          {
+            "name": "Nasal Discharge",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Petechiae on Skin",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Seizures",
+            "stage": "Early",
+            "weight": 0.7,
+            "severity": "High",
+            "priority": 1,
+            "duration_range": "1-2 days",
+            "subtype": "Mild, Severe, Cluster"
+          },
+          {
+            "name": "Spontaneous Bleeding",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Swelling",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Thirst",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Vomiting",
+            "stage": "Early",
+            "weight": 0.4,
+            "severity": "Medium",
+            "priority": 2,
+            "duration_range": "1-7 days",
+            "subtype": "Bloody, Foamy, Yellow, Green"
+          },
+          {
+            "name": "Yellow Gums",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Yellow Skin",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          }
+        ]
+      },
+      {
+        "illness": "Brucellosis",
+        "type": "Bacterial",
+        "confidence": 0.9,
+        "age_range": "Adult",
+        "breed": "Any",
+        "size": "Medium-Large",
+        "symptoms": [
+            {
+                "name": "Abnormal Breeding Behavior",
+                "weight": 1.2,
+                "priority": 1.8,
+                "severity": "Moderate",
+                "duration_range": "7-30 days",
+                "subtype": "",
+                "stage": "Any"
+            },
+            {
+                "name": "Back Pain",
+                "weight": 1.0,
+                "priority": 1.5,
+                "severity": "High",
+                "duration_range": "3-10 days",
+                "subtype": "",
+                "stage": "Any"
+            },
+            {
+                "name": "Difficulty Walking",
+                "weight": 0.9,
+                "priority": 1.4,
+                "severity": "Moderate",
+                "duration_range": "2-7 days",
+                "subtype": "",
+                "stage": "Any"
+            },
+            {
+                "name": "Enlarged Testicles",
+                "weight": 1.0,
+                "priority": 1.7,
+                "severity": "Moderate",
+                "duration_range": "7-30 days",
+                "subtype": "",
+                "stage": "Any"
+            },
+            {
+                "name": "Lethargy",
+                "weight": 0.8,
+                "priority": 1.2,
+                "severity": "Low",
+                "duration_range": "3-7 days",
+                "subtype": "",
+                "stage": "Any"
+            },
+            {
+                "name": "Loss of Appetite",
+                "weight": 0.9,
+                "priority": 1.3,
+                "severity": "Low",
+                "duration_range": "2-5 days",
+                "subtype": "",
+                "stage": "Any"
+            },
+            {
+                "name": "Swollen Lymph Nodes",
+                "weight": 1.1,
+                "priority": 1.6,
+                "severity": "Moderate",
+                "duration_range": "3-10 days",
+                "subtype": "",
+                "stage": "Any"
+            },
+            {
+                "name": "Vaginal Discharge",
+                "weight": 1.0,
+                "priority": 1.5,
+                "severity": "Moderate",
+                "duration_range": "3-10 days",
+                "subtype": "",
+                "stage": "Any"
+            },
+            {
+                "name": "Weakness",
+                "weight": 1.0,
+                "priority": 1.4,
+                "severity": "Low",
+                "duration_range": "3-7 days",
+                "subtype": "",
+                "stage": "Any"
+            }
+        ]
+      },
+      {
+        "illness": "Leptospirosis",
+        "type": "Bacterial",
+        "confidence": 0.9,
+        "age_range": "Any",
+        "breed": "Any",
+        "size": "Any",
+        "symptoms": [
+          {
+            "name": "Abdominal Pain",
+            "stage": "Early",
+            "weight": 0.2,
+            "severity": "Medium",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Coughing",
+            "stage": "Early",
+            "weight": 0.4,
+            "severity": "Low",
+            "priority": 2,
+            "duration_range": "1-10 days",
+            "subtype": "Dry, Wet, Honking"
+          },
+          {
+            "name": "Dehydration",
+            "stage": "Late",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Diarrhea",
+            "stage": "Early",
+            "weight": 0.4,
+            "severity": "Medium",
+            "priority": 2,
+            "duration_range": "1-7 days",
+            "subtype": "Bloody, Watery, Mucus"
+          },
+          {
+            "name": "Difficulty Breathing",
+            "stage": "Any",
+            "weight": 0.4,
+            "severity": "Low",
+            "priority": 2,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Fever",
+            "stage": "Early",
+            "weight": 0.4,
+            "severity": "Medium",
+            "priority": 2,
+            "duration_range": "1-3 days",
+            "subtype": ""
+          },
+          {
+            "name": "Increased Thirst",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Increased Urination",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Jaundice",
+            "stage": "Late",
+            "weight": 0.2,
+            "severity": "Medium",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Lethargy",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "1-14 days",
+            "subtype": "Intermittent, Constant"
+          },
+          {
+            "name": "Loss of Appetite",
+            "stage": "Any",
+            "weight": 0.4,
+            "severity": "Low",
+            "priority": 2,
+            "duration_range": "1-7 days",
+            "subtype": ""
+          },
+          {
+            "name": "Muscle Pain",
+            "stage": "Early",
+            "weight": 0.2,
+            "severity": "Medium",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Shivering",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Vomiting",
+            "stage": "Early",
+            "weight": 0.4,
+            "severity": "Medium",
+            "priority": 2,
+            "duration_range": "1-7 days",
+            "subtype": "Bloody, Foamy, Yellow, Green"
+          },
+          {
+            "name": "Weakness",
+            "stage": "Late",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          }
+        ]
+      },
+      {
+        "illness": "Lyme Disease",
+        "type": "Bacterial",
+        "confidence": 0.9,
+        "age_range": "Adult",
+        "breed": "Any",
+        "size": "Any",
+        "symptoms": [
+          {
+            "name": "Decreased Appetite",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Depression",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Enlarged Lymph Nodes",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Fever",
+            "stage": "Early",
+            "weight": 0.4,
+            "severity": "Medium",
+            "priority": 2,
+            "duration_range": "1-3 days",
+            "subtype": ""
+          },
+          {
+            "name": "Lameness",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Lethargy",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "1-14 days",
+            "subtype": "Intermittent, Constant"
+          },
+          {
+            "name": "Swollen Joints",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          }
+        ]
+      },
+      {
+        "illness": "Ehrlichiosis",
+        "type": "Bacterial",
+        "confidence": 0.9,
+        "age_range": "Any",
+        "breed": "Any",
+        "size": "Any",
+        "symptoms": [
+          {
+            "name": "Bleeding",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Breathing Difficulty",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "1-5 days",
+            "subtype": "Mild, Severe, Labored"
+          },
+          {
+            "name": "Coughing",
+            "stage": "Early",
+            "weight": 0.4,
+            "severity": "Low",
+            "priority": 2,
+            "duration_range": "1-10 days",
+            "subtype": "Dry, Wet, Honking"
+          },
+          {
+            "name": "Depression",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Enlarged Lymph Nodes",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Fever",
+            "stage": "Early",
+            "weight": 0.4,
+            "severity": "Medium",
+            "priority": 2,
+            "duration_range": "1-3 days",
+            "subtype": ""
+          },
+          {
+            "name": "Lameness",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Lethargy",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "1-14 days",
+            "subtype": "Intermittent, Constant"
+          },
+          {
+            "name": "Loss of Appetite",
+            "stage": "Any",
+            "weight": 0.4,
+            "severity": "Low",
+            "priority": 2,
+            "duration_range": "1-7 days",
+            "subtype": ""
+          },
+          {
+            "name": "Nosebleeds",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Weight Loss",
+            "stage": "Late",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "1-30 days",
+            "subtype": ""
+          }
+        ]
+      },
+      {
+        "illness": "Rocky Mountain Spotted Fever",
+        "type": "Bacterial",
+        "confidence": 0.9,
+        "age_range": "Any",
+        "breed": "Any",
+        "size": "Any",
+        "symptoms": [
+          {
+            "name": "Abdominal Pain",
+            "stage": "Early",
+            "weight": 0.2,
+            "severity": "Medium",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Bleeding",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Coughing",
+            "stage": "Early",
+            "weight": 0.4,
+            "severity": "Low",
+            "priority": 2,
+            "duration_range": "1-10 days",
+            "subtype": "Dry, Wet, Honking"
+          },
+          {
+            "name": "Depression",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Diarrhea",
+            "stage": "Early",
+            "weight": 0.4,
+            "severity": "Medium",
+            "priority": 2,
+            "duration_range": "1-7 days",
+            "subtype": "Bloody, Watery, Mucus"
+          },
+          {
+            "name": "Enlarged Lymph Nodes",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Eye Discharge",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Fever",
+            "stage": "Early",
+            "weight": 0.4,
+            "severity": "Medium",
+            "priority": 2,
+            "duration_range": "1-3 days",
+            "subtype": ""
+          },
+          {
+            "name": "Joint Pain",
+            "stage": "Early",
+            "weight": 0.2,
+            "severity": "Medium",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Lameness",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Lethargy",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "1-14 days",
+            "subtype": "Intermittent, Constant"
+          },
+          {
+            "name": "Nosebleeds",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Vomiting",
+            "stage": "Early",
+            "weight": 0.4,
+            "severity": "Medium",
+            "priority": 2,
+            "duration_range": "1-7 days",
+            "subtype": "Bloody, Foamy, Yellow, Green"
+          }
+        ]
+      },
+      {
+        "illness": "Clostridial Infections",
+        "type": "Bacterial",
+        "confidence": 0.9,
+        "age_range": "Any",
+        "breed": "Any",
+        "size": "Any",
+        "symptoms": [
+          {
+            "name": "Abdominal Pain",
+            "stage": "Early",
+            "weight": 0.2,
+            "severity": "Medium",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Bloating",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Diarrhea",
+            "stage": "Early",
+            "weight": 0.4,
+            "severity": "Medium",
+            "priority": 2,
+            "duration_range": "1-7 days",
+            "subtype": "Bloody, Watery, Mucus"
+          },
+          {
+            "name": "Lethargy",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "1-14 days",
+            "subtype": "Intermittent, Constant"
+          },
+          {
+            "name": "Loss of Appetite",
+            "stage": "Any",
+            "weight": 0.4,
+            "severity": "Low",
+            "priority": 2,
+            "duration_range": "1-7 days",
+            "subtype": ""
+          },
+          {
+            "name": "Vomiting",
+            "stage": "Early",
+            "weight": 0.4,
+            "severity": "Medium",
+            "priority": 2,
+            "duration_range": "1-7 days",
+            "subtype": "Bloody, Foamy, Yellow, Green"
+          },
+          {
+            "name": "Weakness",
+            "stage": "Late",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          }
+        ]
+      },
+      {
+        "illness": "Anaerobic Bacterial Infections",
+        "type": "Bacterial",
+        "confidence": 0.9,
+        "age_range": "Any",
+        "breed": "Any",
+        "size": "Any",
+        "symptoms": [
+          {
+            "name": "Abscesses",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Bad Breath",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Difficulty Eating",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Fever",
+            "stage": "Early",
+            "weight": 0.4,
+            "severity": "Medium",
+            "priority": 2,
+            "duration_range": "1-3 days",
+            "subtype": ""
+          },
+          {
+            "name": "Lethargy",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "1-14 days",
+            "subtype": "Intermittent, Constant"
+          },
+          {
+            "name": "Loss of Appetite",
+            "stage": "Any",
+            "weight": 0.4,
+            "severity": "Low",
+            "priority": 2,
+            "duration_range": "1-7 days",
+            "subtype": ""
+          },
+          {
+            "name": "Swelling at Infection Site",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          }
+        ]
+      },
+      {
+        "illness": "Actinomycosis (Bacterial Infection)",
+        "type": "Bacterial",
+        "confidence": 0.9,
+        "age_range": "Any",
+        "breed": "Any",
+        "size": "Any",
+        "symptoms": [
+          {
+            "name": "Abscesses",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Difficulty Eating",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Draining Wounds",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Facial Swelling",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Fever",
+            "stage": "Early",
+            "weight": 0.4,
+            "severity": "Medium",
+            "priority": 2,
+            "duration_range": "1-3 days",
+            "subtype": ""
+          },
+          {
+            "name": "Lethargy",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "1-14 days",
+            "subtype": "Intermittent, Constant"
+          },
+          {
+            "name": "Loss of Appetite",
+            "stage": "Any",
+            "weight": 0.4,
+            "severity": "Low",
+            "priority": 2,
+            "duration_range": "1-7 days",
+            "subtype": ""
+          },
+          {
+            "name": "Swollen Lymph Nodes",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          }
+        ]
+      },
+      {
+        "illness": "Campylobacteriosis (Bacterial Infection)",
+        "type": "Bacterial",
+        "confidence": 0.9,
+        "age_range": "Any",
+        "breed": "Any",
+        "size": "Any",
+        "symptoms": [
+          {
+            "name": "Abdominal Pain",
+            "stage": "Early",
+            "weight": 0.2,
+            "severity": "Medium",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Diarrhea",
+            "stage": "Early",
+            "weight": 0.4,
+            "severity": "Medium",
+            "priority": 2,
+            "duration_range": "1-7 days",
+            "subtype": "Watery, Mucus"
+          },
+          {
+            "name": "Fever",
+            "stage": "Early",
+            "weight": 0.4,
+            "severity": "Medium",
+            "priority": 2,
+            "duration_range": "1-3 days",
+            "subtype": ""
+          },
+          {
+            "name": "Lethargy",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "1-14 days",
+            "subtype": "Intermittent, Constant"
+          },
+          {
+            "name": "Loss of Appetite",
+            "stage": "Any",
+            "weight": 0.4,
+            "severity": "Low",
+            "priority": 2,
+            "duration_range": "1-7 days",
+            "subtype": ""
+          },
+          {
+            "name": "Vomiting",
+            "stage": "Early",
+            "weight": 0.4,
+            "severity": "Medium",
+            "priority": 2,
+            "duration_range": "1-7 days",
+            "subtype": "Yellow"
+          }
+        ]
+      },
+      {
+        "illness": "Streptococcus Infections",
+        "type": "Bacterial",
+        "confidence": 0.9,
+        "age_range": "Any",
+        "breed": "Any",
+        "size": "Any",
+        "symptoms": [
+          {
+            "name": "Coughing",
+            "stage": "Early",
+            "weight": 0.4,
+            "severity": "Low",
+            "priority": 2,
+            "duration_range": "1-10 days",
+            "subtype": "Dry, Wet, Honking"
+          },
+          {
+            "name": "Difficulty Breathing",
+            "stage": "Any",
+            "weight": 0.4,
+            "severity": "Low",
+            "priority": 2,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Fever",
+            "stage": "Early",
+            "weight": 0.4,
+            "severity": "Medium",
+            "priority": 2,
+            "duration_range": "1-3 days",
+            "subtype": ""
+          },
+          {
+            "name": "Lethargy",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "1-14 days",
+            "subtype": "Intermittent, Constant"
+          },
+          {
+            "name": "Loss of Appetite",
+            "stage": "Any",
+            "weight": 0.4,
+            "severity": "Low",
+            "priority": 2,
+            "duration_range": "1-7 days",
+            "subtype": ""
+          },
+          {
+            "name": "Nasal Discharge",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Swollen Lymph Nodes",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          }
+        ]
+      },
+      {
+        "illness": "Hookworms",
+        "type": "Parasitic",
+        "confidence": 0.9,
+        "age_range": "Puppy",
+        "breed": "Any",
+        "size": "Any",
+        "symptoms": [
+            {
+                "name": "Anemia",
+                "weight": 1.1,
+                "priority": 1.7,
+                "severity": "High",
+                "duration_range": "3-7 days",
+                "subtype": "",
+                "stage": "Any"
+            },
+            {
+                "name": "Breathing Difficulty",
+                "weight": 1.0,
+                "priority": 1.5,
+                "severity": "Moderate",
+                "duration_range": "1-3 days",
+                "subtype": "Labored, Rapid",
+                "stage": "Any"
+            },
+            {
+                "name": "Coughing",
+                "weight": 0.9,
+                "priority": 1.2,
+                "severity": "Low",
+                "duration_range": "2-4 days",
+                "subtype": "",
+                "stage": "Any"
+            },
+            {
+                "name": "Dark Stool",
+                "weight": 1.2,
+                "priority": 1.6,
+                "severity": "Moderate",
+                "duration_range": "2-5 days",
+                "subtype": "",
+                "stage": "Any"
+            },
+            {
+                "name": "Diarrhea",
+                "weight": 1.0,
+                "priority": 1.5,
+                "severity": "Moderate",
+                "duration_range": "2-5 days",
+                "subtype": "Watery, Bloody",
+                "stage": "Any"
+            },
+            {
+                "name": "Lethargy",
+                "weight": 0.8,
+                "priority": 1.1,
+                "severity": "Low",
+                "duration_range": "2-4 days",
+                "subtype": "",
+                "stage": "Any"
+            },
+            {
+                "name": "Pale Gums",
+                "weight": 1.1,
+                "priority": 1.4,
+                "severity": "High",
+                "duration_range": "1-3 days",
+                "subtype": "",
+                "stage": "Any"
+            },
+            {
+                "name": "Poor Growth",
+                "weight": 0.9,
+                "priority": 1.3,
+                "severity": "Moderate",
+                "duration_range": "7-30 days",
+                "subtype": "",
+                "stage": "Any"
+            },
+            {
+                "name": "Weakness",
+                "weight": 0.8,
+                "priority": 1.2,
+                "severity": "Low",
+                "duration_range": "2-4 days",
+                "subtype": "",
+                "stage": "Any"
+            },
+            {
+                "name": "Weight Loss",
+                "weight": 1.0,
+                "priority": 1.5,
+                "severity": "Moderate",
+                "duration_range": "5-10 days",
+                "subtype": "",
+                "stage": "Any"
+            }
+        ]
+      },
+      {
+        "illness": "Tapeworms",
+        "type": "Parasitic",
+        "confidence": 0.9,
+        "age_range": "Any",
+        "breed": "Any",
+        "size": "Any",
+        "symptoms": [
+          {
+            "name": "Abdominal Discomfort",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Diarrhea",
+            "stage": "Early",
+            "weight": 0.4,
+            "severity": "Medium",
+            "priority": 2,
+            "duration_range": "1-7 days",
+            "subtype": "Bloody, Watery, Mucus"
+          },
+          {
+            "name": "Dull Coat",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Increased Appetite",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Scooting",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Vomiting",
+            "stage": "Early",
+            "weight": 0.4,
+            "severity": "Medium",
+            "priority": 2,
+            "duration_range": "1-7 days",
+            "subtype": "Bloody, Foamy, Yellow, Green"
+          },
+          {
+            "name": "Weight Loss",
+            "stage": "Late",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "1-30 days",
+            "subtype": ""
+          },
+          {
+            "name": "Worms in Stool",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          }
+        ]
+      },
+      {
+        "illness": "Roundworms",
+        "type": "Parasitic",
+        "confidence": 0.9,
+        "age_range": "Any",
+        "breed": "Any",
+        "size": "Any",
+        "symptoms": [
+          {
+            "name": "Abdominal Discomfort",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Coughing",
+            "stage": "Early",
+            "weight": 0.4,
+            "severity": "Low",
+            "priority": 2,
+            "duration_range": "1-10 days",
+            "subtype": "Dry, Wet, Honking"
+          },
+          {
+            "name": "Diarrhea",
+            "stage": "Early",
+            "weight": 0.4,
+            "severity": "Medium",
+            "priority": 2,
+            "duration_range": "1-7 days",
+            "subtype": "Bloody, Watery, Mucus"
+          },
+          {
+            "name": "Dull Coat",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Poor Growth",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Pot-Belly",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Vomiting",
+            "stage": "Early",
+            "weight": 0.4,
+            "severity": "Medium",
+            "priority": 2,
+            "duration_range": "1-7 days",
+            "subtype": "Bloody, Foamy, Yellow, Green"
+          },
+          {
+            "name": "Weight Loss",
+            "stage": "Late",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "1-30 days",
+            "subtype": ""
+          },
+          {
+            "name": "Worms in Stool",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          }
+        ]
+      },
+      {
+        "illness": "Fleas",
+        "type": "Parasitic",
+        "confidence": 0.9,
+        "age_range": "Any",
+        "breed": "Any",
+        "size": "Any",
+        "symptoms": [
+          {
+            "name": "Excessive Scratching",
+            "stage": "Early",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Fleas",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Flea Dirt",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Hair Loss",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Redness",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Restlessness",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Skin Irritation",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          }
+        ]
+      },
+      {
+        "illness": "Ticks",
+        "type": "Parasitic",
+        "confidence": 0.9,
+        "age_range": "Any",
+        "breed": "Any",
+        "size": "Any",
+        "symptoms": [
+          {
+            "name": "Anemia",
+            "stage": "Late",
+            "weight": 0.2,
+            "severity": "Medium",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Hair Loss",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Itching",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "1-14 days",
+            "subtype": "Localized, Generalized"
+          },
+          {
+            "name": "Paralysis",
+            "stage": "Late",
+            "weight": 0.7,
+            "severity": "High",
+            "priority": 1,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Skin Inflammation",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Ticks",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          }
+        ]
+      },
+      {
+        "illness": "Heartworm Disease",
+        "type": "Parasitic",
+        "confidence": 0.9,
+        "age_range": "Any",
+        "breed": "Any",
+        "size": "Medium",
+        "symptoms": [
+          {
+            "name": "Breathing Difficulty",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "1-5 days",
+            "subtype": "Labored, Open-mouth"
+          },
+          {
+            "name": "Coughing",
+            "stage": "Early",
+            "weight": 0.4,
+            "severity": "Low",
+            "priority": 2,
+            "duration_range": "1-10 days",
+            "subtype": "Dry, Wet, Honking"
+          },
+          {
+            "name": "Exercise Intolerance",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Fatigue",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Lethargy",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "1-14 days",
+            "subtype": "Intermittent, Constant"
+          },
+          {
+            "name": "Weight Loss",
+            "stage": "Late",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "1-30 days",
+            "subtype": ""
+          }
+        ]
+      },
+      {
+        "illness": "Ear Mites",
+        "type": "Parasitic",
+        "confidence": 0.9,
+        "age_range": "Any",
+        "breed": "Any",
+        "size": "Any",
+        "symptoms": [
+          {
+            "name": "Ear Discharge",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": "Brown, Bloody"
+          },
+          {
+            "name": "Ear Odor",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Ear Scratching",
+            "stage": "Early",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Head Shaking",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Inflammation",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          }
+        ]
+      },
+      {
+        "illness": "Cheyletiellosis (Walking Dandruff)",
+        "type": "Parasitic",
+        "confidence": 0.9,
+        "age_range": "Any",
+        "breed": "Any",
+        "size": "Any",
+        "symptoms": [
+          {
+            "name": "Dandruff",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Excessive Scratching",
+            "stage": "Early",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Hair Loss",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Redness",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Skin Scaling",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          }
+        ]
+      },
+      {
+        "illness": "Chiggers",
+        "type": "Parasitic",
+        "confidence": 0.9,
+        "age_range": "Any",
+        "breed": "Any",
+        "size": "Any",
+        "symptoms": [
+          {
+            "name": "Excessive Scratching",
+            "stage": "Early",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Hair Loss",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Redness",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Skin Irritation",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Visible Mites",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          }
+        ]
+      },
+      {
+        "illness": "Mange (Demodectic and Sarcoptic)",
+        "type": "Parasitic",
+        "confidence": 0.9,
+        "age_range": "Any",
+        "breed": "Any",
+        "size": "Any",
+        "symptoms": [
+          {
+            "name": "Excessive Scratching",
+            "stage": "Early",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Hair Loss",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Redness",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Skin Scaling",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Skin Thickening",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Sores",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          }
+        ]
+      },
+      {
+        "illness": "Sarcoptes scabiei (Scabies)",
+        "type": "Parasitic",
+        "confidence": 0.9,
+        "age_range": "Any",
+        "breed": "Any",
+        "size": "Any",
+        "symptoms": [
+          {
+            "name": "Excessive Scratching",
+            "stage": "Early",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Hair Loss",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Redness",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Skin Scaling",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Sores",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          }
+        ]
+      },
+      {
+        "illness": "Ameba Infection",
+        "type": "Parasitic",
+        "confidence": 0.9,
+        "age_range": "Any",
+        "breed": "Any",
+        "size": "Any",
+        "symptoms": [
+          {
+            "name": "Diarrhea",
+            "stage": "Early",
+            "weight": 0.4,
+            "severity": "Medium",
+            "priority": 2,
+            "duration_range": "1-7 days",
+            "subtype": "Bloody, Watery, Mucus"
+          },
+          {
+            "name": "Lethargy",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "1-14 days",
+            "subtype": "Intermittent, Constant"
+          },
+          {
+            "name": "Loss of Appetite",
+            "stage": "Any",
+            "weight": 0.4,
+            "severity": "Low",
+            "priority": 2,
+            "duration_range": "1-7 days",
+            "subtype": ""
+          },
+          {
+            "name": "Vomiting",
+            "stage": "Early",
+            "weight": 0.4,
+            "severity": "Medium",
+            "priority": 2,
+            "duration_range": "1-7 days",
+            "subtype": "Bloody, Foamy, Yellow, Green"
+          },
+          {
+            "name": "Weight Loss",
+            "stage": "Late",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "1-30 days",
+            "subtype": ""
+          }
+        ]
+      },
+      {
+        "illness": "Babesiosis",
+        "type": "Parasitic",
+        "confidence": 0.9,
+        "age_range": "Any",
+        "breed": "Any",
+        "size": "Any",
+        "symptoms": [
+          {
+            "name": "Anemia",
+            "stage": "Late",
+            "weight": 0.2,
+            "severity": "Medium",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Dark Urine",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Fever",
+            "stage": "Early",
+            "weight": 0.4,
+            "severity": "Medium",
+            "priority": 2,
+            "duration_range": "1-3 days",
+            "subtype": ""
+          },
+          {
+            "name": "Jaundice",
+            "stage": "Late",
+            "weight": 0.2,
+            "severity": "Medium",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Lethargy",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "1-14 days",
+            "subtype": "Intermittent, Constant"
+          },
+          {
+            "name": "Pale Gums",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Weakness",
+            "stage": "Late",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          }
+        ]
+      },
+      {
+        "illness": "Coccidia in Dogs",
+        "type": "Parasitic",
+        "confidence": 0.9,
+        "age_range": "Any",
+        "breed": "Any",
+        "size": "Any",
+        "symptoms": [
+          {
+            "name": "Dehydration",
+            "stage": "Late",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Diarrhea",
+            "stage": "Early",
+            "weight": 0.4,
+            "severity": "Medium",
+            "priority": 2,
+            "duration_range": "1-7 days",
+            "subtype": "Watery, Mucus"
+          },
+          {
+            "name": "Lethargy",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "1-14 days",
+            "subtype": "Intermittent, Constant"
+          },
+          {
+            "name": "Loss of Appetite",
+            "stage": "Any",
+            "weight": 0.4,
+            "severity": "Low",
+            "priority": 2,
+            "duration_range": "1-7 days",
+            "subtype": ""
+          },
+          {
+            "name": "Vomiting",
+            "stage": "Early",
+            "weight": 0.4,
+            "severity": "Medium",
+            "priority": 2,
+            "duration_range": "1-7 days",
+            "subtype": "Bloody, Foamy, Yellow, Green"
+          },
+          {
+            "name": "Weight Loss",
+            "stage": "Late",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "1-30 days",
+            "subtype": ""
+          }
+        ]
+      },
+      {
+        "illness": "Cryptosporidium in Dogs",
+        "type": "Parasitic",
+        "confidence": 0.9,
+        "age_range": "Any",
+        "breed": "Any",
+        "size": "Any",
+        "symptoms": [
+          {
+            "name": "Diarrhea",
+            "stage": "Early",
+            "weight": 0.4,
+            "severity": "Medium",
+            "priority": 2,
+            "duration_range": "1-7 days",
+            "subtype": "Watery, Mucus"
+          },
+          {
+            "name": "Lethargy",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "1-14 days",
+            "subtype": "Intermittent, Constant"
+          },
+          {
+            "name": "Loss of Appetite",
+            "stage": "Any",
+            "weight": 0.4,
+            "severity": "Low",
+            "priority": 2,
+            "duration_range": "1-7 days",
+            "subtype": ""
+          },
+          {
+            "name": "Vomiting",
+            "stage": "Early",
+            "weight": 0.4,
+            "severity": "Medium",
+            "priority": 2,
+            "duration_range": "1-7 days",
+            "subtype": "Bloody, Foamy, Yellow, Green"
+          },
+          {
+            "name": "Weight Loss",
+            "stage": "Late",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "1-30 days",
+            "subtype": ""
+          }
+        ]
+      },
+      {
+        "illness": "Toxoplasmosis in Dogs",
+        "type": "Parasitic",
+        "confidence": 0.9,
+        "age_range": "Any",
+        "breed": "Any",
+        "size": "Any",
+        "symptoms": [
+          {
+            "name": "Breathing Difficulty",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "1-5 days",
+            "subtype": "Mild, Severe, Labored"
+          },
+          {
+            "name": "Coughing",
+            "stage": "Early",
+            "weight": 0.4,
+            "severity": "Low",
+            "priority": 2,
+            "duration_range": "1-10 days",
+            "subtype": "Dry, Wet, Honking"
+          },
+          {
+            "name": "Diarrhea",
+            "stage": "Early",
+            "weight": 0.4,
+            "severity": "Medium",
+            "priority": 2,
+            "duration_range": "1-7 days",
+            "subtype": "Mucus"
+          },
+          {
+            "name": "Fever",
+            "stage": "Early",
+            "weight": 0.4,
+            "severity": "Medium",
+            "priority": 2,
+            "duration_range": "1-3 days",
+            "subtype": ""
+          },
+          {
+            "name": "Lethargy",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "1-14 days",
+            "subtype": "Intermittent, Constant"
+          },
+          {
+            "name": "Loss of Appetite",
+            "stage": "Any",
+            "weight": 0.4,
+            "severity": "Low",
+            "priority": 2,
+            "duration_range": "1-7 days",
+            "subtype": ""
+          },
+          {
+            "name": "Muscle Weakness",
+            "stage": "Late",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Neurological Signs",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Vomiting",
+            "stage": "Early",
+            "weight": 0.4,
+            "severity": "Medium",
+            "priority": 2,
+            "duration_range": "1-7 days",
+            "subtype": "Bloody, Foamy, Yellow, Green"
+          },
+          {
+            "name": "Osteoarthritis",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Difficulty Standing",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Difficulty Walking",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Joint Swelling",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Lameness",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Pain",
+            "stage": "Early",
+            "weight": 0.2,
+            "severity": "Medium",
+            "priority": 3,
+            "duration_range": "1-10 days",
+            "subtype": "Sharp, Dull, Localized"
+          },
+          {
+            "name": "Reduced Activity",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Stiffness",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Weight Gain",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          }
+        ]
+      },
+      {
+        "illness": "Osteoarthritis",
+        "type": "Musculoskeletal",
+        "confidence": 0.9,
+        "age_range": "Senior",
+        "breed": "Labrador Retriever",
+        "size": "Large",
+        "symptoms": [
+            {
+                "name": "Difficulty Standing",
+                "weight": 1.1,
+                "priority": 1.6,
+                "severity": "Moderate",
+                "duration_range": "7-30 days",
+                "subtype": "",
+                "stage": "Any"
+            },
+            {
+                "name": "Difficulty Walking",
+                "weight": 1.0,
+                "priority": 1.5,
+                "severity": "Moderate",
+                "duration_range": "7-30 days",
+                "subtype": "",
+                "stage": "Any"
+            },
+            {
+                "name": "Joint Swelling",
+                "weight": 1.1,
+                "priority": 1.7,
+                "severity": "Moderate",
+                "duration_range": "7-30 days",
+                "subtype": "",
+                "stage": "Any"
+            },
+            {
+                "name": "Lameness",
+                "weight": 1.0,
+                "priority": 1.4,
+                "severity": "Moderate",
+                "duration_range": "7-30 days",
+                "subtype": "",
+                "stage": "Any"
+            },
+            {
+                "name": "Lethargy",
+                "weight": 0.9,
+                "priority": 1.2,
+                "severity": "Low",
+                "duration_range": "5-10 days",
+                "subtype": "",
+                "stage": "Any"
+            },
+            {
+                "name": "Pain",
+                "weight": 1.2,
+                "priority": 1.8,
+                "severity": "High",
+                "duration_range": "5-15 days",
+                "subtype": "",
+                "stage": "Any"
+            },
+            {
+                "name": "Reduced Activity",
+                "weight": 1.0,
+                "priority": 1.3,
+                "severity": "Low",
+                "duration_range": "7-30 days",
+                "subtype": "",
+                "stage": "Any"
+            },
+            {
+                "name": "Stiffness",
+                "weight": 1.1,
+                "priority": 1.5,
+                "severity": "Moderate",
+                "duration_range": "7-30 days",
+                "subtype": "",
+                "stage": "Any"
+            },
+            {
+                "name": "Weight Gain",
+                "weight": 0.9,
+                "priority": 1.2,
+                "severity": "Low",
+                "duration_range": "7-30 days",
+                "subtype": "",
+                "stage": "Any"
+            }
+        ]
+      },
+      {
+        "illness": "Hip Dysplasia",
+        "type": "Musculoskeletal",
+        "confidence": 0.9,
+        "age_range": "Any",
+        "breed": "Large",
+        "size": "Large",
+        "symptoms": [
+          {
+            "name": "Bunny Hopping",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Difficulty Rising",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Difficulty Running",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Lameness",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Loss of Muscle Mass",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Pain",
+            "stage": "Early",
+            "weight": 0.2,
+            "severity": "Medium",
+            "priority": 3,
+            "duration_range": "1-10 days",
+            "subtype": "Chronic, Dull"
+          },
+          {
+            "name": "Reduced Activity",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Stiffness",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Waddling Gait",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          }
+        ]
+      },
+      {
+        "illness": "Elbow Dysplasia",
+        "type": "Musculoskeletal",
+        "confidence": 0.9,
+        "age_range": "Any",
+        "breed": "Any",
+        "size": "Any",
+        "symptoms": [
+          {
+            "name": "Difficulty Moving Elbow",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Forelimb Lameness",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Joint Swelling",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Pain",
+            "stage": "Early",
+            "weight": 0.2,
+            "severity": "Medium",
+            "priority": 3,
+            "duration_range": "1-10 days",
+            "subtype": "Sharp, Dull, Localized"
+          },
+          {
+            "name": "Reduced Activity",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Stiffness",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          }
+        ]
+      },
+      {
+        "illness": "Luxating Patella",
+        "type": "Musculoskeletal",
+        "confidence": 0.9,
+        "age_range": "Any",
+        "breed": "Any",
+        "size": "Any",
+        "symptoms": [
+          {
+            "name": "Hindlimb Lameness",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Intermittent Limping",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Pain",
+            "stage": "Early",
+            "weight": 0.2,
+            "severity": "Medium",
+            "priority": 3,
+            "duration_range": "1-10 days",
+            "subtype": "Sharp, Dull, Localized"
+          },
+          {
+            "name": "Skipping Gait",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Sudden Carrying of Leg",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          }
+        ]
+      },
+      {
+        "illness": "Osteochondritis Dissecans",
+        "type": "Musculoskeletal",
+        "confidence": 0.9,
+        "age_range": "Puppy",
+        "breed": "Any",
+        "size": "Any",
+        "symptoms": [
+          {
+            "name": "Joint Swelling",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Lameness",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Pain",
+            "stage": "Early",
+            "weight": 0.2,
+            "severity": "Medium",
+            "priority": 3,
+            "duration_range": "1-10 days",
+            "subtype": "Sharp, Dull, Localized"
+          },
+          {
+            "name": "Reduced Activity",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Stiffness",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          }
+        ]
+      },
+      {
+        "illness": "Panosteitis",
+        "type": "Musculoskeletal",
+        "confidence": 0.9,
+        "age_range": "Any",
+        "breed": "Any",
+        "size": "Any",
+        "symptoms": [
+          {
+            "name": "Intermittent Lameness",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Pain",
+            "stage": "Early",
+            "weight": 0.2,
+            "severity": "Medium",
+            "priority": 3,
+            "duration_range": "1-10 days",
+            "subtype": "Localized, Intermittent"
+          },
+          {
+            "name": "Reluctance to Move",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Shifting Leg Lameness",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Weight Loss",
+            "stage": "Late",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "1-30 days",
+            "subtype": ""
+          }
+        ]
+      },
+      {
+        "illness": "Legg-Calv\u00e9-Perthes Syndrome",
+        "type": "Musculoskeletal",
+        "confidence": 0.9,
+        "age_range": "Any",
+        "breed": "Toy",
+        "size": "Small",
+        "symptoms": [
+          {
+            "name": "Difficulty Walking",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Hip Pain",
+            "stage": "Early",
+            "weight": 0.2,
+            "severity": "Medium",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Lameness",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Muscle Atrophy",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Stiffness",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          }
+        ]
+      },
+      {
+        "illness": "Back Pain",
+        "type": "Musculoskeletal",
+        "confidence": 0.9,
+        "age_range": "Any",
+        "breed": "Any",
+        "size": "Any",
+        "symptoms": [
+          {
+            "name": "Arched Back",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Difficulty Moving",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Reluctance to Jump",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Stiffness",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Vocalization When Touched",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          }
+        ]
+      },
+      {
+        "illness": "Congenital Vertebral Anomalies",
+        "type": "Musculoskeletal",
+        "confidence": 0.9,
+        "age_range": "Any",
+        "breed": "Any",
+        "size": "Any",
+        "symptoms": [
+          {
+            "name": "Abnormal Posture",
+            "stage": "Any",
+            "weight": 0.7,
+            "severity": "Low",
+            "priority": 1,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Back Pain",
+            "stage": "Early",
+            "weight": 0.2,
+            "severity": "Medium",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Coordination Issues",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Difficulty Walking",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Weakness",
+            "stage": "Late",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          }
+        ]
+      },
+      {
+        "illness": "Craniomandibular Osteopathy",
+        "type": "Musculoskeletal",
+        "confidence": 0.9,
+        "age_range": "Any",
+        "breed": "Any",
+        "size": "Any",
+        "symptoms": [
+          {
+            "name": "Difficulty Chewing",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Enlarged Jaw",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Jaw Pain",
+            "stage": "Early",
+            "weight": 0.2,
+            "severity": "Medium",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Reduced Appetite",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Swelling",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          }
+        ]
+      },
+      {
+        "illness": "Hypertrophic Osteopathy",
+        "type": "Musculoskeletal",
+        "confidence": 0.9,
+        "age_range": "Any",
+        "breed": "Any",
+        "size": "Any",
+        "symptoms": [
+          {
+            "name": "Lameness",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Limb Swelling",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Pain",
+            "stage": "Early",
+            "weight": 0.2,
+            "severity": "Medium",
+            "priority": 3,
+            "duration_range": "1-10 days",
+            "subtype": "Sharp, Dull, Localized"
+          },
+          {
+            "name": "Reluctance to Move",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Stiffness",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          }
+        ]
+      },
+      {
+        "illness": "Hypertrophic Osteodystrophy",
+        "type": "Musculoskeletal",
+        "confidence": 0.9,
+        "age_range": "Any",
+        "breed": "Any",
+        "size": "Any",
+        "symptoms": [
+          {
+            "name": "Fever",
+            "stage": "Early",
+            "weight": 0.4,
+            "severity": "Medium",
+            "priority": 2,
+            "duration_range": "1-3 days",
+            "subtype": ""
+          },
+          {
+            "name": "Joint Swelling",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Lameness",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Pain",
+            "stage": "Early",
+            "weight": 0.2,
+            "severity": "Medium",
+            "priority": 3,
+            "duration_range": "1-10 days",
+            "subtype": "Sharp, Dull, Localized"
+          },
+          {
+            "name": "Reluctance to Move",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          }
+        ]
+      },
+      {
+        "illness": "Spondylosis",
+        "type": "Musculoskeletal",
+        "confidence": 0.9,
+        "age_range": "Any",
+        "breed": "Any",
+        "size": "Any",
+        "symptoms": [
+          {
+            "name": "Back Stiffness",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Difficulty Rising",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Lameness",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Pain",
+            "stage": "Early",
+            "weight": 0.2,
+            "severity": "Medium",
+            "priority": 3,
+            "duration_range": "1-10 days",
+            "subtype": "Sharp, Dull, Localized"
+          },
+          {
+            "name": "Reduced Flexibility",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          }
+        ]
+      },
+      {
+        "illness": "Masticatory Muscle Myositis",
+        "type": "Musculoskeletal",
+        "confidence": 0.9,
+        "age_range": "Any",
+        "breed": "Any",
+        "size": "Any",
+        "symptoms": [
+          {
+            "name": "Difficulty Opening Mouth",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Jaw Pain",
+            "stage": "Early",
+            "weight": 0.2,
+            "severity": "Medium",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Muscle Swelling",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Reduced Appetite",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Sunken Eyes",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "von Willebrand Disease",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Bleeding Gums",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Excessive Bleeding from Minor Wounds",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Nosebleeds",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Prolonged Bleeding After Surgery or Injury",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          }
+        ]
+      },
+      {
+        "illness": "von Willebrand Disease",
+        "type": "Cardiovascular",
+        "confidence": 0.9,
+        "age_range": "Adult",
+        "breed": "Doberman Pinscher",
+        "size": "Any",
+        "symptoms": [
+            {
+                "name": "Bleeding Gums",
+                "weight": 1.0,
+                "priority": 1.4,
+                "severity": "Moderate",
+                "duration_range": "1-3 days",
+                "subtype": "",
+                "stage": "Any"
+            },
+            {
+                "name": "Excessive Bleeding from Minor Wounds",
+                "weight": 1.2,
+                "priority": 1.7,
+                "severity": "High",
+                "duration_range": "1-3 days",
+                "subtype": "",
+                "stage": "Any"
+            },
+            {
+                "name": "Nosebleeds",
+                "weight": 1.1,
+                "priority": 1.6,
+                "severity": "Moderate",
+                "duration_range": "1-2 days",
+                "subtype": "",
+                "stage": "Any"
+            },
+            {
+                "name": "Prolonged Bleeding After Surgery or Injury",
+                "weight": 1.3,
+                "priority": 1.8,
+                "severity": "High",
+                "duration_range": "1-5 days",
+                "subtype": "",
+                "stage": "Any"
+            }
+        ]
+      },
+      {
+        "illness": "Thrombocytopenia",
+        "type": "Cardiovascular",
+        "confidence": 0.9,
+        "age_range": "Any",
+        "breed": "Any",
+        "size": "Any",
+        "symptoms": [
+          {
+            "name": "Blood in Urine",
+            "stage": "Any",
+            "weight": 0.7,
+            "severity": "Low",
+            "priority": 1,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Bruising",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Excessive Bleeding",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Nosebleeds",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Petechiae",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          }
+        ]
+      },
+      {
+        "illness": "Hemolytic Anemia",
+        "type": "Cardiovascular",
+        "confidence": 0.9,
+        "age_range": "Any",
+        "breed": "Any",
+        "size": "Any",
+        "symptoms": [
+          {
+            "name": "Dark Urine",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Fatigue",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Jaundice",
+            "stage": "Late",
+            "weight": 0.2,
+            "severity": "Medium",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Pale Gums",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Rapid Heart Rate",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Weakness",
+            "stage": "Late",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          }
+        ]
+      },
+      {
+        "illness": "Dilated Cardiomyopathy",
+        "type": "Cardiovascular",
+        "confidence": 0.9,
+        "age_range": "Any",
+        "breed": "Any",
+        "size": "Any",
+        "symptoms": [
+          {
+            "name": "Coughing",
+            "stage": "Early",
+            "weight": 0.4,
+            "severity": "Low",
+            "priority": 2,
+            "duration_range": "1-10 days",
+            "subtype": "Dry, Wet, Honking"
+          },
+          {
+            "name": "Difficulty Breathing",
+            "stage": "Any",
+            "weight": 0.4,
+            "severity": "Low",
+            "priority": 2,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Exercise Intolerance",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Lethargy",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "1-14 days",
+            "subtype": "Intermittent, Constant"
+          },
+          {
+            "name": "Rapid Breathing",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Weakness",
+            "stage": "Late",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Weight Loss",
+            "stage": "Late",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "1-30 days",
+            "subtype": ""
+          }
+        ]
+      },
+      {
+        "illness": "Congestive Heart Failure",
+        "type": "Cardiovascular",
+        "confidence": 0.9,
+        "age_range": "Any",
+        "breed": "Any",
+        "size": "Any",
+        "symptoms": [
+          {
+            "name": "Coughing",
+            "stage": "Early",
+            "weight": 0.4,
+            "severity": "Low",
+            "priority": 2,
+            "duration_range": "1-10 days",
+            "subtype": "Dry, Wet, Honking"
+          },
+          {
+            "name": "Difficulty Breathing",
+            "stage": "Any",
+            "weight": 0.4,
+            "severity": "Low",
+            "priority": 2,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Distended Abdomen",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Exercise Intolerance",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Lethargy",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "1-14 days",
+            "subtype": "Intermittent, Constant"
+          },
+          {
+            "name": "Rapid Breathing",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Weakness",
+            "stage": "Late",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          }
+        ]
+      },
+      {
+        "illness": "Aortic Stenosis",
+        "type": "Cardiovascular",
+        "confidence": 0.9,
+        "age_range": "Any",
+        "breed": "Any",
+        "size": "Any",
+        "symptoms": [
+          {
+            "name": "Collapse",
+            "stage": "Early",
+            "weight": 0.7,
+            "severity": "High",
+            "priority": 1,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Difficulty Breathing",
+            "stage": "Any",
+            "weight": 0.4,
+            "severity": "Low",
+            "priority": 2,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Exercise Intolerance",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Fainting",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Lethargy",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "1-14 days",
+            "subtype": "Intermittent, Constant"
+          },
+          {
+            "name": "Rapid Breathing",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          }
+        ]
+      },
+      {
+        "illness": "Pulmonary Hypertension",
+        "type": "Cardiovascular",
+        "confidence": 0.9,
+        "age_range": "Any",
+        "breed": "Any",
+        "size": "Any",
+        "symptoms": [
+          {
+            "name": "Bluish Gums",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Coughing",
+            "stage": "Early",
+            "weight": 0.4,
+            "severity": "Low",
+            "priority": 2,
+            "duration_range": "1-10 days",
+            "subtype": "Dry, Wet, Honking"
+          },
+          {
+            "name": "Difficulty Breathing",
+            "stage": "Any",
+            "weight": 0.4,
+            "severity": "Low",
+            "priority": 2,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Exercise Intolerance",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Fainting",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Lethargy",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "1-14 days",
+            "subtype": "Intermittent, Constant"
+          },
+          {
+            "name": "Rapid Breathing",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          }
+        ]
+      },
+      {
+        "illness": "Heart Valve Dysplasia",
+        "type": "Cardiovascular",
+        "confidence": 0.9,
+        "age_range": "Any",
+        "breed": "Any",
+        "size": "Any",
+        "symptoms": [
+          {
+            "name": "Coughing",
+            "stage": "Early",
+            "weight": 0.4,
+            "severity": "Low",
+            "priority": 2,
+            "duration_range": "1-10 days",
+            "subtype": "Dry, Wet, Honking"
+          },
+          {
+            "name": "Difficulty Breathing",
+            "stage": "Any",
+            "weight": 0.4,
+            "severity": "Low",
+            "priority": 2,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Exercise Intolerance",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Lethargy",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "1-14 days",
+            "subtype": "Intermittent, Constant"
+          },
+          {
+            "name": "Rapid Breathing",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Stunted Growth",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          }
+        ]
+      },
+      {
+        "illness": "Patent Ductus Arteriosus",
+        "type": "Cardiovascular",
+        "confidence": 0.9,
+        "age_range": "Any",
+        "breed": "Any",
+        "size": "Any",
+        "symptoms": [
+          {
+            "name": "Coughing",
+            "stage": "Early",
+            "weight": 0.4,
+            "severity": "Low",
+            "priority": 2,
+            "duration_range": "1-10 days",
+            "subtype": "Dry, Wet, Honking"
+          },
+          {
+            "name": "Difficulty Breathing",
+            "stage": "Any",
+            "weight": 0.4,
+            "severity": "Low",
+            "priority": 2,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Exercise Intolerance",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Lethargy",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "1-14 days",
+            "subtype": "Intermittent, Constant"
+          },
+          {
+            "name": "Rapid Breathing",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Stunted Growth",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          }
+        ]
+      },
+      {
+        "illness": "Syringomyelia",
+        "type": "Neurological",
+        "confidence": 0.9,
+        "age_range": "Young Adult",
+        "breed": "Cavalier King Charles Spaniel",
+        "size": "Toy",
+        "symptoms": [
+            {
+                "name": "Disorientation",
+                "weight": 1.0,
+                "priority": 1.4,
+                "severity": "Moderate",
+                "duration_range": "2-5 days",
+                "subtype": "",
+                "stage": "Any"
+            },
+            {
+                "name": "Head Shaking",
+                "weight": 1.0,
+                "priority": 1.3,
+                "severity": "Moderate",
+                "duration_range": "2-5 days",
+                "subtype": "",
+                "stage": "Any"
+            },
+            {
+                "name": "Lethargy",
+                "weight": 0.9,
+                "priority": 1.2,
+                "severity": "Low",
+                "duration_range": "2-4 days",
+                "subtype": "",
+                "stage": "Any"
+            },
+            {
+                "name": "Pain",
+                "weight": 1.2,
+                "priority": 1.6,
+                "severity": "High",
+                "duration_range": "3-6 days",
+                "subtype": "",
+                "stage": "Any"
+            },
+            {
+                "name": "Scratching at Air",
+                "weight": 1.1,
+                "priority": 1.6,
+                "severity": "Moderate",
+                "duration_range": "2-5 days",
+                "subtype": "",
+                "stage": "Any"
+            },
+            {
+                "name": "Scratching at Neck",
+                "weight": 1.2,
+                "priority": 1.7,
+                "severity": "High",
+                "duration_range": "2-5 days",
+                "subtype": "",
+                "stage": "Any"
+            },
+            {
+                "name": "Sensitivity to Touch",
+                "weight": 1.0,
+                "priority": 1.5,
+                "severity": "Moderate",
+                "duration_range": "2-5 days",
+                "subtype": "",
+                "stage": "Any"
+            },
+            {
+                "name": "Weakness",
+                "weight": 1.0,
+                "priority": 1.3,
+                "severity": "Low",
+                "duration_range": "3-6 days",
+                "subtype": "",
+                "stage": "Any"
+            },
+            {
+                "name": "Wobbly Gait",
+                "weight": 1.1,
+                "priority": 1.5,
+                "severity": "Moderate",
+                "duration_range": "3-6 days",
+                "subtype": "",
+                "stage": "Any"
+            }
+        ]
+      },
+      {
+        "illness": "Epilepsy",
+        "type": "Neurological",
+        "confidence": 0.9,
+        "age_range": "Any",
+        "breed": "Any",
+        "size": "Any",
+        "symptoms": [
+          {
+            "name": "Behavioral Changes",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Confusion Post-Seizure",
+            "stage": "Early",
+            "weight": 0.7,
+            "severity": "High",
+            "priority": 1,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Disorientation",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Drooling",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Loss of Consciousness",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Muscle Twitching",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Seizures",
+            "stage": "Early",
+            "weight": 0.7,
+            "severity": "High",
+            "priority": 1,
+            "duration_range": "1-2 days",
+            "subtype": "Mild, Severe, Cluster"
+          },
+          {
+            "name": "Stiffness",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Unusual Eye Movements",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          }
+        ]
+      },
+      {
+        "illness": "Cerebellar Hypoplasia",
+        "type": "Neurological",
+        "confidence": 0.9,
+        "age_range": "Any",
+        "breed": "Any",
+        "size": "Any",
+        "symptoms": [
+          {
+            "name": "Coordination Issues",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Falling Over",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Head Tilt",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Head Tremors",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Unsteady Gait",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Wide-Legged Stance",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Wobbling",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          }
+        ]
+      },
+      {
+        "illness": "Polyneuropathy",
+        "type": "Neurological",
+        "confidence": 0.9,
+        "age_range": "Any",
+        "breed": "Any",
+        "size": "Any",
+        "symptoms": [
+          {
+            "name": "Difficulty Walking",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Foot Dragging",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Loss of Reflexes",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Muscle Atrophy",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Paralysis",
+            "stage": "Late",
+            "weight": 0.7,
+            "severity": "High",
+            "priority": 1,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Sensory Deficits",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Tremors",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Weakness",
+            "stage": "Late",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          }
+        ]
+      },
+      {
+        "illness": "Cauda Equina Syndrome",
+        "type": "Neurological",
+        "confidence": 0.9,
+        "age_range": "Any",
+        "breed": "Any",
+        "size": "Any",
+        "symptoms": [
+          {
+            "name": "Difficulty Rising",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Hind Limb Atrophy",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Hunched Back",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Incontinence",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Lameness",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Pain in Lower Back",
+            "stage": "Early",
+            "weight": 0.2,
+            "severity": "Medium",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Tail Paralysis",
+            "stage": "Late",
+            "weight": 0.7,
+            "severity": "High",
+            "priority": 1,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Weakness",
+            "stage": "Late",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          }
+        ]
+      },
+      {
+        "illness": "Tick Paralysis",
+        "type": "Neurological",
+        "confidence": 0.9,
+        "age_range": "Any",
+        "breed": "Any",
+        "size": "Any",
+        "symptoms": [
+          {
+            "name": "Difficulty Breathing",
+            "stage": "Any",
+            "weight": 0.4,
+            "severity": "Low",
+            "priority": 2,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Lethargy",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "1-14 days",
+            "subtype": "Intermittent, Constant"
+          },
+          {
+            "name": "Loss of Appetite",
+            "stage": "Any",
+            "weight": 0.4,
+            "severity": "Low",
+            "priority": 2,
+            "duration_range": "1-7 days",
+            "subtype": ""
+          },
+          {
+            "name": "Loss of Reflexes",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Paralysis",
+            "stage": "Late",
+            "weight": 0.7,
+            "severity": "High",
+            "priority": 1,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Unsteadiness",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Voice Changes",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Weakness",
+            "stage": "Late",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          }
+        ]
+      },
+      {
+        "illness": "Granulomatous Meningoencephalitis",
+        "type": "Neurological",
+        "confidence": 0.9,
+        "age_range": "Any",
+        "breed": "Any",
+        "size": "Any",
+        "symptoms": [
+          {
+            "name": "Blindness",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Circling",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Facial Abnormalities",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Head Tilt",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Lethargy",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "1-14 days",
+            "subtype": "Intermittent, Constant"
+          },
+          {
+            "name": "Loss of Coordination",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Neck Pain",
+            "stage": "Early",
+            "weight": 0.2,
+            "severity": "Medium",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Seizures",
+            "stage": "Early",
+            "weight": 0.7,
+            "severity": "High",
+            "priority": 1,
+            "duration_range": "1-2 days",
+            "subtype": "Mild, Severe, Cluster"
+          }
+        ]
+      },
+      {
+        "illness": "Laryngeal Paralysis",
+        "type": "Neurological",
+        "confidence": 0.9,
+        "age_range": "Any",
+        "breed": "Any",
+        "size": "Any",
+        "symptoms": [
+          {
+            "name": "Coughing",
+            "stage": "Early",
+            "weight": 0.4,
+            "severity": "Low",
+            "priority": 2,
+            "duration_range": "1-10 days",
+            "subtype": "Dry, Wet, Honking"
+          },
+          {
+            "name": "Difficulty Breathing",
+            "stage": "Any",
+            "weight": 0.4,
+            "severity": "Low",
+            "priority": 2,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Fatigue",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Gagging",
+            "stage": "Early",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Hoarse Bark",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Noisy Breathing",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          }
+        ]
+      },
+      {
+        "illness": "Wobbler Disease",
+        "type": "Neurological",
+        "confidence": 0.9,
+        "age_range": "Any",
+        "breed": "Large",
+        "size": "Any",
+        "symptoms": [
+          {
+            "name": "Difficulty Walking",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Loss of Coordination",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Neck Pain",
+            "stage": "Early",
+            "weight": 0.2,
+            "severity": "Medium",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Stiffness",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Weakness",
+            "stage": "Late",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Wobbly Gait",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Worn Toenails",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          }
+        ]
+      },
+      {
+        "illness": "Periodontal Disease",
+        "type": "Dental",
+        "confidence": 0.9,
+        "age_range": "Adult",
+        "breed": "Yorkshire Terrier",
+        "size": "Small",
+        "symptoms": [
+            {
+                "name": "Bad Breath",
+                "weight": 1.0,
+                "priority": 1.3,
+                "severity": "Low",
+                "duration_range": "3-7 days",
+                "subtype": "",
+                "stage": "Any"
+            },
+            {
+                "name": "Bleeding Gums",
+                "weight": 1.1,
+                "priority": 1.4,
+                "severity": "Moderate",
+                "duration_range": "3-7 days",
+                "subtype": "",
+                "stage": "Any"
+            },
+            {
+                "name": "Discolored Teeth",
+                "weight": 1.0,
+                "priority": 1.3,
+                "severity": "Low",
+                "duration_range": "7-30 days",
+                "subtype": "",
+                "stage": "Any"
+            },
+            {
+                "name": "Dropping Food",
+                "weight": 1.0,
+                "priority": 1.4,
+                "severity": "Moderate",
+                "duration_range": "2-5 days",
+                "subtype": "",
+                "stage": "Any"
+            },
+            {
+                "name": "Excessive Drooling",
+                "weight": 1.0,
+                "priority": 1.3,
+                "severity": "Low",
+                "duration_range": "2-5 days",
+                "subtype": "",
+                "stage": "Any"
+            },
+            {
+                "name": "Inflamed Gums",
+                "weight": 1.2,
+                "priority": 1.6,
+                "severity": "Moderate",
+                "duration_range": "3-7 days",
+                "subtype": "",
+                "stage": "Any"
+            },
+            {
+                "name": "Loose Teeth",
+                "weight": 1.1,
+                "priority": 1.5,
+                "severity": "Moderate",
+                "duration_range": "7-30 days",
+                "subtype": "",
+                "stage": "Any"
+            },
+            {
+                "name": "Nasal Discharge",
+                "weight": 0.9,
+                "priority": 1.2,
+                "severity": "Low",
+                "duration_range": "1-4 days",
+                "subtype": "",
+                "stage": "Any"
+            },
+            {
+                "name": "Reduced Appetite",
+                "weight": 1.0,
+                "priority": 1.3,
+                "severity": "Low",
+                "duration_range": "2-5 days",
+                "subtype": "",
+                "stage": "Any"
+            },
+            {
+                "name": "Weight Loss",
+                "weight": 1.0,
+                "priority": 1.4,
+                "severity": "Moderate",
+                "duration_range": "5-10 days",
+                "subtype": "",
+                "stage": "Any"
+            }
+        ]
+      },
+      {
+        "illness": "Tooth Root Abscess",
+        "type": "Dental",
+        "confidence": 0.9,
+        "age_range": "Any",
+        "breed": "Any",
+        "size": "Any",
+        "symptoms": [
+          {
+            "name": "Bad Breath",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Decreased Appetite",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Facial Swelling",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Oral Pain",
+            "stage": "Early",
+            "weight": 0.2,
+            "severity": "Medium",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Pawing at Face",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Reluctance to Chew",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Swelling Below Eye",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          }
+        ]
+      },
+      {
+        "illness": "Gingivitis",
+        "type": "Dental",
+        "confidence": 0.9,
+        "age_range": "Any",
+        "breed": "Any",
+        "size": "Any",
+        "symptoms": [
+          {
+            "name": "Bad Breath",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Bleeding Gums",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Difficulty Chewing",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Drooling",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Red Gums",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Swollen Gums",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          }
+        ]
+      },
+      {
+        "illness": "Cavities (Dental Caries)",
+        "type": "Dental",
+        "confidence": 0.9,
+        "age_range": "Any",
+        "breed": "Any",
+        "size": "Any",
+        "symptoms": [
+          {
+            "name": "Bad Breath",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Discolored Teeth",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Drooling",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Loose Teeth",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Oral Pain",
+            "stage": "Early",
+            "weight": 0.2,
+            "severity": "Medium",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Red Gums",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Swollen Gums",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          }
+        ]
+      },
+      {
+        "illness": "Craniomandibular Osteopathy",
+        "type": "Dental",
+        "confidence": 0.9,
+        "age_range": "Any",
+        "breed": "Any",
+        "size": "Any",
+        "symptoms": [
+          {
+            "name": "Difficulty Chewing",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Enlarged Jaw",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Jaw Pain",
+            "stage": "Early",
+            "weight": 0.2,
+            "severity": "Medium",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Reduced Appetite",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Swelling",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Diabetes Mellitus",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Cataracts",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Dehydration",
+            "stage": "Late",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Increased Appetite",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Increased Thirst",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Increased Urination",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Lethargy",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "1-14 days",
+            "subtype": "Intermittent, Constant"
+          },
+          {
+            "name": "Recurrent Infections",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Weight Loss",
+            "stage": "Late",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "1-30 days",
+            "subtype": ""
+          }
+        ]
+      },
+      {
+        "illness": "Diabetes Mellitus",
+        "type": "Metabolic",
+        "confidence": 0.9,
+        "age_range": "Senior",
+        "breed": "Samoyed",
+        "size": "Medium",
+        "symptoms": [
+            {
+                "name": "Cataracts",
+                "weight": 1.0,
+                "priority": 1.4,
+                "severity": "Moderate",
+                "duration_range": "7-30 days",
+                "subtype": "",
+                "stage": "Any"
+            },
+            {
+                "name": "Dehydration",
+                "weight": 1.1,
+                "priority": 1.6,
+                "severity": "High",
+                "duration_range": "3-7 days",
+                "subtype": "",
+                "stage": "Any"
+            },
+            {
+                "name": "Increased Appetite",
+                "weight": 1.0,
+                "priority": 1.3,
+                "severity": "Low",
+                "duration_range": "5-10 days",
+                "subtype": "",
+                "stage": "Any"
+            },
+            {
+                "name": "Increased Thirst",
+                "weight": 1.2,
+                "priority": 1.6,
+                "severity": "Moderate",
+                "duration_range": "3-7 days",
+                "subtype": "",
+                "stage": "Any"
+            },
+            {
+                "name": "Increased Urination",
+                "weight": 1.1,
+                "priority": 1.5,
+                "severity": "Moderate",
+                "duration_range": "3-7 days",
+                "subtype": "",
+                "stage": "Any"
+            },
+            {
+                "name": "Lethargy",
+                "weight": 0.9,
+                "priority": 1.2,
+                "severity": "Low",
+                "duration_range": "3-5 days",
+                "subtype": "",
+                "stage": "Any"
+            },
+            {
+                "name": "Recurrent Infections",
+                "weight": 1.2,
+                "priority": 1.6,
+                "severity": "Moderate",
+                "duration_range": "7-30 days",
+                "subtype": "",
+                "stage": "Any"
+            },
+            {
+                "name": "Weight Loss",
+                "weight": 1.0,
+                "priority": 1.4,
+                "severity": "Moderate",
+                "duration_range": "5-10 days",
+                "subtype": "",
+                "stage": "Any"
+            }
+        ]
+      },
+      {
+        "illness": "Addison's Disease",
+        "type": "Metabolic",
+        "confidence": 0.9,
+        "age_range": "Any",
+        "breed": "Any",
+        "size": "Any",
+        "symptoms": [
+          {
+            "name": "Dehydration",
+            "stage": "Late",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Depression",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Diarrhea",
+            "stage": "Early",
+            "weight": 0.4,
+            "severity": "Medium",
+            "priority": 2,
+            "duration_range": "1-7 days",
+            "subtype": "Bloody, Watery, Mucus"
+          },
+          {
+            "name": "Increased Thirst",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Increased Urination",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Lethargy",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "1-14 days",
+            "subtype": "Intermittent, Constant"
+          },
+          {
+            "name": "Shivering",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Vomiting",
+            "stage": "Early",
+            "weight": 0.4,
+            "severity": "Medium",
+            "priority": 2,
+            "duration_range": "1-7 days",
+            "subtype": "Bloody, Foamy, Yellow, Green"
+          },
+          {
+            "name": "Weight Loss",
+            "stage": "Late",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "1-30 days",
+            "subtype": ""
+          }
+        ]
+      },
+      {
+        "illness": "Cushing's Syndrome",
+        "type": "Metabolic",
+        "confidence": 0.9,
+        "age_range": "Any",
+        "breed": "Any",
+        "size": "Any",
+        "symptoms": [
+          {
+            "name": "Abdominal Enlargement",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Hair Loss",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Increased Appetite",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Increased Thirst",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Increased Urination",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Lethargy",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "1-14 days",
+            "subtype": "Intermittent, Constant"
+          },
+          {
+            "name": "Muscle Weakness",
+            "stage": "Late",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Panting",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Skin Infections",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          }
+        ]
+      },
+      {
+        "illness": "Chronic Kidney Disease (CKD)",
+        "type": "Renal",
+        "confidence": 0.9,
+        "age_range": "Senior",
+        "breed": "Shetland Sheepdog",
+        "size": "Small",
+        "symptoms": [
+            {
+                "name": "Bad Breath",
+                "weight": 1.0,
+                "priority": 1.4,
+                "severity": "Low",
+                "duration_range": "5-10 days",
+                "subtype": "",
+                "stage": "Any"
+            },
+            {
+                "name": "Decreased Appetite",
+                "weight": 1.0,
+                "priority": 1.4,
+                "severity": "Moderate",
+                "duration_range": "5-10 days",
+                "subtype": "",
+                "stage": "Any"
+            },
+            {
+                "name": "Diarrhea",
+                "weight": 0.9,
+                "priority": 1.3,
+                "severity": "Low",
+                "duration_range": "3-5 days",
+                "subtype": "",
+                "stage": "Any"
+            },
+            {
+                "name": "Increased Thirst",
+                "weight": 1.1,
+                "priority": 1.5,
+                "severity": "Moderate",
+                "duration_range": "5-10 days",
+                "subtype": "",
+                "stage": "Any"
+            },
+            {
+                "name": "Increased Urination",
+                "weight": 1.1,
+                "priority": 1.5,
+                "severity": "Moderate",
+                "duration_range": "5-10 days",
+                "subtype": "",
+                "stage": "Any"
+            },
+            {
+                "name": "Lethargy",
+                "weight": 1.0,
+                "priority": 1.3,
+                "severity": "Low",
+                "duration_range": "5-7 days",
+                "subtype": "",
+                "stage": "Any"
+            },
+            {
+                "name": "Mouth Ulcers",
+                "weight": 1.2,
+                "priority": 1.6,
+                "severity": "Moderate",
+                "duration_range": "3-6 days",
+                "subtype": "",
+                "stage": "Any"
+            },
+            {
+                "name": "Nausea",
+                "weight": 1.1,
+                "priority": 1.5,
+                "severity": "Moderate",
+                "duration_range": "3-6 days",
+                "subtype": "",
+                "stage": "Any"
+            },
+            {
+                "name": "Vomiting",
+                "weight": 1.2,
+                "priority": 1.6,
+                "severity": "Moderate",
+                "duration_range": "3-5 days",
+                "subtype": "Foamy, Yellow, Bloody",
+                "stage": "Any"
+            },
+            {
+                "name": "Weight Loss",
+                "weight": 1.0,
+                "priority": 1.3,
+                "severity": "Moderate",
+                "duration_range": "5-10 days",
+                "subtype": "",
+                "stage": "Any"
+            }
+        ]
+      },
+      {
+        "illness": "Chronic Renal Failure",
+        "type": "Renal",
+        "confidence": 0.9,
+        "age_range": "Any",
+        "breed": "Any",
+        "size": "Any",
+        "symptoms": [
+          {
+            "name": "Bad Breath",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Decreased Appetite",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Diarrhea",
+            "stage": "Early",
+            "weight": 0.4,
+            "severity": "Medium",
+            "priority": 2,
+            "duration_range": "1-7 days",
+            "subtype": "Bloody, Watery, Mucus"
+          },
+          {
+            "name": "Increased Thirst",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Increased Urination",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Lethargy",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "1-14 days",
+            "subtype": "Intermittent, Constant"
+          },
+          {
+            "name": "Mouth Ulcers",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Nausea",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Vomiting",
+            "stage": "Early",
+            "weight": 0.4,
+            "severity": "Medium",
+            "priority": 2,
+            "duration_range": "1-7 days",
+            "subtype": "Bloody, Foamy, Yellow, Green"
+          },
+          {
+            "name": "Weight Loss",
+            "stage": "Late",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "1-30 days",
+            "subtype": ""
+          }
+        ]
+      },
+      {
+        "illness": "Kidney Stones",
+        "type": "Renal",
+        "confidence": 0.9,
+        "age_range": "Any",
+        "breed": "Any",
+        "size": "Any",
+        "symptoms": [
+          {
+            "name": "Abdominal Pain",
+            "stage": "Early",
+            "weight": 0.2,
+            "severity": "Medium",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Blood in Urine",
+            "stage": "Any",
+            "weight": 0.7,
+            "severity": "Low",
+            "priority": 1,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Difficulty Urinating",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Frequent Urination",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Lethargy",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "1-14 days",
+            "subtype": "Intermittent, Constant"
+          },
+          {
+            "name": "Vomiting",
+            "stage": "Early",
+            "weight": 0.4,
+            "severity": "Medium",
+            "priority": 2,
+            "duration_range": "1-7 days",
+            "subtype": "Bloody, Foamy, Yellow, Green"
+          }
+        ]
+      },
+      {
+        "illness": "Glomerulonephritis",
+        "type": "Renal",
+        "confidence": 0.9,
+        "age_range": "Any",
+        "breed": "Any",
+        "size": "Any",
+        "symptoms": [
+          {
+            "name": "Blood in Urine",
+            "stage": "Any",
+            "weight": 0.7,
+            "severity": "Low",
+            "priority": 1,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Edema (Swelling)",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Lethargy",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "1-14 days",
+            "subtype": "Intermittent, Constant"
+          },
+          {
+            "name": "Proteinuria (Foamy Urine)",
+            "stage": "Any",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "",
+            "subtype": ""
+          },
+          {
+            "name": "Weight Loss",
+            "stage": "Late",
+            "weight": 0.2,
+            "severity": "Low",
+            "priority": 3,
+            "duration_range": "1-30 days",
+            "subtype": ""
+          }
+        ]
+      }
+    ]
+  }
