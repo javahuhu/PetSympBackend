@@ -2,8 +2,8 @@
     "owner": "Adobo",
     "symptoms": [
         "bad breath",
-        "oral pain",
-        "loose teeth"
+        "vomiting",
+        "lethargy"
     ],
     "pet_info": {
         "age": "1",
@@ -12,83 +12,647 @@
         "pet_type": "dog",
         "age_range": "Adult"
     },
-    "user_answers": {},
+    "user_answers": {
+        "vomiting": {
+            "How long has your pet had vomiting?": "5-7 days",
+            "Is the vomiting Mild or Severe?": "severe"
+        },
+        "lethargy": {
+            "How long has your pet had lethargy?": "3-5 days",
+            "Is the lethargy Mild or Severe?": "severe"
+        }
+    },
     "possible_diagnosis": [
-        {
-            "illness": "Cavities (Dental Caries)",
-            "matched_symptoms": [
-                "bad breath",
-                "loose teeth",
-                "oral pain"
-            ],
-            "confidence_fc": 0.39,
-            "confidence_gb": 0.38,
-            "confidence_ab": 0.33,
-            "subtype_coverage": 0.0,
-            "confidence_ab_raw": 0.33,
-            "confidence_softmax": 0.2087
-        },
-        {
-            "illness": "Tooth Root Abscess",
-            "matched_symptoms": [
-                "bad breath",
-                "oral pain"
-            ],
-            "confidence_fc": 0.26,
-            "confidence_gb": 0.17,
-            "confidence_ab": 0.14,
-            "subtype_coverage": 0.0,
-            "confidence_ab_raw": 0.14,
-            "confidence_softmax": 0.1726
-        },
-        {
-            "illness": "Periodontal Disease",
-            "matched_symptoms": [
-                "bad breath",
-                "loose teeth"
-            ],
-            "confidence_fc": 0.18,
-            "confidence_gb": 0.09,
-            "confidence_ab": 0.06,
-            "subtype_coverage": 0.0,
-            "confidence_ab_raw": 0.06,
-            "confidence_softmax": 0.1593
-        },
         {
             "illness": "Chronic Renal Failure",
             "matched_symptoms": [
-                "bad breath"
+                "bad breath",
+                "lethargy",
+                "vomiting"
             ],
-            "confidence_fc": 0.07,
-            "confidence_gb": 0.02,
-            "confidence_ab": 0.03,
+            "confidence_fc": 0.3,
+            "confidence_gb": 0.23,
+            "confidence_ab": 0.11,
+            "type": "Renal",
             "subtype_coverage": 0.0,
-            "confidence_ab_raw": 0.03,
-            "confidence_softmax": 0.1546
+            "confidence_ab_raw": 0.11,
+            "confidence_softmax": 0.0231
+        },
+        {
+            "illness": "Coccidia in Dogs",
+            "matched_symptoms": [
+                "lethargy",
+                "vomiting"
+            ],
+            "confidence_fc": 0.3,
+            "confidence_gb": 0.01,
+            "confidence_ab": 0.08,
+            "type": "Parasitic",
+            "subtype_coverage": 0.0,
+            "confidence_ab_raw": 0.08,
+            "confidence_softmax": 0.0224
+        },
+        {
+            "illness": "Ameba Infection",
+            "matched_symptoms": [
+                "lethargy",
+                "vomiting"
+            ],
+            "confidence_fc": 0.34,
+            "confidence_gb": 0.01,
+            "confidence_ab": 0.05,
+            "type": "Parasitic",
+            "subtype_coverage": 0.0,
+            "confidence_ab_raw": 0.05,
+            "confidence_softmax": 0.0218
+        },
+        {
+            "illness": "Cryptosporidium in Dogs",
+            "matched_symptoms": [
+                "lethargy",
+                "vomiting"
+            ],
+            "confidence_fc": 0.34,
+            "confidence_gb": 0.01,
+            "confidence_ab": 0.05,
+            "type": "Parasitic",
+            "subtype_coverage": 0.0,
+            "confidence_ab_raw": 0.05,
+            "confidence_softmax": 0.0218
+        },
+        {
+            "illness": "Canine Enteric Coronavirus",
+            "matched_symptoms": [
+                "lethargy",
+                "vomiting"
+            ],
+            "confidence_fc": 0.38,
+            "confidence_gb": 0.02,
+            "confidence_ab": 0.04,
+            "type": "Viral",
+            "subtype_coverage": 0.0,
+            "confidence_ab_raw": 0.04,
+            "confidence_softmax": 0.0216
+        },
+        {
+            "illness": "Clostridial Infections",
+            "matched_symptoms": [
+                "lethargy",
+                "vomiting"
+            ],
+            "confidence_fc": 0.27,
+            "confidence_gb": 0.01,
+            "confidence_ab": 0.04,
+            "type": "Bacterial",
+            "subtype_coverage": 0.0,
+            "confidence_ab_raw": 0.04,
+            "confidence_softmax": 0.0216
         },
         {
             "illness": "Anaerobic Bacterial Infections",
             "matched_symptoms": [
+                "bad breath",
+                "lethargy"
+            ],
+            "confidence_fc": 0.2,
+            "confidence_gb": 0.01,
+            "confidence_ab": 0.04,
+            "type": "Bacterial",
+            "subtype_coverage": 0.0,
+            "confidence_ab_raw": 0.04,
+            "confidence_softmax": 0.0216
+        },
+        {
+            "illness": "Campylobacteriosis (Bacterial Infection)",
+            "matched_symptoms": [
+                "lethargy",
+                "vomiting"
+            ],
+            "confidence_fc": 0.27,
+            "confidence_gb": 0.01,
+            "confidence_ab": 0.04,
+            "type": "Bacterial",
+            "subtype_coverage": 0.0,
+            "confidence_ab_raw": 0.04,
+            "confidence_softmax": 0.0216
+        },
+        {
+            "illness": "Tooth Root Abscess",
+            "matched_symptoms": [
                 "bad breath"
             ],
-            "confidence_fc": 0.1,
-            "confidence_gb": 0.0,
-            "confidence_ab": 0.02,
+            "confidence_fc": 0.13,
+            "confidence_gb": 0.01,
+            "confidence_ab": 0.04,
+            "type": "Dental",
             "subtype_coverage": 0.0,
-            "confidence_ab_raw": 0.02,
-            "confidence_softmax": 0.1531
+            "confidence_ab_raw": 0.04,
+            "confidence_softmax": 0.0216
+        },
+        {
+            "illness": "Cavities (Dental Caries)",
+            "matched_symptoms": [
+                "bad breath"
+            ],
+            "confidence_fc": 0.13,
+            "confidence_gb": 0.01,
+            "confidence_ab": 0.04,
+            "type": "Dental",
+            "subtype_coverage": 0.0,
+            "confidence_ab_raw": 0.04,
+            "confidence_softmax": 0.0216
+        },
+        {
+            "illness": "Kidney Stones",
+            "matched_symptoms": [
+                "lethargy",
+                "vomiting"
+            ],
+            "confidence_fc": 0.28,
+            "confidence_gb": 0.01,
+            "confidence_ab": 0.04,
+            "type": "Renal",
+            "subtype_coverage": 0.0,
+            "confidence_ab_raw": 0.04,
+            "confidence_softmax": 0.0216
+        },
+        {
+            "illness": "Tapeworms",
+            "matched_symptoms": [
+                "vomiting"
+            ],
+            "confidence_fc": 0.18,
+            "confidence_gb": 0.0,
+            "confidence_ab": 0.03,
+            "type": "Parasitic",
+            "subtype_coverage": 0.0,
+            "confidence_ab_raw": 0.03,
+            "confidence_softmax": 0.0213
+        },
+        {
+            "illness": "Roundworms",
+            "matched_symptoms": [
+                "vomiting"
+            ],
+            "confidence_fc": 0.15,
+            "confidence_gb": 0.01,
+            "confidence_ab": 0.03,
+            "type": "Parasitic",
+            "subtype_coverage": 0.0,
+            "confidence_ab_raw": 0.03,
+            "confidence_softmax": 0.0213
         },
         {
             "illness": "Chronic Kidney Disease (CKD)",
             "matched_symptoms": [
-                "bad breath"
+                "bad breath",
+                "lethargy",
+                "vomiting"
+            ],
+            "confidence_fc": 0.27,
+            "confidence_gb": 0.03,
+            "confidence_ab": 0.03,
+            "type": "Renal",
+            "subtype_coverage": 0.0,
+            "confidence_ab_raw": 0.03,
+            "confidence_softmax": 0.0213
+        },
+        {
+            "illness": "Canine Respiratory Coronavirus",
+            "matched_symptoms": [
+                "lethargy"
             ],
             "confidence_fc": 0.08,
             "confidence_gb": 0.0,
+            "confidence_ab": 0.02,
+            "type": "Viral",
+            "subtype_coverage": 0.0,
+            "confidence_ab_raw": 0.02,
+            "confidence_softmax": 0.0211
+        },
+        {
+            "illness": "Canine Influenza",
+            "matched_symptoms": [
+                "lethargy"
+            ],
+            "confidence_fc": 0.09,
+            "confidence_gb": 0.0,
+            "confidence_ab": 0.02,
+            "type": "Viral",
+            "subtype_coverage": 0.0,
+            "confidence_ab_raw": 0.02,
+            "confidence_softmax": 0.0211
+        },
+        {
+            "illness": "Kennel Cough",
+            "matched_symptoms": [
+                "lethargy"
+            ],
+            "confidence_fc": 0.08,
+            "confidence_gb": 0.0,
+            "confidence_ab": 0.02,
+            "type": "Viral",
+            "subtype_coverage": 0.0,
+            "confidence_ab_raw": 0.02,
+            "confidence_softmax": 0.0211
+        },
+        {
+            "illness": "Canine Parvovirus",
+            "matched_symptoms": [
+                "lethargy",
+                "vomiting"
+            ],
+            "confidence_fc": 0.23,
+            "confidence_gb": 0.01,
+            "confidence_ab": 0.02,
+            "type": "Viral",
+            "subtype_coverage": 0.0,
+            "confidence_ab_raw": 0.02,
+            "confidence_softmax": 0.0211
+        },
+        {
+            "illness": "Canine Minute Virus",
+            "matched_symptoms": [
+                "lethargy",
+                "vomiting"
+            ],
+            "confidence_fc": 0.19,
+            "confidence_gb": 0.0,
+            "confidence_ab": 0.02,
+            "type": "Viral",
+            "subtype_coverage": 0.0,
+            "confidence_ab_raw": 0.02,
+            "confidence_softmax": 0.0211
+        },
+        {
+            "illness": "Infectious Canine Hepatitis",
+            "matched_symptoms": [
+                "lethargy",
+                "vomiting"
+            ],
+            "confidence_fc": 0.11,
+            "confidence_gb": 0.0,
+            "confidence_ab": 0.02,
+            "type": "Viral",
+            "subtype_coverage": 0.0,
+            "confidence_ab_raw": 0.02,
+            "confidence_softmax": 0.0211
+        },
+        {
+            "illness": "Brucellosis",
+            "matched_symptoms": [
+                "lethargy"
+            ],
+            "confidence_fc": 0.08,
+            "confidence_gb": 0.0,
+            "confidence_ab": 0.02,
+            "type": "Bacterial",
+            "subtype_coverage": 0.0,
+            "confidence_ab_raw": 0.02,
+            "confidence_softmax": 0.0211
+        },
+        {
+            "illness": "Leptospirosis",
+            "matched_symptoms": [
+                "lethargy",
+                "vomiting"
+            ],
+            "confidence_fc": 0.13,
+            "confidence_gb": 0.0,
+            "confidence_ab": 0.02,
+            "type": "Bacterial",
+            "subtype_coverage": 0.0,
+            "confidence_ab_raw": 0.02,
+            "confidence_softmax": 0.0211
+        },
+        {
+            "illness": "Lyme Disease",
+            "matched_symptoms": [
+                "lethargy"
+            ],
+            "confidence_fc": 0.11,
+            "confidence_gb": 0.01,
+            "confidence_ab": 0.02,
+            "type": "Bacterial",
+            "subtype_coverage": 0.0,
+            "confidence_ab_raw": 0.02,
+            "confidence_softmax": 0.0211
+        },
+        {
+            "illness": "Ehrlichiosis",
+            "matched_symptoms": [
+                "lethargy"
+            ],
+            "confidence_fc": 0.06,
+            "confidence_gb": 0.0,
+            "confidence_ab": 0.02,
+            "type": "Bacterial",
+            "subtype_coverage": 0.0,
+            "confidence_ab_raw": 0.02,
+            "confidence_softmax": 0.0211
+        },
+        {
+            "illness": "Rocky Mountain Spotted Fever",
+            "matched_symptoms": [
+                "lethargy",
+                "vomiting"
+            ],
+            "confidence_fc": 0.16,
+            "confidence_gb": 0.0,
+            "confidence_ab": 0.02,
+            "type": "Bacterial",
+            "subtype_coverage": 0.0,
+            "confidence_ab_raw": 0.02,
+            "confidence_softmax": 0.0211
+        },
+        {
+            "illness": "Actinomycosis (Bacterial Infection)",
+            "matched_symptoms": [
+                "lethargy"
+            ],
+            "confidence_fc": 0.09,
+            "confidence_gb": 0.0,
+            "confidence_ab": 0.02,
+            "type": "Bacterial",
+            "subtype_coverage": 0.0,
+            "confidence_ab_raw": 0.02,
+            "confidence_softmax": 0.0211
+        },
+        {
+            "illness": "Streptococcus Infections",
+            "matched_symptoms": [
+                "lethargy"
+            ],
+            "confidence_fc": 0.08,
+            "confidence_gb": 0.0,
+            "confidence_ab": 0.02,
+            "type": "Bacterial",
+            "subtype_coverage": 0.0,
+            "confidence_ab_raw": 0.02,
+            "confidence_softmax": 0.0211
+        },
+        {
+            "illness": "Heartworm Disease",
+            "matched_symptoms": [
+                "lethargy"
+            ],
+            "confidence_fc": 0.13,
+            "confidence_gb": 0.0,
+            "confidence_ab": 0.02,
+            "type": "Parasitic",
+            "subtype_coverage": 0.0,
+            "confidence_ab_raw": 0.02,
+            "confidence_softmax": 0.0211
+        },
+        {
+            "illness": "Babesiosis",
+            "matched_symptoms": [
+                "lethargy"
+            ],
+            "confidence_fc": 0.11,
+            "confidence_gb": 0.0,
+            "confidence_ab": 0.02,
+            "type": "Parasitic",
+            "subtype_coverage": 0.0,
+            "confidence_ab_raw": 0.02,
+            "confidence_softmax": 0.0211
+        },
+        {
+            "illness": "Toxoplasmosis in Dogs",
+            "matched_symptoms": [
+                "lethargy",
+                "vomiting"
+            ],
+            "confidence_fc": 0.12,
+            "confidence_gb": 0.0,
+            "confidence_ab": 0.02,
+            "type": "Parasitic",
+            "subtype_coverage": 0.0,
+            "confidence_ab_raw": 0.02,
+            "confidence_softmax": 0.0211
+        },
+        {
+            "illness": "Dilated Cardiomyopathy",
+            "matched_symptoms": [
+                "lethargy"
+            ],
+            "confidence_fc": 0.1,
+            "confidence_gb": 0.0,
+            "confidence_ab": 0.02,
+            "type": "Cardiovascular",
+            "subtype_coverage": 0.0,
+            "confidence_ab_raw": 0.02,
+            "confidence_softmax": 0.0211
+        },
+        {
+            "illness": "Congestive Heart Failure",
+            "matched_symptoms": [
+                "lethargy"
+            ],
+            "confidence_fc": 0.1,
+            "confidence_gb": 0.01,
+            "confidence_ab": 0.02,
+            "type": "Cardiovascular",
+            "subtype_coverage": 0.0,
+            "confidence_ab_raw": 0.02,
+            "confidence_softmax": 0.0211
+        },
+        {
+            "illness": "Aortic Stenosis",
+            "matched_symptoms": [
+                "lethargy"
+            ],
+            "confidence_fc": 0.09,
+            "confidence_gb": 0.0,
+            "confidence_ab": 0.02,
+            "type": "Cardiovascular",
+            "subtype_coverage": 0.0,
+            "confidence_ab_raw": 0.02,
+            "confidence_softmax": 0.0211
+        },
+        {
+            "illness": "Pulmonary Hypertension",
+            "matched_symptoms": [
+                "lethargy"
+            ],
+            "confidence_fc": 0.1,
+            "confidence_gb": 0.0,
+            "confidence_ab": 0.02,
+            "type": "Cardiovascular",
+            "subtype_coverage": 0.0,
+            "confidence_ab_raw": 0.02,
+            "confidence_softmax": 0.0211
+        },
+        {
+            "illness": "Heart Valve Dysplasia",
+            "matched_symptoms": [
+                "lethargy"
+            ],
+            "confidence_fc": 0.11,
+            "confidence_gb": 0.0,
+            "confidence_ab": 0.02,
+            "type": "Cardiovascular",
+            "subtype_coverage": 0.0,
+            "confidence_ab_raw": 0.02,
+            "confidence_softmax": 0.0211
+        },
+        {
+            "illness": "Patent Ductus Arteriosus",
+            "matched_symptoms": [
+                "lethargy"
+            ],
+            "confidence_fc": 0.11,
+            "confidence_gb": 0.0,
+            "confidence_ab": 0.02,
+            "type": "Cardiovascular",
+            "subtype_coverage": 0.0,
+            "confidence_ab_raw": 0.02,
+            "confidence_softmax": 0.0211
+        },
+        {
+            "illness": "Tick Paralysis",
+            "matched_symptoms": [
+                "lethargy"
+            ],
+            "confidence_fc": 0.07,
+            "confidence_gb": 0.0,
+            "confidence_ab": 0.02,
+            "type": "Neurological",
+            "subtype_coverage": 0.0,
+            "confidence_ab_raw": 0.02,
+            "confidence_softmax": 0.0211
+        },
+        {
+            "illness": "Granulomatous Meningoencephalitis",
+            "matched_symptoms": [
+                "lethargy"
+            ],
+            "confidence_fc": 0.09,
+            "confidence_gb": 0.0,
+            "confidence_ab": 0.02,
+            "type": "Neurological",
+            "subtype_coverage": 0.0,
+            "confidence_ab_raw": 0.02,
+            "confidence_softmax": 0.0211
+        },
+        {
+            "illness": "Periodontal Disease",
+            "matched_symptoms": [
+                "bad breath"
+            ],
+            "confidence_fc": 0.09,
+            "confidence_gb": 0.01,
+            "confidence_ab": 0.02,
+            "type": "Dental",
+            "subtype_coverage": 0.0,
+            "confidence_ab_raw": 0.02,
+            "confidence_softmax": 0.0211
+        },
+        {
+            "illness": "Glomerulonephritis",
+            "matched_symptoms": [
+                "lethargy"
+            ],
+            "confidence_fc": 0.12,
+            "confidence_gb": 0.0,
+            "confidence_ab": 0.02,
+            "type": "Renal",
+            "subtype_coverage": 0.0,
+            "confidence_ab_raw": 0.02,
+            "confidence_softmax": 0.0211
+        },
+        {
+            "illness": "Canine Distemper",
+            "matched_symptoms": [
+                "lethargy",
+                "vomiting"
+            ],
+            "confidence_fc": 0.14,
+            "confidence_gb": 0.0,
             "confidence_ab": 0.01,
+            "type": "Viral",
             "subtype_coverage": 0.0,
             "confidence_ab_raw": 0.01,
-            "confidence_softmax": 0.1516
+            "confidence_softmax": 0.0209
+        },
+        {
+            "illness": "Canine Herpesvirus",
+            "matched_symptoms": [
+                "lethargy"
+            ],
+            "confidence_fc": 0.04,
+            "confidence_gb": 0.0,
+            "confidence_ab": 0.01,
+            "type": "Viral",
+            "subtype_coverage": 0.0,
+            "confidence_ab_raw": 0.01,
+            "confidence_softmax": 0.0209
+        },
+        {
+            "illness": "Rabies",
+            "matched_symptoms": [
+                "lethargy",
+                "vomiting"
+            ],
+            "confidence_fc": 0.09,
+            "confidence_gb": 0.0,
+            "confidence_ab": 0.01,
+            "type": "Viral",
+            "subtype_coverage": 0.0,
+            "confidence_ab_raw": 0.01,
+            "confidence_softmax": 0.0209
+        },
+        {
+            "illness": "Hookworms",
+            "matched_symptoms": [
+                "lethargy"
+            ],
+            "confidence_fc": 0.07,
+            "confidence_gb": 0.0,
+            "confidence_ab": 0.01,
+            "type": "Parasitic",
+            "subtype_coverage": 0.0,
+            "confidence_ab_raw": 0.01,
+            "confidence_softmax": 0.0209
+        },
+        {
+            "illness": "Osteoarthritis",
+            "matched_symptoms": [
+                "lethargy"
+            ],
+            "confidence_fc": 0.09,
+            "confidence_gb": 0.01,
+            "confidence_ab": 0.01,
+            "type": "Musculoskeletal",
+            "subtype_coverage": 0.0,
+            "confidence_ab_raw": 0.01,
+            "confidence_softmax": 0.0209
+        },
+        {
+            "illness": "Syringomyelia",
+            "matched_symptoms": [
+                "lethargy"
+            ],
+            "confidence_fc": 0.09,
+            "confidence_gb": 0.0,
+            "confidence_ab": 0.01,
+            "type": "Neurological",
+            "subtype_coverage": 0.0,
+            "confidence_ab_raw": 0.01,
+            "confidence_softmax": 0.0209
+        },
+        {
+            "illness": "Diabetes Mellitus",
+            "matched_symptoms": [
+                "lethargy"
+            ],
+            "confidence_fc": 0.1,
+            "confidence_gb": 0.0,
+            "confidence_ab": 0.01,
+            "type": "Metabolic",
+            "subtype_coverage": 0.0,
+            "confidence_ab_raw": 0.01,
+            "confidence_softmax": 0.0209
         }
     ]
 }
