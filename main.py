@@ -438,19 +438,24 @@ async def diagnose_pet(request: Request):
     try:
         fact_base = await request.json()
 
+        # 1) Get pet_type from the root of the JSON
         pet_type = fact_base.get("pet_type", "dog").lower()
+
+        # 2) Load the appropriate KB and models
         global knowledge_base, boosting_model, adaboost_model, selected_features, df, all_symptoms
         knowledge_base, boosting_model, adaboost_model, selected_features, df = load_pet_resources(pet_type)
         all_symptoms = [col for col in df.columns if col != "Illness"]
 
-        # ✅ Ensure age_range is set
+        # 3) Ensure age_range is set, using "age" if present
         if "pet_info" in fact_base:
-            if "age_range" not in fact_base["pet_info"]:
-                fact_base["pet_info"]["age_range"] = categorize_age(fact_base["pet_info"].get("age_years", 1), pet_type)
+            pi = fact_base["pet_info"]
+            if "age_range" not in pi:
+                raw_age = pi.get("age") or pi.get("age_years", 1)
+                pi["age_range"] = categorize_age(raw_age, pet_type)
 
-        user_answers = fact_base.get("user_answers", {})  # ✅ Safe default
+        user_answers = fact_base.get("user_answers", {})
 
-        # 📌 Step 1: Forward Chaining
+        # Step 1: Forward Chaining
         possible_diagnoses = forward_chaining(fact_base)
         if not possible_diagnoses:
             return {
@@ -463,40 +468,39 @@ async def diagnose_pet(request: Request):
                 "comparison": {}
             }
 
-        # 📌 Step 2: Gradient Boosting Ranking
+        # Step 2: Gradient Boosting Ranking
         refined_diagnoses = gradient_boosting_ranking(possible_diagnoses, fact_base)
 
-        # 📌 Step 3: AdaBoost Ranking
+        # Step 3: AdaBoost Ranking
         final_diagnoses = adaboost_ranking(refined_diagnoses, fact_base)
 
-        # 📌 Step 4: Compute subtype coverage for each diagnosis
+        # Step 4: Compute subtype coverage
         for d in final_diagnoses:
-            illness_rule = next((r for r in knowledge_base if r["illness"] == d["illness"]), None)
-            d["subtype_coverage"] = compute_subtype_coverage(illness_rule, user_answers) if illness_rule else 0.0
+            rule = next((r for r in knowledge_base if r["illness"] == d["illness"]), None)
+            d["subtype_coverage"] = compute_subtype_coverage(rule, user_answers) if rule else 0.0
 
-        # 📌 Step 5: Save raw AdaBoost confidence
+        # Step 5: Save raw AdaBoost confidence
         for d in final_diagnoses:
             d["confidence_ab_raw"] = d["confidence_ab"]
 
-        # 📌 Step 6: Sort by AdaBoost raw confidence before softmax
+        # Step 6: Sort by raw AdaBoost confidence
         final_diagnoses.sort(key=lambda x: -x["confidence_ab_raw"])
 
-        # 📌 Step 7: Apply softmax
+        # Step 7: Apply softmax with threshold
         final_diagnoses = apply_softmax_to_confidences(final_diagnoses, threshold=0.02)
 
-        # 📌 Step 8: Save all diagnoses in fact_base
+        # Step 8: Attach to fact_base
         fact_base["possible_diagnosis"] = final_diagnoses
 
-        # 📌 Step 9: Save fact_base locally
+        # Step 9: Persist fact_base
         os.makedirs(os.path.dirname(FACT_BASE_PATH), exist_ok=True)
         with open(FACT_BASE_PATH, "w") as f:
             json.dump(fact_base, f, indent=4)
 
-        # 📌 Step 10: Build comparison (Top 2 illnesses only)
+        # Step 10: Build comparison for top 2
         comparison = {}
         if len(final_diagnoses) >= 2:
-            ill1 = final_diagnoses[0]
-            ill2 = final_diagnoses[1]
+            ill1, ill2 = final_diagnoses[0], final_diagnoses[1]
             comparison = {
                 "illness_1": ill1["illness"],
                 "illness_2": ill2["illness"],
@@ -518,17 +522,17 @@ async def diagnose_pet(request: Request):
                 }
             }
 
-        # 📌 Step 11: Slice Top 3 diagnoses separately
+        # Step 11: Top 3 slice
         top_3_diagnoses = final_diagnoses[:3]
 
-        # 📌 Step 12: Return
+        # Step 12: Final response
         return {
             "owner": fact_base.get("owner", "Unknown"),
             "pet_info": fact_base.get("pet_info", {}),
             "symptoms": fact_base.get("symptoms", []),
-            "top_diagnoses": top_3_diagnoses,         # ✅ Only Top 3 here
-            "possible_diagnosis": final_diagnoses,     # ✅ All illnesses
-            "allIllness": final_diagnoses,             # ✅ All illnesses
+            "top_diagnoses": top_3_diagnoses,
+            "possible_diagnosis": final_diagnoses,
+            "allIllness": final_diagnoses,
             "comparison": comparison,
             "fact_base": fact_base
         }
@@ -536,7 +540,8 @@ async def diagnose_pet(request: Request):
     except Exception as e:
         import traceback
         traceback.print_exc()
-        raise HTTPException(status_code=500, detail=f"Server Error: {str(e)}")
+        raise HTTPException(status_code=500, detail=f"Server Error: {e}")
+
 
 
     
