@@ -1,7 +1,7 @@
 {
     "owner": "Ragnar",
     "symptoms": [
-        "diarrhea"
+        "eye discharge"
     ],
     "pet_type": "dog",
     "pet_info": {
@@ -11,243 +11,78 @@
         "age_range": "Puppy"
     },
     "user_answers": {
-        "diarrhea": {
-            "How long has your pet had diarrhea?": "3-5 days",
-            "What type of diarrhea is it? (Watery or Bloody)": "bloody"
+        "eye discharge": {
+            "How long has your pet had eye discharge?": "3-10 days",
+            "Is the eye discharge Mucous-like?": "Mucous-like Eye Discharge"
         }
     },
     "possible_diagnosis": [
         {
-            "illness": "Chronic Renal Failure",
+            "illness": "Canine Influenza",
             "matched_symptoms": [
-                "diarrhea"
-            ],
-            "confidence_fc": 0.15,
-            "confidence_gb": 0.27,
-            "confidence_ab": 0.23,
-            "type": "Renal",
-            "age_specificity": "Any",
-            "size_specificity": "Any",
-            "subtype_coverage": 33.33,
-            "confidence_ab_raw": 0.23,
-            "confidence_softmax": 0.0632
-        },
-        {
-            "illness": "Ameba Infection",
-            "matched_symptoms": [
-                "diarrhea"
-            ],
-            "confidence_fc": 0.23,
-            "confidence_gb": 0.01,
-            "confidence_ab": 0.06,
-            "type": "Parasitic",
-            "age_specificity": "Any",
-            "size_specificity": "Any",
-            "subtype_coverage": 33.33,
-            "confidence_ab_raw": 0.06,
-            "confidence_softmax": 0.0533
-        },
-        {
-            "illness": "Canine Enteric Coronavirus",
-            "matched_symptoms": [
-                "diarrhea"
-            ],
-            "confidence_fc": 0.19,
-            "confidence_gb": 0.02,
-            "confidence_ab": 0.05,
-            "type": "Viral",
-            "age_specificity": "Puppy",
-            "size_specificity": "Any",
-            "subtype_coverage": 33.33,
-            "confidence_ab_raw": 0.05,
-            "confidence_softmax": 0.0528
-        },
-        {
-            "illness": "Canine Parvovirus",
-            "matched_symptoms": [
-                "diarrhea"
-            ],
-            "confidence_fc": 0.15,
-            "confidence_gb": 0.02,
-            "confidence_ab": 0.05,
-            "type": "Viral",
-            "age_specificity": "Puppy",
-            "size_specificity": "Any",
-            "subtype_coverage": 33.33,
-            "confidence_ab_raw": 0.05,
-            "confidence_softmax": 0.0528
-        },
-        {
-            "illness": "Clostridial Infections",
-            "matched_symptoms": [
-                "diarrhea"
-            ],
-            "confidence_fc": 0.18,
-            "confidence_gb": 0.01,
-            "confidence_ab": 0.05,
-            "type": "Bacterial",
-            "age_specificity": "Any",
-            "size_specificity": "Any",
-            "subtype_coverage": 33.33,
-            "confidence_ab_raw": 0.05,
-            "confidence_softmax": 0.0528
-        },
-        {
-            "illness": "Tapeworms",
-            "matched_symptoms": [
-                "diarrhea"
-            ],
-            "confidence_fc": 0.18,
-            "confidence_gb": 0.02,
-            "confidence_ab": 0.05,
-            "type": "Parasitic",
-            "age_specificity": "Any",
-            "size_specificity": "Any",
-            "subtype_coverage": 50.0,
-            "confidence_ab_raw": 0.05,
-            "confidence_softmax": 0.0528
-        },
-        {
-            "illness": "Cryptosporidium in Dogs",
-            "matched_symptoms": [
-                "diarrhea"
-            ],
-            "confidence_fc": 0.23,
-            "confidence_gb": 0.02,
-            "confidence_ab": 0.05,
-            "type": "Parasitic",
-            "age_specificity": "Any",
-            "size_specificity": "Any",
-            "subtype_coverage": 0.0,
-            "confidence_ab_raw": 0.05,
-            "confidence_softmax": 0.0528
-        },
-        {
-            "illness": "Canine Minute Virus",
-            "matched_symptoms": [
-                "diarrhea"
-            ],
-            "confidence_fc": 0.13,
-            "confidence_gb": 0.01,
-            "confidence_ab": 0.04,
-            "type": "Viral",
-            "age_specificity": "Any",
-            "size_specificity": "Any",
-            "subtype_coverage": 25.0,
-            "confidence_ab_raw": 0.04,
-            "confidence_softmax": 0.0522
-        },
-        {
-            "illness": "Campylobacteriosis (Bacterial Infection)",
-            "matched_symptoms": [
-                "diarrhea"
-            ],
-            "confidence_fc": 0.18,
-            "confidence_gb": 0.02,
-            "confidence_ab": 0.04,
-            "type": "Bacterial",
-            "age_specificity": "Any",
-            "size_specificity": "Any",
-            "subtype_coverage": 0.0,
-            "confidence_ab_raw": 0.04,
-            "confidence_softmax": 0.0522
-        },
-        {
-            "illness": "Roundworms",
-            "matched_symptoms": [
-                "diarrhea"
-            ],
-            "confidence_fc": 0.15,
-            "confidence_gb": 0.01,
-            "confidence_ab": 0.04,
-            "type": "Parasitic",
-            "age_specificity": "Any",
-            "size_specificity": "Any",
-            "subtype_coverage": 33.33,
-            "confidence_ab_raw": 0.04,
-            "confidence_softmax": 0.0522
-        },
-        {
-            "illness": "Coccidia in Dogs",
-            "matched_symptoms": [
-                "diarrhea"
-            ],
-            "confidence_fc": 0.2,
-            "confidence_gb": 0.02,
-            "confidence_ab": 0.04,
-            "type": "Parasitic",
-            "age_specificity": "Any",
-            "size_specificity": "Any",
-            "subtype_coverage": 0.0,
-            "confidence_ab_raw": 0.04,
-            "confidence_softmax": 0.0522
-        },
-        {
-            "illness": "Leptospirosis",
-            "matched_symptoms": [
-                "diarrhea"
+                "eye discharge"
             ],
             "confidence_fc": 0.09,
-            "confidence_gb": 0.01,
-            "confidence_ab": 0.03,
-            "type": "Bacterial",
+            "confidence_gb": 0.13,
+            "confidence_ab": 0.09,
+            "type": "Viral",
             "age_specificity": "Any",
             "size_specificity": "Any",
-            "subtype_coverage": 25.0,
-            "confidence_ab_raw": 0.03,
-            "confidence_softmax": 0.0517
+            "subtype_coverage": 0.0,
+            "confidence_ab_raw": 0.09,
+            "confidence_softmax": 0.1516
         },
         {
-            "illness": "Rocky Mountain Spotted Fever",
+            "illness": "Canine Respiratory Coronavirus",
             "matched_symptoms": [
-                "diarrhea"
+                "eye discharge"
             ],
-            "confidence_fc": 0.11,
-            "confidence_gb": 0.0,
+            "confidence_fc": 0.08,
+            "confidence_gb": 0.02,
             "confidence_ab": 0.03,
-            "type": "Bacterial",
+            "type": "Viral",
             "age_specificity": "Any",
             "size_specificity": "Any",
-            "subtype_coverage": 25.0,
+            "subtype_coverage": 0.0,
             "confidence_ab_raw": 0.03,
-            "confidence_softmax": 0.0517
+            "confidence_softmax": 0.1428
         },
         {
-            "illness": "Hookworms",
+            "illness": "Kennel Cough",
             "matched_symptoms": [
-                "diarrhea"
+                "eye discharge"
             ],
-            "confidence_fc": 0.09,
-            "confidence_gb": 0.01,
+            "confidence_fc": 0.08,
+            "confidence_gb": 0.02,
             "confidence_ab": 0.03,
-            "type": "Parasitic",
-            "age_specificity": "Puppy",
+            "type": "Viral",
+            "age_specificity": "Any",
             "size_specificity": "Any",
-            "subtype_coverage": 50.0,
+            "subtype_coverage": 0.0,
             "confidence_ab_raw": 0.03,
-            "confidence_softmax": 0.0517
+            "confidence_softmax": 0.1428
         },
         {
             "illness": "Canine Distemper",
             "matched_symptoms": [
-                "diarrhea"
+                "eye discharge"
             ],
-            "confidence_fc": 0.09,
-            "confidence_gb": 0.0,
+            "confidence_fc": 0.05,
+            "confidence_gb": 0.01,
             "confidence_ab": 0.02,
             "type": "Viral",
             "age_specificity": "Puppy",
             "size_specificity": "Any",
             "subtype_coverage": 0.0,
             "confidence_ab_raw": 0.02,
-            "confidence_softmax": 0.0512
+            "confidence_softmax": 0.1414
         },
         {
             "illness": "Canine Herpesvirus",
             "matched_symptoms": [
-                "diarrhea"
+                "eye discharge"
             ],
-            "confidence_fc": 0.09,
+            "confidence_fc": 0.04,
             "confidence_gb": 0.01,
             "confidence_ab": 0.02,
             "type": "Viral",
@@ -255,52 +90,37 @@
             "size_specificity": "Any",
             "subtype_coverage": 0.0,
             "confidence_ab_raw": 0.02,
-            "confidence_softmax": 0.0512
+            "confidence_softmax": 0.1414
         },
         {
             "illness": "Infectious Canine Hepatitis",
             "matched_symptoms": [
-                "diarrhea"
+                "eye discharge"
             ],
-            "confidence_fc": 0.07,
+            "confidence_fc": 0.04,
             "confidence_gb": 0.0,
-            "confidence_ab": 0.02,
+            "confidence_ab": 0.01,
             "type": "Viral",
             "age_specificity": "Any",
             "size_specificity": "Any",
-            "subtype_coverage": 20.0,
-            "confidence_ab_raw": 0.02,
-            "confidence_softmax": 0.0512
+            "subtype_coverage": 0.0,
+            "confidence_ab_raw": 0.01,
+            "confidence_softmax": 0.14
         },
         {
-            "illness": "Toxoplasmosis in Dogs",
+            "illness": "Rocky Mountain Spotted Fever",
             "matched_symptoms": [
-                "diarrhea"
+                "eye discharge"
             ],
-            "confidence_fc": 0.08,
+            "confidence_fc": 0.05,
             "confidence_gb": 0.0,
-            "confidence_ab": 0.02,
-            "type": "Parasitic",
+            "confidence_ab": 0.01,
+            "type": "Bacterial",
             "age_specificity": "Any",
             "size_specificity": "Any",
             "subtype_coverage": 0.0,
-            "confidence_ab_raw": 0.02,
-            "confidence_softmax": 0.0512
-        },
-        {
-            "illness": "Chronic Kidney Disease (CKD)",
-            "matched_symptoms": [
-                "diarrhea"
-            ],
-            "confidence_fc": 0.08,
-            "confidence_gb": 0.01,
-            "confidence_ab": 0.01,
-            "type": "Renal",
-            "age_specificity": "Senior",
-            "size_specificity": "Small",
-            "subtype_coverage": 0.0,
             "confidence_ab_raw": 0.01,
-            "confidence_softmax": 0.0507
+            "confidence_softmax": 0.14
         }
     ]
 }
