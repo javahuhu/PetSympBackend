@@ -1,2376 +1,2378 @@
 {
-    "rules": [
+  "rules": [
+      {   
+        "illness": "Ameba Infection in Cats",
+        "type": "Parasitic (Protozoal)",
+        "confidence": 0.8,
+        "age_range": "Kitten, Adult",
+        "breed": "Any",
+        "size": "Any",
+        "symptoms": [
           {
-            "illness": "Ameba Infection in Cats",
-            "type": "Parasitic (Protozoal)",
-            "confidence": 0.8,
-            "age_range": "Any",
-            "breed": "Any",
-            "size": "Any",
-            "symptoms": [
-              {
-                "name": "Vomiting",
-                "stage": "Early",
-                "weight": 0.5,
-                "severity": "High",
-                "priority": 3,
-                "duration_range": "1-2 days",
-                "subtype": "Bloody, Yellow"
-              },
-              {
-                "name": "Diarrhea",
-                "stage": "Early",
-                "weight": 0.5,
-                "severity": "High",
-                "priority": 3,
-                "duration_range": "1-2 days",
-                "subtype": "Watery, Mucous"
-              },
-              {
-                "name": "Dehydration",
-                "stage": "Any",
-                "weight": 0.4,
-                "severity": "High",
-                "priority": 3,
-                "duration_range": "3-5 days",
-                "subtype": ""
-              },
-              {
-                "name": "Lethargy",
-                "stage": "Any",
-                "weight": 0.3,
-                "severity": "Medium",
-                "priority": 2,
-                "duration_range": "3-5 days",
-                "subtype": ""
-              },
-              {
-                "name": "Weight loss",
-                "stage": "Progressive",
-                "weight": 0.3,
-                "severity": "Medium",
-                "priority": 2,
-                "duration_range": "6-10 days",
-                "subtype": ""
-              }
-            ]
+            "name": "Vomiting",
+            "stage": "Early",
+            "weight": 0.5,
+            "severity": "High",
+            "priority": 3,
+            "duration_range": "1-3 days",
+            "subtype": "Yellow or Foamy, Bloody"
           },
           {
-            "illness": "Anaerobic Bacterial Infections in Cats",
-            "type": "Bacterial",
-            "confidence": 0.8,
-            "age_range": "Any",
-            "breed": "Any",
-            "size": "Any",
-            "symptoms": [
-              {
-                "name": "Swelling",
-                "stage": "Early",
-                "weight": 0.5,
-                "severity": "High",
-                "priority": 3,
-                "duration_range": "3-5 days",
-                "subtype": "Localized"
-              },
-              {
-                "name": "Skin wounds",
-                "stage": "Any",
-                "weight": 0.4,
-                "severity": "Medium",
-                "priority": 2,
-                "duration_range": "3-5 days",
-                "subtype": "Open, Draining"
-              },
-              {
-                "name": "Foul odor from wound",
-                "stage": "Any",
-                "weight": 0.4,
-                "severity": "Medium",
-                "priority": 2,
-                "duration_range": "3-5 days",
-                "subtype": ""
-              },
-              {
-                "name": "Pus or discharge",
-                "stage": "Any",
-                "weight": 0.3,
-                "severity": "Medium",
-                "priority": 2,
-                "duration_range": "3-5 days",
-                "subtype": "Thick, Yellow"
-              },
-              {
-                "name": "Pain when touched",
-                "stage": "Any",
-                "weight": 0.3,
-                "severity": "Medium",
-                "priority": 2,
-                "duration_range": "1-2 days",
-                "subtype": "Localized"
-              },
-              {
-                "name": "Fever",
-                "stage": "Any",
-                "weight": 0.3,
-                "severity": "Medium",
-                "priority": 2,
-                "duration_range": "1-2 days",
-                "subtype": ""
-              },
-              {
-                "name": "Lethargy",
-                "stage": "Any",
-                "weight": 0.3,
-                "severity": "Medium",
-                "priority": 2,
-                "duration_range": "3-5 days",
-                "subtype": ""
-              }
-            ]
+            "name": "Diarrhea",
+            "stage": "Early",
+            "weight": 0.5,
+            "severity": "High",
+            "priority": 3,
+            "duration_range": "1-4 days",
+            "subtype": "Watery, Mucous-Covered, Bloody"
           },
           {
-            "illness": "Arthritis in Cats",
-            "type": "Musculoskeletal",
-            "confidence": 0.85,
-            "age_range": "Senior",
-            "breed": "Any",
-            "size": "Any",
-            "symptoms": [
-              {
-                "name": "Stiffness",
-                "stage": "Early",
-                "weight": 0.5,
-                "severity": "Medium",
-                "priority": 3,
-                "duration_range": "6-10 days",
-                "subtype": "After resting"
-              },
-              {
-                "name": "Limping",
-                "stage": "Any",
-                "weight": 0.4,
-                "severity": "Medium",
-                "priority": 2,
-                "duration_range": "6-10 days",
-                "subtype": "Intermittent"
-              },
-              {
-                "name": "Difficulty jumping",
-                "stage": "Progressive",
-                "weight": 0.4,
-                "severity": "High",
-                "priority": 2,
-                "duration_range": "6-10 days",
-                "subtype": ""
-              },
-              {
-                "name": "Less grooming",
-                "stage": "Any",
-                "weight": 0.3,
-                "severity": "Low",
-                "priority": 2,
-                "duration_range": "6-10 days",
-                "subtype": "Hips, back"
-              },
-              {
-                "name": "Irritability",
-                "stage": "Any",
-                "weight": 0.3,
-                "severity": "Low",
-                "priority": 2,
-                "duration_range": "3-5 days",
-                "subtype": "When touched"
-              }
-            ]
+            "name": "Dehydration",
+            "stage": "Progressive",
+            "weight": 0.4,
+            "severity": "High",
+            "priority": 3,
+            "duration_range": "2-5 days",
+            "subtype": ""
           },
           {
-            "illness": "Babesiosis in Cats",
-            "type": "Parasitic (Blood)",
-            "confidence": 0.8,
-            "age_range": "Any",
-            "breed": "Any",
-            "size": "Any",
-            "symptoms": [
-              {
-                "name": "Pale gums",
-                "stage": "Early",
-                "weight": 0.5,
-                "severity": "High",
-                "priority": 3,
-                "duration_range": "1-2 days",
-                "subtype": ""
-              },
-              {
-                "name": "Fever",
-                "stage": "Any",
-                "weight": 0.4,
-                "severity": "Medium",
-                "priority": 2,
-                "duration_range": "1-2 days",
-                "subtype": ""
-              },
-              {
-                "name": "Lethargy",
-                "stage": "Any",
-                "weight": 0.4,
-                "severity": "Medium",
-                "priority": 2,
-                "duration_range": "3-5 days",
-                "subtype": ""
-              },
-              {
-                "name": "Weakness",
-                "stage": "Any",
-                "weight": 0.3,
-                "severity": "Medium",
-                "priority": 2,
-                "duration_range": "3-5 days",
-                "subtype": ""
-              },
-              {
-                "name": "Loss of appetite",
-                "stage": "Any",
-                "weight": 0.3,
-                "severity": "Low",
-                "priority": 2,
-                "duration_range": "1-2 days",
-                "subtype": ""
-              }
-            ]
+            "name": "Lethargy",
+            "stage": "Progressive",
+            "weight": 0.3,
+            "severity": "Medium",
+            "priority": 2,
+            "duration_range": "3-6 days",
+            "subtype": ""
           },
           {
-            "illness": "Bacterial Infection (Actinomycosis) in Cats",
-            "type": "Bacterial",
-            "confidence": 0.8,
-            "age_range": "Any",
-            "breed": "Any",
-            "size": "Any",
-            "symptoms": [
-              {
-                "name": "Swelling",
-                "stage": "Early",
-                "weight": 0.5,
-                "severity": "Medium",
-                "priority": 3,
-                "duration_range": "3-5 days",
-                "subtype": "Face, neck"
-              },
-              {
-                "name": "Skin lumps",
-                "stage": "Any",
-                "weight": 0.4,
-                "severity": "Medium",
-                "priority": 2,
-                "duration_range": "3-5 days",
-                "subtype": "Firm"
-              },
-              {
-                "name": "Draining wounds",
-                "stage": "Any",
-                "weight": 0.4,
-                "severity": "Medium",
-                "priority": 2,
-                "duration_range": "6-10 days",
-                "subtype": "Pus-filled"
-              },
-              {
-                "name": "Bad Odor",
-                "stage": "Any",
-                "weight": 0.3,
-                "severity": "Low",
-                "priority": 2,
-                "duration_range": "3-5 days",
-                "subtype": "Foul-smelling discharge"
-              },
-              {
-                "name": "Pain",
-                "stage": "Any",
-                "weight": 0.3,
-                "severity": "Medium",
-                "priority": 2,
-                "duration_range": "1-2 days",
-                "subtype": "On palpation"
-              },
-              {
-                "name": "Lethargy",
-                "stage": "Any",
-                "weight": 0.3,
-                "severity": "Medium",
-                "priority": 2,
-                "duration_range": "3-5 days",
-                "subtype": ""
-              }
-            ]
+            "name": "Weight loss",
+            "stage": "Late",
+            "weight": 0.3,
+            "severity": "Medium",
+            "priority": 2,
+            "duration_range": "5-10 days",
+            "subtype": ""
+          }
+        ]
+      },
+      {
+        "illness": "Anaerobic Bacterial Infections in Cats",
+        "type": "Bacterial",
+        "confidence": 0.8,
+        "age_range": "Any",
+        "breed": "Any",
+        "size": "Any",
+        "symptoms": [
+          {
+            "name": "Swelling",
+            "stage": "Early",
+            "weight": 0.5,
+            "severity": "Medium",
+            "priority": 2,
+            "duration_range": "2-5 days",
+            "subtype": "Localized, Firm"
           },
           {
-            "illness": "Bacterial Infection (B. bronchiseptica) in Cats",
-            "type": "Bacterial (Respiratory)",
-            "confidence": 0.85,
-            "age_range": "Kitten",
-            "breed": "Any",
-            "size": "Any",
-            "symptoms": [
-              {
-                "name": "Sneezing",
-                "stage": "Early",
-                "weight": 0.5,
-                "severity": "Low",
-                "priority": 3,
-                "duration_range": "3-5 days",
-                "subtype": "Frequent"
-              },
-              {
-                "name": "Coughing",
-                "stage": "Any",
-                "weight": 0.4,
-                "severity": "Medium",
-                "priority": 2,
-                "duration_range": "3-5 days",
-                "subtype": "Dry, Honking"
-              },
-              {
-                "name": "Nasal discharge",
-                "stage": "Any",
-                "weight": 0.4,
-                "severity": "Low",
-                "priority": 2,
-                "duration_range": "3-5 days",
-                "subtype": "Clear, Yellow"
-              },
-              {
-                "name": "Eye discharge",
-                "stage": "Any",
-                "weight": 0.3,
-                "severity": "Low",
-                "priority": 2,
-                "duration_range": "3-5 days",
-                "subtype": "Watery, Mucous"
-              },
-              {
-                "name": "Fever",
-                "stage": "Any",
-                "weight": 0.3,
-                "severity": "Medium",
-                "priority": 2,
-                "duration_range": "1-2 days",
-                "subtype": ""
-              },
-              {
-                "name": "Loss of appetite",
-                "stage": "Any",
-                "weight": 0.3,
-                "severity": "Low",
-                "priority": 2,
-                "duration_range": "1-2 days",
-                "subtype": ""
-              }
-            ]
+            "name": "Skin wounds",
+            "stage": "Early",
+            "weight": 0.4,
+            "severity": "Medium",
+            "priority": 2,
+            "duration_range": "3-7 days",
+            "subtype": "Open, Draining"
           },
           {
-            "illness": "Bacterial Infection (Campylobacteriosis) in Cats",
-            "type": "Bacterial (Gastrointestinal)",
-            "confidence": 0.85,
-            "age_range": "Kitten",
-            "breed": "Any",
-            "size": "Any",
-            "symptoms": [
-              {
-                "name": "Diarrhea",
-                "stage": "Early",
-                "weight": 0.5,
-                "severity": "High",
-                "priority": 3,
-                "duration_range": "1-2 days",
-                "subtype": "Watery, Mucous"
-              },
-              {
-                "name": "Mucus in stool",
-                "stage": "Any",
-                "weight": 0.4,
-                "severity": "Medium",
-                "priority": 2,
-                "duration_range": "1-2 days",
-                "subtype": ""
-              },
-              {
-                "name": "Vomiting",
-                "stage": "Any",
-                "weight": 0.4,
-                "severity": "Medium",
-                "priority": 2,
-                "duration_range": "1-2 days",
-                "subtype": "Yellow"
-              },
-              {
-                "name": "Weight loss",
-                "stage": "Progressive",
-                "weight": 0.3,
-                "severity": "Medium",
-                "priority": 2,
-                "duration_range": "6-10 days",
-                "subtype": ""
-              },
-              {
-                "name": "Lethargy",
-                "stage": "Any",
-                "weight": 0.3,
-                "severity": "Low",
-                "priority": 2,
-                "duration_range": "3-5 days",
-                "subtype": ""
-              }
-            ]
+            "name": "Foul odor from wound",
+            "stage": "Early",
+            "weight": 0.4,
+            "severity": "High",
+            "priority": 3,
+            "duration_range": "2-4 days",
+            "subtype": ""
           },
           {
-            "illness": "Bacterial Infection (Leptospirosis) in Cats",
-            "type": "Bacterial (Zoonotic)",
-            "confidence": 0.85,
-            "age_range": "Any",
-            "breed": "Outdoor-prone",
-            "size": "Any",
-            "symptoms": [
-              {
-                "name": "Fever",
-                "stage": "Early",
-                "weight": 0.5,
-                "severity": "Medium",
-                "priority": 3,
-                "duration_range": "1-2 days",
-                "subtype": ""
-              },
-              {
-                "name": "Vomiting",
-                "stage": "Any",
-                "weight": 0.4,
-                "severity": "Medium",
-                "priority": 2,
-                "duration_range": "1-2 days",
-                "subtype": ""
-              },
-              {
-                "name": "Diarrhea",
-                "stage": "Any",
-                "weight": 0.4,
-                "severity": "Medium",
-                "priority": 2,
-                "duration_range": "1-2 days",
-                "subtype": "Watery"
-              },
-              {
-                "name": "Weakness",
-                "stage": "Any",
-                "weight": 0.3,
-                "severity": "Medium",
-                "priority": 2,
-                "duration_range": "3-5 days",
-                "subtype": ""
-              },
-              {
-                "name": "Jaundice",
-                "stage": "Any",
-                "weight": 0.4,
-                "severity": "High",
-                "priority": 3,
-                "duration_range": "3-5 days",
-                "subtype": "Yellow gums, eyes"
-              },
-              {
-                "name": "Lethargy",
-                "stage": "Any",
-                "weight": 0.3,
-                "severity": "Low",
-                "priority": 2,
-                "duration_range": "3-5 days",
-                "subtype": ""
-              }
-            ]
+            "name": "Pus or discharge",
+            "stage": "Any",
+            "weight": 0.3,
+            "severity": "Medium",
+            "priority": 2,
+            "duration_range": "3-6 days",
+            "subtype": "Thick, Yellow-Green"
           },
           {
-            "illness": "Bacterial Infection (Streptococcus) in Cats",
-            "type": "Bacterial",
-            "confidence": 0.8,
-            "age_range": "Any",
-            "breed": "Any",
-            "size": "Any",
-            "symptoms": [
-              {
-                "name": "Fever",
-                "stage": "Early",
-                "weight": 0.5,
-                "severity": "Medium",
-                "priority": 3,
-                "duration_range": "1-2 days",
-                "subtype": ""
-              },
-              {
-                "name": "Lethargy",
-                "stage": "Any",
-                "weight": 0.4,
-                "severity": "Medium",
-                "priority": 2,
-                "duration_range": "3-5 days",
-                "subtype": ""
-              },
-              {
-                "name": "Swollen joints",
-                "stage": "Any",
-                "weight": 0.4,
-                "severity": "High",
-                "priority": 2,
-                "duration_range": "3-5 days",
-                "subtype": "Painful on movement"
-              },
-              {
-                "name": "Coughing",
-                "stage": "Any",
-                "weight": 0.3,
-                "severity": "Low",
-                "priority": 2,
-                "duration_range": "3-5 days",
-                "subtype": ""
-              },
-              {
-                "name": "Nasal discharge",
-                "stage": "Any",
-                "weight": 0.3,
-                "severity": "Low",
-                "priority": 2,
-                "duration_range": "3-5 days",
-                "subtype": "Clear, Yellow"
-              }
-            ]
+            "name": "Pain when touched",
+            "stage": "Early",
+            "weight": 0.3,
+            "severity": "High",
+            "priority": 3,
+            "duration_range": "1-3 days",
+            "subtype": "Localized"
           },
           {
-            "illness": "Calicivirus in Cats",
-            "type": "Viral (Respiratory)",
-            "confidence": 0.9,
-            "age_range": "Kitten",
-            "breed": "Any",
-            "size": "Any",
-            "symptoms": [
-              {
-                "name": "Sneezing",
-                "stage": "Early",
-                "weight": 0.5,
-                "severity": "Low",
-                "priority": 3,
-                "duration_range": "3-5 days",
-                "subtype": "Occasional, Frequent"
-              },
-              {
-                "name": "Nasal discharge",
-                "stage": "Any",
-                "weight": 0.4,
-                "severity": "Low",
-                "priority": 2,
-                "duration_range": "3-5 days",
-                "subtype": "Clear, Mucous"
-              },
-              {
-                "name": "Eye discharge",
-                "stage": "Any",
-                "weight": 0.4,
-                "severity": "Low",
-                "priority": 2,
-                "duration_range": "3-5 days",
-                "subtype": "Watery, Yellow"
-              },
-              {
-                "name": "Mouth ulcers",
-                "stage": "Any",
-                "weight": 0.5,
-                "severity": "Medium",
-                "priority": 3,
-                "duration_range": "6-10 days",
-                "subtype": "Tongue, Palate"
-              },
-              {
-                "name": "Drooling",
-                "stage": "Any",
-                "weight": 0.4,
-                "severity": "Low",
-                "priority": 2,
-                "duration_range": "3-5 days",
-                "subtype": ""
-              },
-              {
-                "name": "Lethargy",
-                "stage": "Any",
-                "weight": 0.3,
-                "severity": "Low",
-                "priority": 2,
-                "duration_range": "3-5 days",
-                "subtype": ""
-              },
-              {
-                "name": "Fever",
-                "stage": "Early",
-                "weight": 0.4,
-                "severity": "Medium",
-                "priority": 2,
-                "duration_range": "1-2 days",
-                "subtype": ""
-              },
-              {
-                "name": "Limping",
-                "stage": "Any",
-                "weight": 0.3,
-                "severity": "Medium",
-                "priority": 2,
-                "duration_range": "3-5 days",
-                "subtype": "Intermittent, shifting"
-              },
-              {
-                "name": "Loss of appetite",
-                "stage": "Any",
-                "weight": 0.3,
-                "severity": "Low",
-                "priority": 2,
-                "duration_range": "1-2 days",
-                "subtype": ""
-              }
-            ]
+            "name": "Fever",
+            "stage": "Progressive",
+            "weight": 0.3,
+            "severity": "Medium",
+            "priority": 2,
+            "duration_range": "1-3 days",
+            "subtype": "Low-grade"
           },
           {
-            "illness": "Cat Tooth Abscess",
-            "type": "Dental",
-            "confidence": 0.85,
-            "age_range": "Adult",
-            "breed": "Any",
-            "size": "Any",
-            "symptoms": [
-              {
-                "name": "Swelling face",
-                "stage": "Early",
-                "weight": 0.5,
-                "severity": "High",
-                "priority": 3,
-                "duration_range": "3-5 days",
-                "subtype": "Cheek, jaw"
-              },
-              {
-                "name": "Drooling",
-                "stage": "Any",
-                "weight": 0.4,
-                "severity": "Medium",
-                "priority": 2,
-                "duration_range": "3-5 days",
-                "subtype": "Thick, Possibly bloody"
-              },
-              {
-                "name": "Bad Breath",
-                "stage": "Any",
-                "weight": 0.4,
-                "severity": "Medium",
-                "priority": 2,
-                "duration_range": "6-10 days",
-                "subtype": "Foul odor"
-              },
-              {
-                "name": "Painful chewing",
-                "stage": "Any",
-                "weight": 0.4,
-                "severity": "High",
-                "priority": 2,
-                "duration_range": "3-5 days",
-                "subtype": "Avoids hard food"
-              }
-            ]
+            "name": "Lethargy",
+            "stage": "Any",
+            "weight": 0.3,
+            "severity": "Medium",
+            "priority": 2,
+            "duration_range": "2-5 days",
+            "subtype": ""
+          }
+        ]
+      },
+      {
+      "illness": "Arthritis in Cats",
+      "type": "Musculoskeletal",
+      "confidence": 0.85,
+      "age_range": "Adult, Senior",
+      "breed": "Any",
+      "size": "Any",
+      "symptoms": [
+        {
+          "name": "Stiffness",
+          "stage": "Early",
+          "weight": 0.5,
+          "severity": "Medium",
+          "priority": 3,
+          "duration_range": "7-14 days",
+          "subtype": "After Sleep"
+        },
+        {
+          "name": "Limping",
+          "stage": "Progressive",
+          "weight": 0.4,
+          "severity": "Medium",
+          "priority": 2,
+          "duration_range": "7-14 days",
+          "subtype": "Intermittent, Worsens with activity"
+        },
+        {
+          "name": "Difficulty jumping",
+          "stage": "Progressive",
+          "weight": 0.4,
+          "severity": "High",
+          "priority": 2,
+          "duration_range": "7-21 days",
+          "subtype": ""
+        },
+        {
+          "name": "Less grooming",
+          "stage": "Late",
+          "weight": 0.3,
+          "severity": "Low",
+          "priority": 2,
+          "duration_range": "7-21 days",
+          "subtype": "Back, hind legs"
+        },
+        {
+          "name": "Irritability",
+          "stage": "Any",
+          "weight": 0.3,
+          "severity": "Low",
+          "priority": 2,
+          "duration_range": "3-7 days",
+          "subtype": ""
+        }
+      ]
+    },
+    {
+      "illness": "Babesiosis in Cats",
+      "type": "Parasitic (Blood)",
+      "confidence": 0.8,
+      "age_range": "Any",
+      "breed": "Any",
+      "size": "Any",
+      "symptoms": [
+        {
+          "name": "Pale gums",
+          "stage": "Early",
+          "weight": 0.5,
+          "severity": "High",
+          "priority": 3,
+          "duration_range": "1-3 days",
+          "subtype": "Anemia-related"
+        },
+        {
+          "name": "Fever",
+          "stage": "Early",
+          "weight": 0.4,
+          "severity": "Medium",
+          "priority": 2,
+          "duration_range": "1-3 days",
+          "subtype": "Mild, Moderate"
+        },
+        {
+          "name": "Lethargy",
+          "stage": "Progressive",
+          "weight": 0.4,
+          "severity": "Medium",
+          "priority": 2,
+          "duration_range": "3-7 days",
+          "subtype": "Mild"
+        },
+        {
+          "name": "Weakness",
+          "stage": "Progressive",
+          "weight": 0.3,
+          "severity": "Medium",
+          "priority": 2,
+          "duration_range": "3-7 days",
+          "subtype": "After Movement"
+        },
+        {
+          "name": "Loss of appetite",
+          "stage": "Any",
+          "weight": 0.3,
+          "severity": "Low",
+          "priority": 2,
+          "duration_range": "2-3 days",
+          "subtype": ""
+        }
+      ]
+    },
+      {
+          "illness": "Bacterial Infection (Actinomycosis) in Cats",
+          "type": "Bacterial",
+          "confidence": 0.8,
+          "age_range": "Adult, Senior",
+          "breed": "Any",
+          "size": "Any",
+          "symptoms": [
+            {
+              "name": "Swelling",
+              "stage": "Early",
+              "weight": 0.5,
+              "severity": "Medium",
+              "priority": 3,
+              "duration_range": "4-7 days",
+              "subtype": "Face, neck, jaw"
+            },
+            {
+              "name": "Skin lumps",
+              "stage": "Progressive",
+              "weight": 0.4,
+              "severity": "Medium",
+              "priority": 2,
+              "duration_range": "5-10 days",
+              "subtype": "Firm, slow-growing"
+            },
+            {
+              "name": "Draining wounds",
+              "stage": "Late",
+              "weight": 0.4,
+              "severity": "High",
+              "priority": 3,
+              "duration_range": "7-14 days",
+              "subtype": "Pus-filled, chronic"
+            },
+            {
+              "name": "Bad Odor",
+              "stage": "Progressive",
+              "weight": 0.3,
+              "severity": "Low",
+              "priority": 2,
+              "duration_range": "5-7 days",
+              "subtype": ""
+            },
+            {
+              "name": "Pain",
+              "stage": "Any",
+              "weight": 0.3,
+              "severity": "Medium",
+              "priority": 2,
+              "duration_range": "2-4 days",
+              "subtype": ""
+            },
+            {
+              "name": "Lethargy",
+              "stage": "Progressive",
+              "weight": 0.3,
+              "severity": "Medium",
+              "priority": 2,
+              "duration_range": "4-6 days",
+              "subtype": ""
+            }
+          ]
+        },
+        {
+          "illness": "Bacterial Infection (B. bronchiseptica) in Cats",
+          "type": "Bacterial (Respiratory)",
+          "confidence": 0.85,
+          "age_range": "Kitten, Adult",
+          "breed": "Any",
+          "size": "Any",
+          "symptoms": [
+            {
+              "name": "Sneezing",
+              "stage": "Early",
+              "weight": 0.5,
+              "severity": "Low",
+              "priority": 3,
+              "duration_range": "2-5 days",
+              "subtype": "Frequent, Mild"
+            },
+            {
+              "name": "Coughing",
+              "stage": "Progressive",
+              "weight": 0.4,
+              "severity": "Medium",
+              "priority": 2,
+              "duration_range": "3-7 days",
+              "subtype": "Dry, Honking"
+            },
+            {
+              "name": "Nasal discharge",
+              "stage": "Early",
+              "weight": 0.4,
+              "severity": "Low",
+              "priority": 2,
+              "duration_range": "3-6 days",
+              "subtype": "Clear, Yellow"
+            },
+            {
+              "name": "Eye discharge",
+              "stage": "Early",
+              "weight": 0.3,
+              "severity": "Low",
+              "priority": 2,
+              "duration_range": "3-6 days",
+              "subtype": "Watery, Mucous"
+            },
+            {
+              "name": "Fever",
+              "stage": "Early",
+              "weight": 0.3,
+              "severity": "Medium",
+              "priority": 2,
+              "duration_range": "1-3 days",
+              "subtype": "Mild"
+            },
+            {
+              "name": "Loss of appetite",
+              "stage": "Any",
+              "weight": 0.3,
+              "severity": "Low",
+              "priority": 2,
+              "duration_range": "2-4 days",
+              "subtype": ""
+            }
+          ]
+        },
+        {
+          "illness": "Bacterial Infection (Campylobacteriosis) in Cats",
+          "type": "Bacterial (Gastrointestinal)",
+          "confidence": 0.85,
+          "age_range": "Kitten, Adult",
+          "breed": "Any",
+          "size": "Any",
+          "symptoms": [
+            {
+              "name": "Diarrhea",
+              "stage": "Early",
+              "weight": 0.5,
+              "severity": "High",
+              "priority": 3,
+              "duration_range": "1-3 days",
+              "subtype": "Watery, Bloody, Mucous-Covered"
+            },
+            {
+              "name": "Mucus in stool",
+              "stage": "Early",
+              "weight": 0.4,
+              "severity": "Medium",
+              "priority": 2,
+              "duration_range": "1-2 days",
+              "subtype": ""
+            },
+            {
+              "name": "Vomiting",
+              "stage": "Any",
+              "weight": 0.4,
+              "severity": "Medium",
+              "priority": 2,
+              "duration_range": "1-2 days",
+              "subtype": "Yellow or Foamy, Partially digested food"
+            },
+            {
+              "name": "Weight loss",
+              "stage": "Progressive",
+              "weight": 0.3,
+              "severity": "Medium",
+              "priority": 2,
+              "duration_range": "5-10 days",
+              "subtype": "Gradual"
+            },
+            {
+              "name": "Lethargy",
+              "stage": "Progressive",
+              "weight": 0.3,
+              "severity": "Low",
+              "priority": 2,
+              "duration_range": "3-5 days",
+              "subtype": "Mild"
+            }
+          ]
+        },
+        {
+          "illness": "Bacterial Infection (Leptospirosis) in Cats",
+          "type": "Bacterial (Zoonotic)",
+          "confidence": 0.85,
+          "age_range": "Kitten, Adult",
+          "breed": "Outdoor-prone, Rural-roaming",
+          "size": "Any",
+          "symptoms": [
+            {
+              "name": "Fever",
+              "stage": "Early",
+              "weight": 0.5,
+              "severity": "Medium",
+              "priority": 3,
+              "duration_range": "1-3 days",
+              "subtype": "Sudden"
+            },
+            {
+              "name": "Vomiting",
+              "stage": "Early",
+              "weight": 0.4,
+              "severity": "Medium",
+              "priority": 2,
+              "duration_range": "1-2 days",
+              "subtype": "Yellow or Foamy"
+            },
+            {
+              "name": "Diarrhea",
+              "stage": "Early",
+              "weight": 0.4,
+              "severity": "Medium",
+              "priority": 2,
+              "duration_range": "2-4 days",
+              "subtype": "Watery, Foul-smelling"
+            },
+            {
+              "name": "Weakness",
+              "stage": "Progressive",
+              "weight": 0.3,
+              "severity": "Medium",
+              "priority": 2,
+              "duration_range": "3-6 days",
+              "subtype": "Mild"
+            },
+            {
+              "name": "Jaundice",
+              "stage": "Progressive",
+              "weight": 0.4,
+              "severity": "High",
+              "priority": 3,
+              "duration_range": "3-7 days",
+              "subtype": "Yellowing of gums, sclera"
+            },
+            {
+              "name": "Lethargy",
+              "stage": "Any",
+              "weight": 0.3,
+              "severity": "Low",
+              "priority": 2,
+              "duration_range": "3-6 days",
+              "subtype": ""
+            }
+          ]
+        },
+        {
+          "illness": "Bacterial Infection (Streptococcus) in Cats",
+          "type": "Bacterial",
+          "confidence": 0.8,
+          "age_range": "Any",
+          "breed": "Any",
+          "size": "Any",
+          "symptoms": [
+            {
+              "name": "Fever",
+              "stage": "Early",
+              "weight": 0.5,
+              "severity": "Medium",
+              "priority": 3,
+              "duration_range": "1-3 days",
+              "subtype": ""
+            },
+            {
+              "name": "Lethargy",
+              "stage": "Progressive",
+              "weight": 0.4,
+              "severity": "Medium",
+              "priority": 2,
+              "duration_range": "3-6 days",
+              "subtype": ""
+            },
+            {
+              "name": "Swollen joints",
+              "stage": "Progressive",
+              "weight": 0.4,
+              "severity": "High",
+              "priority": 2,
+              "duration_range": "4-7 days",
+              "subtype": ""
+            },
+            {
+              "name": "Coughing",
+              "stage": "Any",
+              "weight": 0.3,
+              "severity": "Low",
+              "priority": 2,
+              "duration_range": "2-5 days",
+              "subtype": "Dry, Harsh"
+            },
+            {
+              "name": "Nasal discharge",
+              "stage": "Any",
+              "weight": 0.3,
+              "severity": "Low",
+              "priority": 2,
+              "duration_range": "3-5 days",
+              "subtype": "Clear, yellow, mucous-like"
+            }
+          ]
+        },
+        {
+          "illness": "Calicivirus in Cats",
+          "type": "Viral (Respiratory)",
+          "confidence": 0.9,
+          "age_range": "Kitten, Adult",
+          "breed": "Any",
+          "size": "Any",
+          "symptoms": [
+            {
+              "name": "Sneezing",
+              "stage": "Early",
+              "weight": 0.5,
+              "severity": "Low",
+              "priority": 3,
+              "duration_range": "2-6 days",
+              "subtype": "Frequent, sudden onset"
+            },
+            {
+              "name": "Nasal discharge",
+              "stage": "Early",
+              "weight": 0.4,
+              "severity": "Low",
+              "priority": 2,
+              "duration_range": "3-6 days",
+              "subtype": "Clear, mucous-like"
+            },
+            {
+              "name": "Eye discharge",
+              "stage": "Early",
+              "weight": 0.4,
+              "severity": "Low",
+              "priority": 2,
+              "duration_range": "3-6 days",
+              "subtype": "Watery, Yellowish"
+            },
+            {
+              "name": "Mouth ulcers",
+              "stage": "Progressive",
+              "weight": 0.5,
+              "severity": "Medium",
+              "priority": 3,
+              "duration_range": "6-10 days",
+              "subtype": "Tongue, hard palate, lips"
+            },
+            {
+              "name": "Drooling",
+              "stage": "Progressive",
+              "weight": 0.4,
+              "severity": "Low",
+              "priority": 2,
+              "duration_range": "3-5 days",
+              "subtype": ""
+            },
+            {
+              "name": "Lethargy",
+              "stage": "Any",
+              "weight": 0.3,
+              "severity": "Low",
+              "priority": 2,
+              "duration_range": "3-5 days",
+              "subtype": ""
+            },
+            {
+              "name": "Fever",
+              "stage": "Early",
+              "weight": 0.4,
+              "severity": "Medium",
+              "priority": 2,
+              "duration_range": "1-3 days",
+              "subtype": ""
+            },
+            {
+              "name": "Limping",
+              "stage": "Progressive",
+              "weight": 0.3,
+              "severity": "Medium",
+              "priority": 2,
+              "duration_range": "3-6 days",
+              "subtype": "Shifting leg lameness"
+            },
+            {
+              "name": "Loss of appetite",
+              "stage": "Early",
+              "weight": 0.3,
+              "severity": "Low",
+              "priority": 2,
+              "duration_range": "2-3 days",
+              "subtype": ""
+            }
+          ]
+      },
+      {
+          "illness": "Cat Tooth Abscess",
+          "type": "Dental",
+          "confidence": 0.85,
+          "age_range": "Adult, Senior",
+          "breed": "Any",
+          "size": "Any",
+          "symptoms": [
+            {
+              "name": "Swelling face",
+              "stage": "Early",
+              "weight": 0.5,
+              "severity": "High",
+              "priority": 3,
+              "duration_range": "3-7 days",
+              "subtype": "Cheek, jaw, near eye"
+            },
+            {
+              "name": "Drooling",
+              "stage": "Any",
+              "weight": 0.4,
+              "severity": "Medium",
+              "priority": 2,
+              "duration_range": "3-6 days",
+              "subtype": "Thick saliva"
+            },
+            {
+              "name": "Bad Breath",
+              "stage": "Progressive",
+              "weight": 0.4,
+              "severity": "Medium",
+              "priority": 2,
+              "duration_range": "5-10 days",
+              "subtype": "Foul odor, decaying smell"
+            },
+            {
+              "name": "Painful chewing",
+              "stage": "Any",
+              "weight": 0.4,
+              "severity": "High",
+              "priority": 2,
+              "duration_range": "3-7 days",
+              "subtype": ""
+            }
+          ]
+        },
+        {
+          "illness": "Cerebellar Hypoplasia in Cats",
+          "type": "Neurological (Congenital)",
+          "confidence": 0.9,
+          "age_range": "Kitten",
+          "breed": "Any",
+          "size": "Any",
+          "symptoms": [
+            {
+              "name": "Wobbling",
+              "stage": "Early",
+              "weight": 0.5,
+              "severity": "Medium",
+              "priority": 3,
+              "duration_range": "Chronic",
+              "subtype": "Unsteady gait, wide stance"
+            },
+            {
+              "name": "Head tremors",
+              "stage": "Any",
+              "weight": 0.4,
+              "severity": "Medium",
+              "priority": 2,
+              "duration_range": "Chronic",
+              "subtype": ""
+            },
+            {
+              "name": "Uncoordinated movement",
+              "stage": "Any",
+              "weight": 0.4,
+              "severity": "Medium",
+              "priority": 2,
+              "duration_range": "Chronic",
+              "subtype": "Jerky, erratic"
+            },
+            {
+              "name": "Falling Over",
+              "stage": "Any",
+              "weight": 0.3,
+              "severity": "Low",
+              "priority": 1,
+              "duration_range": "Chronic",
+              "subtype": ""
+            }
+          ]
+        },
+        {
+          "illness": "Chronic Renal Failure in Cats",
+          "type": "Renal",
+          "confidence": 0.9,
+          "age_range": "Senior",
+          "breed": "Any",
+          "size": "Any",
+          "symptoms": [
+            {
+              "name": "Increased thirst",
+              "stage": "Early",
+              "weight": 0.5,
+              "severity": "Medium",
+              "priority": 3,
+              "duration_range": "7-14 days",
+              "subtype": "Persistent"
+            },
+            {
+              "name": "Frequent urination",
+              "stage": "Early",
+              "weight": 0.5,
+              "severity": "Medium",
+              "priority": 3,
+              "duration_range": "7-14 days",
+              "subtype": "Large amounts"
+            },
+            {
+              "name": "Weight loss",
+              "stage": "Progressive",
+              "weight": 0.4,
+              "severity": "Medium",
+              "priority": 2,
+              "duration_range": "15+ days",
+              "subtype": "Gradual"
+            },
+            {
+              "name": "Poor coat",
+              "stage": "Progressive",
+              "weight": 0.3,
+              "severity": "Low",
+              "priority": 1,
+              "duration_range": "7-14 days",
+              "subtype": "Dry, rough, unkempt"
+            },
+            {
+              "name": "Vomiting",
+              "stage": "Any",
+              "weight": 0.4,
+              "severity": "Medium",
+              "priority": 2,
+              "duration_range": "3-7 days",
+              "subtype": "Yellow or Foamy"
+            }
+          ]
+        },
+        {
+          "illness": "Coccidia in Cats",
+          "type": "Parasitic (Protozoal)",
+          "confidence": 0.85,
+          "age_range": "Kitten",
+          "breed": "Any",
+          "size": "Any",
+          "symptoms": [
+            {
+              "name": "Diarrhea",
+              "stage": "Early",
+              "weight": 0.5,
+              "severity": "High",
+              "priority": 3,
+              "duration_range": "2-4 days",
+              "subtype": "Mucous-Covered, Watery"
+            },
+            {
+              "name": "Dehydration",
+              "stage": "Progressive",
+              "weight": 0.4,
+              "severity": "High",
+              "priority": 3,
+              "duration_range": "2-5 days",
+              "subtype": ""
+            },
+            {
+              "name": "Weight loss",
+              "stage": "Progressive",
+              "weight": 0.4,
+              "severity": "Medium",
+              "priority": 2,
+              "duration_range": "5-10 days",
+              "subtype": "Gradual"
+            },
+            {
+              "name": "Vomiting",
+              "stage": "Early",
+              "weight": 0.3,
+              "severity": "Medium",
+              "priority": 2,
+              "duration_range": "1-2 days",
+              "subtype": "Yellow or Foamy"
+            },
+            {
+              "name": "Lethargy",
+              "stage": "Any",
+              "weight": 0.3,
+              "severity": "Low",
+              "priority": 2,
+              "duration_range": "3-6 days",
+              "subtype": ""
+            }
+          ]
+      },
+      {
+          "illness": "Congestive Heart Failure in Cats",
+          "type": "Cardiac",
+          "confidence": 0.9,
+          "age_range": "Senior",
+          "breed": "Any",
+          "size": "Any",
+          "symptoms": [
+            {
+              "name": "Breathing difficulty",
+              "stage": "Early",
+              "weight": 0.5,
+              "severity": "High",
+              "priority": 3,
+              "duration_range": "1-3 days",
+              "subtype": "Rapid, shallow, labored"
+            },
+            {
+              "name": "Lethargy",
+              "stage": "Progressive",
+              "weight": 0.4,
+              "severity": "Medium",
+              "priority": 2,
+              "duration_range": "3-7 days",
+              "subtype": "Decreased activity"
+            },
+            {
+              "name": "Coughing",
+              "stage": "Any",
+              "weight": 0.3,
+              "severity": "Low",
+              "priority": 2,
+              "duration_range": "2-4 days",
+              "subtype": ""
+            },
+            {
+              "name": "Swollen belly",
+              "stage": "Late",
+              "weight": 0.4,
+              "severity": "High",
+              "priority": 2,
+              "duration_range": "5-10 days",
+              "subtype": "Fluid buildup (ascites)"
+            },
+            {
+              "name": "Loss of appetite",
+              "stage": "Any",
+              "weight": 0.3,
+              "severity": "Low",
+              "priority": 2,
+              "duration_range": "1-3 days",
+              "subtype": ""
+            }
+          ]
+      },
+      {
+          "illness": "Demodectic Mange in Cats",
+          "type": "Parasitic (Skin Mite)",
+          "confidence": 0.8,
+          "age_range": "Any",
+          "breed": "Immunocompromised-prone",
+          "size": "Any",
+          "symptoms": [
+            {
+              "name": "Hair loss",
+              "stage": "Early",
+              "weight": 0.5,
+              "severity": "Medium",
+              "priority": 3,
+              "duration_range": "7-14 days",
+              "subtype": "Patchy, on face, neck, eyelids"
+            },
+            {
+              "name": "Scabs",
+              "stage": "Progressive",
+              "weight": 0.4,
+              "severity": "Medium",
+              "priority": 2,
+              "duration_range": "7-14 days",
+              "subtype": "Dry, crusted"
+            },
+            {
+              "name": "Itching",
+              "stage": "Progressive",
+              "weight": 0.4,
+              "severity": "Medium",
+              "priority": 2,
+              "duration_range": "5-10 days",
+              "subtype": "Intense, around face and limbs"
+            },
+            {
+              "name": "Skin redness",
+              "stage": "Early",
+              "weight": 0.3,
+              "severity": "Low",
+              "priority": 2,
+              "duration_range": "3-5 days",
+              "subtype": ""
+            },
+            {
+              "name": "Thickened skin",
+              "stage": "Late",
+              "weight": 0.3,
+              "severity": "Medium",
+              "priority": 2,
+              "duration_range": "10+ days",
+              "subtype": ""
+            }
+          ]
+      },
+      {
+          "illness": "Dental Issues in Cats",
+          "type": "Dental",
+          "confidence": 0.85,
+          "age_range": "Adult",
+          "breed": "Any",
+          "size": "Any",
+          "symptoms": [
+            {
+              "name": "Bad Breath",
+              "stage": "Early",
+              "weight": 0.5,
+              "severity": "Medium",
+              "priority": 3,
+              "duration_range": "5-10 days",
+              "subtype": "Foul odor, persistent odor"
+            },
+            {
+              "name": "Drooling",
+              "stage": "Progressive",
+              "weight": 0.4,
+              "severity": "Low",
+              "priority": 2,
+              "duration_range": "3-6 days",
+              "subtype": "Blood-Tinged, Thick Saliva"
+            },
+            {
+              "name": "Difficulty eating",
+              "stage": "Any",
+              "weight": 0.4,
+              "severity": "High",
+              "priority": 2,
+              "duration_range": "3-6 days",
+              "subtype": "Chews on one side, drops food"
+            },
+            {
+              "name": "Swollen gums",
+              "stage": "Any",
+              "weight": 0.3,
+              "severity": "Medium",
+              "priority": 2,
+              "duration_range": "3-6 days",
+              "subtype": "Red, inflamed"
+            },
+            {
+              "name": "Pawing at mouth",
+              "stage": "Any",
+              "weight": 0.3,
+              "severity": "Low",
+              "priority": 1,
+              "duration_range": "3-5 days",
+              "subtype": "Due to oral discomfort"
+            }
+          ]
+      },
+      {
+          "illness": "Diabetes in Cats",
+          "type": "Endocrine",
+          "confidence": 0.9,
+          "age_range": "Adult, Senior",
+          "breed": "Any",
+          "size": "Any",
+          "symptoms": [
+            {
+              "name": "Increased thirst",
+              "stage": "Early",
+              "weight": 0.5,
+              "severity": "Medium",
+              "priority": 3,
+              "duration_range": "6-15 days",
+              "subtype": "Drinks more than usual"
+            },
+            {
+              "name": "Frequent urination",
+              "stage": "Early",
+              "weight": 0.5,
+              "severity": "Medium",
+              "priority": 3,
+              "duration_range": "6-15 days",
+              "subtype": "Large amounts"
+            },
+            {
+              "name": "Weight loss",
+              "stage": "Progressive",
+              "weight": 0.4,
+              "severity": "Medium",
+              "priority": 2,
+              "duration_range": "15+ days",
+              "subtype": ""
+            },
+            {
+              "name": "Increased appetite",
+              "stage": "Early",
+              "weight": 0.4,
+              "severity": "Low",
+              "priority": 2,
+              "duration_range": "6-10 days",
+              "subtype": "Ravenous eating"
+            },
+            {
+              "name": "Weakness",
+              "stage": "Progressive",
+              "weight": 0.3,
+              "severity": "Medium",
+              "priority": 2,
+              "duration_range": "4-7 days",
+              "subtype": ""
+            }
+          ]
+      },
+      {
+          "illness": "Ehrlichiosis in Cats",
+          "type": "Parasitic (Tick-borne)",
+          "confidence": 0.85,
+          "age_range": "Any",
+          "breed": "Outdoor-prone",
+          "size": "Any",
+          "symptoms": [
+            {
+              "name": "Fever",
+              "stage": "Early",
+              "weight": 0.5,
+              "severity": "Medium",
+              "priority": 3,
+              "duration_range": "1-3 days",
+              "subtype": "Intermittent"
+            },
+            {
+              "name": "Lethargy",
+              "stage": "Progressive",
+              "weight": 0.4,
+              "severity": "Medium",
+              "priority": 2,
+              "duration_range": "3-6 days",
+              "subtype": "Decreased activity"
+            },
+            {
+              "name": "Weight loss",
+              "stage": "Late",
+              "weight": 0.4,
+              "severity": "Medium",
+              "priority": 2,
+              "duration_range": "7-14 days",
+              "subtype": "Gradual"
+            },
+            {
+              "name": "Swollen lymph nodes",
+              "stage": "Early",
+              "weight": 0.3,
+              "severity": "Medium",
+              "priority": 2,
+              "duration_range": "3-5 days",
+              "subtype": "Jaw, neck, groin"
+            },
+            {
+              "name": "Nosebleeds",
+              "stage": "Any",
+              "weight": 0.3,
+              "severity": "High",
+              "priority": 2,
+              "duration_range": "1-2 days",
+              "subtype": ""
+            }
+          ]
+      },
+      {
+          "illness": "Epilepsy in Cats",
+          "type": "Neurological",
+          "confidence": 0.85,
+          "age_range": "Any",
+          "breed": "Any",
+          "size": "Any",
+          "symptoms": [
+            {
+              "name": "Seizures",
+              "stage": "During episodes",
+              "weight": 0.5,
+              "severity": "High",
+              "priority": 3,
+              "duration_range": "Seconds to minutes",
+              "subtype": "Twitching, convulsions, paddling"
+            },
+            {
+              "name": "Stiffness",
+              "stage": "During episodes",
+              "weight": 0.4,
+              "severity": "High",
+              "priority": 2,
+              "duration_range": "Seconds to minutes",
+              "subtype": "Muscle rigidity"
+            },
+            {
+              "name": "Drooling",
+              "stage": "During or after",
+              "weight": 0.3,
+              "severity": "Medium",
+              "priority": 2,
+              "duration_range": "Short-term",
+              "subtype": "Excessive saliva"
+            },
+            {
+              "name": "Confusion",
+              "stage": "Post-seizure",
+              "weight": 0.3,
+              "severity": "Medium",
+              "priority": 2,
+              "duration_range": "1-2 hours",
+              "subtype": "Disoriented, pacing"
+            },
+            {
+              "name": "Collapse",
+              "stage": "During episodes",
+              "weight": 0.3,
+              "severity": "Critical",
+              "priority": 3,
+              "duration_range": "",
+              "subtype": ""
+            }
+          ]
+      },
+      {
+          "illness": "Feline Distemper (Panleukopenia)",
+          "type": "Viral (Gastrointestinal)",
+          "confidence": 0.9,
+          "age_range": "Kitten",
+          "breed": "Any",
+          "size": "Any",
+          "symptoms": [
+            {
+              "name": "Vomiting",
+              "stage": "Early",
+              "weight": 0.5,
+              "severity": "High",
+              "priority": 3,
+              "duration_range": "1-3 days",
+              "subtype": "Yellow or Foamy"
+            },
+            {
+              "name": "Diarrhea",
+              "stage": "Early",
+              "weight": 0.5,
+              "severity": "High",
+              "priority": 3,
+              "duration_range": "1-3 days",
+              "subtype": "Watery, Bloody"
+            },
+            {
+              "name": "Lethargy",
+              "stage": "Any",
+              "weight": 0.4,
+              "severity": "High",
+              "priority": 2,
+              "duration_range": "3-6 days",
+              "subtype": ""
+            },
+            {
+              "name": "Loss of appetite",
+              "stage": "Early",
+              "weight": 0.3,
+              "severity": "Medium",
+              "priority": 2,
+              "duration_range": "1-3 days",
+              "subtype": ""
+            },
+            {
+              "name": "Fever",
+              "stage": "Early",
+              "weight": 0.3,
+              "severity": "Medium",
+              "priority": 2,
+              "duration_range": "1-2 days",
+              "subtype": "Sudden"
+            },
+            {
+              "name": "Dehydration",
+              "stage": "Progressive",
+              "weight": 0.4,
+              "severity": "High",
+              "priority": 3,
+              "duration_range": "2-5 days",
+              "subtype": "Sunken eyes, tacky gums"
+            },
+            {
+              "name": "Weight loss",
+              "stage": "Late",
+              "weight": 0.3,
+              "severity": "Medium",
+              "priority": 2,
+              "duration_range": "6-10 days",
+              "subtype": "Rapid, Progressive"
+            },
+            {
+              "name": "Hiding",
+              "stage": "Early",
+              "weight": 0.2,
+              "severity": "Low",
+              "priority": 1,
+              "duration_range": "1-3 days",
+              "subtype": "Withdrawn, avoids contact"
+            },
+            {
+              "name": "Unsteadiness",
+              "stage": "Late",
+              "weight": 0.3,
+              "severity": "Medium",
+              "priority": 2,
+              "duration_range": "2-5 days",
+              "subtype": "Wobbly gait, weakness"
+            }
+          ]
+        },
+        {
+          "illness": "Feline Herpesvirus 1 (FHV-1) Infection",
+          "type": "Viral (Respiratory)",
+          "confidence": 0.9,
+          "age_range": "Kitten, Adult",
+          "breed": "Any",
+          "size": "Any",
+          "symptoms": [
+            {
+              "name": "Sneezing",
+              "stage": "Early",
+              "weight": 0.5,
+              "severity": "Low",
+              "priority": 3,
+              "duration_range": "3-7 days",
+              "subtype": "Frequent, sudden onset"
+            },
+            {
+              "name": "Nasal discharge",
+              "stage": "Early",
+              "weight": 0.4,
+              "severity": "Low",
+              "priority": 2,
+              "duration_range": "3-7 days",
+              "subtype": "Clear, yellow, thick"
+            },
+            {
+              "name": "Eye discharge",
+              "stage": "Early",
+              "weight": 0.4,
+              "severity": "Low",
+              "priority": 2,
+              "duration_range": "3-7 days",
+              "subtype": "Watery, Mucous"
+            },
+            {
+              "name": "Squinting",
+              "stage": "Any",
+              "weight": 0.3,
+              "severity": "Low",
+              "priority": 2,
+              "duration_range": "3-5 days",
+              "subtype": ""
+            },
+            {
+              "name": "Eye redness",
+              "stage": "Any",
+              "weight": 0.3,
+              "severity": "Low",
+              "priority": 2,
+              "duration_range": "3-5 days",
+              "subtype": "Conjunctivitis, inflamed tissue"
+            },
+            {
+              "name": "Loss of appetite",
+              "stage": "Early",
+              "weight": 0.3,
+              "severity": "Low",
+              "priority": 2,
+              "duration_range": "2-3 days",
+              "subtype": ""
+            },
+            {
+              "name": "Lethargy",
+              "stage": "Any",
+              "weight": 0.3,
+              "severity": "Low",
+              "priority": 2,
+              "duration_range": "3-5 days",
+              "subtype": "Mild"
+            },
+            {
+              "name": "Fever",
+              "stage": "Early",
+              "weight": 0.3,
+              "severity": "Medium",
+              "priority": 2,
+              "duration_range": "1-2 days",
+              "subtype": "Mild, Moderate"
+            }
+          ]
+        },
+        {
+          "illness": "Feline Hypertrophic Cardiomyopathy (HCM) in Cats",
+          "type": "Cardiac",
+          "confidence": 0.9,
+          "age_range": "Adult, Senior",
+          "breed": "Maine Coon, Ragdoll prone",
+          "size": "Any",
+          "symptoms": [
+            {
+              "name": "Rapid breathing",
+              "stage": "Early",
+              "weight": 0.5,
+              "severity": "High",
+              "priority": 3,
+              "duration_range": "1-3 days",
+              "subtype": "Tachypnea, often at rest"
+            },
+            {
+              "name": "Panting",
+              "stage": "Any",
+              "weight": 0.4,
+              "severity": "Medium",
+              "priority": 2,
+              "duration_range": "1-2 days",
+              "subtype": "With open mouth, stress-induced"
+            },
+            {
+              "name": "Lethargy",
+              "stage": "Progressive",
+              "weight": 0.4,
+              "severity": "Medium",
+              "priority": 2,
+              "duration_range": "3-6 days",
+              "subtype": "Decreased energy"
+            },
+            {
+              "name": "Weakness",
+              "stage": "Any",
+              "weight": 0.4,
+              "severity": "Medium",
+              "priority": 2,
+              "duration_range": "3-6 days",
+              "subtype": "Mild, Moderate"
+            },
+            {
+              "name": "Sudden collapse",
+              "stage": "Late",
+              "weight": 0.5,
+              "severity": "Critical",
+              "priority": 3,
+              "duration_range": "1-2 days",
+              "subtype": ""
+            }
+          ]
+        },
+        {
+          "illness": "Giardia in Cats",
+          "type": "Parasitic (Protozoal)",
+          "confidence": 0.85,
+          "age_range": "Any",
+          "breed": "Outdoor, multi-cat prone",
+          "size": "Any",
+          "symptoms": [
+            {
+              "name": "Diarrhea",
+              "stage": "Early",
+              "weight": 0.5,
+              "severity": "High",
+              "priority": 3,
+              "duration_range": "2-4 days",
+              "subtype": "Foul-smelling, Mucous-Covered"
+            },
+            {
+              "name": "Gas",
+              "stage": "Any",
+              "weight": 0.4,
+              "severity": "Low",
+              "priority": 2,
+              "duration_range": "3-6 days",
+              "subtype": "Bloating, flatulence"
+            },
+            {
+              "name": "Weight loss",
+              "stage": "Progressive",
+              "weight": 0.4,
+              "severity": "Medium",
+              "priority": 2,
+              "duration_range": "6-12 days",
+              "subtype": ""
+            },
+            {
+              "name": "Soft stool",
+              "stage": "Any",
+              "weight": 0.3,
+              "severity": "Low",
+              "priority": 2,
+              "duration_range": "3-5 days",
+              "subtype": "Formless, greasy"
+            },
+            {
+              "name": "Lethargy",
+              "stage": "Any",
+              "weight": 0.3,
+              "severity": "Low",
+              "priority": 2,
+              "duration_range": "3-6 days",
+              "subtype": "Mild"
+            }
+          ]
+        },
+        {
+          "illness": "Gingivitis in Cats",
+          "type": "Dental (Inflammatory)",
+          "confidence": 0.85,
+          "age_range": "Adult",
+          "breed": "Any",
+          "size": "Any",
+          "symptoms": [
+            {
+              "name": "Red gums",
+              "stage": "Early",
+              "weight": 0.5,
+              "severity": "Low",
+              "priority": 3,
+              "duration_range": "5-10 days",
+              "subtype": "Along gum line, near molars"
+            },
+            {
+              "name": "Swollen gums",
+              "stage": "Any",
+              "weight": 0.4,
+              "severity": "Medium",
+              "priority": 2,
+              "duration_range": "5-10 days",
+              "subtype": "Painful"
+            },
+            {
+              "name": "Bad Breath",
+              "stage": "Progressive",
+              "weight": 0.4,
+              "severity": "Low",
+              "priority": 2,
+              "duration_range": "5-10 days",
+              "subtype": "Foul odor"
+            },
+            {
+              "name": "Drooling",
+              "stage": "Any",
+              "weight": 0.3,
+              "severity": "Low",
+              "priority": 2,
+              "duration_range": "3-5 days",
+              "subtype": "Stringy saliva"
+            },
+            {
+              "name": "Bleeding gums",
+              "stage": "Any",
+              "weight": 0.3,
+              "severity": "Medium",
+              "priority": 2,
+              "duration_range": "3-5 days",
+              "subtype": "During brushing or chewing"
+            }
+          ]
+      },
+      {
+          "illness": "Heartworm Disease in Cats",
+          "type": "Parasitic (Cardiopulmonary)",
+          "confidence": 0.9,
+          "age_range": "Any",
+          "breed": "Outdoor-prone",
+          "size": "Any",
+          "symptoms": [
+            {
+              "name": "Coughing",
+              "stage": "Early",
+              "weight": 0.5,
+              "severity": "Medium",
+              "priority": 3,
+              "duration_range": "3-6 days",
+              "subtype": "Dry, persistent"
+            },
+            {
+              "name": "Vomiting",
+              "stage": "Any",
+              "weight": 0.4,
+              "severity": "Medium",
+              "priority": 2,
+              "duration_range": "2-3 days",
+              "subtype": "Intermittent, Yellow or Foamy"
+            },
+            {
+              "name": "Breathing difficulty",
+              "stage": "Progressive",
+              "weight": 0.4,
+              "severity": "High",
+              "priority": 3,
+              "duration_range": "3-7 days",
+              "subtype": "Labored, Rapid"
+            },
+            {
+              "name": "Lethargy",
+              "stage": "Any",
+              "weight": 0.3,
+              "severity": "Medium",
+              "priority": 2,
+              "duration_range": "3-6 days",
+              "subtype": ""
+            },
+            {
+              "name": "Weight loss",
+              "stage": "Progressive",
+              "weight": 0.3,
+              "severity": "Medium",
+              "priority": 2,
+              "duration_range": "7-14 days",
+              "subtype": "Gradual"
+            }
+          ]
+      },
+      {
+          "illness": "Hip Dysplasia in Cats",
+          "type": "Musculoskeletal",
+          "confidence": 0.85,
+          "age_range": "Adult",
+          "breed": "Large, purebred prone",
+          "size": "Medium to Large",
+          "symptoms": [
+            {
+              "name": "Limping",
+              "stage": "Early",
+              "weight": 0.5,
+              "severity": "Medium",
+              "priority": 3,
+              "duration_range": "5-10 days",
+              "subtype": "Intermittent, worsens with activity"
+            },
+            {
+              "name": "Difficulty moving",
+              "stage": "Progressive",
+              "weight": 0.4,
+              "severity": "Medium",
+              "priority": 2,
+              "duration_range": "6-12 days",
+              "subtype": ""
+            },
+            {
+              "name": "Stiffness",
+              "stage": "Morning or post-rest",
+              "weight": 0.4,
+              "severity": "Low",
+              "priority": 2,
+              "duration_range": "3-6 days",
+              "subtype": "After Sleep"
+            },
+            {
+              "name": "Pain when touched",
+              "stage": "Any",
+              "weight": 0.4,
+              "severity": "High",
+              "priority": 2,
+              "duration_range": "3-6 days",
+              "subtype": "Hip, lower spine region"
+            }
+          ]
+      },
+      {
+          "illness": "Hookworms in Cats",
+          "type": "Parasitic (Intestinal)",
+          "confidence": 0.85,
+          "age_range": "Kitten",
+          "breed": "Any",
+          "size": "Any",
+          "symptoms": [
+            {
+              "name": "Pale gums",
+              "stage": "Early",
+              "weight": 0.5,
+              "severity": "High",
+              "priority": 3,
+              "duration_range": "1-2 days",
+              "subtype": "Anemia-related, white to pale pink"
+            },
+            {
+              "name": "Diarrhea",
+              "stage": "Any",
+              "weight": 0.4,
+              "severity": "Medium",
+              "priority": 2,
+              "duration_range": "2-4 days",
+              "subtype": "Loose, Dark, Bloody"
+            },
+            {
+              "name": "Weight loss",
+              "stage": "Progressive",
+              "weight": 0.4,
+              "severity": "Medium",
+              "priority": 2,
+              "duration_range": "7-14 days",
+              "subtype": "Gradual"
+            },
+            {
+              "name": "Poor coat",
+              "stage": "Any",
+              "weight": 0.3,
+              "severity": "Low",
+              "priority": 2,
+              "duration_range": "7-10 days",
+              "subtype": "Dry, rough, dull"
+            },
+            {
+              "name": "Lethargy",
+              "stage": "Any",
+              "weight": 0.3,
+              "severity": "Low",
+              "priority": 2,
+              "duration_range": "3-6 days",
+              "subtype": "Weak"
+            }
+          ]
+        },
+        {
+          "illness": "Kidney Disease in Cats",
+          "type": "Renal",
+          "confidence": 0.9,
+          "age_range": "Senior",
+          "breed": "Any",
+          "size": "Any",
+          "symptoms": [
+            {
+              "name": "Increased thirst",
+              "stage": "Early",
+              "weight": 0.5,
+              "severity": "Medium",
+              "priority": 3,
+              "duration_range": "7-14 days",
+              "subtype": "Persistent"
+            },
+            {
+              "name": "Frequent urination",
+              "stage": "Early",
+              "weight": 0.5,
+              "severity": "Medium",
+              "priority": 3,
+              "duration_range": "7-14 days",
+              "subtype": "Large amounts"
+            },
+            {
+              "name": "Vomiting",
+              "stage": "Progressive",
+              "weight": 0.4,
+              "severity": "Medium",
+              "priority": 2,
+              "duration_range": "3-6 days",
+              "subtype": "Yellow or Foamy, Intermittent"
+            },
+            {
+              "name": "Weight loss",
+              "stage": "Progressive",
+              "weight": 0.4,
+              "severity": "Medium",
+              "priority": 2,
+              "duration_range": "15+ days",
+              "subtype": "Gradual"
+            },
+            {
+              "name": "Lethargy",
+              "stage": "Any",
+              "weight": 0.3,
+              "severity": "Low",
+              "priority": 2,
+              "duration_range": "3-6 days",
+              "subtype": "Decreased activity"
+            }
+          ]
+        },
+        {
+          "illness": "Kidney Failure in Cats",
+          "type": "Renal",
+          "confidence": 0.9,
+          "age_range": "Senior",
+          "breed": "Any",
+          "size": "Any",
+          "symptoms": [
+            {
+              "name": "Lethargy",
+              "stage": "Progressive",
+              "weight": 0.4,
+              "severity": "Medium",
+              "priority": 2,
+              "duration_range": "3-6 days",
+              "subtype": "Sleepy, decreased activity"
+            },
+            {
+              "name": "Vomiting",
+              "stage": "Progressive",
+              "weight": 0.5,
+              "severity": "Medium",
+              "priority": 3,
+              "duration_range": "3-6 days",
+              "subtype": "Intermittent"
+            },
+            {
+              "name": "Bad Breath",
+              "stage": "Late",
+              "weight": 0.4,
+              "severity": "Medium",
+              "priority": 2,
+              "duration_range": "5-10 days",
+              "subtype": "urine-like odor"
+            },
+            {
+              "name": "Dehydration",
+              "stage": "Progressive",
+              "weight": 0.4,
+              "severity": "High",
+              "priority": 3,
+              "duration_range": "3-6 days",
+              "subtype": "Sunken eyes, dry gums"
+            },
+            {
+              "name": "Weight loss",
+              "stage": "Late",
+              "weight": 0.4,
+              "severity": "Medium",
+              "priority": 2,
+              "duration_range": "15+ days",
+              "subtype": "Progressive"
+            }
+          ]
           },
           {
-            "illness": "Cerebellar Hypoplasia in Cats",
-            "type": "Neurological (Congenital)",
-            "confidence": 0.9,
-            "age_range": "Kitten",
-            "breed": "Any",
-            "size": "Any",
-            "symptoms": [
-              {
-                "name": "Wobbling",
-                "stage": "Early",
-                "weight": 0.5,
-                "severity": "Medium",
-                "priority": 3,
-                "duration_range": "15+ days",
-                "subtype": "Unsteady gait"
-              },
-              {
-                "name": "Head tremors",
-                "stage": "Any",
-                "weight": 0.4,
-                "severity": "Medium",
-                "priority": 2,
-                "duration_range": "15+ days",
-                "subtype": "Intention tremors"
-              },
-              {
-                "name": "Uncoordinated movement",
-                "stage": "Any",
-                "weight": 0.4,
-                "severity": "Medium",
-                "priority": 2,
-                "duration_range": "15+ days",
-                "subtype": "Jerky, erratic"
-              },
-              {
-                "name": "Falling Over",
-                "stage": "Any",
-                "weight": 0.3,
-                "severity": "Low",
-                "priority": 1,
-                "duration_range": "15+ days",
-                "subtype": "During walking, turning"
-              }
-            ]
-          },
-          {
-            "illness": "Chronic Renal Failure in Cats",
-            "type": "Renal",
-            "confidence": 0.9,
-            "age_range": "Senior",
-            "breed": "Any",
-            "size": "Any",
-            "symptoms": [
-              {
-                "name": "Increased thirst",
-                "stage": "Early",
-                "weight": 0.5,
-                "severity": "Medium",
-                "priority": 3,
-                "duration_range": "6-10 days",
-                "subtype": ""
-              },
-              {
-                "name": "Frequent urination",
-                "stage": "Early",
-                "weight": 0.5,
-                "severity": "Medium",
-                "priority": 3,
-                "duration_range": "6-10 days",
-                "subtype": ""
-              },
-              {
-                "name": "Weight loss",
-                "stage": "Progressive",
-                "weight": 0.4,
-                "severity": "Medium",
-                "priority": 2,
-                "duration_range": "15+ days",
-                "subtype": ""
-              },
-              {
-                "name": "Poor coat",
-                "stage": "Any",
-                "weight": 0.3,
-                "severity": "Low",
-                "priority": 1,
-                "duration_range": "6-10 days",
-                "subtype": "Dry, rough, unkempt"
-              },
-              {
-                "name": "Vomiting",
-                "stage": "Any",
-                "weight": 0.4,
-                "severity": "Medium",
-                "priority": 2,
-                "duration_range": "3-5 days",
-                "subtype": "Foamy, Yellow"
-              }
-            ]
-          },
-          {
-            "illness": "Coccidia in Cats",
-            "type": "Parasitic (Protozoal)",
-            "confidence": 0.85,
-            "age_range": "Kitten",
-            "breed": "Any",
-            "size": "Any",
-            "symptoms": [
-              {
-                "name": "Diarrhea",
-                "stage": "Early",
-                "weight": 0.5,
-                "severity": "High",
-                "priority": 3,
-                "duration_range": "1-2 days",
-                "subtype": "Mucous, Watery, Bloody"
-              },
-              {
-                "name": "Dehydration",
-                "stage": "Any",
-                "weight": 0.4,
-                "severity": "High",
-                "priority": 3,
-                "duration_range": "3-5 days",
-                "subtype": ""
-              },
-              {
-                "name": "Weight loss",
-                "stage": "Progressive",
-                "weight": 0.4,
-                "severity": "Medium",
-                "priority": 2,
-                "duration_range": "6-10 days",
-                "subtype": ""
-              },
-              {
-                "name": "Vomiting",
-                "stage": "Any",
-                "weight": 0.3,
-                "severity": "Medium",
-                "priority": 2,
-                "duration_range": "1-2 days",
-                "subtype": "Yellow, Foamy"
-              },
-              {
-                "name": "Lethargy",
-                "stage": "Any",
-                "weight": 0.3,
-                "severity": "Low",
-                "priority": 2,
-                "duration_range": "3-5 days",
-                "subtype": ""
-              }
-            ]
-          },
-          {
-            "illness": "Congestive Heart Failure in Cats",
-            "type": "Cardiac",
-            "confidence": 0.9,
-            "age_range": "Senior",
-            "breed": "Any",
-            "size": "Any",
-            "symptoms": [
-              {
-                "name": "Breathing difficulty",
-                "stage": "Early",
-                "weight": 0.5,
-                "severity": "High",
-                "priority": 3,
-                "duration_range": "1-2 days",
-                "subtype": "Labored, rapid"
-              },
-              {
-                "name": "Lethargy",
-                "stage": "Any",
-                "weight": 0.4,
-                "severity": "Medium",
-                "priority": 2,
-                "duration_range": "3-5 days",
-                "subtype": ""
-              },
-              {
-                "name": "Coughing",
-                "stage": "Any",
-                "weight": 0.3,
-                "severity": "Medium",
-                "priority": 2,
-                "duration_range": "3-5 days",
-                "subtype": "Dry, Chronic"
-              },
-              {
-                "name": "Swollen belly",
-                "stage": "Late",
-                "weight": 0.4,
-                "severity": "High",
-                "priority": 2,
-                "duration_range": "6-10 days",
-                "subtype": "Ascites"
-              },
-              {
-                "name": "Loss of appetite",
-                "stage": "Any",
-                "weight": 0.3,
-                "severity": "Low",
-                "priority": 2,
-                "duration_range": "1-2 days",
-                "subtype": ""
-              }
-            ]
-          },
-          {
-            "illness": "Demodectic Mange in Cats",
-            "type": "Parasitic (Skin Mite)",
-            "confidence": 0.8,
-            "age_range": "Any",
-            "breed": "Immunocompromised-prone",
-            "size": "Any",
-            "symptoms": [
-              {
-                "name": "Hair loss",
-                "stage": "Early",
-                "weight": 0.5,
-                "severity": "Medium",
-                "priority": 3,
-                "duration_range": "6-10 days",
-                "subtype": "Patchy, localized"
-              },
-              {
-                "name": "Scabs",
-                "stage": "Any",
-                "weight": 0.4,
-                "severity": "Medium",
-                "priority": 2,
-                "duration_range": "6-10 days",
-                "subtype": "Crusty skin"
-              },
-              {
-                "name": "Itching",
-                "stage": "Any",
-                "weight": 0.4,
-                "severity": "Medium",
-                "priority": 2,
-                "duration_range": "6-10 days",
-                "subtype": "Intense scratching"
-              },
-              {
-                "name": "Skin redness",
-                "stage": "Any",
-                "weight": 0.3,
-                "severity": "Low",
-                "priority": 2,
-                "duration_range": "3-5 days",
-                "subtype": "Irritated skin"
-              },
-              {
-                "name": "Thickened skin",
-                "stage": "Progressive",
-                "weight": 0.3,
-                "severity": "Medium",
-                "priority": 2,
-                "duration_range": "6-10 days",
-                "subtype": "Chronic, inflamed areas"
-              }
-            ]
-          },
-          {
-            "illness": "Dental Issues in Cats",
-            "type": "Dental",
-            "confidence": 0.85,
-            "age_range": "Adult",
-            "breed": "Any",
-            "size": "Any",
-            "symptoms": [
-              {
-                "name": "Bad Breath",
-                "stage": "Early",
-                "weight": 0.5,
-                "severity": "Medium",
-                "priority": 3,
-                "duration_range": "6-10 days",
-                "subtype": "Foul odor"
-              },
-              {
-                "name": "Drooling",
-                "stage": "Any",
-                "weight": 0.4,
-                "severity": "Low",
-                "priority": 2,
-                "duration_range": "3-5 days",
-                "subtype": "Thick, Sometimes bloody"
-              },
-              {
-                "name": "Difficulty eating",
-                "stage": "Any",
-                "weight": 0.4,
-                "severity": "High",
-                "priority": 2,
-                "duration_range": "3-5 days",
-                "subtype": "Chews on one side"
-              },
-              {
-                "name": "Swollen gums",
-                "stage": "Any",
-                "weight": 0.3,
-                "severity": "Medium",
-                "priority": 2,
-                "duration_range": "3-5 days",
-                "subtype": "Red, inflamed"
-              },
-              {
-                "name": "Pawing at mouth",
-                "stage": "Any",
-                "weight": 0.3,
-                "severity": "Low",
-                "priority": 1,
-                "duration_range": "3-5 days",
-                "subtype": "Discomfort, pain"
-              }
-            ]
-          },
-          {
-            "illness": "Diabetes in Cats",
-            "type": "Endocrine",
-            "confidence": 0.9,
-            "age_range": "Adult",
-            "breed": "Any",
-            "size": "Any",
-            "symptoms": [
-              {
-                "name": "Increased thirst",
-                "stage": "Early",
-                "weight": 0.5,
-                "severity": "Medium",
-                "priority": 3,
-                "duration_range": "6-10 days",
-                "subtype": ""
-              },
-              {
-                "name": "Frequent urination",
-                "stage": "Early",
-                "weight": 0.5,
-                "severity": "Medium",
-                "priority": 3,
-                "duration_range": "6-10 days",
-                "subtype": ""
-              },
-              {
-                "name": "Weight loss",
-                "stage": "Progressive",
-                "weight": 0.4,
-                "severity": "Medium",
-                "priority": 2,
-                "duration_range": "15+ days",
-                "subtype": ""
-              },
-              {
-                "name": "Increased appetite",
-                "stage": "Any",
-                "weight": 0.4,
-                "severity": "Low",
-                "priority": 2,
-                "duration_range": "6-10 days",
-                "subtype": ""
-              },
-              {
-                "name": "Weakness",
-                "stage": "Any",
-                "weight": 0.3,
-                "severity": "Medium",
-                "priority": 2,
-                "duration_range": "3-5 days",
-                "subtype": "Limping, dragging legs"
-              }
-            ]
-          },
-          {
-            "illness": "Ehrlichiosis in Cats",
-            "type": "Parasitic (Tick-borne)",
-            "confidence": 0.85,
-            "age_range": "Any",
-            "breed": "Outdoor-prone",
-            "size": "Any",
-            "symptoms": [
-              {
-                "name": "Fever",
-                "stage": "Early",
-                "weight": 0.5,
-                "severity": "Medium",
-                "priority": 3,
-                "duration_range": "1-2 days",
-                "subtype": ""
-              },
-              {
-                "name": "Lethargy",
-                "stage": "Any",
-                "weight": 0.4,
-                "severity": "Medium",
-                "priority": 2,
-                "duration_range": "3-5 days",
-                "subtype": ""
-              },
-              {
-                "name": "Weight loss",
-                "stage": "Progressive",
-                "weight": 0.4,
-                "severity": "Medium",
-                "priority": 2,
-                "duration_range": "6-10 days",
-                "subtype": ""
-              },
-              {
-                "name": "Swollen lymph nodes",
-                "stage": "Any",
-                "weight": 0.3,
-                "severity": "Medium",
-                "priority": 2,
-                "duration_range": "3-5 days",
-                "subtype": "Jaw, neck, groin"
-              },
-              {
-                "name": "Nosebleeds",
-                "stage": "Any",
-                "weight": 0.3,
-                "severity": "High",
-                "priority": 2,
-                "duration_range": "1-2 days",
-                "subtype": ""
-              }
-            ]
-          },
-          {
-            "illness": "Epilepsy in Cats",
-            "type": "Neurological",
-            "confidence": 0.85,
-            "age_range": "Any",
-            "breed": "Any",
-            "size": "Any",
-            "symptoms": [
-              {
-                "name": "Seizures",
-                "stage": "During episodes",
-                "weight": 0.5,
-                "severity": "High",
-                "priority": 3,
-                "duration_range": "1-2 days",
-                "subtype": "Twitching, Convulsions"
-              },
-              {
-                "name": "Stiffness",
-                "stage": "During episodes",
-                "weight": 0.4,
-                "severity": "High",
-                "priority": 2,
-                "duration_range": "1-2 days",
-                "subtype": "Limb, body rigidity"
-              },
-              {
-                "name": "Drooling",
-                "stage": "During or after",
-                "weight": 0.3,
-                "severity": "Medium",
-                "priority": 2,
-                "duration_range": "1-2 days",
-                "subtype": "Excessive saliva"
-              },
-              {
-                "name": "Confusion",
-                "stage": "Post-seizure",
-                "weight": 0.3,
-                "severity": "Medium",
-                "priority": 2,
-                "duration_range": "1-2 days",
-                "subtype": "Disoriented behavior"
-              },
-              {
-                "name": "Collapse",
-                "stage": "During episodes",
-                "weight": 0.3,
-                "severity": "Critical",
-                "priority": 3,
-                "duration_range": "1-2 days",
-                "subtype": ""
-              }
-            ]
-          },
-          {
-            "illness": "Feline Distemper (Panleukopenia)",
-            "type": "Viral (Gastrointestinal)",
-            "confidence": 0.9,
-            "age_range": "Kitten",
-            "breed": "Any",
-            "size": "Any",
-            "symptoms": [
-              {
-                "name": "Vomiting",
-                "stage": "Early",
-                "weight": 0.5,
-                "severity": "High",
-                "priority": 3,
-                "duration_range": "1-2 days",
-                "subtype": "Yellow, Foamy"
-              },
-              {
-                "name": "Diarrhea",
-                "stage": "Early",
-                "weight": 0.5,
-                "severity": "High",
-                "priority": 3,
-                "duration_range": "1-2 days",
-                "subtype": "Watery, Bloody"
-              },
-              {
-                "name": "Lethargy",
-                "stage": "Any",
-                "weight": 0.4,
-                "severity": "High",
-                "priority": 2,
-                "duration_range": "3-5 days",
-                "subtype": ""
-              },
-              {
-                "name": "Loss of appetite",
-                "stage": "Any",
-                "weight": 0.3,
-                "severity": "Medium",
-                "priority": 2,
-                "duration_range": "1-2 days",
-                "subtype": ""
-              },
-              {
-                "name": "Fever",
-                "stage": "Early",
-                "weight": 0.3,
-                "severity": "Medium",
-                "priority": 2,
-                "duration_range": "1-2 days",
-                "subtype": ""
-              },
-              {
-                "name": "Dehydration",
-                "stage": "Any",
-                "weight": 0.4,
-                "severity": "High",
-                "priority": 3,
-                "duration_range": "3-5 days",
-                "subtype": ""
-              },
-              {
-                "name": "Weight loss",
-                "stage": "Progressive",
-                "weight": 0.3,
-                "severity": "Medium",
-                "priority": 2,
-                "duration_range": "6-10 days",
-                "subtype": ""
-              },
-              {
-                "name": "Hiding",
-                "stage": "Any",
-                "weight": 0.2,
-                "severity": "Low",
-                "priority": 1,
-                "duration_range": "1-2 days",
-                "subtype": "Withdrawn behavior"
-              },
-              {
-                "name": "Unsteadiness",
-                "stage": "Late",
-                "weight": 0.3,
-                "severity": "Medium",
-                "priority": 2,
-                "duration_range": "3-5 days",
-                "subtype": "Wobbly, weak"
-              }
-            ]
-          },
-          {
-            "illness": "Feline Herpesvirus 1 (FHV-1) Infection",
-            "type": "Viral (Respiratory)",
-            "confidence": 0.9,
-            "age_range": "Kitten",
-            "breed": "Any",
-            "size": "Any",
-            "symptoms": [
-              {
-                "name": "Sneezing",
-                "stage": "Early",
-                "weight": 0.5,
-                "severity": "Low",
-                "priority": 3,
-                "duration_range": "3-5 days",
-                "subtype": "Frequent"
-              },
-              {
-                "name": "Nasal discharge",
-                "stage": "Any",
-                "weight": 0.4,
-                "severity": "Low",
-                "priority": 2,
-                "duration_range": "3-5 days",
-                "subtype": "Clear, Yellow"
-              },
-              {
-                "name": "Eye discharge",
-                "stage": "Any",
-                "weight": 0.4,
-                "severity": "Low",
-                "priority": 2,
-                "duration_range": "3-5 days",
-                "subtype": "Watery, Mucous"
-              },
-              {
-                "name": "Squinting",
-                "stage": "Any",
-                "weight": 0.3,
-                "severity": "Low",
-                "priority": 2,
-                "duration_range": "3-5 days",
-                "subtype": ""
-              },
-              {
-                "name": "Eye redness",
-                "stage": "Any",
-                "weight": 0.3,
-                "severity": "Low",
-                "priority": 2,
-                "duration_range": "3-5 days",
-                "subtype": "Conjunctivitis"
-              },
-              {
-                "name": "Loss of appetite",
-                "stage": "Any",
-                "weight": 0.3,
-                "severity": "Low",
-                "priority": 2,
-                "duration_range": "1-2 days",
-                "subtype": ""
-              },
-              {
-                "name": "Lethargy",
-                "stage": "Any",
-                "weight": 0.3,
-                "severity": "Low",
-                "priority": 2,
-                "duration_range": "3-5 days",
-                "subtype": ""
-              },
-              {
-                "name": "Fever",
-                "stage": "Early",
-                "weight": 0.3,
-                "severity": "Medium",
-                "priority": 2,
-                "duration_range": "1-2 days",
-                "subtype": ""
-              }
-            ]
-          },
-          {
-            "illness": "Feline Hypertrophic Cardiomyopathy (HCM) in Cats",
-            "type": "Cardiac",
-            "confidence": 0.9,
-            "age_range": "Adult",
-            "breed": "Maine Coon, Ragdoll prone",
-            "size": "Any",
-            "symptoms": [
-              {
-                "name": "Rapid breathing",
-                "stage": "Early",
-                "weight": 0.5,
-                "severity": "High",
-                "priority": 3,
-                "duration_range": "1-2 days",
-                "subtype": "Tachypnea"
-              },
-              {
-                "name": "Panting",
-                "stage": "Any",
-                "weight": 0.4,
-                "severity": "Medium",
-                "priority": 2,
-                "duration_range": "1-2 days",
-                "subtype": "Mouth open"
-              },
-              {
-                "name": "Lethargy",
-                "stage": "Any",
-                "weight": 0.4,
-                "severity": "Medium",
-                "priority": 2,
-                "duration_range": "3-5 days",
-                "subtype": ""
-              },
-              {
-                "name": "Weakness",
-                "stage": "Any",
-                "weight": 0.4,
-                "severity": "Medium",
-                "priority": 2,
-                "duration_range": "3-5 days",
-                "subtype": ""
-              },
-              {
-                "name": "Sudden collapse",
-                "stage": "Late",
-                "weight": 0.5,
-                "severity": "Critical",
-                "priority": 3,
-                "duration_range": "1-2 days",
-                "subtype": "Acute episode"
-              }
-            ]
-          },
-          {
-            "illness": "Giardia in Cats",
-            "type": "Parasitic (Protozoal)",
-            "confidence": 0.85,
-            "age_range": "Any",
-            "breed": "Outdoor, multi-cat prone",
-            "size": "Any",
-            "symptoms": [
-              {
-                "name": "Diarrhea",
-                "stage": "Early",
-                "weight": 0.5,
-                "severity": "High",
-                "priority": 3,
-                "duration_range": "1-2 days",
-                "subtype": "Foul-smelling, Mucous"
-              },
-              {
-                "name": "Gas",
-                "stage": "Any",
-                "weight": 0.4,
-                "severity": "Low",
-                "priority": 2,
-                "duration_range": "3-5 days",
-                "subtype": "Bloating, Flatulence"
-              },
-              {
-                "name": "Weight loss",
-                "stage": "Progressive",
-                "weight": 0.4,
-                "severity": "Medium",
-                "priority": 2,
-                "duration_range": "6-10 days",
-                "subtype": ""
-              },
-              {
-                "name": "Soft stool",
-                "stage": "Any",
-                "weight": 0.3,
-                "severity": "Low",
-                "priority": 2,
-                "duration_range": "3-5 days",
-                "subtype": "Formless, Light brown"
-              },
-              {
-                "name": "Lethargy",
-                "stage": "Any",
-                "weight": 0.3,
-                "severity": "Low",
-                "priority": 2,
-                "duration_range": "3-5 days",
-                "subtype": ""
-              }
-            ]
-          },
-          {
-            "illness": "Gingivitis in Cats",
-            "type": "Dental (Inflammatory)",
-            "confidence": 0.85,
-            "age_range": "Adult",
-            "breed": "Any",
-            "size": "Any",
-            "symptoms": [
-              {
-                "name": "Red gums",
-                "stage": "Early",
-                "weight": 0.5,
-                "severity": "Low",
-                "priority": 3,
-                "duration_range": "6-10 days",
-                "subtype": "Along gum line"
-              },
-              {
-                "name": "Swollen gums",
-                "stage": "Any",
-                "weight": 0.4,
-                "severity": "Medium",
-                "priority": 2,
-                "duration_range": "6-10 days",
-                "subtype": "Painful"
-              },
-              {
-                "name": "Bad Breath",
-                "stage": "Any",
-                "weight": 0.4,
-                "severity": "Low",
-                "priority": 2,
-                "duration_range": "6-10 days",
-                "subtype": "Foul odor"
-              },
-              {
-                "name": "Drooling",
-                "stage": "Any",
-                "weight": 0.3,
-                "severity": "Low",
-                "priority": 2,
-                "duration_range": "3-5 days",
-                "subtype": ""
-              },
-              {
-                "name": "Bleeding gums",
-                "stage": "Any",
-                "weight": 0.3,
-                "severity": "Medium",
-                "priority": 2,
-                "duration_range": "3-5 days",
-                "subtype": "When eating, touched"
-              }
-            ]
-          },
-          {
-            "illness": "Heartworm Disease in Cats",
-            "type": "Parasitic (Cardiopulmonary)",
-            "confidence": 0.9,
-            "age_range": "Any",
-            "breed": "Outdoor-prone",
-            "size": "Any",
-            "symptoms": [
-              {
-                "name": "Coughing",
-                "stage": "Early",
-                "weight": 0.5,
-                "severity": "Medium",
-                "priority": 3,
-                "duration_range": "3-5 days",
-                "subtype": "Dry, Persistent"
-              },
-              {
-                "name": "Vomiting",
-                "stage": "Any",
-                "weight": 0.4,
-                "severity": "Medium",
-                "priority": 2,
-                "duration_range": "1-2 days",
-                "subtype": "Foamy, Yellow"
-              },
-              {
-                "name": "Breathing difficulty",
-                "stage": "Any",
-                "weight": 0.4,
-                "severity": "High",
-                "priority": 3,
-                "duration_range": "3-5 days",
-                "subtype": "Labored, shallow"
-              },
-              {
-                "name": "Lethargy",
-                "stage": "Any",
-                "weight": 0.3,
-                "severity": "Medium",
-                "priority": 2,
-                "duration_range": "3-5 days",
-                "subtype": ""
-              },
-              {
-                "name": "Weight loss",
-                "stage": "Progressive",
-                "weight": 0.3,
-                "severity": "Medium",
-                "priority": 2,
-                "duration_range": "6-10 days",
-                "subtype": ""
-              }
-            ]
-          },
-          {
-            "illness": "Hip Dysplasia in Cats",
-            "type": "Musculoskeletal",
-            "confidence": 0.85,
-            "age_range": "Adult",
-            "breed": "Large, purebred prone",
-            "size": "Medium to Large",
-            "symptoms": [
-              {
-                "name": "Limping",
-                "stage": "Early",
-                "weight": 0.5,
-                "severity": "Medium",
-                "priority": 3,
-                "duration_range": "6-10 days",
-                "subtype": "Intermittent, constant"
-              },
-              {
-                "name": "Difficulty moving",
-                "stage": "Any",
-                "weight": 0.4,
-                "severity": "Medium",
-                "priority": 2,
-                "duration_range": "6-10 days",
-                "subtype": "Hesitant to climb, jump"
-              },
-              {
-                "name": "Stiffness",
-                "stage": "Early",
-                "weight": 0.4,
-                "severity": "Low",
-                "priority": 2,
-                "duration_range": "3-5 days",
-                "subtype": "After rest"
-              },
-              {
-                "name": "Pain when touched",
-                "stage": "Any",
-                "weight": 0.4,
-                "severity": "High",
-                "priority": 2,
-                "duration_range": "3-5 days",
-                "subtype": "Hips, lower back"
-              }
-            ]
-          },
-          {
-            "illness": "Hookworms in Cats",
-            "type": "Parasitic (Intestinal)",
-            "confidence": 0.85,
-            "age_range": "Kitten",
-            "breed": "Any",
-            "size": "Any",
-            "symptoms": [
-              {
-                "name": "Pale gums",
-                "stage": "Early",
-                "weight": 0.5,
-                "severity": "High",
-                "priority": 3,
-                "duration_range": "1-2 days",
-                "subtype": "Anemia-related"
-              },
-              {
-                "name": "Diarrhea",
-                "stage": "Any",
-                "weight": 0.4,
-                "severity": "Medium",
-                "priority": 2,
-                "duration_range": "1-2 days",
-                "subtype": "Loose, Bloody"
-              },
-              {
-                "name": "Weight loss",
-                "stage": "Progressive",
-                "weight": 0.4,
-                "severity": "Medium",
-                "priority": 2,
-                "duration_range": "6-10 days",
-                "subtype": ""
-              },
-              {
-                "name": "Poor coat",
-                "stage": "Any",
-                "weight": 0.3,
-                "severity": "Low",
-                "priority": 2,
-                "duration_range": "6-10 days",
-                "subtype": "Dry, rough, unkempt"
-              },
-              {
-                "name": "Lethargy",
-                "stage": "Any",
-                "weight": 0.3,
-                "severity": "Low",
-                "priority": 2,
-                "duration_range": "3-5 days",
-                "subtype": ""
-              }
-            ]
-          },
-          {
-            "illness": "Kidney Disease in Cats",
-            "type": "Renal",
-            "confidence": 0.9,
-            "age_range": "Senior",
-            "breed": "Any",
-            "size": "Any",
-            "symptoms": [
-              {
-                "name": "Increased thirst",
-                "stage": "Early",
-                "weight": 0.5,
-                "severity": "Medium",
-                "priority": 3,
-                "duration_range": "6-10 days",
-                "subtype": ""
-              },
-              {
-                "name": "Frequent urination",
-                "stage": "Early",
-                "weight": 0.5,
-                "severity": "Medium",
-                "priority": 3,
-                "duration_range": "6-10 days",
-                "subtype": ""
-              },
-              {
-                "name": "Vomiting",
-                "stage": "Any",
-                "weight": 0.4,
-                "severity": "Medium",
-                "priority": 2,
-                "duration_range": "3-5 days",
-                "subtype": "Foamy, Yellow"
-              },
-              {
-                "name": "Weight loss",
-                "stage": "Progressive",
-                "weight": 0.4,
-                "severity": "Medium",
-                "priority": 2,
-                "duration_range": "15+ days",
-                "subtype": ""
-              },
-              {
-                "name": "Lethargy",
-                "stage": "Any",
-                "weight": 0.3,
-                "severity": "Low",
-                "priority": 2,
-                "duration_range": "3-5 days",
-                "subtype": ""
-              }
-            ]
-          },
-          {
-            "illness": "Kidney Failure in Cats",
-            "type": "Renal",
-            "confidence": 0.9,
-            "age_range": "Senior",
-            "breed": "Any",
-            "size": "Any",
-            "symptoms": [
-              {
-                "name": "Lethargy",
-                "stage": "Any",
-                "weight": 0.4,
-                "severity": "Medium",
-                "priority": 2,
-                "duration_range": "3-5 days",
-                "subtype": ""
-              },
-              {
-                "name": "Vomiting",
-                "stage": "Any",
-                "weight": 0.5,
-                "severity": "Medium",
-                "priority": 3,
-                "duration_range": "3-5 days",
-                "subtype": "Foamy, Yellow"
-              },
-              {
-                "name": "Bad Breath",
-                "stage": "Any",
-                "weight": 0.4,
-                "severity": "Medium",
-                "priority": 2,
-                "duration_range": "6-10 days",
-                "subtype": "Ammonia-like odor"
-              },
-              {
-                "name": "Dehydration",
-                "stage": "Any",
-                "weight": 0.4,
-                "severity": "High",
-                "priority": 3,
-                "duration_range": "3-5 days",
-                "subtype": ""
-              },
-              {
-                "name": "Weight loss",
-                "stage": "Progressive",
-                "weight": 0.4,
-                "severity": "Medium",
-                "priority": 2,
-                "duration_range": "15+ days",
-                "subtype": ""
-              }
-            ]
-          },
-          {
-            "illness": "Kidney Infections in Cats",
-            "type": "Renal (Infectious)",
-            "confidence": 0.85,
-            "age_range": "Adult",
-            "breed": "Any",
-            "size": "Any",
-            "symptoms": [
-              {
-                "name": "Fever",
-                "stage": "Early",
-                "weight": 0.5,
-                "severity": "Medium",
-                "priority": 3,
-                "duration_range": "1-2 days",
-                "subtype": ""
-              },
-              {
-                "name": "Vomiting",
-                "stage": "Any",
-                "weight": 0.4,
-                "severity": "Medium",
-                "priority": 2,
-                "duration_range": "3-5 days",
-                "subtype": ""
-              },
-              {
-                "name": "Lethargy",
-                "stage": "Any",
-                "weight": 0.4,
-                "severity": "Medium",
-                "priority": 2,
-                "duration_range": "3-5 days",
-                "subtype": ""
-              },
-              {
-                "name": "Abdominal Pain",
-                "stage": "Any",
-                "weight": 0.4,
-                "severity": "High",
-                "priority": 2,
-                "duration_range": "3-5 days",
-                "subtype": "Sensitive to touch"
-              },
-              {
-                "name": "Frequent urination",
-                "stage": "Any",
-                "weight": 0.3,
-                "severity": "Medium",
-                "priority": 2,
-                "duration_range": "3-5 days",
-                "subtype": ""
-              }
-            ]
-          },
-          {
-            "illness": "Kidney Stones in Cats",
-            "type": "Renal (Urological)",
-            "confidence": 0.85,
-            "age_range": "Adult",
-            "breed": "Any",
-            "size": "Any",
-            "symptoms": [
-              {
-                "name": "Blood in urine",
-                "stage": "Early",
-                "weight": 0.5,
-                "severity": "High",
-                "priority": 3,
-                "duration_range": "1-2 days",
-                "subtype": "Pink, red tint"
-              },
-              {
-                "name": "Painful urination",
-                "stage": "Any",
-                "weight": 0.4,
-                "severity": "High",
-                "priority": 2,
-                "duration_range": "1-2 days",
-                "subtype": "Straining, vocalizing"
-              },
-              {
-                "name": "Frequent urination",
-                "stage": "Any",
-                "weight": 0.4,
-                "severity": "Medium",
-                "priority": 2,
-                "duration_range": "3-5 days",
-                "subtype": "Small amounts"
-              },
-              {
-                "name": "Licking genitals",
-                "stage": "Any",
-                "weight": 0.3,
-                "severity": "Low",
-                "priority": 1,
-                "duration_range": "3-5 days",
-                "subtype": "After urinating"
-              }
-            ]
-          },
-          {
-            "illness": "Luxating Patellas in Cats",
-            "type": "Musculoskeletal (Joint)",
-            "confidence": 0.8,
-            "age_range": "Any",
-            "breed": "Small, purebred prone",
-            "size": "Any",
-            "symptoms": [
-              {
-                "name": "Skipping Gait",
-                "stage": "Early",
-                "weight": 0.5,
-                "severity": "Medium",
-                "priority": 3,
-                "duration_range": "3-5 days",
-                "subtype": "Brief hind leg hop"
-              },
-              {
-                "name": "Limping",
-                "stage": "Any",
-                "weight": 0.4,
-                "severity": "Medium",
-                "priority": 2,
-                "duration_range": "6-10 days",
-                "subtype": "Intermittent"
-              },
-              {
-                "name": "Sudden leg stretching",
-                "stage": "Any",
-                "weight": 0.4,
-                "severity": "Low",
-                "priority": 2,
-                "duration_range": "3-5 days",
-                "subtype": "Rear leg kick"
-              },
-              {
-                "name": "Reluctance to move",
-                "stage": "Any",
-                "weight": 0.3,
-                "severity": "Low",
-                "priority": 1,
-                "duration_range": "3-5 days",
-                "subtype": "Avoids jumping, climbing"
-              }
-            ]
-          },
-          {
-            "illness": "Periodontal Disease in Cats",
-            "type": "Dental (Advanced)",
-            "confidence": 0.9,
-            "age_range": "Adult",
-            "breed": "Any",
-            "size": "Any",
-            "symptoms": [
-              {
-                "name": "Bad Breath",
-                "stage": "Early",
-                "weight": 0.5,
-                "severity": "Medium",
-                "priority": 3,
-                "duration_range": "6-10 days",
-                "subtype": "Foul odor"
-              },
-              {
-                "name": "Loose teeth",
-                "stage": "Progressive",
-                "weight": 0.4,
-                "severity": "High",
-                "priority": 2,
-                "duration_range": "15+ days",
-                "subtype": ""
-              },
-              {
-                "name": "Gum recession",
-                "stage": "Any",
-                "weight": 0.4,
-                "severity": "Medium",
-                "priority": 2,
-                "duration_range": "6-10 days",
-                "subtype": "Exposed tooth roots"
-              },
-              {
-                "name": "Bleeding gums",
-                "stage": "Any",
-                "weight": 0.3,
-                "severity": "Medium",
-                "priority": 2,
-                "duration_range": "3-5 days",
-                "subtype": "When eating, touched"
-              },
-              {
-                "name": "Drooling",
-                "stage": "Any",
-                "weight": 0.3,
-                "severity": "Low",
-                "priority": 1,
-                "duration_range": "3-5 days",
-                "subtype": "Thick, blood-tinged"
-              }
-            ]
-          },
-          {
-            "illness": "Rabies in Cats",
-            "type": "Viral (Neurological)",
-            "confidence": 0.95,
-            "age_range": "Any",
-            "breed": "Outdoor/feral prone",
-            "size": "Any",
-            "symptoms": [
-              {
-                "name": "Aggression",
-                "stage": "Early",
-                "weight": 0.5,
-                "severity": "High",
-                "priority": 3,
-                "duration_range": "1-2 days",
-                "subtype": "Sudden, unprovoked"
-              },
-              {
-                "name": "Excessive drooling",
-                "stage": "Any",
-                "weight": 0.4,
-                "severity": "Medium",
-                "priority": 2,
-                "duration_range": "1-2 days",
-                "subtype": "Thick, ropey saliva"
-              },
-              {
-                "name": "Disorientation",
-                "stage": "Any",
-                "weight": 0.4,
-                "severity": "High",
-                "priority": 2,
-                "duration_range": "1-2 days",
-                "subtype": "Staring, aimless movement"
-              },
-              {
-                "name": "Unsteadiness",
-                "stage": "Any",
-                "weight": 0.3,
-                "severity": "Medium",
-                "priority": 2,
-                "duration_range": "1-2 days",
-                "subtype": "Staggering, falling"
-              },
-              {
-                "name": "Sudden behavior changes",
-                "stage": "Any",
-                "weight": 0.3,
-                "severity": "High",
-                "priority": 2,
-                "duration_range": "1-2 days",
-                "subtype": "Friendly to fearful,, vice versa"
-              },
-              {
-                "name": "Difficulty swallowing",
-                "stage": "Any",
-                "weight": 0.3,
-                "severity": "High",
-                "priority": 2,
-                "duration_range": "1-2 days",
-                "subtype": "Gagging, choking"
-              },
-              {
-                "name": "Seizures",
-                "stage": "Late",
-                "weight": 0.4,
-                "severity": "Critical",
-                "priority": 3,
-                "duration_range": "1-2 days",
-                "subtype": "Convulsions"
-              },
-              {
-                "name": "Paralysis",
-                "stage": "Late",
-                "weight": 0.4,
-                "severity": "Critical",
-                "priority": 3,
-                "duration_range": "1-2 days",
-                "subtype": "Rear legs, full body"
-              }
-            ]
-          },
-          {
-            "illness": "Roundworms in Cats",
-            "type": "Parasitic (Intestinal)",
-            "confidence": 0.85,
-            "age_range": "Kitten",
-            "breed": "Any",
-            "size": "Any",
-            "symptoms": [
-              {
-                "name": "Bloating",
-                "stage": "Early",
-                "weight": 0.5,
-                "severity": "Medium",
-                "priority": 3,
-                "duration_range": "6-10 days",
-                "subtype": "Rounded abdomen"
-              },
-              {
-                "name": "Vomiting",
-                "stage": "Any",
-                "weight": 0.4,
-                "severity": "Medium",
-                "priority": 2,
-                "duration_range": "1-2 days",
-                "subtype": "May contain worms"
-              },
-              {
-                "name": "Diarrhea",
-                "stage": "Any",
-                "weight": 0.4,
-                "severity": "Medium",
-                "priority": 2,
-                "duration_range": "1-2 days",
-                "subtype": "Loose, Mucous"
-              },
-              {
-                "name": "Worms in stool",
-                "stage": "Any",
-                "weight": 0.5,
-                "severity": "High",
-                "priority": 3,
-                "duration_range": "1-2 days",
-                "subtype": "Spaghetti-like"
-              },
-              {
-                "name": "Dull coat",
-                "stage": "Any",
-                "weight": 0.3,
-                "severity": "Low",
-                "priority": 1,
-                "duration_range": "6-10 days",
-                "subtype": "Dry, unkempt"
-              }
-            ]
-          },
-          {
-            "illness": "Stomatitis in Cats",
-            "type": "Dental (Inflammatory)",
-            "confidence": 0.85,
-            "age_range": "Adult",
-            "breed": "Any",
-            "size": "Any",
-            "symptoms": [
-              {
-                "name": "Mouth pain",
-                "stage": "Early",
-                "weight": 0.5,
-                "severity": "High",
-                "priority": 3,
-                "duration_range": "3-5 days",
-                "subtype": "Avoids touch"
-              },
-              {
-                "name": "Drooling",
-                "stage": "Any",
-                "weight": 0.4,
-                "severity": "Medium",
-                "priority": 2,
-                "duration_range": "3-5 days",
-                "subtype": "Often with blood"
-              },
-              {
-                "name": "Difficulty eating",
-                "stage": "Any",
-                "weight": 0.4,
-                "severity": "High",
-                "priority": 2,
-                "duration_range": "3-5 days",
-                "subtype": "Chews on one side"
-              },
-              {
-                "name": "Bad Breath",
-                "stage": "Any",
-                "weight": 0.3,
-                "severity": "Medium",
-                "priority": 2,
-                "duration_range": "3-5 days",
-                "subtype": "Foul odor"
-              },
-              {
-                "name": "Red gums",
-                "stage": "Any",
-                "weight": 0.3,
-                "severity": "Medium",
-                "priority": 2,
-                "duration_range": "3-5 days",
-                "subtype": "Inflamed, ulcerated"
-              }
-            ]
-          },
-          {
-            "illness": "Tapeworms in Cats",
-            "type": "Parasitic (Intestinal)",
-            "confidence": 0.85,
-            "age_range": "Any",
-            "breed": "Flea-prone, outdoor cats",
-            "size": "Any",
-            "symptoms": [
-              {
-                "name": "Scooting",
-                "stage": "Early",
-                "weight": 0.5,
-                "severity": "Low",
-                "priority": 3,
-                "duration_range": "3-5 days",
-                "subtype": "Dragging rear on floor"
-              },
-              {
-                "name": "Segments in stool",
-                "stage": "Any",
-                "weight": 0.5,
-                "severity": "High",
-                "priority": 3,
-                "duration_range": "1-2 days",
-                "subtype": "White grains, ribbons"
-              },
-              {
-                "name": "Vomiting",
-                "stage": "Any",
-                "weight": 0.4,
-                "severity": "Medium",
-                "priority": 2,
-                "duration_range": "1-2 days",
-                "subtype": "May contain worm segments"
-              },
-              {
-                "name": "Weight loss",
-                "stage": "Progressive",
-                "weight": 0.4,
-                "severity": "Medium",
-                "priority": 2,
-                "duration_range": "6-10 days",
-                "subtype": ""
-              },
-              {
-                "name": "Increased appetite",
-                "stage": "Any",
-                "weight": 0.3,
-                "severity": "Low",
-                "priority": 2,
-                "duration_range": "6-10 days",
-                "subtype": "Despite weight loss"
-              }
-            ]
-          },
-          {
-            "illness": "Tooth Resorption in Cats",
-            "type": "Dental (Degenerative)",
-            "confidence": 0.85,
-            "age_range": "Adult",
-            "breed": "Any",
-            "size": "Any",
-            "symptoms": [
-              {
-                "name": "Chattering jaw",
-                "stage": "Early",
-                "weight": 0.5,
-                "severity": "Medium",
-                "priority": 3,
-                "duration_range": "1-2 days",
-                "subtype": "When eating, touched"
-              },
-              {
-                "name": "Dropping food",
-                "stage": "Any",
-                "weight": 0.4,
-                "severity": "High",
-                "priority": 2,
-                "duration_range": "3-5 days",
-                "subtype": "During chewing"
-              },
-              {
-                "name": "Drooling",
-                "stage": "Any",
-                "weight": 0.4,
-                "severity": "Medium",
-                "priority": 2,
-                "duration_range": "3-5 days",
-                "subtype": "May be blood-tinged"
-              },
-              {
-                "name": "Pawing at mouth",
-                "stage": "Any",
-                "weight": 0.3,
-                "severity": "Low",
-                "priority": 2,
-                "duration_range": "3-5 days",
-                "subtype": "In response to discomfort"
-              }
-            ]
-          },
-          {
-            "illness": "Toxoplasmosis in Cats",
-            "type": "Parasitic (Protozoal)",
-            "confidence": 0.85,
-            "age_range": "Any",
-            "breed": "Outdoor/hunting cats",
-            "size": "Any",
-            "symptoms": [
-              {
-                "name": "Fever",
-                "stage": "Early",
-                "weight": 0.5,
-                "severity": "Medium",
-                "priority": 3,
-                "duration_range": "1-2 days",
-                "subtype": ""
-              },
-              {
-                "name": "Lethargy",
-                "stage": "Any",
-                "weight": 0.4,
-                "severity": "Medium",
-                "priority": 2,
-                "duration_range": "3-5 days",
-                "subtype": ""
-              },
-              {
-                "name": "Loss of appetite",
-                "stage": "Any",
-                "weight": 0.3,
-                "severity": "Medium",
-                "priority": 2,
-                "duration_range": "1-2 days",
-                "subtype": ""
-              },
-              {
-                "name": "Difficulty breathing",
-                "stage": "Any",
-                "weight": 0.4,
-                "severity": "High",
-                "priority": 3,
-                "duration_range": "3-5 days",
-                "subtype": "Labored, shallow"
-              },
-              {
-                "name": "Eye discharge",
-                "stage": "Any",
-                "weight": 0.3,
-                "severity": "Low",
-                "priority": 2,
-                "duration_range": "3-5 days",
-                "subtype": "Watery, yellow"
-              }
-            ]
-          },
-          {
-            "illness": "Vestibular Disease in Cats",
-            "type": "Neurological (Inner Ear)",
-            "confidence": 0.85,
-            "age_range": "Senior",
-            "breed": "Any",
-            "size": "Any",
-            "symptoms": [
-              {
-                "name": "Head tilt",
-                "stage": "Early",
-                "weight": 0.5,
-                "severity": "Medium",
-                "priority": 3,
-                "duration_range": "3-5 days",
-                "subtype": "One-sided"
-              },
-              {
-                "name": "Loss of balance",
-                "stage": "Any",
-                "weight": 0.4,
-                "severity": "Medium",
-                "priority": 2,
-                "duration_range": "3-5 days",
-                "subtype": "Stumbling, falling"
-              },
-              {
-                "name": "Walking in circles",
-                "stage": "Any",
-                "weight": 0.4,
-                "severity": "Medium",
-                "priority": 2,
-                "duration_range": "3-5 days",
-                "subtype": "In one direction"
-              },
-              {
-                "name": "Rapid eye movement",
-                "stage": "Any",
-                "weight": 0.4,
-                "severity": "Low",
-                "priority": 2,
-                "duration_range": "1-2 days",
-                "subtype": "Horizontal, vertical nystagmus"
-              },
-              {
-                "name": "Nausea",
-                "stage": "Any",
-                "weight": 0.3,
-                "severity": "Low",
-                "priority": 2,
-                "duration_range": "1-2 days",
-                "subtype": "May drool, vomit"
-              }
-            ]
-          }                                                                                                                      
-    ]
-  }
+              "illness": "Kidney Infections in Cats",
+              "type": "Renal (Infectious)",
+              "confidence": 0.85,
+              "age_range": "Adult",
+              "breed": "Any",
+              "size": "Any",
+              "symptoms": [
+                {
+                  "name": "Fever",
+                  "stage": "Early",
+                  "weight": 0.5,
+                  "severity": "Medium",
+                  "priority": 3,
+                  "duration_range": "1-3 days",
+                  "subtype": "Mild"
+                },
+                {
+                  "name": "Vomiting",
+                  "stage": "Any",
+                  "weight": 0.4,
+                  "severity": "Medium",
+                  "priority": 2,
+                  "duration_range": "3-5 days",
+                  "subtype": "Intermittent"
+                },
+                {
+                  "name": "Lethargy",
+                  "stage": "Any",
+                  "weight": 0.4,
+                  "severity": "Medium",
+                  "priority": 2,
+                  "duration_range": "3-6 days",
+                  "subtype": ""
+                },
+                {
+                  "name": "Abdominal Pain",
+                  "stage": "Any",
+                  "weight": 0.4,
+                  "severity": "High",
+                  "priority": 2,
+                  "duration_range": "3-5 days",
+                  "subtype": "Flinching, vocalizing"
+                },
+                {
+                  "name": "Frequent urination",
+                  "stage": "Early",
+                  "weight": 0.3,
+                  "severity": "Medium",
+                  "priority": 2,
+                  "duration_range": "3-6 days",
+                  "subtype": "Small volumes"
+                }
+              ]
+            },
+            {
+              "illness": "Kidney Stones in Cats",
+              "type": "Renal (Urological)",
+              "confidence": 0.85,
+              "age_range": "Adult",
+              "breed": "Any",
+              "size": "Any",
+              "symptoms": [
+                {
+                  "name": "Blood in urine",
+                  "stage": "Early",
+                  "weight": 0.5,
+                  "severity": "High",
+                  "priority": 3,
+                  "duration_range": "1-2 days",
+                  "subtype": ""
+                },
+                {
+                  "name": "Painful urination",
+                  "stage": "Any",
+                  "weight": 0.4,
+                  "severity": "High",
+                  "priority": 2,
+                  "duration_range": "2-4 days",
+                  "subtype": ""
+                },
+                {
+                  "name": "Frequent urination",
+                  "stage": "Any",
+                  "weight": 0.4,
+                  "severity": "Medium",
+                  "priority": 2,
+                  "duration_range": "3-5 days",
+                  "subtype": "Small volumes"
+                },
+                {
+                  "name": "Licking genitals",
+                  "stage": "Any",
+                  "weight": 0.3,
+                  "severity": "Low",
+                  "priority": 1,
+                  "duration_range": "3-5 days",
+                  "subtype": ""
+                }
+              ]
+            },
+            {
+              "illness": "Luxating Patellas in Cats",
+              "type": "Musculoskeletal (Joint)",
+              "confidence": 0.8,
+              "age_range": "Any",
+              "breed": "Small, purebred prone",
+              "size": "Any",
+              "symptoms": [
+                {
+                  "name": "Skipping Gait",
+                  "stage": "Early",
+                  "weight": 0.5,
+                  "severity": "Medium",
+                  "priority": 3,
+                  "duration_range": "2-5 days",
+                  "subtype": ""
+                },
+                {
+                  "name": "Limping",
+                  "stage": "Any",
+                  "weight": 0.4,
+                  "severity": "Medium",
+                  "priority": 2,
+                  "duration_range": "5-10 days",
+                  "subtype": "Intermittent"
+                },
+                {
+                  "name": "Sudden leg stretching",
+                  "stage": "Any",
+                  "weight": 0.4,
+                  "severity": "Low",
+                  "priority": 2,
+                  "duration_range": "3-5 days",
+                  "subtype": ""
+                },
+                {
+                  "name": "Reluctance to move",
+                  "stage": "Any",
+                  "weight": 0.3,
+                  "severity": "Low",
+                  "priority": 1,
+                  "duration_range": "3-5 days",
+                  "subtype": "Avoids stairs, running"
+                }
+              ]
+            },
+            {
+              "illness": "Periodontal Disease in Cats",
+              "type": "Dental (Advanced)",
+              "confidence": 0.9,
+              "age_range": "Adult, Senior",
+              "breed": "Any",
+              "size": "Any",
+              "symptoms": [
+                {
+                  "name": "Bad Breath",
+                  "stage": "Early",
+                  "weight": 0.5,
+                  "severity": "Medium",
+                  "priority": 3,
+                  "duration_range": "7-14 days",
+                  "subtype": "Foul odor, metallic odor"
+                },
+                {
+                  "name": "Loose teeth",
+                  "stage": "Progressive",
+                  "weight": 0.4,
+                  "severity": "High",
+                  "priority": 2,
+                  "duration_range": "15+ days",
+                  "subtype": ""
+                },
+                {
+                  "name": "Gum recession",
+                  "stage": "Progressive",
+                  "weight": 0.4,
+                  "severity": "Medium",
+                  "priority": 2,
+                  "duration_range": "7-14 days",
+                  "subtype": "Exposed roots, gaps around teeth"
+                },
+                {
+                  "name": "Bleeding gums",
+                  "stage": "Any",
+                  "weight": 0.3,
+                  "severity": "Medium",
+                  "priority": 2,
+                  "duration_range": "3-6 days",
+                  "subtype": "Occurs when touched or eating"
+                },
+                {
+                  "name": "Drooling",
+                  "stage": "Any",
+                  "weight": 0.3,
+                  "severity": "Low",
+                  "priority": 1,
+                  "duration_range": "3-5 days",
+                  "subtype": "Blood-tinged or thick saliva"
+                }
+              ]
+            },
+            {
+              "illness": "Rabies in Cats",
+              "type": "Viral (Neurological)",
+              "confidence": 0.95,
+              "age_range": "Any",
+              "breed": "Outdoor/feral prone",
+              "size": "Any",
+              "symptoms": [
+                {
+                  "name": "Aggression",
+                  "stage": "Early",
+                  "weight": 0.5,
+                  "severity": "High",
+                  "priority": 3,
+                  "duration_range": "1-2 days",
+                  "subtype": "Sudden, unprovoked attacks"
+                },
+                {
+                  "name": "Excessive drooling",
+                  "stage": "Progressive",
+                  "weight": 0.4,
+                  "severity": "Medium",
+                  "priority": 2,
+                  "duration_range": "1-2 days",
+                  "subtype": "Ropey, unable to swallow"
+                },
+                {
+                  "name": "Disorientation",
+                  "stage": "Progressive",
+                  "weight": 0.4,
+                  "severity": "High",
+                  "priority": 2,
+                  "duration_range": "1-2 days",
+                  "subtype": "Pacing, vacant stare"
+                },
+                {
+                  "name": "Unsteadiness",
+                  "stage": "Progressive",
+                  "weight": 0.3,
+                  "severity": "Medium",
+                  "priority": 2,
+                  "duration_range": "1-2 days",
+                  "subtype": "Staggering, poor balance"
+                },
+                {
+                  "name": "Sudden behavior changes",
+                  "stage": "Early",
+                  "weight": 0.3,
+                  "severity": "High",
+                  "priority": 2,
+                  "duration_range": "1-2 days",
+                  "subtype": ""
+                },
+                {
+                  "name": "Difficulty swallowing",
+                  "stage": "Progressive",
+                  "weight": 0.3,
+                  "severity": "High",
+                  "priority": 2,
+                  "duration_range": "1-2 days",
+                  "subtype": "Gagging, choking"
+                },
+                {
+                  "name": "Seizures",
+                  "stage": "Late",
+                  "weight": 0.4,
+                  "severity": "Critical",
+                  "priority": 3,
+                  "duration_range": "1-2 days",
+                  "subtype": "Convulsions, twitching"
+                },
+                {
+                  "name": "Paralysis",
+                  "stage": "Late",
+                  "weight": 0.4,
+                  "severity": "Critical",
+                  "priority": 3,
+                  "duration_range": "1-2 days",
+                  "subtype": "Rear limbs, progressing to full"
+                }
+              ]
+            },
+            {
+              "illness": "Roundworms in Cats",
+              "type": "Parasitic (Intestinal)",
+              "confidence": 0.85,
+              "age_range": "Kitten",
+              "breed": "Any",
+              "size": "Any",
+              "symptoms": [
+                {
+                  "name": "Bloating",
+                  "stage": "Early",
+                  "weight": 0.5,
+                  "severity": "Medium",
+                  "priority": 3,
+                  "duration_range": "5-10 days",
+                  "subtype": ""
+                },
+                {
+                  "name": "Vomiting",
+                  "stage": "Any",
+                  "weight": 0.4,
+                  "severity": "Medium",
+                  "priority": 2,
+                  "duration_range": "1-2 days",
+                  "subtype": "Worms or Parasites"
+                },
+                {
+                  "name": "Diarrhea",
+                  "stage": "Any",
+                  "weight": 0.4,
+                  "severity": "Medium",
+                  "priority": 2,
+                  "duration_range": "1-3 days",
+                  "subtype": "Loose, Mucous-Covered"
+                },
+                {
+                  "name": "Worms in stool",
+                  "stage": "Any",
+                  "weight": 0.5,
+                  "severity": "High",
+                  "priority": 3,
+                  "duration_range": "1-2 days",
+                  "subtype": "Long, white worms visible"
+                },
+                {
+                  "name": "Dull coat",
+                  "stage": "Any",
+                  "weight": 0.3,
+                  "severity": "Low",
+                  "priority": 1,
+                  "duration_range": "6-10 days",
+                  "subtype": "Dry, brittle, poor shine"
+                }
+              ]
+            },
+            {
+              "illness": "Stomatitis in Cats",
+              "type": "Dental (Inflammatory)",
+              "confidence": 0.85,
+              "age_range": "Adult",
+              "breed": "Any",
+              "size": "Any",
+              "symptoms": [
+                {
+                  "name": "Mouth pain",
+                  "stage": "Early",
+                  "weight": 0.5,
+                  "severity": "High",
+                  "priority": 3,
+                  "duration_range": "3-6 days",
+                  "subtype": ""
+                },
+                {
+                  "name": "Drooling",
+                  "stage": "Any",
+                  "weight": 0.4,
+                  "severity": "Medium",
+                  "priority": 2,
+                  "duration_range": "3-6 days",
+                  "subtype": "blood-tinged"
+                },
+                {
+                  "name": "Difficulty eating",
+                  "stage": "Any",
+                  "weight": 0.4,
+                  "severity": "High",
+                  "priority": 2,
+                  "duration_range": "3-5 days",
+                  "subtype": "Chews on one side, drops food"
+                },
+                {
+                  "name": "Bad Breath",
+                  "stage": "Any",
+                  "weight": 0.3,
+                  "severity": "Medium",
+                  "priority": 2,
+                  "duration_range": "3-5 days",
+                  "subtype": "Foul odor, persistent odor"
+                },
+                {
+                  "name": "Red gums",
+                  "stage": "Any",
+                  "weight": 0.3,
+                  "severity": "Medium",
+                  "priority": 2,
+                  "duration_range": "3-5 days",
+                  "subtype": "Ulcerated, inflamed"
+                }
+              ]
+            },
+            {
+              "illness": "Tapeworms in Cats",
+              "type": "Parasitic (Intestinal)",
+              "confidence": 0.85,
+              "age_range": "Any",
+              "breed": "Flea-prone, outdoor cats",
+              "size": "Any",
+              "symptoms": [
+                {
+                  "name": "Scooting",
+                  "stage": "Early",
+                  "weight": 0.5,
+                  "severity": "Low",
+                  "priority": 3,
+                  "duration_range": "3-5 days",
+                  "subtype": ""
+                },
+                {
+                  "name": "Segments in stool",
+                  "stage": "Any",
+                  "weight": 0.5,
+                  "severity": "High",
+                  "priority": 3,
+                  "duration_range": "1-2 days",
+                  "subtype": ""
+                },
+                {
+                  "name": "Vomiting",
+                  "stage": "Any",
+                  "weight": 0.4,
+                  "severity": "Medium",
+                  "priority": 2,
+                  "duration_range": "1-2 days",
+                  "subtype": "Worms or Parasites"
+                },
+                {
+                  "name": "Weight loss",
+                  "stage": "Progressive",
+                  "weight": 0.4,
+                  "severity": "Medium",
+                  "priority": 2,
+                  "duration_range": "6-10 days",
+                  "subtype": ""
+                },
+                {
+                  "name": "Increased appetite",
+                  "stage": "Any",
+                  "weight": 0.3,
+                  "severity": "Low",
+                  "priority": 2,
+                  "duration_range": "6-10 days",
+                  "subtype": "Compensatory"
+                }
+              ]
+            },
+            {
+              "illness": "Tooth Resorption in Cats",
+              "type": "Dental (Degenerative)",
+              "confidence": 0.85,
+              "age_range": "Adult, Senior",
+              "breed": "Any",
+              "size": "Any",
+              "symptoms": [
+                {
+                  "name": "Chattering jaw",
+                  "stage": "Early",
+                  "weight": 0.5,
+                  "severity": "Medium",
+                  "priority": 3,
+                  "duration_range": "1-3 days",
+                  "subtype": "When eating or touched"
+                },
+                {
+                  "name": "Dropping food",
+                  "stage": "Any",
+                  "weight": 0.4,
+                  "severity": "High",
+                  "priority": 2,
+                  "duration_range": "3-6 days",
+                  "subtype": ""
+                },
+                {
+                  "name": "Drooling",
+                  "stage": "Any",
+                  "weight": 0.4,
+                  "severity": "Medium",
+                  "priority": 2,
+                  "duration_range": "3-6 days",
+                  "subtype": "Thick Saliva, blood-tinged"
+                },
+                {
+                  "name": "Pawing at mouth",
+                  "stage": "Any",
+                  "weight": 0.3,
+                  "severity": "Low",
+                  "priority": 2,
+                  "duration_range": "3-5 days",
+                  "subtype": "Intermittent"
+                }
+              ]
+            },
+            {
+              "illness": "Toxoplasmosis in Cats",
+              "type": "Parasitic (Protozoal)",
+              "confidence": 0.85,
+              "age_range": "Any",
+              "breed": "Outdoor/hunting cats",
+              "size": "Any",
+              "symptoms": [
+                {
+                  "name": "Fever",
+                  "stage": "Early",
+                  "weight": 0.5,
+                  "severity": "Medium",
+                  "priority": 3,
+                  "duration_range": "1-3 days",
+                  "subtype": "Sudden, Mild, Moderate"
+                },
+                {
+                  "name": "Lethargy",
+                  "stage": "Any",
+                  "weight": 0.4,
+                  "severity": "Medium",
+                  "priority": 2,
+                  "duration_range": "3-6 days",
+                  "subtype": "Sleepy, weak"
+                },
+                {
+                  "name": "Loss of appetite",
+                  "stage": "Any",
+                  "weight": 0.3,
+                  "severity": "Medium",
+                  "priority": 2,
+                  "duration_range": "2-3 days",
+                  "subtype": ""
+                },
+                {
+                  "name": "Breathing difficulty",
+                  "stage": "Any",
+                  "weight": 0.4,
+                  "severity": "High",
+                  "priority": 3,
+                  "duration_range": "2-4 days",
+                  "subtype": "Rapid, shallow"
+                },
+                {
+                  "name": "Eye discharge",
+                  "stage": "Any",
+                  "weight": 0.3,
+                  "severity": "Low",
+                  "priority": 2,
+                  "duration_range": "3-5 days",
+                  "subtype": "Watery, Yellowish"
+                }
+              ]
+            },
+            {
+              "illness": "Vestibular Disease in Cats",
+              "type": "Neurological (Inner Ear)",
+              "confidence": 0.85,
+              "age_range": "Senior",
+              "breed": "Any",
+              "size": "Any",
+              "symptoms": [
+                {
+                  "name": "Head tilt",
+                  "stage": "Early",
+                  "weight": 0.5,
+                  "severity": "Medium",
+                  "priority": 3,
+                  "duration_range": "3-6 days",
+                  "subtype": ""
+                },
+                {
+                  "name": "Loss of balance",
+                  "stage": "Any",
+                  "weight": 0.4,
+                  "severity": "Medium",
+                  "priority": 2,
+                  "duration_range": "3-6 days",
+                  "subtype": ""
+                },
+                {
+                  "name": "Walking in circles",
+                  "stage": "Any",
+                  "weight": 0.4,
+                  "severity": "Medium",
+                  "priority": 2,
+                  "duration_range": "3-6 days",
+                  "subtype": ""
+                },
+                {
+                  "name": "Rapid eye movement",
+                  "stage": "Any",
+                  "weight": 0.4,
+                  "severity": "Low",
+                  "priority": 2,
+                  "duration_range": "1-2 days",
+                  "subtype": ""
+                },
+                {
+                  "name": "Nausea",
+                  "stage": "Any",
+                  "weight": 0.3,
+                  "severity": "Low",
+                  "priority": 2,
+                  "duration_range": "1-2 days",
+                  "subtype": ""
+                }
+              ]
+            }
+      
+      ]
+  }                                                                                                                                                            
+        
