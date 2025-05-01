@@ -388,7 +388,9 @@ def adaboost_ranking(possible_diagnoses, fact_base):
             "confidence_fc": normalized_fc,
             "confidence_gb": normalized_gb,
             "confidence_ab": normalized_ab,
-            "type": illness_type   # ← Softmax will be applied after
+            "type": illness_type,
+            "age_specificity": rule.get("age_range", "Any"),  
+            "size_specificity": rule.get("size", "Any")    
         })
 
     return refined_diagnoses

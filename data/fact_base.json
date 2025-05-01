@@ -1,380 +1,306 @@
 {
-    "owner": "Mewww",
+    "owner": "Ragnar",
     "symptoms": [
-        "vomiting",
-        "diarrhea",
-        "lethargy",
-        "dehydration",
-        "unsteadiness"
+        "diarrhea"
     ],
-    "pet_type": "cat",
+    "pet_type": "dog",
     "pet_info": {
         "age": "0",
-        "breed": "Persian Cat",
+        "breed": "Labrador",
         "size": "Small",
-        "age_range": "Kitten"
+        "age_range": "Puppy"
     },
     "user_answers": {
-        "vomiting": {
-            "How long has your pet had vomiting?": "1-2 days",
-            "What type of vomiting is it? (Bloody, Foamy, Yellow, or Green)": "yellow"
-        },
         "diarrhea": {
-            "How long has your pet had diarrhea?": "1-2 days",
-            "What type of diarrhea is it? (Watery or Bloody)": "watery"
-        },
-        "lethargy": {
-            "How long has your pet had lethargy?": "3-5 days",
-            "What type of lethargy is it? (Intermittent or Constant)": "intermittent"
+            "How long has your pet had diarrhea?": "3-5 days",
+            "What type of diarrhea is it? (Watery or Bloody)": "bloody"
         }
     },
     "possible_diagnosis": [
         {
-            "illness": "Feline Distemper (Panleukopenia)",
+            "illness": "Chronic Renal Failure",
             "matched_symptoms": [
-                "vomiting",
-                "diarrhea",
-                "lethargy",
-                "dehydration",
-                "unsteadiness"
-            ],
-            "confidence_fc": 0.59,
-            "confidence_gb": 1.0,
-            "confidence_ab": 1.0,
-            "type": "Viral (Gastrointestinal)",
-            "subtype_coverage": 50.0,
-            "confidence_ab_raw": 1.0,
-            "confidence_softmax": 0.091
-        },
-        {
-            "illness": "Ameba Infection in Cats",
-            "matched_symptoms": [
-                "vomiting",
-                "diarrhea",
-                "dehydration",
-                "lethargy"
-            ],
-            "confidence_fc": 0.68,
-            "confidence_gb": 0.38,
-            "confidence_ab": 0.78,
-            "type": "Parasitic (Protozoal)",
-            "subtype_coverage": 100.0,
-            "confidence_ab_raw": 0.78,
-            "confidence_softmax": 0.073
-        },
-        {
-            "illness": "Coccidia in Cats",
-            "matched_symptoms": [
-                "diarrhea",
-                "dehydration",
-                "vomiting",
-                "lethargy"
-            ],
-            "confidence_fc": 0.67,
-            "confidence_gb": 0.06,
-            "confidence_ab": 0.34,
-            "type": "Parasitic (Protozoal)",
-            "subtype_coverage": 100.0,
-            "confidence_ab_raw": 0.34,
-            "confidence_softmax": 0.047
-        },
-        {
-            "illness": "Bacterial Infection (Campylobacteriosis) in Cats",
-            "matched_symptoms": [
-                "diarrhea",
-                "vomiting",
-                "lethargy"
-            ],
-            "confidence_fc": 0.54,
-            "confidence_gb": 0.02,
-            "confidence_ab": 0.26,
-            "type": "Bacterial (Gastrointestinal)",
-            "subtype_coverage": 100.0,
-            "confidence_ab_raw": 0.26,
-            "confidence_softmax": 0.0434
-        },
-        {
-            "illness": "Bacterial Infection (Leptospirosis) in Cats",
-            "matched_symptoms": [
-                "vomiting",
-                "diarrhea",
-                "lethargy"
-            ],
-            "confidence_fc": 0.41,
-            "confidence_gb": 0.0,
-            "confidence_ab": 0.16,
-            "type": "Bacterial (Zoonotic)",
-            "subtype_coverage": 50.0,
-            "confidence_ab_raw": 0.16,
-            "confidence_softmax": 0.0393
-        },
-        {
-            "illness": "Kidney Failure in Cats",
-            "matched_symptoms": [
-                "lethargy",
-                "vomiting",
-                "dehydration"
-            ],
-            "confidence_fc": 0.56,
-            "confidence_gb": 0.01,
-            "confidence_ab": 0.11,
-            "type": "Renal",
-            "subtype_coverage": 50.0,
-            "confidence_ab_raw": 0.11,
-            "confidence_softmax": 0.0374
-        },
-        {
-            "illness": "Heartworm Disease in Cats",
-            "matched_symptoms": [
-                "vomiting",
-                "lethargy"
-            ],
-            "confidence_fc": 0.33,
-            "confidence_gb": 0.0,
-            "confidence_ab": 0.1,
-            "type": "Parasitic (Cardiopulmonary)",
-            "subtype_coverage": 33.33,
-            "confidence_ab_raw": 0.1,
-            "confidence_softmax": 0.037
-        },
-        {
-            "illness": "Giardia in Cats",
-            "matched_symptoms": [
-                "diarrhea",
-                "lethargy"
-            ],
-            "confidence_fc": 0.36,
-            "confidence_gb": 0.0,
-            "confidence_ab": 0.09,
-            "type": "Parasitic (Protozoal)",
-            "subtype_coverage": 0.0,
-            "confidence_ab_raw": 0.09,
-            "confidence_softmax": 0.0366
-        },
-        {
-            "illness": "Hookworms in Cats",
-            "matched_symptoms": [
-                "diarrhea",
-                "lethargy"
-            ],
-            "confidence_fc": 0.31,
-            "confidence_gb": 0.0,
-            "confidence_ab": 0.09,
-            "type": "Parasitic (Intestinal)",
-            "subtype_coverage": 0.0,
-            "confidence_ab_raw": 0.09,
-            "confidence_softmax": 0.0366
-        },
-        {
-            "illness": "Roundworms in Cats",
-            "matched_symptoms": [
-                "vomiting",
                 "diarrhea"
             ],
-            "confidence_fc": 0.32,
-            "confidence_gb": 0.01,
-            "confidence_ab": 0.08,
-            "type": "Parasitic (Intestinal)",
-            "subtype_coverage": 0.0,
-            "confidence_ab_raw": 0.08,
-            "confidence_softmax": 0.0363
-        },
-        {
-            "illness": "Kidney Disease in Cats",
-            "matched_symptoms": [
-                "vomiting",
-                "lethargy"
-            ],
-            "confidence_fc": 0.3,
-            "confidence_gb": 0.0,
-            "confidence_ab": 0.06,
+            "confidence_fc": 0.15,
+            "confidence_gb": 0.27,
+            "confidence_ab": 0.23,
             "type": "Renal",
-            "subtype_coverage": 100.0,
+            "age_specificity": "Any",
+            "size_specificity": "Any",
+            "subtype_coverage": 33.33,
+            "confidence_ab_raw": 0.23,
+            "confidence_softmax": 0.0632
+        },
+        {
+            "illness": "Ameba Infection",
+            "matched_symptoms": [
+                "diarrhea"
+            ],
+            "confidence_fc": 0.23,
+            "confidence_gb": 0.01,
+            "confidence_ab": 0.06,
+            "type": "Parasitic",
+            "age_specificity": "Any",
+            "size_specificity": "Any",
+            "subtype_coverage": 33.33,
             "confidence_ab_raw": 0.06,
-            "confidence_softmax": 0.0355
+            "confidence_softmax": 0.0533
         },
         {
-            "illness": "Babesiosis in Cats",
+            "illness": "Canine Enteric Coronavirus",
             "matched_symptoms": [
-                "lethargy"
+                "diarrhea"
             ],
-            "confidence_fc": 0.17,
-            "confidence_gb": 0.0,
+            "confidence_fc": 0.19,
+            "confidence_gb": 0.02,
             "confidence_ab": 0.05,
-            "type": "Parasitic (Blood)",
-            "subtype_coverage": 0.0,
+            "type": "Viral",
+            "age_specificity": "Puppy",
+            "size_specificity": "Any",
+            "subtype_coverage": 33.33,
             "confidence_ab_raw": 0.05,
-            "confidence_softmax": 0.0352
+            "confidence_softmax": 0.0528
         },
         {
-            "illness": "Bacterial Infection (Streptococcus) in Cats",
+            "illness": "Canine Parvovirus",
             "matched_symptoms": [
-                "lethargy"
+                "diarrhea"
             ],
-            "confidence_fc": 0.17,
-            "confidence_gb": 0.0,
+            "confidence_fc": 0.15,
+            "confidence_gb": 0.02,
+            "confidence_ab": 0.05,
+            "type": "Viral",
+            "age_specificity": "Puppy",
+            "size_specificity": "Any",
+            "subtype_coverage": 33.33,
+            "confidence_ab_raw": 0.05,
+            "confidence_softmax": 0.0528
+        },
+        {
+            "illness": "Clostridial Infections",
+            "matched_symptoms": [
+                "diarrhea"
+            ],
+            "confidence_fc": 0.18,
+            "confidence_gb": 0.01,
             "confidence_ab": 0.05,
             "type": "Bacterial",
-            "subtype_coverage": 0.0,
+            "age_specificity": "Any",
+            "size_specificity": "Any",
+            "subtype_coverage": 33.33,
             "confidence_ab_raw": 0.05,
-            "confidence_softmax": 0.0352
+            "confidence_softmax": 0.0528
         },
         {
-            "illness": "Ehrlichiosis in Cats",
+            "illness": "Tapeworms",
             "matched_symptoms": [
-                "lethargy"
+                "diarrhea"
             ],
             "confidence_fc": 0.18,
-            "confidence_gb": 0.0,
+            "confidence_gb": 0.02,
             "confidence_ab": 0.05,
-            "type": "Parasitic (Tick-borne)",
-            "subtype_coverage": 0.0,
+            "type": "Parasitic",
+            "age_specificity": "Any",
+            "size_specificity": "Any",
+            "subtype_coverage": 50.0,
             "confidence_ab_raw": 0.05,
-            "confidence_softmax": 0.0352
+            "confidence_softmax": 0.0528
         },
         {
-            "illness": "Kidney Infections in Cats",
+            "illness": "Cryptosporidium in Dogs",
             "matched_symptoms": [
-                "vomiting",
-                "lethargy"
+                "diarrhea"
             ],
-            "confidence_fc": 0.34,
-            "confidence_gb": 0.0,
+            "confidence_fc": 0.23,
+            "confidence_gb": 0.02,
             "confidence_ab": 0.05,
-            "type": "Renal (Infectious)",
+            "type": "Parasitic",
+            "age_specificity": "Any",
+            "size_specificity": "Any",
             "subtype_coverage": 0.0,
             "confidence_ab_raw": 0.05,
-            "confidence_softmax": 0.0352
+            "confidence_softmax": 0.0528
         },
         {
-            "illness": "Toxoplasmosis in Cats",
+            "illness": "Canine Minute Virus",
             "matched_symptoms": [
-                "lethargy"
+                "diarrhea"
+            ],
+            "confidence_fc": 0.13,
+            "confidence_gb": 0.01,
+            "confidence_ab": 0.04,
+            "type": "Viral",
+            "age_specificity": "Any",
+            "size_specificity": "Any",
+            "subtype_coverage": 25.0,
+            "confidence_ab_raw": 0.04,
+            "confidence_softmax": 0.0522
+        },
+        {
+            "illness": "Campylobacteriosis (Bacterial Infection)",
+            "matched_symptoms": [
+                "diarrhea"
             ],
             "confidence_fc": 0.18,
-            "confidence_gb": 0.0,
-            "confidence_ab": 0.05,
-            "type": "Parasitic (Protozoal)",
-            "subtype_coverage": 0.0,
-            "confidence_ab_raw": 0.05,
-            "confidence_softmax": 0.0352
-        },
-        {
-            "illness": "Anaerobic Bacterial Infections in Cats",
-            "matched_symptoms": [
-                "lethargy"
-            ],
-            "confidence_fc": 0.1,
-            "confidence_gb": 0.0,
+            "confidence_gb": 0.02,
             "confidence_ab": 0.04,
             "type": "Bacterial",
+            "age_specificity": "Any",
+            "size_specificity": "Any",
             "subtype_coverage": 0.0,
             "confidence_ab_raw": 0.04,
-            "confidence_softmax": 0.0348
+            "confidence_softmax": 0.0522
         },
         {
-            "illness": "Bacterial Infection (Actinomycosis) in Cats",
+            "illness": "Roundworms",
             "matched_symptoms": [
-                "lethargy"
+                "diarrhea"
+            ],
+            "confidence_fc": 0.15,
+            "confidence_gb": 0.01,
+            "confidence_ab": 0.04,
+            "type": "Parasitic",
+            "age_specificity": "Any",
+            "size_specificity": "Any",
+            "subtype_coverage": 33.33,
+            "confidence_ab_raw": 0.04,
+            "confidence_softmax": 0.0522
+        },
+        {
+            "illness": "Coccidia in Dogs",
+            "matched_symptoms": [
+                "diarrhea"
+            ],
+            "confidence_fc": 0.2,
+            "confidence_gb": 0.02,
+            "confidence_ab": 0.04,
+            "type": "Parasitic",
+            "age_specificity": "Any",
+            "size_specificity": "Any",
+            "subtype_coverage": 0.0,
+            "confidence_ab_raw": 0.04,
+            "confidence_softmax": 0.0522
+        },
+        {
+            "illness": "Leptospirosis",
+            "matched_symptoms": [
+                "diarrhea"
+            ],
+            "confidence_fc": 0.09,
+            "confidence_gb": 0.01,
+            "confidence_ab": 0.03,
+            "type": "Bacterial",
+            "age_specificity": "Any",
+            "size_specificity": "Any",
+            "subtype_coverage": 25.0,
+            "confidence_ab_raw": 0.03,
+            "confidence_softmax": 0.0517
+        },
+        {
+            "illness": "Rocky Mountain Spotted Fever",
+            "matched_symptoms": [
+                "diarrhea"
             ],
             "confidence_fc": 0.11,
             "confidence_gb": 0.0,
-            "confidence_ab": 0.04,
-            "type": "Bacterial",
-            "subtype_coverage": 0.0,
-            "confidence_ab_raw": 0.04,
-            "confidence_softmax": 0.0348
-        },
-        {
-            "illness": "Congestive Heart Failure in Cats",
-            "matched_symptoms": [
-                "lethargy"
-            ],
-            "confidence_fc": 0.19,
-            "confidence_gb": 0.0,
-            "confidence_ab": 0.04,
-            "type": "Cardiac",
-            "subtype_coverage": 0.0,
-            "confidence_ab_raw": 0.04,
-            "confidence_softmax": 0.0348
-        },
-        {
-            "illness": "Feline Herpesvirus 1 (FHV-1) Infection",
-            "matched_symptoms": [
-                "lethargy"
-            ],
-            "confidence_fc": 0.1,
-            "confidence_gb": 0.0,
-            "confidence_ab": 0.04,
-            "type": "Viral (Respiratory)",
-            "subtype_coverage": 0.0,
-            "confidence_ab_raw": 0.04,
-            "confidence_softmax": 0.0348
-        },
-        {
-            "illness": "Chronic Renal Failure in Cats",
-            "matched_symptoms": [
-                "vomiting"
-            ],
-            "confidence_fc": 0.17,
-            "confidence_gb": 0.0,
             "confidence_ab": 0.03,
-            "type": "Renal",
+            "type": "Bacterial",
+            "age_specificity": "Any",
+            "size_specificity": "Any",
+            "subtype_coverage": 25.0,
+            "confidence_ab_raw": 0.03,
+            "confidence_softmax": 0.0517
+        },
+        {
+            "illness": "Hookworms",
+            "matched_symptoms": [
+                "diarrhea"
+            ],
+            "confidence_fc": 0.09,
+            "confidence_gb": 0.01,
+            "confidence_ab": 0.03,
+            "type": "Parasitic",
+            "age_specificity": "Puppy",
+            "size_specificity": "Any",
             "subtype_coverage": 50.0,
             "confidence_ab_raw": 0.03,
-            "confidence_softmax": 0.0345
+            "confidence_softmax": 0.0517
         },
         {
-            "illness": "Tapeworms in Cats",
+            "illness": "Canine Distemper",
             "matched_symptoms": [
-                "vomiting"
-            ],
-            "confidence_fc": 0.16,
-            "confidence_gb": 0.0,
-            "confidence_ab": 0.03,
-            "type": "Parasitic (Intestinal)",
-            "subtype_coverage": 0.0,
-            "confidence_ab_raw": 0.03,
-            "confidence_softmax": 0.0345
-        },
-        {
-            "illness": "Calicivirus in Cats",
-            "matched_symptoms": [
-                "lethargy"
-            ],
-            "confidence_fc": 0.08,
-            "confidence_gb": 0.0,
-            "confidence_ab": 0.02,
-            "type": "Viral (Respiratory)",
-            "subtype_coverage": 0.0,
-            "confidence_ab_raw": 0.02,
-            "confidence_softmax": 0.0342
-        },
-        {
-            "illness": "Feline Hypertrophic Cardiomyopathy (HCM) in Cats",
-            "matched_symptoms": [
-                "lethargy"
-            ],
-            "confidence_fc": 0.16,
-            "confidence_gb": 0.0,
-            "confidence_ab": 0.02,
-            "type": "Cardiac",
-            "subtype_coverage": 0.0,
-            "confidence_ab_raw": 0.02,
-            "confidence_softmax": 0.0342
-        },
-        {
-            "illness": "Rabies in Cats",
-            "matched_symptoms": [
-                "unsteadiness"
+                "diarrhea"
             ],
             "confidence_fc": 0.09,
             "confidence_gb": 0.0,
             "confidence_ab": 0.02,
-            "type": "Viral (Neurological)",
+            "type": "Viral",
+            "age_specificity": "Puppy",
+            "size_specificity": "Any",
             "subtype_coverage": 0.0,
             "confidence_ab_raw": 0.02,
-            "confidence_softmax": 0.0342
+            "confidence_softmax": 0.0512
+        },
+        {
+            "illness": "Canine Herpesvirus",
+            "matched_symptoms": [
+                "diarrhea"
+            ],
+            "confidence_fc": 0.09,
+            "confidence_gb": 0.01,
+            "confidence_ab": 0.02,
+            "type": "Viral",
+            "age_specificity": "Any",
+            "size_specificity": "Any",
+            "subtype_coverage": 0.0,
+            "confidence_ab_raw": 0.02,
+            "confidence_softmax": 0.0512
+        },
+        {
+            "illness": "Infectious Canine Hepatitis",
+            "matched_symptoms": [
+                "diarrhea"
+            ],
+            "confidence_fc": 0.07,
+            "confidence_gb": 0.0,
+            "confidence_ab": 0.02,
+            "type": "Viral",
+            "age_specificity": "Any",
+            "size_specificity": "Any",
+            "subtype_coverage": 20.0,
+            "confidence_ab_raw": 0.02,
+            "confidence_softmax": 0.0512
+        },
+        {
+            "illness": "Toxoplasmosis in Dogs",
+            "matched_symptoms": [
+                "diarrhea"
+            ],
+            "confidence_fc": 0.08,
+            "confidence_gb": 0.0,
+            "confidence_ab": 0.02,
+            "type": "Parasitic",
+            "age_specificity": "Any",
+            "size_specificity": "Any",
+            "subtype_coverage": 0.0,
+            "confidence_ab_raw": 0.02,
+            "confidence_softmax": 0.0512
+        },
+        {
+            "illness": "Chronic Kidney Disease (CKD)",
+            "matched_symptoms": [
+                "diarrhea"
+            ],
+            "confidence_fc": 0.08,
+            "confidence_gb": 0.01,
+            "confidence_ab": 0.01,
+            "type": "Renal",
+            "age_specificity": "Senior",
+            "size_specificity": "Small",
+            "subtype_coverage": 0.0,
+            "confidence_ab_raw": 0.01,
+            "confidence_softmax": 0.0507
         }
     ]
 }
