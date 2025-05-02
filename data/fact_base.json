@@ -1,7 +1,9 @@
 {
     "owner": "Ragnar",
     "symptoms": [
-        "eye discharge"
+        "irritability",
+        "muscle paralysis",
+        "seizures"
     ],
     "pet_type": "dog",
     "pet_info": {
@@ -11,116 +13,110 @@
         "age_range": "Puppy"
     },
     "user_answers": {
-        "eye discharge": {
-            "How long has your pet had eye discharge?": "3-10 days",
-            "Is the eye discharge Mucous-like?": "Mucous-like Eye Discharge"
+        "irritability": {
+            "How long has your pet had irritability?": "1-3 days"
+        },
+        "muscle paralysis": {
+            "How long has your pet had muscle paralysis?": "1-3 days",
+            "What type of muscle paralysis is it? (Hindlimbs, Jaw)": "jaw"
+        },
+        "seizures": {
+            "How long has your pet had seizures?": "Variable",
+            "What type of seizures is it? (Cluster, Generalized, Mild, Severe)": "cluster"
         }
     },
     "possible_diagnosis": [
         {
-            "illness": "Canine Influenza",
+            "illness": "Rabies",
             "matched_symptoms": [
-                "eye discharge"
+                "irritability",
+                "muscle paralysis",
+                "seizures"
             ],
-            "confidence_fc": 0.09,
-            "confidence_gb": 0.13,
+            "confidence_fc": 0.25,
+            "confidence_gb": 0.39,
+            "confidence_ab": 0.4,
+            "type": "Viral",
+            "age_specificity": "Any",
+            "size_specificity": "Any",
+            "subtype_coverage": 33.33,
+            "confidence_ab_raw": 0.4,
+            "confidence_softmax": 0.219
+        },
+        {
+            "illness": "Granulomatous Meningoencephalitis",
+            "matched_symptoms": [
+                "seizures"
+            ],
+            "confidence_fc": 0.3,
+            "confidence_gb": 0.01,
             "confidence_ab": 0.09,
-            "type": "Viral",
+            "type": "Neurological",
             "age_specificity": "Any",
             "size_specificity": "Any",
-            "subtype_coverage": 0.0,
+            "subtype_coverage": 50.0,
             "confidence_ab_raw": 0.09,
-            "confidence_softmax": 0.1516
+            "confidence_softmax": 0.1606
         },
         {
-            "illness": "Canine Respiratory Coronavirus",
+            "illness": "Epilepsy",
             "matched_symptoms": [
-                "eye discharge"
+                "seizures"
             ],
-            "confidence_fc": 0.08,
-            "confidence_gb": 0.02,
-            "confidence_ab": 0.03,
-            "type": "Viral",
+            "confidence_fc": 0.23,
+            "confidence_gb": 0.01,
+            "confidence_ab": 0.08,
+            "type": "Neurological",
             "age_specificity": "Any",
             "size_specificity": "Any",
-            "subtype_coverage": 0.0,
-            "confidence_ab_raw": 0.03,
-            "confidence_softmax": 0.1428
-        },
-        {
-            "illness": "Kennel Cough",
-            "matched_symptoms": [
-                "eye discharge"
-            ],
-            "confidence_fc": 0.08,
-            "confidence_gb": 0.02,
-            "confidence_ab": 0.03,
-            "type": "Viral",
-            "age_specificity": "Any",
-            "size_specificity": "Any",
-            "subtype_coverage": 0.0,
-            "confidence_ab_raw": 0.03,
-            "confidence_softmax": 0.1428
+            "subtype_coverage": 100.0,
+            "confidence_ab_raw": 0.08,
+            "confidence_softmax": 0.159
         },
         {
             "illness": "Canine Distemper",
             "matched_symptoms": [
-                "eye discharge"
+                "seizures"
             ],
-            "confidence_fc": 0.05,
+            "confidence_fc": 0.16,
             "confidence_gb": 0.01,
-            "confidence_ab": 0.02,
+            "confidence_ab": 0.05,
             "type": "Viral",
             "age_specificity": "Puppy",
             "size_specificity": "Any",
-            "subtype_coverage": 0.0,
-            "confidence_ab_raw": 0.02,
-            "confidence_softmax": 0.1414
+            "subtype_coverage": 11.11,
+            "confidence_ab_raw": 0.05,
+            "confidence_softmax": 0.1543
         },
         {
             "illness": "Canine Herpesvirus",
             "matched_symptoms": [
-                "eye discharge"
+                "seizures"
             ],
-            "confidence_fc": 0.04,
+            "confidence_fc": 0.15,
             "confidence_gb": 0.01,
-            "confidence_ab": 0.02,
+            "confidence_ab": 0.05,
             "type": "Viral",
             "age_specificity": "Any",
             "size_specificity": "Any",
-            "subtype_coverage": 0.0,
-            "confidence_ab_raw": 0.02,
-            "confidence_softmax": 0.1414
+            "subtype_coverage": 10.0,
+            "confidence_ab_raw": 0.05,
+            "confidence_softmax": 0.1543
         },
         {
             "illness": "Infectious Canine Hepatitis",
             "matched_symptoms": [
-                "eye discharge"
+                "seizures"
             ],
-            "confidence_fc": 0.04,
+            "confidence_fc": 0.12,
             "confidence_gb": 0.0,
-            "confidence_ab": 0.01,
+            "confidence_ab": 0.04,
             "type": "Viral",
             "age_specificity": "Any",
             "size_specificity": "Any",
-            "subtype_coverage": 0.0,
-            "confidence_ab_raw": 0.01,
-            "confidence_softmax": 0.14
-        },
-        {
-            "illness": "Rocky Mountain Spotted Fever",
-            "matched_symptoms": [
-                "eye discharge"
-            ],
-            "confidence_fc": 0.05,
-            "confidence_gb": 0.0,
-            "confidence_ab": 0.01,
-            "type": "Bacterial",
-            "age_specificity": "Any",
-            "size_specificity": "Any",
-            "subtype_coverage": 0.0,
-            "confidence_ab_raw": 0.01,
-            "confidence_softmax": 0.14
+            "subtype_coverage": 10.0,
+            "confidence_ab_raw": 0.04,
+            "confidence_softmax": 0.1528
         }
     ]
 }

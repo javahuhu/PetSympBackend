@@ -18,7 +18,7 @@ from firebase_admin import auth, credentials
 
 # ───── Initialization ─────
 if not firebase_admin._apps:
-    cred = credentials.Certificate("petsympsdk.json")
+    cred = credentials.Certificate("petreset.json")
     firebase_admin.initialize_app(cred)
 
 app = FastAPI()
@@ -136,7 +136,7 @@ def align_features(feature_vector, expected_features):
     return feature_vector[expected_features]
 def adjust_confidence_with_followups(confidence, symptom_details, illness_name, user_answers):
     """
-    Modify confidence scores based on user follow-up answers and KB expectations.
+    Modify confidence scores based on user follow-up answers and symptom_followups impact values.
     """
     illness_rule = next((r for r in knowledge_base if r["illness"] == illness_name), None)
     if not illness_rule:
@@ -149,6 +149,9 @@ def adjust_confidence_with_followups(confidence, symptom_details, illness_name, 
 
         if symptom_name in symptom_followups:
             expected_symptoms = {s["name"].lower(): s for s in illness_rule["symptoms"]}
+            user_response = user_answers.get(symptom_name, {})
+            impact_config = symptom_followups[symptom_name].get("impact", {})
+
             if symptom_name in expected_symptoms:
                 expected_data = expected_symptoms[symptom_name]
                 expected_duration = expected_data.get("duration_range", "Any")
@@ -159,7 +162,15 @@ def adjust_confidence_with_followups(confidence, symptom_details, illness_name, 
                     if sub.strip()
                 ]
 
-                user_response = user_answers.get(symptom_name, {})
+                # Apply impact values from JSON directly
+                for question, answer in user_response.items():
+                    normalized = answer.strip().lower()
+                    if normalized in impact_config:
+                        impact_value = impact_config[normalized]
+                        total_multiplier *= impact_value
+                        print(f"✔ Using impact value for '{symptom_name}' – '{normalized}': x{impact_value}")
+
+                # Also keep existing severity/duration logic as fallback
                 user_duration = user_response.get(
                     f"How long has your pet had {symptom_name}?", None
                 )
@@ -181,37 +192,40 @@ def adjust_confidence_with_followups(confidence, symptom_details, illness_name, 
                     if expected_subtypes and candidate in expected_subtypes:
                         user_subtype = candidate
 
-                # Severity impact
-                severity_impact = 1.0
-                if user_severity and expected_severity.lower() != "any":
-                    if user_severity.lower() == expected_severity.lower():
-                        severity_impact = 1.2
-                    else:
-                        severity_impact = 0.9
-
-                # Duration impact
-                duration_impact = 1.0
-                if user_duration and expected_duration.lower() != "any":
-                    if expected_duration in user_duration:
-                        duration_impact = 1.2
-                    else:
-                        duration_impact = 0.9
-
-                # Subtype impact
-                subtype_impact = 1.0
-                if expected_subtypes and expected_subtypes != ["any"]:
-                    if user_subtype:
-                        if user_subtype in expected_subtypes:
-                            subtype_impact = 1.3 if len(expected_subtypes) == 1 else 1.1
+                # Apply fallback multipliers only if impact_config didn't already cover it
+                if not impact_config:
+                    # Severity
+                    severity_impact = 1.0
+                    if user_severity and expected_severity.lower() != "any":
+                        if user_severity.lower() == expected_severity.lower():
+                            severity_impact = 1.2
                         else:
-                            subtype_impact = 0.7
-                    else:
-                        subtype_impact = 0.85
+                            severity_impact = 0.9
 
-                total_multiplier *= severity_impact * subtype_impact * duration_impact
+                    # Duration
+                    duration_impact = 1.0
+                    if user_duration and expected_duration.lower() != "any":
+                        if expected_duration in user_duration:
+                            duration_impact = 1.2
+                        else:
+                            duration_impact = 0.9
+
+                    # Subtype
+                    subtype_impact = 1.0
+                    if expected_subtypes and expected_subtypes != ["any"]:
+                        if user_subtype:
+                            if user_subtype in expected_subtypes:
+                                subtype_impact = 1.3 if len(expected_subtypes) == 1 else 1.1
+                            else:
+                                subtype_impact = 0.7
+                        else:
+                            subtype_impact = 0.85
+
+                    total_multiplier *= severity_impact * duration_impact * subtype_impact
 
     total_multiplier = min(max(total_multiplier, 0.5), 2.0)  # Safety bounds
     return round(confidence * total_multiplier, 2)
+
 
 
 
@@ -562,20 +576,14 @@ async def get_all_symptoms(pet_type: str = "dog"):
 # ───── Evaluation Endpoints ─────
 
 def evaluate_illness_performance(target_illness, pet_type="dog"):
-    """
-    Evaluates the 2x2 confusion matrix and classification metrics
-    for the given illness based on the full labeled dataset.
-    Chooses dog or cat CSV depending on pet type.
-    """
 
-    # Choose correct evaluation file
     if pet_type.lower().strip() == "dog":
         eval_path = "data/dog_true_vs_predicted.csv"
     else:
         eval_path = "data/cat_true_vs_predicted.csv"
 
     if not os.path.exists(eval_path):
-        print("⚠️ Evaluation file not found.")
+        print("Evaluation file not found.")
         return None
 
     df_eval = pd.read_csv(eval_path)
@@ -584,16 +592,15 @@ def evaluate_illness_performance(target_illness, pet_type="dog"):
     df_eval["Illness"] = df_eval["Illness"].astype(str).str.strip().str.lower()
     df_eval["Predicted"] = df_eval["Predicted"].astype(str).str.strip().str.lower()
 
-    # Normalize target illness
+  
     target_clean = target_illness.strip().lower()
 
-    # Binary classification: target illness vs all others
+    
     y_true = df_eval["Illness"].apply(lambda x: 1 if x == target_clean else 0)
     y_pred = df_eval["Predicted"].apply(lambda x: 1 if x == target_clean else 0)
 
     cm = confusion_matrix(y_true, y_pred)
 
-    # Handle cases where confusion matrix is 1x1
     if cm.shape == (2, 2):
         tn, fp, fn, tp = cm.ravel()
     elif cm.shape == (1, 1):
@@ -641,7 +648,7 @@ async def read_metrics_with_cm(illness_name: str, pet_type: str = "dog"):
 
 @app.get("/debug/knowledge-details")
 async def get_knowledge_details(pet_type: str, illness: str):
-    """Return detailed knowledge base entry for a specific illness."""
+   
     kb, boost_model, ada_model, feats, dataset = load_pet_resources(pet_type.lower())
     
     rule = next((r for r in kb if r["illness"].lower() == illness.lower()), None)
