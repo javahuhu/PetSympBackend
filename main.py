@@ -15,7 +15,11 @@ from email.mime.multipart import MIMEMultipart
 from sklearn.metrics import confusion_matrix, precision_score, recall_score, f1_score
 import firebase_admin
 from firebase_admin import auth, credentials
+from dotenv import load_dotenv
+import base64
 
+
+load_dotenv()
 # ───── Initialization ─────
 if not firebase_admin._apps:
     import base64
