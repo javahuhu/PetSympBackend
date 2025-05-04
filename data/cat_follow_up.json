@@ -1,0 +1,1305 @@
+{
+  "abdominal pain": {
+    "questions": [
+      "How long has your pet had abdominal pain?",
+      "What type of abdominal pain is it? (Flinching, Vocalizing)"
+    ],
+    "impact": {
+      "1-3 days": 1.1,
+      "4-7 days": 1.2,
+      "8-14 days": 1.2,
+      "15-30 days": 1.1,
+      "flinching": 1.2,
+      "vocalizing": 1.2
+    }
+  },
+  "aggression": {
+    "questions": [
+      "How long has your pet had aggression?",
+      "What type of aggression is it? (Sudden, Unprovoked Attacks)"
+    ],
+    "impact": {
+      "1-3 days": 1.1,
+      "4-7 days": 1.2,
+      "8-14 days": 1.2,
+      "15-30 days": 1.1,
+      "sudden": 1.2,
+      "unprovoked attacks": 1.2
+    }
+  },
+  "bad breath": {
+    "questions": [
+      "How long has your pet had bad breath?",
+      "What type of bad breath is it? (Urine-Like Odor, Decaying Smell, Foul Odor, Metallic Odor, Persistent Odor)"
+    ],
+    "impact": {
+      "1-3 days": 1.1,
+      "4-7 days": 1.2,
+      "8-14 days": 1.2,
+      "15-30 days": 1.1,
+      "urine-like odor": 1.2,
+      "decaying smell": 1.2,
+      "foul odor": 1.2,
+      "metallic odor": 1.2,
+      "persistent odor": 1.2
+    }
+  },
+  "bad odor": {
+    "questions": [
+      "How long has your pet had bad odor?"
+    ],
+    "impact": {
+      "1-3 days": 1.1,
+      "4-7 days": 1.2,
+      "8-14 days": 1.2,
+      "15-30 days": 1.1
+    }
+  },
+  "bleeding gums": {
+    "questions": [
+      "How long has your pet had bleeding gums?",
+      "What type of bleeding gums is it? (During Brushing Or Chewing, Occurs When Touched Or Eating)"
+    ],
+    "impact": {
+      "1-3 days": 1.1,
+      "4-7 days": 1.2,
+      "8-14 days": 1.2,
+      "15-30 days": 1.1,
+      "during brushing or chewing": 1.2,
+      "occurs when touched or eating": 1.2
+    }
+  },
+  "bloating": {
+    "questions": [
+      "How long has your pet had bloating?"
+    ],
+    "impact": {
+      "1-3 days": 1.1,
+      "4-7 days": 1.2,
+      "8-14 days": 1.2,
+      "15-30 days": 1.1
+    }
+  },
+  "blood in urine": {
+    "questions": [
+      "How long has your pet had blood in urine?"
+    ],
+    "impact": {
+      "1-3 days": 1.1,
+      "4-7 days": 1.2,
+      "8-14 days": 1.2,
+      "15-30 days": 1.1
+    }
+  },
+  "breathing difficulty": {
+    "questions": [
+      "How long has your pet had breathing difficulty?",
+      "What type of breathing difficulty is it? (Labored, Rapid, Shallow)"
+    ],
+    "impact": {
+      "1-3 days": 1.1,
+      "4-7 days": 1.2,
+      "8-14 days": 1.2,
+      "15-30 days": 1.1,
+      "labored": 1.2,
+      "rapid": 1.2,
+      "shallow": 1.2
+    }
+  },
+  "chattering jaw": {
+    "questions": [
+      "How long has your pet had chattering jaw?"
+    ],
+    "impact": {
+      "1-3 days": 1.1,
+      "4-7 days": 1.2,
+      "8-14 days": 1.2,
+      "15-30 days": 1.1
+    }
+  },
+  "collapse": {
+    "questions": [],
+    "impact": {}
+  },
+  "confusion": {
+    "questions": [
+      "How long has your pet had confusion?",
+      "What type of confusion is it? (Disoriented, Pacing)"
+    ],
+    "impact": {
+      "1-3 days": 1.1,
+      "4-7 days": 1.2,
+      "8-14 days": 1.2,
+      "15-30 days": 1.1,
+      "disoriented": 1.2,
+      "pacing": 1.2
+    }
+  },
+  "coughing": {
+    "questions": [
+      "How long has your pet had coughing?",
+      "What type of coughing is it? (Dry, Harsh, Honking, Persistent"
+    ],
+    "impact": {
+      "1-3 days": 1.1,
+      "4-7 days": 1.2,
+      "8-14 days": 1.2,
+      "15-30 days": 1.1,
+      "dry": 1.2,
+      "harsh": 1.2,
+      "honking": 1.2,
+      "persistent": 1.2
+    }
+  },
+  "dehydration": {
+    "questions": [
+      "How long has your pet had dehydration?",
+      "What type of dehydration is it? (Dry Gums, Sunken Eyes, Tacky Gums)"
+    ],
+    "impact": {
+      "1-3 days": 1.1,
+      "4-7 days": 1.2,
+      "8-14 days": 1.2,
+      "15-30 days": 1.1,
+      "dry gums": 1.2,
+      "sunken eyes": 1.2,
+      "tacky gums": 1.2
+    }
+  },
+  "diarrhea": {
+    "questions": [
+      "How long has your pet had diarrhea?",
+      "What type of diarrhea is it? (Bloody, Dark, Foul-Smelling, Loose, Mucous-Covered, Watery)"
+    ],
+    "impact": {
+      "1-3 days": 1.1,
+      "4-7 days": 1.2,
+      "8-14 days": 1.2,
+      "15-30 days": 1.1,
+      "bloody": 1.2,
+      "dark": 1.2,
+      "foul-smelling": 1.2,
+      "loose": 1.2,
+      "mucous-covered": 1.2,
+      "watery": 1.2
+    }
+  },
+  "difficulty eating": {
+    "questions": [
+      "How long has your pet had difficulty eating?",
+      "What type of difficulty eating is it? (Chews On One Side, Drops Food)"
+    ],
+    "impact": {
+      "1-3 days": 1.1,
+      "4-7 days": 1.2,
+      "8-14 days": 1.2,
+      "15-30 days": 1.1,
+      "chews on one side": 1.2,
+      "drops food": 1.2
+    }
+  },
+  "difficulty jumping": {
+    "questions": [
+      "How long has your pet had difficulty jumping?"
+    ],
+    "impact": {
+      "1-3 days": 1.1,
+      "4-7 days": 1.2,
+      "8-14 days": 1.2,
+      "15-30 days": 1.1
+    }
+  },
+  "difficulty moving": {
+    "questions": [
+      "How long has your pet had difficulty moving?"
+    ],
+    "impact": {
+      "1-3 days": 1.1,
+      "4-7 days": 1.2,
+      "8-14 days": 1.2,
+      "15-30 days": 1.1
+    }
+  },
+  "difficulty swallowing": {
+    "questions": [
+      "How long has your pet had difficulty swallowing?",
+      "What type of difficulty swallowing is it? (Choking, Gagging)"
+    ],
+    "impact": {
+      "1-3 days": 1.1,
+      "4-7 days": 1.2,
+      "8-14 days": 1.2,
+      "15-30 days": 1.1,
+      "choking": 1.2,
+      "gagging": 1.2
+    }
+  },
+  "disorientation": {
+    "questions": [
+      "How long has your pet had disorientation?",
+      "What type of disorientation is it? (Pacing, Vacant Stare)"
+    ],
+    "impact": {
+      "1-3 days": 1.1,
+      "4-7 days": 1.2,
+      "8-14 days": 1.2,
+      "15-30 days": 1.1,
+      "pacing": 1.2,
+      "vacant stare": 1.2
+    }
+  },
+  "draining wounds": {
+    "questions": [
+      "How long has your pet had draining wounds?",
+      "What type of draining wounds is it? (Chronic, Pus-Filled)"
+    ],
+    "impact": {
+      "1-3 days": 1.1,
+      "4-7 days": 1.2,
+      "8-14 days": 1.2,
+      "15-30 days": 1.1,
+      "chronic": 1.2,
+      "pus-filled": 1.2
+    }
+  },
+  "drooling": {
+    "questions": [
+      "How long has your pet had drooling?",
+      "What type of drooling is it? (Blood-Tinged, Thick Saliva, Excessive Saliva, Stringy Saliva)"
+    ],
+    "impact": {
+      "1-3 days": 1.1,
+      "4-7 days": 1.2,
+      "8-14 days": 1.2,
+      "15-30 days": 1.1,
+      "blood-tinged": 1.2,
+      "thick saliva": 1.2,
+      "excessive saliva": 1.2,
+      "stringy saliva": 1.2
+    }
+  },
+  "dropping food": {
+    "questions": [
+      "How long has your pet had dropping food?"
+    ],
+    "impact": {
+      "1-3 days": 1.1,
+      "4-7 days": 1.2,
+      "8-14 days": 1.2,
+      "15-30 days": 1.1
+    }
+  },
+  "dull coat": {
+    "questions": [
+      "How long has your pet had dull coat?",
+      "What type of dull coat is it? (Brittle, Dry, Poor Shine)"
+    ],
+    "impact": {
+      "1-3 days": 1.1,
+      "4-7 days": 1.2,
+      "8-14 days": 1.2,
+      "15-30 days": 1.1,
+      "brittle": 1.2,
+      "dry": 1.2,
+      "poor shine": 1.2
+    }
+  },
+  "excessive drooling": {
+    "questions": [
+      "How long has your pet had excessive drooling?",
+      "What type of excessive drooling is it? (Ropey, Unable To Swallow)"
+    ],
+    "impact": {
+      "1-3 days": 1.1,
+      "4-7 days": 1.2,
+      "8-14 days": 1.2,
+      "15-30 days": 1.1,
+      "ropey": 1.2,
+      "unable to swallow": 1.2
+    }
+  },
+  "eye discharge": {
+    "questions": [
+      "How long has your pet had eye discharge?",
+      "What type of eye discharge is it? (Yellowish, Watery, Mucous)"
+    ],
+    "impact": {
+      "1-3 days": 1.1,
+      "4-7 days": 1.2,
+      "8-14 days": 1.2,
+      "15-30 days": 1.1,
+      "yellowish": 1.2,
+      "watery": 1.2,
+      "mucous": 1.2
+    }
+  },
+  "eye redness": {
+    "questions": [
+      "How long has your pet had eye redness?",
+      "What type of eye redness is it? (Conjunctivitis, Inflamed Tissue)"
+    ],
+    "impact": {
+      "1-3 days": 1.1,
+      "4-7 days": 1.2,
+      "8-14 days": 1.2,
+      "15-30 days": 1.1,
+      "conjunctivitis": 1.2,
+      "inflamed tissue": 1.2
+    }
+  },
+  "falling over": {
+    "questions": [
+      "How long has your pet had falling over?"
+    ],
+    "impact": {
+      "1-3 days": 1.1,
+      "4-7 days": 1.2,
+      "8-14 days": 1.2,
+      "15-30 days": 1.1,
+      "31+ days": 1.1
+    }
+  },
+  "fever": {
+    "questions": [
+      "How long has your pet had fever?",
+      "What type of fever is it? (Intermittent, Low-Grade, Mild, Sudden)"
+    ],
+    "impact": {
+      "1-3 days": 1.1,
+      "4-7 days": 1.2,
+      "8-14 days": 1.2,
+      "15-30 days": 1.1,
+      "intermittent": 1.2,
+      "low-grade": 1.2,
+      "mild": 1.2,
+      "sudden": 1.2
+    }
+  },
+  "foul odor from wound": {
+    "questions": [
+      "How long has your pet had foul odor from wound?"
+    ],
+    "impact": {
+      "1-3 days": 1.1,
+      "4-7 days": 1.2,
+      "8-14 days": 1.2,
+      "15-30 days": 1.1
+    }
+  },
+  "frequent urination": {
+    "questions": [
+      "How long has your pet had frequent urination?",
+      "What type of frequent urination is it? (Large Amounts, Small Volumes)"
+    ],
+    "impact": {
+      "1-3 days": 1.1,
+      "4-7 days": 1.2,
+      "8-14 days": 1.2,
+      "15-30 days": 1.1,
+      "large amounts": 1.2,
+      "small volumes": 1.2
+    }
+  },
+  "gas": {
+    "questions": [
+      "How long has your pet had gas?",
+      "What type of gas is it? (Bloating, Flatulence)"
+    ],
+    "impact": {
+      "1-3 days": 1.1,
+      "4-7 days": 1.2,
+      "8-14 days": 1.2,
+      "15-30 days": 1.1,
+      "bloating": 1.2,
+      "flatulence": 1.2
+    }
+  },
+  "gum recession": {
+    "questions": [
+      "How long has your pet had gum recession?",
+      "What type of gum recession is it? (Exposed Roots, Gaps Around Teeth)"
+    ],
+    "impact": {
+      "1-3 days": 1.1,
+      "4-7 days": 1.2,
+      "8-14 days": 1.2,
+      "15-30 days": 1.1,
+      "exposed roots": 1.2,
+      "gaps around teeth": 1.2
+    }
+  },
+  "hair loss": {
+    "questions": [
+      "How long has your pet had hair loss?",
+      "What type of hair loss is it? (Eyelids, Neck, On Face, Patchy)"
+    ],
+    "impact": {
+      "1-3 days": 1.1,
+      "4-7 days": 1.2,
+      "8-14 days": 1.2,
+      "15-30 days": 1.1,
+      "eyelids": 1.2,
+      "neck": 1.2,
+      "on face": 1.2,
+      "patchy": 1.2
+    }
+  },
+  "head tilt": {
+    "questions": [
+      "How long has your pet had head tilt?"
+    ],
+    "impact": {
+      "1-3 days": 1.1,
+      "4-7 days": 1.2,
+      "8-14 days": 1.2,
+      "15-30 days": 1.1
+    }
+  },
+  "head tremors": {
+    "questions": [
+      "How long has your pet had head tremors?"
+    ],
+    "impact": {
+      "1-3 days": 1.1,
+      "4-7 days": 1.2,
+      "8-14 days": 1.2,
+      "15-30 days": 1.1,
+      "31+ days": 1.1
+    }
+  },
+  "hiding": {
+    "questions": [
+      "How long has your pet had hiding?",
+      "What type of hiding is it? (Avoids Contact, Withdrawn)"
+    ],
+    "impact": {
+      "1-3 days": 1.1,
+      "4-7 days": 1.2,
+      "8-14 days": 1.2,
+      "15-30 days": 1.1,
+      "avoids contact": 1.2,
+      "withdrawn": 1.2
+    }
+  },
+  "increased appetite": {
+    "questions": [
+      "How long has your pet had increased appetite?",
+      "What type of increased appetite is it? (Compensatory, Ravenous Eating)"
+    ],
+    "impact": {
+      "1-3 days": 1.1,
+      "4-7 days": 1.2,
+      "8-14 days": 1.2,
+      "15-30 days": 1.1,
+      "compensatory": 1.2,
+      "ravenous eating": 1.2
+    }
+  },
+  "increased thirst": {
+    "questions": [
+      "How long has your pet had increased thirst?",
+      "What type of increased thirst is it? (Drinks More Than Usual, Persistent)"
+    ],
+    "impact": {
+      "1-3 days": 1.1,
+      "4-7 days": 1.2,
+      "8-14 days": 1.2,
+      "15-30 days": 1.1,
+      "drinks more than usual": 1.2,
+      "persistent": 1.2
+    }
+  },
+  "irritability": {
+    "questions": [
+      "How long has your pet had irritability?"
+    ],
+    "impact": {
+      "1-3 days": 1.1,
+      "4-7 days": 1.2,
+      "8-14 days": 1.2,
+      "15-30 days": 1.1
+    }
+  },
+  "itching": {
+    "questions": [
+      "How long has your pet had itching?",
+      "What type of itching is it? (Around Face And Limbs, Intense)"
+    ],
+    "impact": {
+      "1-3 days": 1.1,
+      "4-7 days": 1.2,
+      "8-14 days": 1.2,
+      "15-30 days": 1.1,
+      "around face and limbs": 1.2,
+      "intense": 1.2
+    }
+  },
+  "jaundice": {
+    "questions": [
+      "How long has your pet had jaundice?",
+      "What type of jaundice is it? (Sclera, Yellowing Of Gums)"
+    ],
+    "impact": {
+      "1-3 days": 1.1,
+      "4-7 days": 1.2,
+      "8-14 days": 1.2,
+      "15-30 days": 1.1,
+      "sclera": 1.2,
+      "yellowing of gums": 1.2
+    }
+  },
+  "less grooming": {
+    "questions": [
+      "How long has your pet had less grooming?",
+      "What type of less grooming is it? (Back, Hind Legs)"
+    ],
+    "impact": {
+      "1-3 days": 1.1,
+      "4-7 days": 1.2,
+      "8-14 days": 1.2,
+      "15-30 days": 1.1,
+      "back": 1.2,
+      "hind legs": 1.2
+    }
+  },
+  "lethargy": {
+    "questions": [
+      "How long has your pet had lethargy?",
+      "What type of lethargy is it? (Decreased Activity, Decreased Energy, Mild, Sleepy, Weak)"
+    ],
+    "impact": {
+      "1-3 days": 1.1,
+      "4-7 days": 1.2,
+      "8-14 days": 1.2,
+      "15-30 days": 1.1,
+      "decreased activity": 1.2,
+      "decreased energy": 1.2,
+      "mild": 1.2,
+      "sleepy": 1.2,
+      "weak": 1.2
+    }
+  },
+  "licking genitals": {
+    "questions": [
+      "How long has your pet had licking genitals?"
+    ],
+    "impact": {
+      "1-3 days": 1.1,
+      "4-7 days": 1.2,
+      "8-14 days": 1.2,
+      "15-30 days": 1.1
+    }
+  },
+  "limping": {
+    "questions": [
+      "How long has your pet had limping?",
+      "What type of limping is it? (Intermittent, Shifting Leg Lameness, Worsens With Activity)"
+    ],
+    "impact": {
+      "1-3 days": 1.1,
+      "4-7 days": 1.2,
+      "8-14 days": 1.2,
+      "15-30 days": 1.1,
+      "intermittent": 1.2,
+      "shifting leg lameness": 1.2,
+      "worsens with activity": 1.2
+    }
+  },
+  "loose teeth": {
+    "questions": [
+      "How long has your pet had loose teeth?"
+    ],
+    "impact": {
+      "1-3 days": 1.1,
+      "4-7 days": 1.2,
+      "8-14 days": 1.2,
+      "15-30 days": 1.1,
+      "31+ days": 1.1
+    }
+  },
+  "loss of appetite": {
+    "questions": [
+      "How long has your pet had loss of appetite?"
+    ],
+    "impact": {
+      "1-3 days": 1.1,
+      "4-7 days": 1.2,
+      "8-14 days": 1.2,
+      "15-30 days": 1.1
+    }
+  },
+  "loss of balance": {
+    "questions": [
+      "How long has your pet had loss of balance?"
+    ],
+    "impact": {
+      "1-3 days": 1.1,
+      "4-7 days": 1.2,
+      "8-14 days": 1.2,
+      "15-30 days": 1.1
+    }
+  },
+  "mouth pain": {
+    "questions": [
+      "How long has your pet had mouth pain?"
+    ],
+    "impact": {
+      "1-3 days": 1.1,
+      "4-7 days": 1.2,
+      "8-14 days": 1.2,
+      "15-30 days": 1.1
+    }
+  },
+  "mouth ulcers": {
+    "questions": [
+      "How long has your pet had mouth ulcers?",
+      "What type of mouth ulcers is it? (Hard Palate, Lips, Tongue)"
+    ],
+    "impact": {
+      "1-3 days": 1.1,
+      "4-7 days": 1.2,
+      "8-14 days": 1.2,
+      "15-30 days": 1.1,
+      "hard palate": 1.2,
+      "lips": 1.2,
+      "tongue": 1.2
+    }
+  },
+  "mucus in stool": {
+    "questions": [
+      "How long has your pet had mucus in stool?"
+    ],
+    "impact": {
+      "1-3 days": 1.1,
+      "4-7 days": 1.2,
+      "8-14 days": 1.2,
+      "15-30 days": 1.1
+    }
+  },
+  "nasal discharge": {
+    "questions": [
+      "How long has your pet had nasal discharge?",
+      "What type of nasal discharge is it? (Yellow, Clear, Mucous-Like, Thick)"
+    ],
+    "impact": {
+      "1-3 days": 1.1,
+      "4-7 days": 1.2,
+      "8-14 days": 1.2,
+      "15-30 days": 1.1,
+      "yellow": 1.2,
+      "clear": 1.2,
+      "mucous-like": 1.2,
+      "thick": 1.2
+    }
+  },
+  "nausea": {
+    "questions": [
+      "How long has your pet had nausea?"
+    ],
+    "impact": {
+      "1-3 days": 1.1,
+      "4-7 days": 1.2,
+      "8-14 days": 1.2,
+      "15-30 days": 1.1
+    }
+  },
+  "nosebleeds": {
+    "questions": [
+      "How long has your pet had nosebleeds?"
+    ],
+    "impact": {
+      "1-3 days": 1.1,
+      "4-7 days": 1.2,
+      "8-14 days": 1.2,
+      "15-30 days": 1.1
+    }
+  },
+  "pain": {
+    "questions": [
+      "How long has your pet had pain?"
+    ],
+    "impact": {
+      "1-3 days": 1.1,
+      "4-7 days": 1.2,
+      "8-14 days": 1.2,
+      "15-30 days": 1.1
+    }
+  },
+  "pain when touched": {
+    "questions": [
+      "How long has your pet had pain when touched?",
+      "What type of pain when touched is it? (Hip, Localized, Lower Spine Region)"
+    ],
+    "impact": {
+      "1-3 days": 1.1,
+      "4-7 days": 1.2,
+      "8-14 days": 1.2,
+      "15-30 days": 1.1,
+      "hip": 1.2,
+      "localized": 1.2,
+      "lower spine region": 1.2
+    }
+  },
+  "painful chewing": {
+    "questions": [
+      "How long has your pet had painful chewing?"
+    ],
+    "impact": {
+      "1-3 days": 1.1,
+      "4-7 days": 1.2,
+      "8-14 days": 1.2,
+      "15-30 days": 1.1
+    }
+  },
+  "painful urination": {
+    "questions": [
+      "How long has your pet had painful urination?"
+    ],
+    "impact": {
+      "1-3 days": 1.1,
+      "4-7 days": 1.2,
+      "8-14 days": 1.2,
+      "15-30 days": 1.1
+    }
+  },
+  "pale gums": {
+    "questions": [
+      "How long has your pet had pale gums?",
+      "What type of pale gums is it? (Anemia-Related, White To Pale Pink)"
+    ],
+    "impact": {
+      "1-3 days": 1.1,
+      "4-7 days": 1.2,
+      "8-14 days": 1.2,
+      "15-30 days": 1.1,
+      "anemia-related": 1.2,
+      "white to pale pink": 1.2
+    }
+  },
+  "panting": {
+    "questions": [
+      "How long has your pet had panting?",
+      "What type of panting is it? (Stress-Induced, With Open Mouth)"
+    ],
+    "impact": {
+      "1-3 days": 1.1,
+      "4-7 days": 1.2,
+      "8-14 days": 1.2,
+      "15-30 days": 1.1,
+      "stress-induced": 1.2,
+      "with open mouth": 1.2
+    }
+  },
+  "paralysis": {
+    "questions": [
+      "How long has your pet had paralysis?",
+      "What type of paralysis is it? (Progressing To Full, Rear Limbs)"
+    ],
+    "impact": {
+      "1-3 days": 1.1,
+      "4-7 days": 1.2,
+      "8-14 days": 1.2,
+      "15-30 days": 1.1,
+      "progressing to full": 1.2,
+      "rear limbs": 1.2
+    }
+  },
+  "pawing at mouth": {
+    "questions": [
+      "How long has your pet had pawing at mouth?",
+      "What type of pawing at mouth is it? (Due To Oral Discomfort, Intermittent)"
+    ],
+    "impact": {
+      "1-3 days": 1.1,
+      "4-7 days": 1.2,
+      "8-14 days": 1.2,
+      "15-30 days": 1.1,
+      "due to oral discomfort": 1.2,
+      "intermittent": 1.2
+    }
+  },
+  "poor coat": {
+    "questions": [
+      "How long has your pet had poor coat?",
+      "What type of poor coat is it? (Dry, Dull, Rough, Unkempt)"
+    ],
+    "impact": {
+      "1-3 days": 1.1,
+      "4-7 days": 1.2,
+      "8-14 days": 1.2,
+      "15-30 days": 1.1,
+      "dry": 1.2,
+      "dull": 1.2,
+      "rough": 1.2,
+      "unkempt": 1.2
+    }
+  },
+  "pus or discharge": {
+    "questions": [
+      "How long has your pet had pus or discharge?",
+      "What type of pus or discharge is it? (Thick, Yellow-Green)"
+    ],
+    "impact": {
+      "1-3 days": 1.1,
+      "4-7 days": 1.2,
+      "8-14 days": 1.2,
+      "15-30 days": 1.1,
+      "thick": 1.2,
+      "yellow-green": 1.2
+    }
+  },
+  "rapid breathing": {
+    "questions": [
+      "How long has your pet had rapid breathing?",
+      "What type of rapid breathing is it? (Often At Rest, Tachypnea)"
+    ],
+    "impact": {
+      "1-3 days": 1.1,
+      "4-7 days": 1.2,
+      "8-14 days": 1.2,
+      "15-30 days": 1.1,
+      "often at rest": 1.2,
+      "tachypnea": 1.2
+    }
+  },
+  "rapid eye movement": {
+    "questions": [
+      "How long has your pet had rapid eye movement?"
+    ],
+    "impact": {
+      "1-3 days": 1.1,
+      "4-7 days": 1.2,
+      "8-14 days": 1.2,
+      "15-30 days": 1.1
+    }
+  },
+  "red gums": {
+    "questions": [
+      "How long has your pet had red gums?",
+      "What type of red gums is it? (Along Gum Line, Inflamed, Near Molars, Ulcerated)"
+    ],
+    "impact": {
+      "1-3 days": 1.1,
+      "4-7 days": 1.2,
+      "8-14 days": 1.2,
+      "15-30 days": 1.1,
+      "along gum line": 1.2,
+      "inflamed": 1.2,
+      "near molars": 1.2,
+      "ulcerated": 1.2
+    }
+  },
+  "reluctance to move": {
+    "questions": [
+      "How long has your pet had reluctance to move?",
+      "What type of reluctance to move is it? (Avoids Stairs, Running)"
+    ],
+    "impact": {
+      "1-3 days": 1.1,
+      "4-7 days": 1.2,
+      "8-14 days": 1.2,
+      "15-30 days": 1.1,
+      "avoids stairs": 1.2,
+      "running": 1.2
+    }
+  },
+  "scabs": {
+    "questions": [
+      "How long has your pet had scabs?",
+      "What type of scabs is it? (Crusted, Dry)"
+    ],
+    "impact": {
+      "1-3 days": 1.1,
+      "4-7 days": 1.2,
+      "8-14 days": 1.2,
+      "15-30 days": 1.1,
+      "crusted": 1.2,
+      "dry": 1.2
+    }
+  },
+  "scooting": {
+    "questions": [
+      "How long has your pet had scooting?"
+    ],
+    "impact": {
+      "1-3 days": 1.1,
+      "4-7 days": 1.2,
+      "8-14 days": 1.2,
+      "15-30 days": 1.1
+    }
+  },
+  "segments in stool": {
+    "questions": [
+      "How long has your pet had segments in stool?"
+    ],
+    "impact": {
+      "1-3 days": 1.1,
+      "4-7 days": 1.2,
+      "8-14 days": 1.2,
+      "15-30 days": 1.1
+    }
+  },
+  "seizures": {
+    "questions": [
+      "How long has your pet had seizures?",
+      "What type of seizures is it? (Convulsions, Paddling, Twitching)"
+    ],
+    "impact": {
+      "1-3 days": 1.1,
+      "4-7 days": 1.2,
+      "convulsions": 1.2,
+      "paddling": 1.2,
+      "twitching": 1.2
+    }
+  },
+  "skin lumps": {
+    "questions": [
+      "How long has your pet had skin lumps?",
+      "What type of skin lumps is it? (Firm, Slow-Growing)"
+    ],
+    "impact": {
+      "1-3 days": 1.1,
+      "4-7 days": 1.2,
+      "8-14 days": 1.2,
+      "15-30 days": 1.1,
+      "firm": 1.2,
+      "slow-growing": 1.2
+    }
+  },
+  "skin redness": {
+    "questions": [
+      "How long has your pet had skin redness?"
+    ],
+    "impact": {
+      "1-3 days": 1.1,
+      "4-7 days": 1.2,
+      "8-14 days": 1.2,
+      "15-30 days": 1.1
+    }
+  },
+  "skin wounds": {
+    "questions": [
+      "How long has your pet had skin wounds?",
+      "What type of skin wounds is it? (Draining, Open)"
+    ],
+    "impact": {
+      "1-3 days": 1.1,
+      "4-7 days": 1.2,
+      "8-14 days": 1.2,
+      "15-30 days": 1.1,
+      "draining": 1.2,
+      "open": 1.2
+    }
+  },
+  "skipping gait": {
+    "questions": [
+      "How long has your pet had skipping gait?"
+    ],
+    "impact": {
+      "1-3 days": 1.1,
+      "4-7 days": 1.2,
+      "8-14 days": 1.2,
+      "15-30 days": 1.1
+    }
+  },
+  "sneezing": {
+    "questions": [
+      "How long has your pet had sneezing?",
+      "What type of sneezing is it? (Frequent, Mild, Sudden Onset)"
+    ],
+    "impact": {
+      "1-3 days": 1.1,
+      "4-7 days": 1.2,
+      "8-14 days": 1.2,
+      "15-30 days": 1.1,
+      "frequent": 1.2,
+      "mild": 1.2,
+      "sudden onset": 1.2
+    }
+  },
+  "soft stool": {
+    "questions": [
+      "How long has your pet had soft stool?",
+      "What type of soft stool is it? (Formless, Greasy)"
+    ],
+    "impact": {
+      "1-3 days": 1.1,
+      "4-7 days": 1.2,
+      "8-14 days": 1.2,
+      "15-30 days": 1.1,
+      "formless": 1.2,
+      "greasy": 1.2
+    }
+  },
+  "squinting": {
+    "questions": [
+      "How long has your pet had squinting?"
+    ],
+    "impact": {
+      "1-3 days": 1.1,
+      "4-7 days": 1.2,
+      "8-14 days": 1.2,
+      "15-30 days": 1.1
+    }
+  },
+  "stiffness": {
+    "questions": [
+      "How long has your pet had stiffness?",
+      "What type of stiffness is it? (After Sleep, Muscle Rigidity)"
+    ],
+    "impact": {
+      "1-3 days": 1.1,
+      "4-7 days": 1.2,
+      "8-14 days": 1.2,
+      "seconds to minutes": 1.1,
+      "after sleep": 1.2,
+      "muscle rigidity": 1.2
+    }
+  },
+  "sudden behavior changes": {
+    "questions": [
+      "How long has your pet had sudden behavior changes?"
+    ],
+    "impact": {
+      "1-3 days": 1.1,
+      "4-7 days": 1.2,
+      "8-14 days": 1.2,
+      "15-30 days": 1.1
+    }
+  },
+  "sudden collapse": {
+    "questions": [
+      "How long has your pet had sudden collapse?"
+    ],
+    "impact": {
+      "1-3 days": 1.1,
+      "4-7 days": 1.2,
+      "8-14 days": 1.2,
+      "15-30 days": 1.1
+    }
+  },
+  "sudden leg stretching": {
+    "questions": [
+      "How long has your pet had sudden leg stretching?"
+    ],
+    "impact": {
+      "1-3 days": 1.1,
+      "4-7 days": 1.2,
+      "8-14 days": 1.2,
+      "15-30 days": 1.1
+    }
+  },
+  "swelling": {
+    "questions": [
+      "How long has your pet had swelling?",
+      "What type of swelling is it? (Face, Firm, Jaw, Localized, Neck)"
+    ],
+    "impact": {
+      "1-3 days": 1.1,
+      "4-7 days": 1.2,
+      "8-14 days": 1.2,
+      "15-30 days": 1.1,
+      "face": 1.2,
+      "firm": 1.2,
+      "jaw": 1.2,
+      "localized": 1.2,
+      "neck": 1.2
+    }
+  },
+  "swelling face": {
+    "questions": [
+      "How long has your pet had swelling face?",
+      "What type of swelling face is it? (Cheek, Jaw, Near Eye)"
+    ],
+    "impact": {
+      "1-3 days": 1.1,
+      "4-7 days": 1.2,
+      "8-14 days": 1.2,
+      "15-30 days": 1.1,
+      "cheek": 1.2,
+      "jaw": 1.2,
+      "near eye": 1.2
+    }
+  },
+  "swollen belly": {
+    "questions": [
+      "How long has your pet had swollen belly?",
+      "What type of swollen belly is it? (Fluid Buildup (Ascites))"
+    ],
+    "impact": {
+      "1-3 days": 1.1,
+      "4-7 days": 1.2,
+      "8-14 days": 1.2,
+      "15-30 days": 1.1,
+      "fluid buildup (ascites)": 1.2
+    }
+  },
+  "swollen gums": {
+    "questions": [
+      "How long has your pet had swollen gums?",
+      "What type of swollen gums is it? (Inflamed, Painful, Red)"
+    ],
+    "impact": {
+      "1-3 days": 1.1,
+      "4-7 days": 1.2,
+      "8-14 days": 1.2,
+      "15-30 days": 1.1,
+      "inflamed": 1.2,
+      "painful": 1.2,
+      "red": 1.2
+    }
+  },
+  "swollen joints": {
+    "questions": [
+      "How long has your pet had swollen joints?"
+    ],
+    "impact": {
+      "1-3 days": 1.1,
+      "4-7 days": 1.2,
+      "8-14 days": 1.2,
+      "15-30 days": 1.1
+    }
+  },
+  "swollen lymph nodes": {
+    "questions": [
+      "How long has your pet had swollen lymph nodes?",
+      "What type of swollen lymph nodes is it? (Groin, Jaw, Neck)"
+    ],
+    "impact": {
+      "1-3 days": 1.1,
+      "4-7 days": 1.2,
+      "8-14 days": 1.2,
+      "15-30 days": 1.1,
+      "groin": 1.2,
+      "jaw": 1.2,
+      "neck": 1.2
+    }
+  },
+  "thickened skin": {
+    "questions": [
+      "How long has your pet had thickened skin?"
+    ],
+    "impact": {
+      "15-30 days": 1.1,
+      "31+ days": 1.1,
+      "8-14 days": 1.2
+    }
+  },
+  "uncoordinated movement": {
+    "questions": [
+      "How long has your pet had uncoordinated movement?",
+      "What type of uncoordinated movement is it? (Erratic, Jerky)"
+    ],
+    "impact": {
+      "1-3 days": 1.1,
+      "4-7 days": 1.2,
+      "8-14 days": 1.2,
+      "15-30 days": 1.1,
+      "31+ days": 1.1,
+      "erratic": 1.2,
+      "jerky": 1.2
+    }
+  },
+  "unsteadiness": {
+    "questions": [
+      "How long has your pet had unsteadiness?",
+      "What type of unsteadiness is it? (Poor Balance, Staggering, Weakness, Wobbly Gait)"
+    ],
+    "impact": {
+      "1-3 days": 1.1,
+      "4-7 days": 1.2,
+      "8-14 days": 1.2,
+      "15-30 days": 1.1,
+      "poor balance": 1.2,
+      "staggering": 1.2,
+      "weakness": 1.2,
+      "wobbly gait": 1.2
+    }
+  },
+  "vomiting": {
+    "questions": [
+      "How long has your pet had vomiting?",
+      "What type of vomiting is it? (Yellow or Foamy, Bloody, Worms or Parasites, Intermittent, Partially Digested Food)"
+    ],
+    "impact": {
+      "1-3 days": 1.1,
+      "4-7 days": 1.2,
+      "8-14 days": 1.2,
+      "15-30 days": 1.1,
+      "yellow or foamy": 1.2,
+      "bloody": 1.2,
+      "worms or parasites": 1.2,
+      "intermittent": 1.2,
+      "partially digested food": 1.2
+    }
+  },
+  "walking in circles": {
+    "questions": [
+      "How long has your pet had walking in circles?"
+    ],
+    "impact": {
+      "1-3 days": 1.1,
+      "4-7 days": 1.2,
+      "8-14 days": 1.2,
+      "15-30 days": 1.1
+    }
+  },
+  "weakness": {
+    "questions": [
+      "How long has your pet had weakness?",
+      "What type of weakness is it? (Mild, Moderate, After Movement)"
+    ],
+    "impact": {
+      "1-3 days": 1.1,
+      "4-7 days": 1.2,
+      "8-14 days": 1.2,
+      "15-30 days": 1.1,
+      "mild, moderate": 1.2,
+      "after movement": 1.2
+    }
+  },
+  "weight loss": {
+    "questions": [
+      "How long has your pet had weight loss?",
+      "What type of weight loss is it? (Gradual, Rapid, Progressive)"
+    ],
+    "impact": {
+      "15-30 days": 1.1,
+      "31+ days": 1.1,
+      "4-7 days": 1.2,
+      "8-14 days": 1.2,
+      "gradual": 1.2,
+      "rapid": 1.2,
+      "progressive": 1.2
+    }
+  },
+  "wobbling": {
+    "questions": [
+      "How long has your pet had wobbling?",
+      "What type of wobbling is it? (Unsteady Gait, Wide Stance)"
+    ],
+    "impact": {
+      "1-3 days": 1.1,
+      "4-7 days": 1.2,
+      "8-14 days": 1.2,
+      "15-30 days": 1.1,
+      "31+ days": 1.1,
+      "unsteady gait": 1.2,
+      "wide stance": 1.2
+    }
+  },
+  "worms in stool": {
+    "questions": [
+      "How long has your pet had worms in stool?",
+      "What type of worms in stool is it? (Long, White Worms Visible)"
+    ],
+    "impact": {
+      "1-3 days": 1.1,
+      "4-7 days": 1.2,
+      "8-14 days": 1.2,
+      "15-30 days": 1.1,
+      "long": 1.2,
+      "white worms visible": 1.2
+    }
+  }
+}
