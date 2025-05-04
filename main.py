@@ -52,8 +52,9 @@ def load_json(file_path):
         return json.load(f)
 
 illness_info_db = load_json(ILLNESS_INFO_PATH)
-symptom_followups = load_json(FOLLOWUP_QUESTIONS_PATH)
 breed_category_mapping = load_json(BREED_CATEGORY_MAP_PATH)
+CAT_FOLLOWUPS = load_json("data/cat_follow_up.json")
+DOG_FOLLOWUPS = load_json("data/dog_follow_up.json")
 
 knowledge_base = []
 boosting_model = None
@@ -144,96 +145,49 @@ def align_features(feature_vector, expected_features):
         if feature not in feature_vector.columns:
             feature_vector[feature] = 0
     return feature_vector[expected_features]
-def adjust_confidence_with_followups(confidence, symptom_details, illness_name, user_answers):
+
+def adjust_confidence_with_followups(confidence,
+                                     symptom_details,
+                                     illness_name,
+                                     user_answers,
+                                     pet_type):
     """
-    Modify confidence scores based on user follow-up answers and symptom_followups impact values.
+    Modify confidence based on user follow-up answers.
+    Chooses cat vs. dog impact map.
     """
-    illness_rule = next((r for r in knowledge_base if r["illness"] == illness_name), None)
+    # pick the right map
+    pet = pet_type.strip().lower()
+    if pet == "dog":
+        followups = DOG_FOLLOWUPS
+    elif pet == "cat":
+        followups = CAT_FOLLOWUPS
+    else:
+        followups = {}
+
+    illness_rule = next((r for r in knowledge_base
+                         if r["illness"] == illness_name), None)
     if not illness_rule:
         return confidence
 
     total_multiplier = 1.0
-
     for symptom in symptom_details:
-        symptom_name = symptom.lower().strip()
+        key = symptom.lower().strip()
+        if key not in followups:
+            continue
 
-        if symptom_name in symptom_followups:
-            expected_symptoms = {s["name"].lower(): s for s in illness_rule["symptoms"]}
-            user_response = user_answers.get(symptom_name, {})
-            impact_config = symptom_followups[symptom_name].get("impact", {})
+        cfg  = followups[key]
+        impact_map = cfg.get("impact", {})
+        user_resp  = user_answers.get(key, {})
 
-            if symptom_name in expected_symptoms:
-                expected_data = expected_symptoms[symptom_name]
-                expected_duration = expected_data.get("duration_range", "Any")
-                expected_severity = expected_data.get("severity", "Any")
-                expected_subtypes = [
-                    sub.strip().lower()
-                    for sub in expected_data.get("subtype", "Any").split(",")
-                    if sub.strip()
-                ]
+        for answer in user_resp.values():
+            norm = answer.strip().lower()
+            if norm in impact_map:
+                val = impact_map[norm]
+                total_multiplier *= val
+                print(f"✔ [{pet}] '{key}' → '{norm}': x{val}")
 
-                # Apply impact values from JSON directly
-                for question, answer in user_response.items():
-                    normalized = answer.strip().lower()
-                    if normalized in impact_config:
-                        impact_value = impact_config[normalized]
-                        total_multiplier *= impact_value
-                        print(f"✔ Using impact value for '{symptom_name}' – '{normalized}': x{impact_value}")
-
-                # Also keep existing severity/duration logic as fallback
-                user_duration = user_response.get(
-                    f"How long has your pet had {symptom_name}?", None
-                )
-                user_severity = user_response.get(
-                    f"Is the {symptom_name} Mild, Moderate, or Severe?", None
-                )
-
-                user_subtype = None
-                for question in symptom_followups[symptom_name]["questions"]:
-                    answer = user_response.get(question, None)
-                    if answer:
-                        candidate = answer.lower().strip()
-                        if expected_subtypes and candidate in expected_subtypes:
-                            user_subtype = candidate
-                            break
-
-                if not user_subtype and user_severity:
-                    candidate = user_severity.lower().strip()
-                    if expected_subtypes and candidate in expected_subtypes:
-                        user_subtype = candidate
-
-                # Apply fallback multipliers only if impact_config didn't already cover it
-                if not impact_config:
-                    # Severity
-                    severity_impact = 1.0
-                    if user_severity and expected_severity.lower() != "any":
-                        if user_severity.lower() == expected_severity.lower():
-                            severity_impact = 1.2
-                        else:
-                            severity_impact = 0.9
-
-                    # Duration
-                    duration_impact = 1.0
-                    if user_duration and expected_duration.lower() != "any":
-                        if expected_duration in user_duration:
-                            duration_impact = 1.2
-                        else:
-                            duration_impact = 0.9
-
-                    # Subtype
-                    subtype_impact = 1.0
-                    if expected_subtypes and expected_subtypes != ["any"]:
-                        if user_subtype:
-                            if user_subtype in expected_subtypes:
-                                subtype_impact = 1.3 if len(expected_subtypes) == 1 else 1.1
-                            else:
-                                subtype_impact = 0.7
-                        else:
-                            subtype_impact = 0.85
-
-                    total_multiplier *= severity_impact * duration_impact * subtype_impact
-
-    total_multiplier = min(max(total_multiplier, 0.5), 2.0)  # Safety bounds
+    # safety clamp
+    total_multiplier = min(max(total_multiplier, 0.5), 2.0)
     return round(confidence * total_multiplier, 2)
 
 
@@ -315,6 +269,7 @@ def gradient_boosting_ranking(possible_diagnoses, fact_base):
             fact_base["symptoms"],
             diagnosis["illness"],
             user_answers,
+            fact_base.get("pet_type", "dog")
         )
 
         refined_diagnoses.append({
@@ -400,6 +355,7 @@ def adaboost_ranking(possible_diagnoses, fact_base):
             fact_base["symptoms"],
             diagnosis["illness"],
             user_answers,
+            fact_base.get("pet_type", "dog")
         )
 
         normalized_fc = round(min(fc_score, 1.0), 4)
