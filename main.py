@@ -153,9 +153,8 @@ def adjust_confidence_with_followups(confidence,
                                      pet_type):
     """
     Modify confidence based on user follow-up answers.
-    Chooses cat vs. dog impact map.
+    Chooses cat vs. dog impact map. Uses average of multipliers to avoid overinflation.
     """
-    # pick the right map
     pet = pet_type.strip().lower()
     if pet == "dog":
         followups = DOG_FOLLOWUPS
@@ -164,31 +163,39 @@ def adjust_confidence_with_followups(confidence,
     else:
         followups = {}
 
-    illness_rule = next((r for r in knowledge_base
-                         if r["illness"] == illness_name), None)
+    illness_rule = next((r for r in knowledge_base if r["illness"] == illness_name), None)
     if not illness_rule:
-        return confidence
+        return round(min(confidence, 1.0), 4)
 
     total_multiplier = 1.0
+
     for symptom in symptom_details:
         key = symptom.lower().strip()
         if key not in followups:
             continue
 
-        cfg  = followups[key]
+        cfg = followups[key]
         impact_map = cfg.get("impact", {})
-        user_resp  = user_answers.get(key, {})
+        user_resp = user_answers.get(key, {})
 
+        multipliers = []
         for answer in user_resp.values():
             norm = answer.strip().lower()
             if norm in impact_map:
                 val = impact_map[norm]
-                total_multiplier *= val
+                multipliers.append(val)
                 print(f"✔ [{pet}] '{key}' → '{norm}': x{val}")
 
-    # safety clamp
+        if multipliers:
+            avg_impact = sum(multipliers) / len(multipliers)
+            total_multiplier *= avg_impact  # Apply averaged multiplier
+
+    # Clamp total multiplier within a reasonable range
     total_multiplier = min(max(total_multiplier, 0.5), 2.0)
-    return round(confidence * total_multiplier, 2)
+
+    # Final clamped adjusted confidence
+    return round(min(confidence * total_multiplier, 1.0), 4)
+
 
 
 
