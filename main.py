@@ -18,8 +18,14 @@ from firebase_admin import auth, credentials
 
 # ───── Initialization ─────
 if not firebase_admin._apps:
-    cred = credentials.Certificate("petreset.json")
+    import base64
+    encoded_key = os.environ.get('GOOGLE_CREDENTIALS')
+    if not encoded_key:
+        raise RuntimeError("GOOGLE_CREDENTIALS environment variable not set.")
+    decoded_key = base64.b64decode(encoded_key)
+    cred = credentials.Certificate(json.loads(decoded_key))
     firebase_admin.initialize_app(cred)
+
 
 app = FastAPI()
 app.add_middleware(
