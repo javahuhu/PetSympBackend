@@ -12,7 +12,7 @@
           "name": "Abdominal Pain",
           "stage": "Any",
           "weight": 0.4,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "1-3 days",
           "subtype": "Cramping, Tender Abdomen"
@@ -21,7 +21,7 @@
           "name": "Decreased Appetite",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "1-3 days",
           "subtype": ""
@@ -30,7 +30,7 @@
           "name": "Diarrhea",
           "stage": "Any",
           "weight": 0.4,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "2-5 days",
           "subtype": "Watery"
@@ -39,7 +39,7 @@
           "name": "Lethargy",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "1-3 days",
           "subtype": ""
@@ -48,7 +48,7 @@
           "name": "Vomiting",
           "stage": "Any",
           "weight": 0.4,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 1,
           "duration_range": "1-2 days",
           "subtype": "Foamy, Yellow"
@@ -67,7 +67,7 @@
           "name": "Coughing",
           "stage": "Early",
           "weight": 0.4,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 2,
           "duration_range": "4-10 days",
           "subtype": "Dry, Honking"
@@ -76,7 +76,7 @@
           "name": "Decreased Appetite",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "1-3 days",
           "subtype": ""
@@ -85,7 +85,7 @@
           "name": "Difficulty Breathing",
           "stage": "Any",
           "weight": 0.4,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "1-5 days",
           "subtype": "Labored"
@@ -94,7 +94,7 @@
           "name": "Eye Discharge",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "2-5 days",
           "subtype": "Watery, Mucous"
@@ -103,7 +103,7 @@
           "name": "Fever",
           "stage": "Early",
           "weight": 0.4,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "1-3 days",
           "subtype": ""
@@ -112,7 +112,7 @@
           "name": "Lethargy",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "2-7 days",
           "subtype": ""
@@ -121,7 +121,7 @@
           "name": "Nasal Discharge",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "2-6 days",
           "subtype": "Clear, Mucous"
@@ -130,7 +130,7 @@
           "name": "Sneezing",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "2-5 days",
           "subtype": "Occasional, Frequent"
@@ -149,7 +149,7 @@
           "name": "Coughing",
           "stage": "Early",
           "weight": 0.4,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "3-10 days",
           "subtype": "Wet"
@@ -158,7 +158,7 @@
           "name": "Dehydration",
           "stage": "Late",
           "weight": 0.2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "2-4 days",
           "subtype": "Sunken eyes, Sticky gums"
@@ -167,7 +167,7 @@
           "name": "Depression",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "2-5 days",
           "subtype": ""
@@ -176,7 +176,7 @@
           "name": "Diarrhea",
           "stage": "Early",
           "weight": 0.4,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "2-7 days",
           "subtype": "Watery, Foul-smelling"
@@ -185,7 +185,7 @@
           "name": "Eye Discharge",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "3-6 days",
           "subtype": "Watery, Pus-like"
@@ -194,7 +194,7 @@
           "name": "Fever",
           "stage": "Early",
           "weight": 0.4,
-          "severity": "Severe",
+          "severity": "High",
           "priority": 2,
           "duration_range": "2-4 days",
           "subtype": ""
@@ -203,7 +203,7 @@
           "name": "Lethargy",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "3-10 days",
           "subtype": ""
@@ -212,7 +212,7 @@
           "name": "Muscle Twitching",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "2-5 days",
           "subtype": "Mild, Rhythmic"
@@ -221,7 +221,7 @@
           "name": "Nasal Discharge",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "3-6 days",
           "subtype": "Mucous, Thick"
@@ -230,7 +230,7 @@
           "name": "Seizures",
           "stage": "Late",
           "weight": 0.7,
-          "severity": "Severe",
+          "severity": "High",
           "priority": 1,
           "duration_range": "Variable",
           "subtype": "Generalized, Cluster"
@@ -239,7 +239,7 @@
           "name": "Sneezing",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "2-5 days",
           "subtype": "Occasional, Frequent"
@@ -248,7 +248,7 @@
           "name": "Vomiting",
           "stage": "Early",
           "weight": 0.4,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "2-5 days",
           "subtype": "Foamy, Yellow"
@@ -257,7 +257,7 @@
           "name": "Weight Loss",
           "stage": "Late",
           "weight": 0.2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "7-30 days",
           "subtype": ""
@@ -276,7 +276,7 @@
           "name": "Abdominal Pain",
           "stage": "Early",
           "weight": 0.2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "1-3 days",
           "subtype": "Cramping"
@@ -285,7 +285,7 @@
           "name": "Difficulty Breathing",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "1-4 days",
           "subtype": "Labored"
@@ -294,7 +294,7 @@
           "name": "Coughing",
           "stage": "Early",
           "weight": 0.4,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 2,
           "duration_range": "2-7 days",
           "subtype": "Wet"
@@ -303,7 +303,7 @@
           "name": "Decreased Appetite",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "1-3 days",
           "subtype": ""
@@ -312,7 +312,7 @@
           "name": "Diarrhea",
           "stage": "Early",
           "weight": 0.4,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "2-5 days",
           "subtype": "Watery"
@@ -321,7 +321,7 @@
           "name": "Eye Discharge",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "2-4 days",
           "subtype": "Watery"
@@ -330,7 +330,7 @@
           "name": "Eye Inflammation",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "2-4 days",
           "subtype": "Redness, Swelling"
@@ -339,7 +339,7 @@
           "name": "Excessive Crying",
           "stage": "Neonatal",
           "weight": 0.2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "1-3 days",
           "subtype": "Continuous, High-pitched"
@@ -348,7 +348,7 @@
           "name": "Fever",
           "stage": "Early",
           "weight": 0.4,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "1-3 days",
           "subtype": ""
@@ -357,7 +357,7 @@
           "name": "Lethargy",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "2-5 days",
           "subtype": ""
@@ -366,7 +366,7 @@
           "name": "Nasal Discharge",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "2-6 days",
           "subtype": "Clear"
@@ -375,7 +375,7 @@
           "name": "Seizures",
           "stage": "Neonatal",
           "weight": 0.7,
-          "severity": "Severe",
+          "severity": "High",
           "priority": 1,
           "duration_range": "Variable",
           "subtype": "Cluster"
@@ -384,7 +384,7 @@
           "name": "Sneezing",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "2-5 days",
           "subtype": "Occasional"
@@ -393,7 +393,7 @@
           "name": "Weakness",
           "stage": "Late",
           "weight": 0.2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "2-5 days",
           "subtype": ""
@@ -402,7 +402,7 @@
           "name": "Weight Loss",
           "stage": "Late",
           "weight": 0.2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "5-15 days",
           "subtype": ""
@@ -421,7 +421,7 @@
           "name": "Difficulty Breathing",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "2-6 days",
           "subtype": "Labored, Wheezing"
@@ -430,7 +430,7 @@
           "name": "Coughing",
           "stage": "Early",
           "weight": 0.4,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "5-14 days",
           "subtype": "Wet, Persistent"
@@ -439,7 +439,7 @@
           "name": "Decreased Appetite",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "1-3 days",
           "subtype": ""
@@ -448,7 +448,7 @@
           "name": "Eye Discharge",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "2-5 days",
           "subtype": "Watery, Mucopurulent"
@@ -457,7 +457,7 @@
           "name": "Fever",
           "stage": "Early",
           "weight": 0.4,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "2-4 days",
           "subtype": ""
@@ -466,7 +466,7 @@
           "name": "Lethargy",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "2-7 days",
           "subtype": ""
@@ -475,7 +475,7 @@
           "name": "Nasal Discharge",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "3-7 days",
           "subtype": "Clear, Mucopurulent"
@@ -484,7 +484,7 @@
           "name": "Sneezing",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "2-5 days",
           "subtype": "Occasional, Frequent"
@@ -503,7 +503,7 @@
           "name": "Coughing",
           "stage": "Early",
           "weight": 0.4,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "5-14 days",
           "subtype": "Dry, Honking, Persistent"
@@ -512,7 +512,7 @@
           "name": "Decreased Appetite",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "1-3 days",
           "subtype": ""
@@ -521,7 +521,7 @@
           "name": "Eye Discharge",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "2-5 days",
           "subtype": "Watery, Mucopurulent"
@@ -530,7 +530,7 @@
           "name": "Fever",
           "stage": "Early",
           "weight": 0.4,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "2-4 days",
           "subtype": ""
@@ -539,7 +539,7 @@
           "name": "Gagging",
           "stage": "Early",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "2-4 days",
           "subtype": ""
@@ -548,7 +548,7 @@
           "name": "Lethargy",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "2-6 days",
           "subtype": ""
@@ -557,7 +557,7 @@
           "name": "Nasal Discharge",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "3-7 days",
           "subtype": "Clear, Mucopurulent"
@@ -566,7 +566,7 @@
           "name": "Retching",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "2-4 days",
           "subtype": "Dry, Non-productive"
@@ -575,7 +575,7 @@
           "name": "Sneezing",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "2-5 days",
           "subtype": "Occasional, Frequent"
@@ -594,7 +594,7 @@
           "name": "Abdominal Pain",
           "stage": "Early",
           "weight": 0.2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "1-3 days",
           "subtype": "Cramping, Tender Abdomen"
@@ -603,7 +603,7 @@
           "name": "Dehydration",
           "stage": "Late",
           "weight": 0.2,
-          "severity": "Severe",
+          "severity": "High",
           "priority": 3,
           "duration_range": "2-5 days",
           "subtype": "Severe Fluid Loss"
@@ -612,7 +612,7 @@
           "name": "Depression",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "2-4 days",
           "subtype": ""
@@ -621,7 +621,7 @@
           "name": "Diarrhea",
           "stage": "Early",
           "weight": 0.4,
-          "severity": "Severe",
+          "severity": "High",
           "priority": 2,
           "duration_range": "3-7 days",
           "subtype": "Bloody, Foul-Smelling"
@@ -630,7 +630,7 @@
           "name": "Fever",
           "stage": "Early",
           "weight": 0.4,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "1-3 days",
           "subtype": ""
@@ -639,7 +639,7 @@
           "name": "Lethargy",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "2-6 days",
           "subtype": ""
@@ -648,7 +648,7 @@
           "name": "Loss of Appetite",
           "stage": "Any",
           "weight": 0.4,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "2-5 days",
           "subtype": ""
@@ -657,7 +657,7 @@
           "name": "Vomiting",
           "stage": "Early",
           "weight": 0.4,
-          "severity": "Severe",
+          "severity": "High",
           "priority": 2,
           "duration_range": "2-6 days",
           "subtype": "Bloody, Yellow, Foamy"
@@ -676,7 +676,7 @@
           "name": "Aggression",
           "stage": "Early",
           "weight": 0.2,
-          "severity": "Severe",
+          "severity": "High",
           "priority": 3,
           "duration_range": "2-5 days",
           "subtype": "Unprovoked, Sudden"
@@ -685,7 +685,7 @@
           "name": "Anxiety",
           "stage": "Early",
           "weight": 0.2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "1-3 days",
           "subtype": ""
@@ -694,7 +694,7 @@
           "name": "Confusion",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "1-3 days",
           "subtype": ""
@@ -703,7 +703,7 @@
           "name": "Decreased Appetite",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "1-3 days",
           "subtype": ""
@@ -712,7 +712,7 @@
           "name": "Difficulty Swallowing",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "2-4 days",
           "subtype": "Thick saliva, Gagging"
@@ -721,7 +721,7 @@
           "name": "Excessive Drooling",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "2-5 days",
           "subtype": "Thick, Sticky"
@@ -730,7 +730,7 @@
           "name": "Fearfulness",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "1-3 days",
           "subtype": ""
@@ -739,7 +739,7 @@
           "name": "Fever",
           "stage": "Early",
           "weight": 0.4,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "1-2 days",
           "subtype": ""
@@ -748,7 +748,7 @@
           "name": "Irritability",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "1-3 days",
           "subtype": ""
@@ -757,7 +757,7 @@
           "name": "Lethargy",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "1-4 days",
           "subtype": ""
@@ -766,7 +766,7 @@
           "name": "Light Sensitivity",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "1-2 days",
           "subtype": ""
@@ -775,7 +775,7 @@
           "name": "Muscle Paralysis",
           "stage": "Late",
           "weight": 0.7,
-          "severity": "Severe",
+          "severity": "High",
           "priority": 1,
           "duration_range": "1-3 days",
           "subtype": "Hindlimbs, Jaw"
@@ -784,7 +784,7 @@
           "name": "Restlessness",
           "stage": "Early",
           "weight": 0.2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "1-2 days",
           "subtype": ""
@@ -793,7 +793,7 @@
           "name": "Seizures",
           "stage": "Late",
           "weight": 0.7,
-          "severity": "Severe",
+          "severity": "High",
           "priority": 1,
           "duration_range": "Variable",
           "subtype": "Generalized, Cluster"
@@ -802,7 +802,7 @@
           "name": "Sound Sensitivity",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "1-2 days",
           "subtype": ""
@@ -811,7 +811,7 @@
           "name": "Staggering",
           "stage": "Late",
           "weight": 0.7,
-          "severity": "Severe",
+          "severity": "High",
           "priority": 1,
           "duration_range": "1-3 days",
           "subtype": ""
@@ -820,7 +820,7 @@
           "name": "Unusual Behavior",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "1-3 days",
           "subtype": ""
@@ -829,7 +829,7 @@
           "name": "Vomiting",
           "stage": "Early",
           "weight": 0.4,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "1-3 days",
           "subtype": "Yellow, Foamy"
@@ -838,7 +838,7 @@
           "name": "Weakness",
           "stage": "Late",
           "weight": 0.2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "2-4 days",
           "subtype": ""
@@ -857,7 +857,7 @@
           "name": "Abdominal Pain",
           "stage": "Early",
           "weight": 0.2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "1-3 days",
           "subtype": "Cramping"
@@ -866,7 +866,7 @@
           "name": "Diarrhea",
           "stage": "Early",
           "weight": 0.4,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "1-7 days",
           "subtype": "Bloody, Watery, Mucus"
@@ -875,7 +875,7 @@
           "name": "Dehydration",
           "stage": "Late",
           "weight": 0.2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "2-5 days",
           "subtype": "Severe Fluid Loss"
@@ -884,7 +884,7 @@
           "name": "Difficulty Breathing",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "1-5 days",
           "subtype": "Mild, Severe, Labored"
@@ -893,7 +893,7 @@
           "name": "Fever",
           "stage": "Early",
           "weight": 0.4,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "1-3 days",
           "subtype": ""
@@ -902,7 +902,7 @@
           "name": "Hypothermia",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "1-2 days",
           "subtype": ""
@@ -911,7 +911,7 @@
           "name": "Lethargy",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "1-14 days",
           "subtype": "Intermittent, Constant"
@@ -920,7 +920,7 @@
           "name": "Loss of Appetite",
           "stage": "Any",
           "weight": 0.4,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 2,
           "duration_range": "1-7 days",
           "subtype": ""
@@ -929,7 +929,7 @@
           "name": "Vomiting",
           "stage": "Early",
           "weight": 0.4,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "1-7 days",
           "subtype": "Bloody, Foamy, Yellow, Green"
@@ -938,7 +938,7 @@
           "name": "Weight Loss",
           "stage": "Late",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "1-30 days",
           "subtype": ""
@@ -957,7 +957,7 @@
           "name": "Abdominal Pain",
           "stage": "Early",
           "weight": 0.2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "1-3 days",
           "subtype": "Tender Abdomen"
@@ -966,7 +966,7 @@
           "name": "Coughing",
           "stage": "Early",
           "weight": 0.4,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 2,
           "duration_range": "2-7 days",
           "subtype": "Dry, Honking"
@@ -975,7 +975,7 @@
           "name": "Dehydration",
           "stage": "Late",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "2-5 days",
           "subtype": "Sunken Eyes, Sticky Gums"
@@ -984,7 +984,7 @@
           "name": "Depression",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "2-4 days",
           "subtype": ""
@@ -993,7 +993,7 @@
           "name": "Diarrhea",
           "stage": "Early",
           "weight": 0.4,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "2-6 days",
           "subtype": "Bloody, Watery, Mucus"
@@ -1002,7 +1002,7 @@
           "name": "Eye Discharge",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "2-4 days",
           "subtype": "Watery, Mucous"
@@ -1011,7 +1011,7 @@
           "name": "Eye Inflammation",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "2-4 days",
           "subtype": "Redness, Swelling"
@@ -1020,7 +1020,7 @@
           "name": "Fever",
           "stage": "Early",
           "weight": 0.4,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "1-3 days",
           "subtype": ""
@@ -1029,7 +1029,7 @@
           "name": "Jaundice",
           "stage": "Late",
           "weight": 0.2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "2-5 days",
           "subtype": ""
@@ -1038,7 +1038,7 @@
           "name": "Lethargy",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "2-10 days",
           "subtype": "Intermittent, Constant"
@@ -1047,7 +1047,7 @@
           "name": "Nasal Discharge",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "2-5 days",
           "subtype": "Clear, Mucous"
@@ -1056,7 +1056,7 @@
           "name": "Petechiae on Skin",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "2-5 days",
           "subtype": ""
@@ -1065,7 +1065,7 @@
           "name": "Seizures",
           "stage": "Early",
           "weight": 0.7,
-          "severity": "Severe",
+          "severity": "High",
           "priority": 1,
           "duration_range": "1-2 days",
           "subtype": "Mild, Severe, Cluster"
@@ -1074,7 +1074,7 @@
           "name": "Spontaneous Bleeding",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "1-3 days",
           "subtype": ""
@@ -1083,7 +1083,7 @@
           "name": "Swelling",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "1-4 days",
           "subtype": ""
@@ -1092,7 +1092,7 @@
           "name": "Thirst",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "1-3 days",
           "subtype": ""
@@ -1101,7 +1101,7 @@
           "name": "Vomiting",
           "stage": "Early",
           "weight": 0.4,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "2-6 days",
           "subtype": "Bloody, Foamy, Yellow, Green"
@@ -1110,7 +1110,7 @@
           "name": "Yellow Gums",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "2-5 days",
           "subtype": ""
@@ -1119,7 +1119,7 @@
           "name": "Yellow Skin",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "2-5 days",
           "subtype": ""
@@ -1139,7 +1139,7 @@
           "stage": "Any",
           "weight": 0.4,
           "priority": 2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "duration_range": "7-30 days",
           "subtype": "Reduced interest, Infertility"
         },
@@ -1148,7 +1148,7 @@
           "stage": "Any",
           "weight": 0.4,
           "priority": 1,
-          "severity": "Severe",
+          "severity": "High",
           "duration_range": "3-10 days",
           "subtype": "Lumbar, Pelvic region"
         },
@@ -1157,7 +1157,7 @@
           "stage": "Any",
           "weight": 0.4,
           "priority": 2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "duration_range": "2-7 days",
           "subtype": "Stiff gait, Hindlimb weakness"
         },
@@ -1166,7 +1166,7 @@
           "stage": "Any",
           "weight": 0.4,
           "priority": 2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "duration_range": "7-30 days",
           "subtype": "Swollen, Painful"
         },
@@ -1175,7 +1175,7 @@
           "stage": "Any",
           "weight": 0.2,
           "priority": 3,
-          "severity": "Mild",
+          "severity": "Low",
           "duration_range": "3-7 days",
           "subtype": ""
         },
@@ -1184,7 +1184,7 @@
           "stage": "Any",
           "weight": 0.2,
           "priority": 3,
-          "severity": "Mild",
+          "severity": "Low",
           "duration_range": "2-5 days",
           "subtype": ""
         },
@@ -1193,7 +1193,7 @@
           "stage": "Any",
           "weight": 0.4,
           "priority": 2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "duration_range": "3-10 days",
           "subtype": "Submandibular, Inguinal"
         },
@@ -1202,7 +1202,7 @@
           "stage": "Any",
           "weight": 0.4,
           "priority": 2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "duration_range": "3-10 days",
           "subtype": "Thick, Yellowish, Blood-tinged"
         },
@@ -1211,7 +1211,7 @@
           "stage": "Any",
           "weight": 0.2,
           "priority": 3,
-          "severity": "Mild",
+          "severity": "Low",
           "duration_range": "3-7 days",
           "subtype": ""
         }
@@ -1229,7 +1229,7 @@
           "name": "Abdominal Pain",
           "stage": "Early",
           "weight": 0.2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "1-3 days",
           "subtype": "Cramping, Tender Abdomen"
@@ -1238,7 +1238,7 @@
           "name": "Coughing",
           "stage": "Early",
           "weight": 0.4,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 2,
           "duration_range": "2-6 days",
           "subtype": "Dry, Wet"
@@ -1247,7 +1247,7 @@
           "name": "Dehydration",
           "stage": "Late",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "2-5 days",
           "subtype": "Sunken Eyes, Dry Gums"
@@ -1256,7 +1256,7 @@
           "name": "Diarrhea",
           "stage": "Early",
           "weight": 0.4,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "2-6 days",
           "subtype": "Bloody, Watery, Mucus"
@@ -1265,7 +1265,7 @@
           "name": "Difficulty Breathing",
           "stage": "Any",
           "weight": 0.4,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 2,
           "duration_range": "2-4 days",
           "subtype": "Labored, Rapid"
@@ -1274,7 +1274,7 @@
           "name": "Fever",
           "stage": "Early",
           "weight": 0.4,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "1-3 days",
           "subtype": ""
@@ -1283,7 +1283,7 @@
           "name": "Increased Thirst",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "2-5 days",
           "subtype": ""
@@ -1292,7 +1292,7 @@
           "name": "Increased Urination",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "2-5 days",
           "subtype": ""
@@ -1301,7 +1301,7 @@
           "name": "Jaundice",
           "stage": "Late",
           "weight": 0.2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "2-5 days",
           "subtype": ""
@@ -1310,7 +1310,7 @@
           "name": "Lethargy",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "2-7 days",
           "subtype": "Intermittent, Constant"
@@ -1319,7 +1319,7 @@
           "name": "Loss of Appetite",
           "stage": "Any",
           "weight": 0.4,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 2,
           "duration_range": "2-5 days",
           "subtype": ""
@@ -1328,7 +1328,7 @@
           "name": "Muscle Pain",
           "stage": "Early",
           "weight": 0.2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "2-4 days",
           "subtype": "Limb stiffness, Tender on touch"
@@ -1337,7 +1337,7 @@
           "name": "Shivering",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "1-2 days",
           "subtype": ""
@@ -1346,7 +1346,7 @@
           "name": "Vomiting",
           "stage": "Early",
           "weight": 0.4,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "2-5 days",
           "subtype": "Bloody, Foamy, Yellow, Green"
@@ -1355,7 +1355,7 @@
           "name": "Weakness",
           "stage": "Late",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "2-5 days",
           "subtype": ""
@@ -1374,7 +1374,7 @@
           "name": "Decreased Appetite",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "2-5 days",
           "subtype": ""
@@ -1383,7 +1383,7 @@
           "name": "Depression",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "2-4 days",
           "subtype": ""
@@ -1392,7 +1392,7 @@
           "name": "Enlarged Lymph Nodes",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "3-7 days",
           "subtype": "Submandibular, Prescapular"
@@ -1401,7 +1401,7 @@
           "name": "Fever",
           "stage": "Early",
           "weight": 0.4,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "1-3 days",
           "subtype": ""
@@ -1410,7 +1410,7 @@
           "name": "Lameness",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "2-6 days",
           "subtype": "Shifting Leg, Recurrent"
@@ -1419,7 +1419,7 @@
           "name": "Lethargy",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "2-7 days",
           "subtype": "Intermittent, Constant"
@@ -1428,7 +1428,7 @@
           "name": "Swollen Joints",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "3-7 days",
           "subtype": "Warm, Painful"
@@ -1447,7 +1447,7 @@
           "name": "Bleeding",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "2-5 days",
           "subtype": ""
@@ -1456,7 +1456,7 @@
           "name": "Difficulty Breathing",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "2-5 days",
           "subtype": "Mild, Severe, Labored"
@@ -1465,7 +1465,7 @@
           "name": "Coughing",
           "stage": "Early",
           "weight": 0.4,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 2,
           "duration_range": "2-6 days",
           "subtype": "Dry"
@@ -1474,7 +1474,7 @@
           "name": "Depression",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "2-4 days",
           "subtype": ""
@@ -1483,7 +1483,7 @@
           "name": "Enlarged Lymph Nodes",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "3-7 days",
           "subtype": "Submandibular, Prescapular"
@@ -1492,7 +1492,7 @@
           "name": "Fever",
           "stage": "Early",
           "weight": 0.4,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "1-3 days",
           "subtype": ""
@@ -1501,7 +1501,7 @@
           "name": "Lameness",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "2-5 days",
           "subtype": "Shifting leg"
@@ -1510,7 +1510,7 @@
           "name": "Lethargy",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "2-7 days",
           "subtype": "Intermittent, Constant"
@@ -1519,7 +1519,7 @@
           "name": "Loss of Appetite",
           "stage": "Any",
           "weight": 0.4,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 2,
           "duration_range": "2-5 days",
           "subtype": ""
@@ -1528,7 +1528,7 @@
           "name": "Nosebleeds",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "1-3 days",
           "subtype": ""
@@ -1537,7 +1537,7 @@
           "name": "Weight Loss",
           "stage": "Late",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "7-30 days",
           "subtype": ""
@@ -1556,7 +1556,7 @@
           "name": "Abdominal Pain",
           "stage": "Early",
           "weight": 0.2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "2-4 days",
           "subtype": "Cramping, Tender Abdomen"
@@ -1565,7 +1565,7 @@
           "name": "Bleeding",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "2-5 days",
           "subtype": ""
@@ -1574,7 +1574,7 @@
           "name": "Coughing",
           "stage": "Early",
           "weight": 0.4,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 2,
           "duration_range": "2-6 days",
           "subtype": "Dry"
@@ -1583,7 +1583,7 @@
           "name": "Depression",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "2-4 days",
           "subtype": ""
@@ -1592,7 +1592,7 @@
           "name": "Diarrhea",
           "stage": "Early",
           "weight": 0.4,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "2-6 days",
           "subtype": "Bloody, Watery"
@@ -1601,7 +1601,7 @@
           "name": "Enlarged Lymph Nodes",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "3-7 days",
           "subtype": "Submandibular, Inguinal"
@@ -1610,7 +1610,7 @@
           "name": "Eye Discharge",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "2-4 days",
           "subtype": "Watery, Mucous"
@@ -1619,7 +1619,7 @@
           "name": "Fever",
           "stage": "Early",
           "weight": 0.4,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "1-3 days",
           "subtype": ""
@@ -1628,7 +1628,7 @@
           "name": "Joint Pain",
           "stage": "Early",
           "weight": 0.2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "2-5 days",
           "subtype": "Limping, Reluctance to move"
@@ -1637,7 +1637,7 @@
           "name": "Lameness",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "2-6 days",
           "subtype": "Shifting leg"
@@ -1646,7 +1646,7 @@
           "name": "Lethargy",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "2-7 days",
           "subtype": "Intermittent, Constant"
@@ -1655,7 +1655,7 @@
           "name": "Nosebleeds",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "1-3 days",
           "subtype": ""
@@ -1664,7 +1664,7 @@
           "name": "Vomiting",
           "stage": "Early",
           "weight": 0.4,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "2-5 days",
           "subtype": "Bloody, Foamy, Yellow, Green"
@@ -1683,7 +1683,7 @@
           "name": "Abdominal Pain",
           "stage": "Early",
           "weight": 0.2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "1-3 days",
           "subtype": "Cramping, Tender Abdomen"
@@ -1692,7 +1692,7 @@
           "name": "Bloating",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "1-2 days",
           "subtype": ""
@@ -1701,7 +1701,7 @@
           "name": "Diarrhea",
           "stage": "Early",
           "weight": 0.4,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "2-6 days",
           "subtype": "Bloody, Watery, Mucus"
@@ -1710,7 +1710,7 @@
           "name": "Lethargy",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "2-5 days",
           "subtype": "Intermittent, Constant"
@@ -1719,7 +1719,7 @@
           "name": "Loss of Appetite",
           "stage": "Any",
           "weight": 0.4,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 2,
           "duration_range": "2-4 days",
           "subtype": ""
@@ -1728,7 +1728,7 @@
           "name": "Vomiting",
           "stage": "Early",
           "weight": 0.4,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "2-5 days",
           "subtype": "Foamy, Yellow"
@@ -1737,7 +1737,7 @@
           "name": "Weakness",
           "stage": "Late",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "2-5 days",
           "subtype": ""
@@ -1756,7 +1756,7 @@
           "name": "Abscesses",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "3-10 days",
           "subtype": "Swollen, Pus-filled"
@@ -1765,7 +1765,7 @@
           "name": "Bad Breath",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "3-7 days",
           "subtype": "Foul odor"
@@ -1774,7 +1774,7 @@
           "name": "Difficulty Eating",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "2-5 days",
           "subtype": "Chewing reluctance, Dropping food"
@@ -1783,7 +1783,7 @@
           "name": "Fever",
           "stage": "Early",
           "weight": 0.4,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "1-3 days",
           "subtype": ""
@@ -1792,7 +1792,7 @@
           "name": "Lethargy",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "2-6 days",
           "subtype": "Intermittent, Constant"
@@ -1801,7 +1801,7 @@
           "name": "Loss of Appetite",
           "stage": "Any",
           "weight": 0.4,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 2,
           "duration_range": "2-5 days",
           "subtype": ""
@@ -1810,7 +1810,7 @@
           "name": "Swelling at Infection Site",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "3-7 days",
           "subtype": "Warm, Painful"
@@ -1829,7 +1829,7 @@
           "name": "Abscesses",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "4-10 days",
           "subtype": "Facial, Subcutaneous"
@@ -1838,7 +1838,7 @@
           "name": "Difficulty Eating",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "2-6 days",
           "subtype": "Chewing reluctance, Dropping food"
@@ -1847,7 +1847,7 @@
           "name": "Draining Wounds",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "3-10 days",
           "subtype": "Fistula-like, Pus-forming"
@@ -1856,7 +1856,7 @@
           "name": "Facial Swelling",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "3-7 days",
           "subtype": "Cheek, Jaw, Submandibular"
@@ -1865,7 +1865,7 @@
           "name": "Fever",
           "stage": "Early",
           "weight": 0.4,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "1-3 days",
           "subtype": ""
@@ -1874,7 +1874,7 @@
           "name": "Lethargy",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "2-6 days",
           "subtype": "Intermittent, Constant"
@@ -1883,7 +1883,7 @@
           "name": "Loss of Appetite",
           "stage": "Any",
           "weight": 0.4,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 2,
           "duration_range": "2-5 days",
           "subtype": ""
@@ -1892,7 +1892,7 @@
           "name": "Swollen Lymph Nodes",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "3-7 days",
           "subtype": "Mandibular, Cervical"
@@ -1911,7 +1911,7 @@
           "name": "Abdominal Pain",
           "stage": "Early",
           "weight": 0.2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "1-3 days",
           "subtype": "Cramping, Tender Abdomen"
@@ -1920,7 +1920,7 @@
           "name": "Diarrhea",
           "stage": "Early",
           "weight": 0.4,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "2-7 days",
           "subtype": "Watery, Mucus, Foul-Smelling"
@@ -1929,7 +1929,7 @@
           "name": "Fever",
           "stage": "Early",
           "weight": 0.4,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "1-3 days",
           "subtype": ""
@@ -1938,7 +1938,7 @@
           "name": "Lethargy",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "2-5 days",
           "subtype": "Intermittent, Constant"
@@ -1947,7 +1947,7 @@
           "name": "Loss of Appetite",
           "stage": "Any",
           "weight": 0.4,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 2,
           "duration_range": "2-4 days",
           "subtype": ""
@@ -1956,7 +1956,7 @@
           "name": "Vomiting",
           "stage": "Early",
           "weight": 0.4,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "1-4 days",
           "subtype": "Yellow, Foamy"
@@ -1975,7 +1975,7 @@
           "name": "Coughing",
           "stage": "Early",
           "weight": 0.4,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 2,
           "duration_range": "2-7 days",
           "subtype": "Dry, Wet"
@@ -1984,7 +1984,7 @@
           "name": "Difficulty Breathing",
           "stage": "Any",
           "weight": 0.4,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 2,
           "duration_range": "2-5 days",
           "subtype": "Labored, Shallow"
@@ -1993,7 +1993,7 @@
           "name": "Fever",
           "stage": "Early",
           "weight": 0.4,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "1-3 days",
           "subtype": ""
@@ -2002,7 +2002,7 @@
           "name": "Lethargy",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "2-6 days",
           "subtype": "Intermittent, Constant"
@@ -2011,7 +2011,7 @@
           "name": "Loss of Appetite",
           "stage": "Any",
           "weight": 0.4,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 2,
           "duration_range": "2-4 days",
           "subtype": ""
@@ -2020,7 +2020,7 @@
           "name": "Nasal Discharge",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "2-5 days",
           "subtype": "Clear, Mucous"
@@ -2029,7 +2029,7 @@
           "name": "Swollen Lymph Nodes",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "3-7 days",
           "subtype": "Submandibular, Cervical"
@@ -2049,7 +2049,7 @@
           "stage": "Any",
           "weight": 0.4,
           "priority": 1,
-          "severity": "Severe",
+          "severity": "High",
           "duration_range": "3-7 days",
           "subtype": "Pale gums, Weak pulse"
         },
@@ -2058,7 +2058,7 @@
           "stage": "Any",
           "weight": 0.4,
           "priority": 2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "duration_range": "1-3 days",
           "subtype": "Labored, Rapid"
         },
@@ -2067,7 +2067,7 @@
           "stage": "Any",
           "weight": 0.4,
           "priority": 3,
-          "severity": "Mild",
+          "severity": "Low",
           "duration_range": "2-4 days",
           "subtype": "Dry, Intermittent"
         },
@@ -2076,7 +2076,7 @@
           "stage": "Any",
           "weight": 0.4,
           "priority": 2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "duration_range": "2-5 days",
           "subtype": "Tarry, Black"
         },
@@ -2085,7 +2085,7 @@
           "stage": "Any",
           "weight": 0.4,
           "priority": 2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "duration_range": "2-5 days",
           "subtype": "Watery, Bloody"
         },
@@ -2094,7 +2094,7 @@
           "stage": "Any",
           "weight": 0.2,
           "priority": 3,
-          "severity": "Mild",
+          "severity": "Low",
           "duration_range": "2-4 days",
           "subtype": "Intermittent, Constant"
         },
@@ -2103,7 +2103,7 @@
           "stage": "Any",
           "weight": 0.4,
           "priority": 1,
-          "severity": "Severe",
+          "severity": "High",
           "duration_range": "1-3 days",
           "subtype": "Whitish, Grayish"
         },
@@ -2112,7 +2112,7 @@
           "stage": "Any",
           "weight": 0.2,
           "priority": 2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "duration_range": "7-30 days",
           "subtype": "Stunted, Underweight"
         },
@@ -2121,7 +2121,7 @@
           "stage": "Any",
           "weight": 0.2,
           "priority": 3,
-          "severity": "Mild",
+          "severity": "Low",
           "duration_range": "2-4 days",
           "subtype": ""
         },
@@ -2130,7 +2130,7 @@
           "stage": "Any",
           "weight": 0.4,
           "priority": 2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "duration_range": "5-10 days",
           "subtype": "Gradual, Noticeable"
         }
@@ -2148,7 +2148,7 @@
           "name": "Abdominal Discomfort",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "2-5 days",
           "subtype": "Mild Cramping, Sensitivity to Touch"
@@ -2157,7 +2157,7 @@
           "name": "Diarrhea",
           "stage": "Early",
           "weight": 0.4,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "2-6 days",
           "subtype": "Watery, Mucus"
@@ -2166,7 +2166,7 @@
           "name": "Dull Coat",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "7-14 days",
           "subtype": "Dry, Lacking Shine"
@@ -2175,7 +2175,7 @@
           "name": "Increased Appetite",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "5-10 days",
           "subtype": ""
@@ -2184,7 +2184,7 @@
           "name": "Scooting",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "2-4 days",
           "subtype": "Dragging Rear, Itchy Anus"
@@ -2193,7 +2193,7 @@
           "name": "Vomiting",
           "stage": "Early",
           "weight": 0.4,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "1-5 days",
           "subtype": "Foamy, Yellow"
@@ -2202,7 +2202,7 @@
           "name": "Weight Loss",
           "stage": "Late",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "7-30 days",
           "subtype": "Gradual"
@@ -2211,7 +2211,7 @@
           "name": "Worms in Stool",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "Ongoing",
           "subtype": "Rice-like Segments, Moving"
@@ -2230,7 +2230,7 @@
           "name": "Abdominal Discomfort",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "2-5 days",
           "subtype": "Cramping, Swollen Abdomen"
@@ -2239,7 +2239,7 @@
           "name": "Coughing",
           "stage": "Early",
           "weight": 0.4,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 2,
           "duration_range": "2-5 days",
           "subtype": "Dry, Occasional"
@@ -2248,7 +2248,7 @@
           "name": "Diarrhea",
           "stage": "Early",
           "weight": 0.4,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "2-6 days",
           "subtype": "Watery, Mucus"
@@ -2257,7 +2257,7 @@
           "name": "Dull Coat",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "7-14 days",
           "subtype": "Dry, Matted"
@@ -2266,7 +2266,7 @@
           "name": "Poor Growth",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "7-30 days",
           "subtype": "Stunted, Underweight"
@@ -2275,7 +2275,7 @@
           "name": "Pot-Belly",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "5-15 days",
           "subtype": ""
@@ -2284,7 +2284,7 @@
           "name": "Vomiting",
           "stage": "Early",
           "weight": 0.4,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "1-5 days",
           "subtype": "Foamy, Yellow"
@@ -2293,7 +2293,7 @@
           "name": "Weight Loss",
           "stage": "Late",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "7-30 days",
           "subtype": "Gradual"
@@ -2302,7 +2302,7 @@
           "name": "Worms in Stool",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "Ongoing",
           "subtype": "Spaghetti-like, Visible"
@@ -2321,7 +2321,7 @@
           "name": "Excessive Scratching",
           "stage": "Early",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "2-7 days",
           "subtype": "Focused on back or tail base"
@@ -2330,7 +2330,7 @@
           "name": "Fleas",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "Ongoing",
           "subtype": "Visible, Moving"
@@ -2339,7 +2339,7 @@
           "name": "Flea Dirt",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "Ongoing",
           "subtype": "Black specks, Turns red with water"
@@ -2348,7 +2348,7 @@
           "name": "Hair Loss",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "5-10 days",
           "subtype": "Patchy, Around tail or thighs"
@@ -2357,7 +2357,7 @@
           "name": "Redness",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "2-6 days",
           "subtype": "Inflamed skin, Small bumps"
@@ -2366,7 +2366,7 @@
           "name": "Restlessness",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "2-5 days",
           "subtype": "Agitated, Can't settle"
@@ -2375,7 +2375,7 @@
           "name": "Skin Irritation",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "2-7 days",
           "subtype": "Itchy, Inflamed"
@@ -2394,7 +2394,7 @@
           "name": "Anemia",
           "stage": "Late",
           "weight": 0.2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "5-10 days",
           "subtype": "Pale Gums, Weakness"
@@ -2403,7 +2403,7 @@
           "name": "Hair Loss",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "5-10 days",
           "subtype": "Patchy, Around bite sites"
@@ -2412,7 +2412,7 @@
           "name": "Itching",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "3-10 days",
           "subtype": "Localized, Generalized"
@@ -2421,7 +2421,7 @@
           "name": "Paralysis",
           "stage": "Late",
           "weight": 0.7,
-          "severity": "Severe",
+          "severity": "High",
           "priority": 1,
           "duration_range": "1-3 days",
           "subtype": "Ascending, Sudden"
@@ -2430,7 +2430,7 @@
           "name": "Skin Inflammation",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "3-7 days",
           "subtype": "Swollen, Red"
@@ -2439,7 +2439,7 @@
           "name": "Ticks",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "Ongoing",
           "subtype": "Visible, Attached to Skin"
@@ -2458,7 +2458,7 @@
           "name": "Difficulty Breathing",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "3-10 days",
           "subtype": "Labored, Open-mouth"
@@ -2467,7 +2467,7 @@
           "name": "Coughing",
           "stage": "Early",
           "weight": 0.4,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 2,
           "duration_range": "5-14 days",
           "subtype": "Dry, Persistent"
@@ -2476,7 +2476,7 @@
           "name": "Exercise Intolerance",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "5-15 days",
           "subtype": ""
@@ -2485,7 +2485,7 @@
           "name": "Fatigue",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "3-10 days",
           "subtype": ""
@@ -2494,7 +2494,7 @@
           "name": "Lethargy",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "3-10 days",
           "subtype": "Intermittent, Constant"
@@ -2503,7 +2503,7 @@
           "name": "Weight Loss",
           "stage": "Late",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "7-30 days",
           "subtype": "Gradual"
@@ -2522,7 +2522,7 @@
           "name": "Ear Discharge",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "3-10 days",
           "subtype": "Brown, Bloody, Waxy"
@@ -2531,7 +2531,7 @@
           "name": "Ear Odor",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "2-7 days",
           "subtype": "Foul, Musty"
@@ -2540,7 +2540,7 @@
           "name": "Ear Scratching",
           "stage": "Early",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "3-7 days",
           "subtype": "Persistent, Intense"
@@ -2549,7 +2549,7 @@
           "name": "Head Shaking",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "2-5 days",
           "subtype": "Frequent, Sudden"
@@ -2558,7 +2558,7 @@
           "name": "Inflammation",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "2-7 days",
           "subtype": "Inner Ear, Redness"
@@ -2577,7 +2577,7 @@
           "name": "Dandruff",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "3-10 days",
           "subtype": "Flaky, Moving"
@@ -2586,7 +2586,7 @@
           "name": "Excessive Scratching",
           "stage": "Early",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "3-7 days",
           "subtype": "Persistent"
@@ -2595,7 +2595,7 @@
           "name": "Hair Loss",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "3-10 days",
           "subtype": "Patchy"
@@ -2604,7 +2604,7 @@
           "name": "Redness",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "2-6 days",
           "subtype": "Localized"
@@ -2613,7 +2613,7 @@
           "name": "Skin Scaling",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "4-10 days",
           "subtype": "Dry, Peeling"
@@ -2632,7 +2632,7 @@
           "name": "Excessive Scratching",
           "stage": "Early",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "2-6 days",
           "subtype": "Intense"
@@ -2641,7 +2641,7 @@
           "name": "Hair Loss",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "3-7 days",
           "subtype": "Localized"
@@ -2650,7 +2650,7 @@
           "name": "Redness",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "2-5 days",
           "subtype": "Circular, Inflamed"
@@ -2659,7 +2659,7 @@
           "name": "Skin Irritation",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "3-7 days",
           "subtype": "Raised Bumps"
@@ -2668,7 +2668,7 @@
           "name": "Visible Mites",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "1-3 days",
           "subtype": ""
@@ -2687,7 +2687,7 @@
           "name": "Excessive Scratching",
           "stage": "Early",
           "weight": 0.4,
-          "severity": "Severe",
+          "severity": "High",
           "priority": 1,
           "duration_range": "1-14 days",
           "subtype": ""
@@ -2696,7 +2696,7 @@
           "name": "Hair Loss",
           "stage": "Any",
           "weight": 0.4,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "1-30 days",
           "subtype": "Patchy, Generalized"
@@ -2705,7 +2705,7 @@
           "name": "Redness",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "1-14 days",
           "subtype": ""
@@ -2714,7 +2714,7 @@
           "name": "Skin Scaling",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "",
           "subtype": ""
@@ -2723,7 +2723,7 @@
           "name": "Skin Thickening",
           "stage": "Late",
           "weight": 0.2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "",
           "subtype": ""
@@ -2732,7 +2732,7 @@
           "name": "Sores",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "",
           "subtype": ""
@@ -2741,7 +2741,7 @@
           "name": "Crusty Skin",
           "stage": "Late",
           "weight": 0.2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "",
           "subtype": ""
@@ -2750,7 +2750,7 @@
           "name": "Secondary Skin Infections",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Severe",
+          "severity": "High",
           "priority": 2,
           "duration_range": "",
           "subtype": ""
@@ -2759,7 +2759,7 @@
           "name": "Lethargy",
           "stage": "Late",
           "weight": 0.2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "1-14 days",
           "subtype": ""
@@ -2778,7 +2778,7 @@
           "name": "Intense Itching",
           "stage": "Early",
           "weight": 0.5,
-          "severity": "Severe",
+          "severity": "High",
           "priority": 1,
           "duration_range": "1-14 days",
           "subtype": ""
@@ -2787,7 +2787,7 @@
           "name": "Hair Loss",
           "stage": "Any",
           "weight": 0.4,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "7-30 days",
           "subtype": "Patchy, Generalized"
@@ -2796,7 +2796,7 @@
           "name": "Redness",
           "stage": "Early",
           "weight": 0.3,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "1-14 days",
           "subtype": ""
@@ -2805,7 +2805,7 @@
           "name": "Skin Scaling",
           "stage": "Mid",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "7-21 days",
           "subtype": ""
@@ -2814,7 +2814,7 @@
           "name": "Crusty Skin",
           "stage": "Late",
           "weight": 0.3,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "14-30 days",
           "subtype": ""
@@ -2823,7 +2823,7 @@
           "name": "Sores",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "7-21 days",
           "subtype": ""
@@ -2832,7 +2832,7 @@
           "name": "Secondary Skin Infections",
           "stage": "Late",
           "weight": 0.3,
-          "severity": "Severe",
+          "severity": "High",
           "priority": 2,
           "duration_range": "14-30 days",
           "subtype": ""
@@ -2841,7 +2841,7 @@
           "name": "Lethargy",
           "stage": "Late",
           "weight": 0.2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "7-14 days",
           "subtype": ""
@@ -2860,7 +2860,7 @@
           "name": "Diarrhea",
           "stage": "Early",
           "weight": 0.4,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "1-14 days",
           "subtype": "Bloody, Watery, Mucus"
@@ -2869,7 +2869,7 @@
           "name": "Vomiting",
           "stage": "Early",
           "weight": 0.4,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "1-7 days",
           "subtype": "Foamy, Yellow, Green"
@@ -2878,7 +2878,7 @@
           "name": "Lethargy",
           "stage": "Any",
           "weight": 0.3,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "1-14 days",
           "subtype": "Intermittent, Constant"
@@ -2887,7 +2887,7 @@
           "name": "Loss of Appetite",
           "stage": "Any",
           "weight": 0.3,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "1-7 days",
           "subtype": ""
@@ -2896,7 +2896,7 @@
           "name": "Weight Loss",
           "stage": "Late",
           "weight": 0.2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "7-30 days",
           "subtype": ""
@@ -2905,7 +2905,7 @@
           "name": "Neurological Signs",
           "stage": "Late",
           "weight": 0.2,
-          "severity": "Severe",
+          "severity": "High",
           "priority": 1,
           "duration_range": "1-7 days",
           "subtype": "Seizures, Incoordination"
@@ -2924,7 +2924,7 @@
           "name": "Fever",
           "stage": "Early",
           "weight": 0.4,
-          "severity": "Severe",
+          "severity": "High",
           "priority": 1,
           "duration_range": "1-3 days",
           "subtype": ""
@@ -2933,7 +2933,7 @@
           "name": "Anemia",
           "stage": "Mid",
           "weight": 0.3,
-          "severity": "Severe",
+          "severity": "High",
           "priority": 1,
           "duration_range": "7-14 days",
           "subtype": ""
@@ -2942,7 +2942,7 @@
           "name": "Dark Urine",
           "stage": "Any",
           "weight": 0.3,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "1-7 days",
           "subtype": "Orange, Red"
@@ -2951,7 +2951,7 @@
           "name": "Jaundice",
           "stage": "Late",
           "weight": 0.3,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "7-14 days",
           "subtype": ""
@@ -2960,7 +2960,7 @@
           "name": "Lethargy",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "1-14 days",
           "subtype": "Intermittent, Constant"
@@ -2969,7 +2969,7 @@
           "name": "Pale Gums",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "7-14 days",
           "subtype": ""
@@ -2978,7 +2978,7 @@
           "name": "Weakness",
           "stage": "Late",
           "weight": 0.2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "7-14 days",
           "subtype": ""
@@ -2997,7 +2997,7 @@
           "name": "Diarrhea",
           "stage": "Early",
           "weight": 0.4,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "1-14 days",
           "subtype": "Watery, Mucus, Bloody"
@@ -3006,7 +3006,7 @@
           "name": "Vomiting",
           "stage": "Early",
           "weight": 0.3,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "1-7 days",
           "subtype": ""
@@ -3015,7 +3015,7 @@
           "name": "Loss of Appetite",
           "stage": "Any",
           "weight": 0.3,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "1-7 days",
           "subtype": ""
@@ -3024,7 +3024,7 @@
           "name": "Lethargy",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "1-14 days",
           "subtype": "Intermittent, Constant"
@@ -3033,7 +3033,7 @@
           "name": "Dehydration",
           "stage": "Late",
           "weight": 0.2,
-          "severity": "Severe",
+          "severity": "High",
           "priority": 2,
           "duration_range": "3-14 days",
           "subtype": ""
@@ -3042,7 +3042,7 @@
           "name": "Weight Loss",
           "stage": "Late",
           "weight": 0.2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "7-30 days",
           "subtype": ""
@@ -3061,7 +3061,7 @@
           "name": "Diarrhea",
           "stage": "Early",
           "weight": 0.4,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "1-14 days",
           "subtype": "Watery, Mucus"
@@ -3070,7 +3070,7 @@
           "name": "Vomiting",
           "stage": "Early",
           "weight": 0.3,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "1-7 days",
           "subtype": ""
@@ -3079,7 +3079,7 @@
           "name": "Loss of Appetite",
           "stage": "Any",
           "weight": 0.3,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "1-7 days",
           "subtype": ""
@@ -3088,7 +3088,7 @@
           "name": "Lethargy",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "1-14 days",
           "subtype": "Intermittent, Constant"
@@ -3097,7 +3097,7 @@
           "name": "Dehydration",
           "stage": "Late",
           "weight": 0.2,
-          "severity": "Severe",
+          "severity": "High",
           "priority": 2,
           "duration_range": "3-14 days",
           "subtype": ""
@@ -3106,7 +3106,7 @@
           "name": "Weight Loss",
           "stage": "Late",
           "weight": 0.2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "7-30 days",
           "subtype": ""
@@ -3125,7 +3125,7 @@
           "name": "Difficulty Breathing",
           "stage": "Any",
           "weight": 0.3,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "1-7 days",
           "subtype": "Labored, Rapid"
@@ -3134,7 +3134,7 @@
           "name": "Coughing",
           "stage": "Early",
           "weight": 0.3,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "1-10 days",
           "subtype": "Dry, Wet"
@@ -3143,7 +3143,7 @@
           "name": "Diarrhea",
           "stage": "Early",
           "weight": 0.4,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "1-7 days",
           "subtype": "Mucus, Watery"
@@ -3152,7 +3152,7 @@
           "name": "Fever",
           "stage": "Early",
           "weight": 0.4,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "1-5 days",
           "subtype": ""
@@ -3161,7 +3161,7 @@
           "name": "Lethargy",
           "stage": "Any",
           "weight": 0.3,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "1-14 days",
           "subtype": "Intermittent, Constant"
@@ -3170,7 +3170,7 @@
           "name": "Loss of Appetite",
           "stage": "Any",
           "weight": 0.3,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "1-7 days",
           "subtype": ""
@@ -3179,7 +3179,7 @@
           "name": "Muscle Weakness",
           "stage": "Late",
           "weight": 0.3,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "7-14 days",
           "subtype": ""
@@ -3188,7 +3188,7 @@
           "name": "Neurological Signs",
           "stage": "Any",
           "weight": 0.3,
-          "severity": "Severe",
+          "severity": "High",
           "priority": 1,
           "duration_range": "1-14 days",
           "subtype": "Seizures, Incoordination"
@@ -3197,7 +3197,7 @@
           "name": "Vomiting",
           "stage": "Early",
           "weight": 0.4,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "1-7 days",
           "subtype": "Foamy, Yellow"
@@ -3206,7 +3206,7 @@
           "name": "Difficulty Standing",
           "stage": "Any",
           "weight": 0.3,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "7-14 days",
           "subtype": ""
@@ -3215,7 +3215,7 @@
           "name": "Difficulty Walking",
           "stage": "Any",
           "weight": 0.3,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "7-14 days",
           "subtype": ""
@@ -3224,7 +3224,7 @@
           "name": "Joint Swelling",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "7-14 days",
           "subtype": ""
@@ -3233,7 +3233,7 @@
           "name": "Lameness",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "7-14 days",
           "subtype": ""
@@ -3242,7 +3242,7 @@
           "name": "Pain",
           "stage": "Early",
           "weight": 0.3,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "1-10 days",
           "subtype": "Localized"
@@ -3251,7 +3251,7 @@
           "name": "Reduced Activity",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "7-14 days",
           "subtype": ""
@@ -3260,7 +3260,7 @@
           "name": "Stiffness",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "7-14 days",
           "subtype": ""
@@ -3269,7 +3269,7 @@
           "name": "Weight Loss",
           "stage": "Late",
           "weight": 0.3,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "7-30 days",
           "subtype": ""
@@ -3289,7 +3289,7 @@
           "stage": "Any",
           "weight": 0.4,
           "priority": 2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "duration_range": "7-30 days",
           "subtype": ""
         },
@@ -3298,7 +3298,7 @@
           "stage": "Any",
           "weight": 0.4,
           "priority": 2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "duration_range": "7-30 days",
           "subtype": ""
         },
@@ -3307,7 +3307,7 @@
           "stage": "Any",
           "weight": 0.4,
           "priority": 2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "duration_range": "7-30 days",
           "subtype": ""
         },
@@ -3316,7 +3316,7 @@
           "stage": "Any",
           "weight": 0.4,
           "priority": 2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "duration_range": "7-30 days",
           "subtype": ""
         },
@@ -3325,7 +3325,7 @@
           "stage": "Any",
           "weight": 0.2,
           "priority": 3,
-          "severity": "Mild",
+          "severity": "Low",
           "duration_range": "5-10 days",
           "subtype": ""
         },
@@ -3334,7 +3334,7 @@
           "stage": "Any",
           "weight": 0.4,
           "priority": 1,
-          "severity": "Severe",
+          "severity": "High",
           "duration_range": "5-15 days",
           "subtype": ""
         },
@@ -3343,7 +3343,7 @@
           "stage": "Any",
           "weight": 0.2,
           "priority": 3,
-          "severity": "Mild",
+          "severity": "Low",
           "duration_range": "7-30 days",
           "subtype": ""
         },
@@ -3352,7 +3352,7 @@
           "stage": "Any",
           "weight": 0.4,
           "priority": 2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "duration_range": "7-30 days",
           "subtype": ""
         },
@@ -3361,7 +3361,7 @@
           "stage": "Any",
           "weight": 0.2,
           "priority": 3,
-          "severity": "Mild",
+          "severity": "Low",
           "duration_range": "7-30 days",
           "subtype": ""
         }
@@ -3379,7 +3379,7 @@
           "name": "Bunny Hopping",
           "stage": "Any",
           "weight": 0.3,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "7-30 days",
           "subtype": ""
@@ -3388,7 +3388,7 @@
           "name": "Difficulty Rising",
           "stage": "Any",
           "weight": 0.3,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "7-30 days",
           "subtype": ""
@@ -3397,7 +3397,7 @@
           "name": "Difficulty Running",
           "stage": "Any",
           "weight": 0.3,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "7-30 days",
           "subtype": ""
@@ -3406,7 +3406,7 @@
           "name": "Lameness",
           "stage": "Any",
           "weight": 0.3,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "7-30 days",
           "subtype": "Hindlimb"
@@ -3415,7 +3415,7 @@
           "name": "Loss of Muscle Mass",
           "stage": "Any",
           "weight": 0.3,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "14-60 days",
           "subtype": ""
@@ -3424,7 +3424,7 @@
           "name": "Pain",
           "stage": "Early",
           "weight": 0.4,
-          "severity": "Severe",
+          "severity": "High",
           "priority": 1,
           "duration_range": "7-30 days",
           "subtype": "Chronic, Dull"
@@ -3433,7 +3433,7 @@
           "name": "Reduced Activity",
           "stage": "Any",
           "weight": 0.3,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "7-30 days",
           "subtype": ""
@@ -3442,7 +3442,7 @@
           "name": "Stiffness",
           "stage": "Any",
           "weight": 0.3,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "7-30 days",
           "subtype": "Morning, After rest"
@@ -3451,7 +3451,7 @@
           "name": "Waddling Gait",
           "stage": "Any",
           "weight": 0.3,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "7-30 days",
           "subtype": ""
@@ -3470,7 +3470,7 @@
           "name": "Difficulty Moving Elbow",
           "stage": "Any",
           "weight": 0.3,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "7-30 days",
           "subtype": ""
@@ -3479,7 +3479,7 @@
           "name": "Forelimb Lameness",
           "stage": "Any",
           "weight": 0.3,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "7-30 days",
           "subtype": "Intermittent, Post-exercise"
@@ -3488,7 +3488,7 @@
           "name": "Joint Swelling",
           "stage": "Any",
           "weight": 0.3,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "7-30 days",
           "subtype": "Elbow"
@@ -3497,7 +3497,7 @@
           "name": "Pain",
           "stage": "Early",
           "weight": 0.4,
-          "severity": "Severe",
+          "severity": "High",
           "priority": 1,
           "duration_range": "7-30 days",
           "subtype": "Sharp, Localized"
@@ -3506,7 +3506,7 @@
           "name": "Reduced Activity",
           "stage": "Any",
           "weight": 0.3,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "7-30 days",
           "subtype": ""
@@ -3515,7 +3515,7 @@
           "name": "Stiffness",
           "stage": "Any",
           "weight": 0.3,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "7-30 days",
           "subtype": "After rest"
@@ -3534,7 +3534,7 @@
           "name": "Hindlimb Lameness",
           "stage": "Any",
           "weight": 0.3,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "1-30 days",
           "subtype": ""
@@ -3543,7 +3543,7 @@
           "name": "Intermittent Limping",
           "stage": "Any",
           "weight": 0.3,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "1-30 days",
           "subtype": ""
@@ -3552,7 +3552,7 @@
           "name": "Pain",
           "stage": "Early",
           "weight": 0.4,
-          "severity": "Severe",
+          "severity": "High",
           "priority": 1,
           "duration_range": "1-14 days",
           "subtype": "Sharp, Localized"
@@ -3561,7 +3561,7 @@
           "name": "Skipping Gait",
           "stage": "Any",
           "weight": 0.3,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "1-30 days",
           "subtype": ""
@@ -3570,7 +3570,7 @@
           "name": "Sudden Carrying of Leg",
           "stage": "Any",
           "weight": 0.3,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "1-30 days",
           "subtype": ""
@@ -3589,7 +3589,7 @@
           "name": "Joint Swelling",
           "stage": "Any",
           "weight": 0.3,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "7-30 days",
           "subtype": "Shoulder, Elbow, Knee"
@@ -3598,7 +3598,7 @@
           "name": "Lameness",
           "stage": "Any",
           "weight": 0.4,
-          "severity": "Severe",
+          "severity": "High",
           "priority": 1,
           "duration_range": "7-30 days",
           "subtype": "Worsens with Exercise"
@@ -3607,7 +3607,7 @@
           "name": "Pain",
           "stage": "Early",
           "weight": 0.4,
-          "severity": "Severe",
+          "severity": "High",
           "priority": 1,
           "duration_range": "7-30 days",
           "subtype": "Sharp, Localized"
@@ -3616,7 +3616,7 @@
           "name": "Reduced Activity",
           "stage": "Any",
           "weight": 0.3,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "7-30 days",
           "subtype": "Reluctance to Move"
@@ -3625,7 +3625,7 @@
           "name": "Stiffness",
           "stage": "Any",
           "weight": 0.3,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "7-30 days",
           "subtype": "After Rest"
@@ -3644,7 +3644,7 @@
           "name": "Intermittent Lameness",
           "stage": "Any",
           "weight": 0.3,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "7-21 days",
           "subtype": ""
@@ -3653,7 +3653,7 @@
           "name": "Pain",
           "stage": "Early",
           "weight": 0.3,
-          "severity": "Severe",
+          "severity": "High",
           "priority": 1,
           "duration_range": "7-21 days",
           "subtype": "Localized, Intermittent"
@@ -3662,7 +3662,7 @@
           "name": "Reluctance to Move",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "7-14 days",
           "subtype": ""
@@ -3671,7 +3671,7 @@
           "name": "Shifting Leg Lameness",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "7-21 days",
           "subtype": ""
@@ -3680,7 +3680,7 @@
           "name": "Weight Loss",
           "stage": "Late",
           "weight": 0.1,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "14-30 days",
           "subtype": ""
@@ -3699,7 +3699,7 @@
           "name": "Difficulty Walking",
           "stage": "Any",
           "weight": 0.3,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "14-90 days",
           "subtype": "Progressive"
@@ -3708,7 +3708,7 @@
           "name": "Hip Pain",
           "stage": "Early",
           "weight": 0.3,
-          "severity": "Severe",
+          "severity": "High",
           "priority": 1,
           "duration_range": "14-90 days",
           "subtype": "Chronic, Localized"
@@ -3717,7 +3717,7 @@
           "name": "Lameness",
           "stage": "Any",
           "weight": 0.3,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "14-90 days",
           "subtype": "Progressive"
@@ -3726,7 +3726,7 @@
           "name": "Muscle Atrophy",
           "stage": "Late",
           "weight": 0.2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "30-90 days",
           "subtype": ""
@@ -3735,7 +3735,7 @@
           "name": "Stiffness",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "14-60 days",
           "subtype": "Hip Joint"
@@ -3754,7 +3754,7 @@
           "name": "Intermittent Lameness",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "3-21 days",
           "subtype": ""
@@ -3763,7 +3763,7 @@
           "name": "Pain",
           "stage": "Early",
           "weight": 0.2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "3-21 days",
           "subtype": "Localized, Intermittent"
@@ -3772,7 +3772,7 @@
           "name": "Reluctance to Move",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "",
           "subtype": ""
@@ -3781,7 +3781,7 @@
           "name": "Shifting Leg Lameness",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "3-21 days",
           "subtype": ""
@@ -3790,7 +3790,7 @@
           "name": "Weight Loss",
           "stage": "Late",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "7-30 days",
           "subtype": ""
@@ -3809,7 +3809,7 @@
           "name": "Difficulty Walking",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "7-30 days",
           "subtype": ""
@@ -3818,7 +3818,7 @@
           "name": "Hip Pain",
           "stage": "Early",
           "weight": 0.2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "7-30 days",
           "subtype": "Progressive"
@@ -3827,7 +3827,7 @@
           "name": "Lameness",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "7-30 days",
           "subtype": "Unilateral, Progressive"
@@ -3836,7 +3836,7 @@
           "name": "Muscle Atrophy",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "14-60 days",
           "subtype": ""
@@ -3845,7 +3845,7 @@
           "name": "Stiffness",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "7-30 days",
           "subtype": ""
@@ -3864,7 +3864,7 @@
           "name": "Lameness",
           "stage": "Any",
           "weight": 0.4,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "7-90 days",
           "subtype": "Shifting, Bilateral"
@@ -3873,7 +3873,7 @@
           "name": "Limb Swelling",
           "stage": "Any",
           "weight": 0.4,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "7-90 days",
           "subtype": "Distal, Symmetrical"
@@ -3882,7 +3882,7 @@
           "name": "Pain",
           "stage": "Early",
           "weight": 0.4,
-          "severity": "Severe",
+          "severity": "High",
           "priority": 1,
           "duration_range": "7-30 days",
           "subtype": "Sharp, Dull, Localized"
@@ -3891,7 +3891,7 @@
           "name": "Reluctance to Move",
           "stage": "Any",
           "weight": 0.3,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "7-30 days",
           "subtype": ""
@@ -3900,7 +3900,7 @@
           "name": "Stiffness",
           "stage": "Any",
           "weight": 0.3,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "7-30 days",
           "subtype": ""
@@ -3909,7 +3909,7 @@
           "name": "Coughing",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "7-30 days",
           "subtype": ""
@@ -3918,7 +3918,7 @@
           "name": "Weight Loss",
           "stage": "Late",
           "weight": 0.2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "14-60 days",
           "subtype": ""
@@ -3927,7 +3927,7 @@
           "name": "Loss of Appetite",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "7-30 days",
           "subtype": ""
@@ -3936,7 +3936,7 @@
           "name": "Blood in Urine",
           "stage": "Any",
           "weight": 0.1,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "1-7 days",
           "subtype": ""
@@ -3955,7 +3955,7 @@
           "name": "Fever",
           "stage": "Early",
           "weight": 0.4,
-          "severity": "Severe",
+          "severity": "High",
           "priority": 1,
           "duration_range": "1-3 days",
           "subtype": ""
@@ -3964,7 +3964,7 @@
           "name": "Joint Swelling",
           "stage": "Any",
           "weight": 0.4,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "3-14 days",
           "subtype": "Metaphyseal, Bilateral"
@@ -3973,7 +3973,7 @@
           "name": "Lameness",
           "stage": "Any",
           "weight": 0.4,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "3-14 days",
           "subtype": "Shifting, Bilateral"
@@ -3982,7 +3982,7 @@
           "name": "Pain",
           "stage": "Early",
           "weight": 0.4,
-          "severity": "Severe",
+          "severity": "High",
           "priority": 1,
           "duration_range": "3-14 days",
           "subtype": "Sharp, Dull, Localized"
@@ -3991,7 +3991,7 @@
           "name": "Reluctance to Move",
           "stage": "Any",
           "weight": 0.3,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "3-14 days",
           "subtype": ""
@@ -4000,7 +4000,7 @@
           "name": "Loss of Appetite",
           "stage": "Any",
           "weight": 0.3,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "3-7 days",
           "subtype": ""
@@ -4009,7 +4009,7 @@
           "name": "Lethargy",
           "stage": "Any",
           "weight": 0.3,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "3-7 days",
           "subtype": ""
@@ -4018,7 +4018,7 @@
           "name": "Weakness",
           "stage": "Late",
           "weight": 0.2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "3-14 days",
           "subtype": ""
@@ -4027,7 +4027,7 @@
           "name": "Refusal to Walk",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Severe",
+          "severity": "High",
           "priority": 3,
           "duration_range": "1-7 days",
           "subtype": ""
@@ -4036,7 +4036,7 @@
           "name": "Diarrhea",
           "stage": "Any",
           "weight": 0.1,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "1-3 days",
           "subtype": ""
@@ -4045,7 +4045,7 @@
           "name": "Eye or Nose Discharge",
           "stage": "Any",
           "weight": 0.1,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "1-3 days",
           "subtype": ""
@@ -4064,7 +4064,7 @@
           "name": "Back Stiffness",
           "stage": "Any",
           "weight": 0.3,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "14-60 days",
           "subtype": ""
@@ -4073,7 +4073,7 @@
           "name": "Difficulty Rising",
           "stage": "Any",
           "weight": 0.3,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "14-60 days",
           "subtype": ""
@@ -4082,7 +4082,7 @@
           "name": "Lameness",
           "stage": "Any",
           "weight": 0.3,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "7-30 days",
           "subtype": "Intermittent, Hindlimb"
@@ -4091,7 +4091,7 @@
           "name": "Pain",
           "stage": "Early",
           "weight": 0.3,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "7-21 days",
           "subtype": "Dull, Localized, Lower Spine"
@@ -4100,7 +4100,7 @@
           "name": "Reduced Flexibility",
           "stage": "Any",
           "weight": 0.3,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "14-60 days",
           "subtype": ""
@@ -4119,7 +4119,7 @@
           "name": "Difficulty Opening Mouth",
           "stage": "Any",
           "weight": 0.4,
-          "severity": "Severe",
+          "severity": "High",
           "priority": 1,
           "duration_range": "3-14 days",
           "subtype": "Progressive, Painful"
@@ -4128,7 +4128,7 @@
           "name": "Jaw Pain",
           "stage": "Early",
           "weight": 0.3,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "3-10 days",
           "subtype": ""
@@ -4137,7 +4137,7 @@
           "name": "Muscle Swelling",
           "stage": "Early",
           "weight": 0.3,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "3-10 days",
           "subtype": ""
@@ -4146,7 +4146,7 @@
           "name": "Reduced Appetite",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "3-7 days",
           "subtype": "Due to Jaw Discomfort"
@@ -4155,7 +4155,7 @@
           "name": "Sunken Eyes",
           "stage": "Late",
           "weight": 0.2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "14-30 days",
           "subtype": ""
@@ -4174,7 +4174,7 @@
           "name": "Blood in Urine",
           "stage": "Any",
           "weight": 0.4,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 1,
           "duration_range": "1-7 days",
           "subtype": ""
@@ -4183,7 +4183,7 @@
           "name": "Bruising",
           "stage": "Any",
           "weight": 0.3,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "1-7 days",
           "subtype": "Under skin, Pinpoint"
@@ -4192,7 +4192,7 @@
           "name": "Excessive Bleeding",
           "stage": "Any",
           "weight": 0.3,
-          "severity": "Severe",
+          "severity": "High",
           "priority": 1,
           "duration_range": "1-7 days",
           "subtype": ""
@@ -4201,7 +4201,7 @@
           "name": "Nosebleeds",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "1-5 days",
           "subtype": ""
@@ -4210,7 +4210,7 @@
           "name": "Petechiae",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "1-7 days",
           "subtype": "Gums, Abdomen, Ear Flaps"
@@ -4229,7 +4229,7 @@
           "name": "Dark Urine",
           "stage": "Any",
           "weight": 0.3,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "1-7 days",
           "subtype": "Reddish-Brown"
@@ -4238,7 +4238,7 @@
           "name": "Fatigue",
           "stage": "Any",
           "weight": 0.3,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "3-10 days",
           "subtype": ""
@@ -4247,7 +4247,7 @@
           "name": "Jaundice",
           "stage": "Late",
           "weight": 0.3,
-          "severity": "Severe",
+          "severity": "High",
           "priority": 2,
           "duration_range": "3-14 days",
           "subtype": "Gums, Eyes, Skin"
@@ -4256,7 +4256,7 @@
           "name": "Pale Gums",
           "stage": "Any",
           "weight": 0.3,
-          "severity": "Severe",
+          "severity": "High",
           "priority": 1,
           "duration_range": "1-5 days",
           "subtype": ""
@@ -4265,7 +4265,7 @@
           "name": "Rapid Heart Rate",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "1-5 days",
           "subtype": ""
@@ -4274,7 +4274,7 @@
           "name": "Weakness",
           "stage": "Late",
           "weight": 0.2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "3-10 days",
           "subtype": ""
@@ -4293,7 +4293,7 @@
           "name": "Coughing",
           "stage": "Early",
           "weight": 0.4,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "3-14 days",
           "subtype": "Dry, Wet"
@@ -4302,7 +4302,7 @@
           "name": "Difficulty Breathing",
           "stage": "Any",
           "weight": 0.4,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "3-10 days",
           "subtype": "Labored, Shallow"
@@ -4311,7 +4311,7 @@
           "name": "Exercise Intolerance",
           "stage": "Any",
           "weight": 0.3,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "3-14 days",
           "subtype": ""
@@ -4320,7 +4320,7 @@
           "name": "Lethargy",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "3-14 days",
           "subtype": "Intermittent, Constant"
@@ -4329,7 +4329,7 @@
           "name": "Rapid Breathing",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "1-10 days",
           "subtype": "Panting"
@@ -4338,7 +4338,7 @@
           "name": "Weakness",
           "stage": "Late",
           "weight": 0.2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "3-10 days",
           "subtype": ""
@@ -4347,7 +4347,7 @@
           "name": "Weight Loss",
           "stage": "Late",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "14-60 days",
           "subtype": ""
@@ -4366,7 +4366,7 @@
           "name": "Coughing",
           "stage": "Early",
           "weight": 0.4,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "3-14 days",
           "subtype": "Wet, Worse at Night"
@@ -4375,7 +4375,7 @@
           "name": "Difficulty Breathing",
           "stage": "Any",
           "weight": 0.4,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "3-10 days",
           "subtype": "Labored, Open-Mouth"
@@ -4384,7 +4384,7 @@
           "name": "Distended Abdomen",
           "stage": "Any",
           "weight": 0.3,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "7-30 days",
           "subtype": ""
@@ -4393,7 +4393,7 @@
           "name": "Exercise Intolerance",
           "stage": "Any",
           "weight": 0.3,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "3-14 days",
           "subtype": ""
@@ -4402,7 +4402,7 @@
           "name": "Lethargy",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "3-14 days",
           "subtype": "Intermittent, Constant"
@@ -4411,7 +4411,7 @@
           "name": "Rapid Breathing",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "1-10 days",
           "subtype": ""
@@ -4420,7 +4420,7 @@
           "name": "Weakness",
           "stage": "Late",
           "weight": 0.2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "3-10 days",
           "subtype": ""
@@ -4439,7 +4439,7 @@
           "name": "Collapse",
           "stage": "Early",
           "weight": 0.7,
-          "severity": "Severe",
+          "severity": "High",
           "priority": 1,
           "duration_range": "1-3 days",
           "subtype": ""
@@ -4448,7 +4448,7 @@
           "name": "Difficulty Breathing",
           "stage": "Any",
           "weight": 0.4,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "1-5 days",
           "subtype": "Labored"
@@ -4457,7 +4457,7 @@
           "name": "Exercise Intolerance",
           "stage": "Any",
           "weight": 0.3,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "3-10 days",
           "subtype": ""
@@ -4466,7 +4466,7 @@
           "name": "Fainting",
           "stage": "Any",
           "weight": 0.3,
-          "severity": "Severe",
+          "severity": "High",
           "priority": 2,
           "duration_range": "1-3 days",
           "subtype": "Syncope"
@@ -4475,7 +4475,7 @@
           "name": "Lethargy",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "1-14 days",
           "subtype": "Intermittent"
@@ -4484,7 +4484,7 @@
           "name": "Rapid Breathing",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "1-5 days",
           "subtype": ""
@@ -4503,7 +4503,7 @@
           "name": "Bluish Gums",
           "stage": "Any",
           "weight": 0.3,
-          "severity": "Severe",
+          "severity": "High",
           "priority": 2,
           "duration_range": "1-3 days",
           "subtype": ""
@@ -4512,7 +4512,7 @@
           "name": "Coughing",
           "stage": "Early",
           "weight": 0.4,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "1-10 days",
           "subtype": "Dry, Honking"
@@ -4521,7 +4521,7 @@
           "name": "Difficulty Breathing",
           "stage": "Any",
           "weight": 0.4,
-          "severity": "Severe",
+          "severity": "High",
           "priority": 2,
           "duration_range": "1-5 days",
           "subtype": "Open-mouth, Labored"
@@ -4530,7 +4530,7 @@
           "name": "Exercise Intolerance",
           "stage": "Any",
           "weight": 0.3,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "3-10 days",
           "subtype": ""
@@ -4539,7 +4539,7 @@
           "name": "Fainting",
           "stage": "Any",
           "weight": 0.3,
-          "severity": "Severe",
+          "severity": "High",
           "priority": 2,
           "duration_range": "1-3 days",
           "subtype": "Post-exertion Syncope"
@@ -4548,7 +4548,7 @@
           "name": "Lethargy",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "1-14 days",
           "subtype": "Constant"
@@ -4557,7 +4557,7 @@
           "name": "Rapid Breathing",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "1-5 days",
           "subtype": "At Rest"
@@ -4576,7 +4576,7 @@
           "name": "Coughing",
           "stage": "Early",
           "weight": 0.4,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "1-10 days",
           "subtype": "Dry, Honking"
@@ -4585,7 +4585,7 @@
           "name": "Difficulty Breathing",
           "stage": "Any",
           "weight": 0.4,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "1-5 days",
           "subtype": "Labored"
@@ -4594,7 +4594,7 @@
           "name": "Exercise Intolerance",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "3-10 days",
           "subtype": ""
@@ -4603,7 +4603,7 @@
           "name": "Lethargy",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "1-14 days",
           "subtype": "Intermittent, Constant"
@@ -4612,7 +4612,7 @@
           "name": "Rapid Breathing",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "1-5 days",
           "subtype": ""
@@ -4621,7 +4621,7 @@
           "name": "Stunted Growth",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "7-30 days",
           "subtype": ""
@@ -4640,7 +4640,7 @@
           "name": "Coughing",
           "stage": "Early",
           "weight": 0.4,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "1-10 days",
           "subtype": "Wet, Honking"
@@ -4649,7 +4649,7 @@
           "name": "Difficulty Breathing",
           "stage": "Any",
           "weight": 0.4,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "1-5 days",
           "subtype": "Labored"
@@ -4658,7 +4658,7 @@
           "name": "Exercise Intolerance",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "3-10 days",
           "subtype": ""
@@ -4667,7 +4667,7 @@
           "name": "Lethargy",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "1-14 days",
           "subtype": "Intermittent, Constant"
@@ -4676,7 +4676,7 @@
           "name": "Rapid Breathing",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "1-5 days",
           "subtype": "Panting"
@@ -4685,7 +4685,7 @@
           "name": "Stunted Growth",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "7-30 days",
           "subtype": ""
@@ -4704,7 +4704,7 @@
           "name": "Disorientation",
           "weight": 0.4,
           "priority": 2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "duration_range": "2-5 days",
           "subtype": "",
           "stage": "Any"
@@ -4713,7 +4713,7 @@
           "name": "Head Shaking",
           "weight": 0.4,
           "priority": 2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "duration_range": "2-5 days",
           "subtype": "",
           "stage": "Any"
@@ -4722,7 +4722,7 @@
           "name": "Lethargy",
           "weight": 0.2,
           "priority": 3,
-          "severity": "Mild",
+          "severity": "Low",
           "duration_range": "2-4 days",
           "subtype": "",
           "stage": "Any"
@@ -4731,7 +4731,7 @@
           "name": "Pain",
           "weight": 0.4,
           "priority": 1,
-          "severity": "Severe",
+          "severity": "High",
           "duration_range": "3-6 days",
           "subtype": "",
           "stage": "Any"
@@ -4740,7 +4740,7 @@
           "name": "Scratching at Air",
           "weight": 0.4,
           "priority": 2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "duration_range": "2-5 days",
           "subtype": "",
           "stage": "Any"
@@ -4749,7 +4749,7 @@
           "name": "Scratching at Neck",
           "weight": 0.4,
           "priority": 1,
-          "severity": "Severe",
+          "severity": "High",
           "duration_range": "2-5 days",
           "subtype": "",
           "stage": "Any"
@@ -4758,7 +4758,7 @@
           "name": "Sensitivity to Touch",
           "weight": 0.4,
           "priority": 2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "duration_range": "2-5 days",
           "subtype": "",
           "stage": "Any"
@@ -4767,7 +4767,7 @@
           "name": "Weakness",
           "weight": 0.2,
           "priority": 3,
-          "severity": "Mild",
+          "severity": "Low",
           "duration_range": "3-6 days",
           "subtype": "",
           "stage": "Any"
@@ -4776,7 +4776,7 @@
           "name": "Wobbly Gait",
           "weight": 0.4,
           "priority": 2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "duration_range": "3-6 days",
           "subtype": "",
           "stage": "Any"
@@ -4795,7 +4795,7 @@
           "name": "Behavioral Changes",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "",
           "subtype": ""
@@ -4804,7 +4804,7 @@
           "name": "Confusion Post-Seizure",
           "stage": "Early",
           "weight": 0.7,
-          "severity": "Severe",
+          "severity": "High",
           "priority": 1,
           "duration_range": "",
           "subtype": ""
@@ -4813,7 +4813,7 @@
           "name": "Disorientation",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "",
           "subtype": ""
@@ -4822,7 +4822,7 @@
           "name": "Drooling",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "",
           "subtype": ""
@@ -4831,7 +4831,7 @@
           "name": "Loss of Consciousness",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "",
           "subtype": ""
@@ -4840,7 +4840,7 @@
           "name": "Muscle Twitching",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "",
           "subtype": ""
@@ -4849,7 +4849,7 @@
           "name": "Seizures",
           "stage": "Early",
           "weight": 0.7,
-          "severity": "Severe",
+          "severity": "High",
           "priority": 1,
           "duration_range": "1-2 days",
           "subtype": "Mild, Severe, Cluster"
@@ -4858,7 +4858,7 @@
           "name": "Stiffness",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "",
           "subtype": ""
@@ -4867,7 +4867,7 @@
           "name": "Unusual Eye Movements",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "",
           "subtype": ""
@@ -4886,7 +4886,7 @@
           "name": "Coordination Issues",
           "stage": "Any",
           "weight": 0.3,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "Chronic",
           "subtype": ""
@@ -4895,7 +4895,7 @@
           "name": "Falling Over",
           "stage": "Any",
           "weight": 0.3,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "Chronic",
           "subtype": ""
@@ -4904,7 +4904,7 @@
           "name": "Head Tilt",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "",
           "subtype": ""
@@ -4913,7 +4913,7 @@
           "name": "Head Tremors",
           "stage": "Any",
           "weight": 0.3,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "Chronic",
           "subtype": ""
@@ -4922,7 +4922,7 @@
           "name": "Unsteady Gait",
           "stage": "Any",
           "weight": 0.3,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "Chronic",
           "subtype": ""
@@ -4931,7 +4931,7 @@
           "name": "Wide-Legged Stance",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "",
           "subtype": ""
@@ -4940,7 +4940,7 @@
           "name": "Wobbling",
           "stage": "Any",
           "weight": 0.3,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "Chronic",
           "subtype": ""
@@ -4959,7 +4959,7 @@
           "name": "Difficulty Walking",
           "stage": "Any",
           "weight": 0.3,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "7-30 days",
           "subtype": "Progressive"
@@ -4968,7 +4968,7 @@
           "name": "Foot Dragging",
           "stage": "Any",
           "weight": 0.3,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "7-30 days",
           "subtype": ""
@@ -4977,7 +4977,7 @@
           "name": "Loss of Reflexes",
           "stage": "Any",
           "weight": 0.3,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "7-30 days",
           "subtype": ""
@@ -4986,7 +4986,7 @@
           "name": "Muscle Atrophy",
           "stage": "Any",
           "weight": 0.3,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "14-60 days",
           "subtype": "Distal limbs"
@@ -4995,7 +4995,7 @@
           "name": "Paralysis",
           "stage": "Late",
           "weight": 0.7,
-          "severity": "Severe",
+          "severity": "High",
           "priority": 1,
           "duration_range": "7-30 days",
           "subtype": "Flaccid"
@@ -5004,7 +5004,7 @@
           "name": "Sensory Deficits",
           "stage": "Any",
           "weight": 0.3,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "7-30 days",
           "subtype": ""
@@ -5013,7 +5013,7 @@
           "name": "Tremors",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "",
           "subtype": ""
@@ -5022,7 +5022,7 @@
           "name": "Weakness",
           "stage": "Late",
           "weight": 0.3,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "7-30 days",
           "subtype": ""
@@ -5041,7 +5041,7 @@
           "name": "Pain in Lower Back",
           "stage": "Early",
           "weight": 0.4,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "1-14 days",
           "subtype": ""
@@ -5050,7 +5050,7 @@
           "name": "Hind Limb Weakness",
           "stage": "Any",
           "weight": 0.4,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "",
           "subtype": ""
@@ -5059,7 +5059,7 @@
           "name": "Difficulty Rising",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "",
           "subtype": ""
@@ -5068,7 +5068,7 @@
           "name": "Incontinence",
           "stage": "Late",
           "weight": 0.4,
-          "severity": "Severe",
+          "severity": "High",
           "priority": 1,
           "duration_range": "",
           "subtype": "Urinary, Fecal"
@@ -5077,7 +5077,7 @@
           "name": "Tail Paralysis",
           "stage": "Late",
           "weight": 0.4,
-          "severity": "Severe",
+          "severity": "High",
           "priority": 1,
           "duration_range": "",
           "subtype": ""
@@ -5086,7 +5086,7 @@
           "name": "Hunched Back",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "",
           "subtype": ""
@@ -5095,7 +5095,7 @@
           "name": "Lameness",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "",
           "subtype": ""
@@ -5104,7 +5104,7 @@
           "name": "Weakness",
           "stage": "Late",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "",
           "subtype": ""
@@ -5123,7 +5123,7 @@
           "name": "Hind Limb Weakness",
           "stage": "Early",
           "weight": 0.4,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "1-3 days",
           "subtype": ""
@@ -5132,7 +5132,7 @@
           "name": "Ascending Paralysis",
           "stage": "Late",
           "weight": 0.7,
-          "severity": "Severe",
+          "severity": "High",
           "priority": 1,
           "duration_range": "",
           "subtype": ""
@@ -5141,7 +5141,7 @@
           "name": "Difficulty Breathing",
           "stage": "Late",
           "weight": 0.7,
-          "severity": "Severe",
+          "severity": "High",
           "priority": 1,
           "duration_range": "",
           "subtype": ""
@@ -5150,7 +5150,7 @@
           "name": "Voice Changes",
           "stage": "Early",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "",
           "subtype": ""
@@ -5159,7 +5159,7 @@
           "name": "Lethargy",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "1-14 days",
           "subtype": "Intermittent, Constant"
@@ -5168,7 +5168,7 @@
           "name": "Loss of Appetite",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "1-7 days",
           "subtype": ""
@@ -5177,7 +5177,7 @@
           "name": "Unsteadiness",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "",
           "subtype": ""
@@ -5186,7 +5186,7 @@
           "name": "Weakness",
           "stage": "Late",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "",
           "subtype": ""
@@ -5205,7 +5205,7 @@
           "name": "Blindness",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "",
           "subtype": ""
@@ -5214,7 +5214,7 @@
           "name": "Circling",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "",
           "subtype": ""
@@ -5223,7 +5223,7 @@
           "name": "Facial Abnormalities",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "",
           "subtype": ""
@@ -5232,7 +5232,7 @@
           "name": "Head Tilt",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "",
           "subtype": ""
@@ -5241,7 +5241,7 @@
           "name": "Lethargy",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "1-14 days",
           "subtype": "Intermittent, Constant"
@@ -5250,7 +5250,7 @@
           "name": "Loss of Coordination",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "",
           "subtype": ""
@@ -5259,7 +5259,7 @@
           "name": "Neck Pain",
           "stage": "Early",
           "weight": 0.2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "",
           "subtype": ""
@@ -5268,7 +5268,7 @@
           "name": "Seizures",
           "stage": "Early",
           "weight": 0.7,
-          "severity": "Severe",
+          "severity": "High",
           "priority": 1,
           "duration_range": "1-2 days",
           "subtype": "Mild, Severe, Cluster"
@@ -5287,7 +5287,7 @@
           "name": "Difficulty Walking",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "",
           "subtype": ""
@@ -5296,7 +5296,7 @@
           "name": "Loss of Coordination",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "",
           "subtype": ""
@@ -5305,7 +5305,7 @@
           "name": "Neck Pain",
           "stage": "Early",
           "weight": 0.2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "",
           "subtype": ""
@@ -5314,7 +5314,7 @@
           "name": "Stiffness",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "",
           "subtype": ""
@@ -5323,7 +5323,7 @@
           "name": "Weakness",
           "stage": "Late",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "",
           "subtype": ""
@@ -5332,7 +5332,7 @@
           "name": "Wobbly Gait",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "",
           "subtype": ""
@@ -5341,7 +5341,7 @@
           "name": "Worn Toenails",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "",
           "subtype": ""
@@ -5360,7 +5360,7 @@
           "name": "Bad Breath",
           "weight": 0.2,
           "priority": 3,
-          "severity": "Mild",
+          "severity": "Low",
           "duration_range": "3-7 days",
           "subtype": "",
           "stage": "Any"
@@ -5369,7 +5369,7 @@
           "name": "Bleeding Gums",
           "weight": 0.4,
           "priority": 2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "duration_range": "3-7 days",
           "subtype": "",
           "stage": "Any"
@@ -5378,7 +5378,7 @@
           "name": "Discolored Teeth",
           "weight": 0.2,
           "priority": 3,
-          "severity": "Mild",
+          "severity": "Low",
           "duration_range": "7-30 days",
           "subtype": "",
           "stage": "Any"
@@ -5387,7 +5387,7 @@
           "name": "Dropping Food",
           "weight": 0.4,
           "priority": 2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "duration_range": "2-5 days",
           "subtype": "",
           "stage": "Any"
@@ -5396,7 +5396,7 @@
           "name": "Excessive Drooling",
           "weight": 0.2,
           "priority": 3,
-          "severity": "Mild",
+          "severity": "Low",
           "duration_range": "2-5 days",
           "subtype": "",
           "stage": "Any"
@@ -5405,7 +5405,7 @@
           "name": "Inflamed Gums",
           "weight": 0.4,
           "priority": 2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "duration_range": "3-7 days",
           "subtype": "Red, Swollen",
           "stage": "Any"
@@ -5414,7 +5414,7 @@
           "name": "Loose Teeth",
           "weight": 0.4,
           "priority": 2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "duration_range": "7-30 days",
           "subtype": "",
           "stage": "Any"
@@ -5423,7 +5423,7 @@
           "name": "Nasal Discharge",
           "weight": 0.2,
           "priority": 3,
-          "severity": "Mild",
+          "severity": "Low",
           "duration_range": "1-4 days",
           "subtype": "Unilateral",
           "stage": "Any"
@@ -5432,7 +5432,7 @@
           "name": "Reduced Appetite",
           "weight": 0.2,
           "priority": 3,
-          "severity": "Mild",
+          "severity": "Low",
           "duration_range": "2-5 days",
           "subtype": "Due to oral pain",
           "stage": "Any"
@@ -5441,7 +5441,7 @@
           "name": "Weight Loss",
           "weight": 0.4,
           "priority": 2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "duration_range": "5-10 days",
           "subtype": "",
           "stage": "Any"
@@ -5460,7 +5460,7 @@
           "name": "Bad Breath",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "2-5 days",
           "subtype": "Foul odor"
@@ -5469,7 +5469,7 @@
           "name": "Decreased Appetite",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "2-5 days",
           "subtype": ""
@@ -5478,7 +5478,7 @@
           "name": "Facial Swelling",
           "stage": "Any",
           "weight": 0.3,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "1-5 days",
           "subtype": "Usually below the eye"
@@ -5487,7 +5487,7 @@
           "name": "Oral Pain",
           "stage": "Early",
           "weight": 0.3,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "1-5 days",
           "subtype": ""
@@ -5496,7 +5496,7 @@
           "name": "Pawing at Face",
           "stage": "Any",
           "weight": 0.3,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "",
           "subtype": ""
@@ -5505,7 +5505,7 @@
           "name": "Reluctance to Chew",
           "stage": "Any",
           "weight": 0.3,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "2-5 days",
           "subtype": ""
@@ -5514,7 +5514,7 @@
           "name": "Swelling Below Eye",
           "stage": "Any",
           "weight": 0.3,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "2-5 days",
           "subtype": ""
@@ -5533,7 +5533,7 @@
           "name": "Bad Breath",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "",
           "subtype": ""
@@ -5542,7 +5542,7 @@
           "name": "Discolored Teeth",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "",
           "subtype": ""
@@ -5551,7 +5551,7 @@
           "name": "Drooling",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "",
           "subtype": ""
@@ -5560,7 +5560,7 @@
           "name": "Loose Teeth",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "",
           "subtype": ""
@@ -5569,7 +5569,7 @@
           "name": "Oral Pain",
           "stage": "Early",
           "weight": 0.2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "",
           "subtype": ""
@@ -5578,7 +5578,7 @@
           "name": "Red Gums",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "",
           "subtype": ""
@@ -5587,7 +5587,7 @@
           "name": "Swollen Gums",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "",
           "subtype": ""
@@ -5606,7 +5606,7 @@
           "name": "Cataracts",
           "weight": 0.2,
           "priority": 2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "duration_range": "7-30 days",
           "subtype": "",
           "stage": "Any"
@@ -5615,7 +5615,7 @@
           "name": "Dehydration",
           "weight": 0.4,
           "priority": 1,
-          "severity": "Severe",
+          "severity": "High",
           "duration_range": "3-7 days",
           "subtype": "",
           "stage": "Any"
@@ -5624,7 +5624,7 @@
           "name": "Increased Appetite",
           "weight": 0.2,
           "priority": 3,
-          "severity": "Mild",
+          "severity": "Low",
           "duration_range": "5-10 days",
           "subtype": "",
           "stage": "Any"
@@ -5633,7 +5633,7 @@
           "name": "Increased Thirst",
           "weight": 0.4,
           "priority": 2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "duration_range": "3-7 days",
           "subtype": "",
           "stage": "Any"
@@ -5642,7 +5642,7 @@
           "name": "Increased Urination",
           "weight": 0.4,
           "priority": 2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "duration_range": "3-7 days",
           "subtype": "",
           "stage": "Any"
@@ -5651,7 +5651,7 @@
           "name": "Lethargy",
           "weight": 0.2,
           "priority": 3,
-          "severity": "Mild",
+          "severity": "Low",
           "duration_range": "3-5 days",
           "subtype": "",
           "stage": "Any"
@@ -5660,7 +5660,7 @@
           "name": "Recurrent Infections",
           "weight": 0.4,
           "priority": 2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "duration_range": "7-30 days",
           "subtype": "",
           "stage": "Any"
@@ -5669,7 +5669,7 @@
           "name": "Weight Loss",
           "weight": 0.2,
           "priority": 2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "duration_range": "5-10 days",
           "subtype": "",
           "stage": "Any"
@@ -5688,7 +5688,7 @@
           "name": "Bad Breath",
           "weight": 0.2,
           "priority": 3,
-          "severity": "Mild",
+          "severity": "Low",
           "duration_range": "5-10 days",
           "subtype": "",
           "stage": "Any"
@@ -5697,7 +5697,7 @@
           "name": "Decreased Appetite",
           "weight": 0.4,
           "priority": 2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "duration_range": "5-10 days",
           "subtype": "",
           "stage": "Any"
@@ -5706,7 +5706,7 @@
           "name": "Diarrhea",
           "weight": 0.2,
           "priority": 3,
-          "severity": "Mild",
+          "severity": "Low",
           "duration_range": "3-5 days",
           "subtype": "",
           "stage": "Any"
@@ -5715,7 +5715,7 @@
           "name": "Increased Thirst",
           "weight": 0.4,
           "priority": 2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "duration_range": "5-10 days",
           "subtype": "",
           "stage": "Any"
@@ -5724,7 +5724,7 @@
           "name": "Increased Urination",
           "weight": 0.4,
           "priority": 2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "duration_range": "5-10 days",
           "subtype": "",
           "stage": "Any"
@@ -5733,7 +5733,7 @@
           "name": "Lethargy",
           "weight": 0.2,
           "priority": 3,
-          "severity": "Mild",
+          "severity": "Low",
           "duration_range": "5-7 days",
           "subtype": "",
           "stage": "Any"
@@ -5742,7 +5742,7 @@
           "name": "Mouth Ulcers",
           "weight": 0.4,
           "priority": 2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "duration_range": "3-6 days",
           "subtype": "",
           "stage": "Any"
@@ -5751,7 +5751,7 @@
           "name": "Nausea",
           "weight": 0.4,
           "priority": 2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "duration_range": "3-6 days",
           "subtype": "",
           "stage": "Any"
@@ -5760,7 +5760,7 @@
           "name": "Vomiting",
           "weight": 0.4,
           "priority": 2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "duration_range": "3-5 days",
           "subtype": "Foamy, Yellow, Bloody",
           "stage": "Any"
@@ -5769,7 +5769,7 @@
           "name": "Weight Loss",
           "weight": 0.4,
           "priority": 2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "duration_range": "5-10 days",
           "subtype": "",
           "stage": "Any"
@@ -5788,7 +5788,7 @@
           "name": "Bad Breath",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "",
           "subtype": ""
@@ -5797,7 +5797,7 @@
           "name": "Decreased Appetite",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "",
           "subtype": ""
@@ -5806,7 +5806,7 @@
           "name": "Diarrhea",
           "stage": "Early",
           "weight": 0.4,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "1-7 days",
           "subtype": "Bloody, Watery, Mucus"
@@ -5815,7 +5815,7 @@
           "name": "Increased Thirst",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "",
           "subtype": ""
@@ -5824,7 +5824,7 @@
           "name": "Increased Urination",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "",
           "subtype": ""
@@ -5833,7 +5833,7 @@
           "name": "Lethargy",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "1-14 days",
           "subtype": "Intermittent, Constant"
@@ -5842,7 +5842,7 @@
           "name": "Mouth Ulcers",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "",
           "subtype": ""
@@ -5851,7 +5851,7 @@
           "name": "Nausea",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "",
           "subtype": ""
@@ -5860,7 +5860,7 @@
           "name": "Vomiting",
           "stage": "Early",
           "weight": 0.4,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "1-7 days",
           "subtype": "Bloody, Foamy, Yellow, Green"
@@ -5869,7 +5869,7 @@
           "name": "Weight Loss",
           "stage": "Late",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "1-30 days",
           "subtype": ""
@@ -5888,7 +5888,7 @@
           "name": "Abdominal Pain",
           "stage": "Early",
           "weight": 0.2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 3,
           "duration_range": "1-5 days",
           "subtype": ""
@@ -5897,7 +5897,7 @@
           "name": "Blood in Urine",
           "stage": "Any",
           "weight": 0.7,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 1,
           "duration_range": "1-5 days",
           "subtype": ""
@@ -5906,7 +5906,7 @@
           "name": "Difficulty Urinating",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "1-5 days",
           "subtype": ""
@@ -5915,7 +5915,7 @@
           "name": "Frequent Urination",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "1-5 days",
           "subtype": ""
@@ -5924,7 +5924,7 @@
           "name": "Lethargy",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "1-14 days",
           "subtype": "Intermittent, Constant"
@@ -5933,7 +5933,7 @@
           "name": "Vomiting",
           "stage": "Early",
           "weight": 0.4,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "1-7 days",
           "subtype": "Bloody, Foamy, Yellow, Green"
@@ -5952,7 +5952,7 @@
           "name": "Blood in Urine",
           "stage": "Any",
           "weight": 0.4,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 1,
           "duration_range": "1-5 days",
           "subtype": ""
@@ -5961,7 +5961,7 @@
           "name": "Edema (Swelling)",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "2-6 days",
           "subtype": "Limbs, Abdomen, Face"
@@ -5970,7 +5970,7 @@
           "name": "Lethargy",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "1-14 days",
           "subtype": "Intermittent, Constant"
@@ -5979,7 +5979,7 @@
           "name": "Proteinuria (Foamy Urine)",
           "stage": "Any",
           "weight": 0.2,
-          "severity": "Moderate",
+          "severity": "Medium",
           "priority": 2,
           "duration_range": "2-7 days",
           "subtype": ""
@@ -5988,7 +5988,7 @@
           "name": "Weight Loss",
           "stage": "Late",
           "weight": 0.2,
-          "severity": "Mild",
+          "severity": "Low",
           "priority": 3,
           "duration_range": "7-30 days",
           "subtype": ""
