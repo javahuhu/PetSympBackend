@@ -1,0 +1,211 @@
+Test Case ID,Illness,Abdominal Pain,Bad Breath,Blood in urine,Dehydration,Fever,Frequent urination,Increased thirst,Lethargy,Licking genitals,Painful urination,Poor coat,Vomiting,Weight loss,FC_Confidence,GB_Confidence,Symptom_Match_Ratio
+Chronic Renal Failure in Cats_1,Chronic Renal Failure in Cats,0,0,0,0,0,1,1,0,0,0,1,1,1,0.9,0.9826,1.0
+Chronic Renal Failure in Cats_2,Chronic Renal Failure in Cats,0,0,0,0,0,1,1,0,0,0,1,1,1,0.9,0.9826,1.0
+Chronic Renal Failure in Cats_3,Chronic Renal Failure in Cats,0,0,0,0,0,1,1,0,0,0,1,1,1,0.9,0.9826,1.0
+Chronic Renal Failure in Cats_4,Chronic Renal Failure in Cats,0,0,0,0,0,1,1,0,0,0,1,0,0,0.56,0.9511,0.6
+Chronic Renal Failure in Cats_5,Chronic Renal Failure in Cats,0,0,0,0,0,1,1,0,0,0,1,1,1,0.9,0.9826,1.0
+Chronic Renal Failure in Cats_6,Chronic Renal Failure in Cats,0,0,0,0,0,1,1,0,0,0,0,1,1,0.77,0.3435,0.8
+Chronic Renal Failure in Cats_7,Chronic Renal Failure in Cats,0,0,0,0,0,1,1,0,0,0,0,1,1,0.77,0.3435,0.8
+Chronic Renal Failure in Cats_8,Chronic Renal Failure in Cats,0,0,0,0,0,1,1,0,0,0,1,1,1,0.9,0.9826,1.0
+Chronic Renal Failure in Cats_9,Chronic Renal Failure in Cats,0,0,0,0,0,1,1,0,0,0,1,1,1,0.9,0.9826,1.0
+Chronic Renal Failure in Cats_10,Chronic Renal Failure in Cats,0,0,0,0,0,1,1,0,0,0,1,1,1,0.9,0.9826,1.0
+Chronic Renal Failure in Cats_11,Chronic Renal Failure in Cats,0,0,0,0,0,1,1,0,0,0,1,1,1,0.9,0.9826,1.0
+Chronic Renal Failure in Cats_12,Chronic Renal Failure in Cats,0,0,0,0,0,1,1,0,0,0,1,1,1,0.9,0.9826,1.0
+Chronic Renal Failure in Cats_13,Chronic Renal Failure in Cats,0,0,0,0,0,1,1,0,0,0,0,1,1,0.77,0.3435,0.8
+Chronic Renal Failure in Cats_14,Chronic Renal Failure in Cats,0,0,0,0,0,1,1,0,0,0,1,1,1,0.9,0.9826,1.0
+Chronic Renal Failure in Cats_15,Chronic Renal Failure in Cats,0,0,0,0,0,1,1,0,0,0,1,1,1,0.9,0.9826,1.0
+Chronic Renal Failure in Cats_16,Chronic Renal Failure in Cats,0,0,0,0,0,1,1,0,0,0,0,1,1,0.77,0.3435,0.8
+Chronic Renal Failure in Cats_17,Chronic Renal Failure in Cats,0,0,0,0,0,1,1,0,0,0,1,1,1,0.9,0.9826,1.0
+Chronic Renal Failure in Cats_18,Chronic Renal Failure in Cats,0,0,0,0,0,1,1,0,0,0,1,1,1,0.9,0.9826,1.0
+Chronic Renal Failure in Cats_19,Chronic Renal Failure in Cats,0,0,0,0,0,1,1,0,0,0,1,0,1,0.73,0.9287,0.8
+Chronic Renal Failure in Cats_20,Chronic Renal Failure in Cats,0,0,0,0,0,1,1,0,0,0,0,1,1,0.77,0.3435,0.8
+Chronic Renal Failure in Cats_21,Chronic Renal Failure in Cats,0,0,0,0,0,1,1,0,0,0,1,1,1,0.9,0.9826,1.0
+Chronic Renal Failure in Cats_22,Chronic Renal Failure in Cats,0,0,0,0,0,1,1,0,0,0,1,1,1,0.9,0.9826,1.0
+Chronic Renal Failure in Cats_23,Chronic Renal Failure in Cats,0,0,0,0,0,1,1,0,0,0,0,1,1,0.77,0.3435,0.8
+Chronic Renal Failure in Cats_24,Chronic Renal Failure in Cats,0,0,0,0,0,1,1,0,0,0,1,1,1,0.9,0.9826,1.0
+Chronic Renal Failure in Cats_25,Chronic Renal Failure in Cats,0,0,0,0,0,1,1,0,0,0,0,1,0,0.6,0.488,0.6
+Chronic Renal Failure in Cats_26,Chronic Renal Failure in Cats,0,0,0,0,0,1,1,0,0,0,0,1,1,0.77,0.3435,0.8
+Chronic Renal Failure in Cats_27,Chronic Renal Failure in Cats,0,0,0,0,0,1,1,0,0,0,1,1,1,0.9,0.9826,1.0
+Chronic Renal Failure in Cats_28,Chronic Renal Failure in Cats,0,0,0,0,0,1,1,0,0,0,1,1,1,0.9,0.9826,1.0
+Chronic Renal Failure in Cats_29,Chronic Renal Failure in Cats,0,0,0,0,0,1,1,0,0,0,1,1,1,0.9,0.9826,1.0
+Chronic Renal Failure in Cats_30,Chronic Renal Failure in Cats,0,0,0,0,0,1,1,0,0,0,1,1,1,0.9,0.9826,1.0
+Chronic Renal Failure in Cats_31,Chronic Renal Failure in Cats,0,0,0,0,0,1,1,0,0,0,1,1,1,0.9,0.9826,1.0
+Chronic Renal Failure in Cats_32,Chronic Renal Failure in Cats,0,0,0,0,0,1,1,0,0,0,0,1,1,0.77,0.3435,0.8
+Chronic Renal Failure in Cats_33,Chronic Renal Failure in Cats,0,0,0,0,0,1,1,0,0,0,1,1,1,0.9,0.9826,1.0
+Chronic Renal Failure in Cats_34,Chronic Renal Failure in Cats,0,0,0,0,0,1,1,0,0,0,1,1,1,0.9,0.9826,1.0
+Chronic Renal Failure in Cats_35,Chronic Renal Failure in Cats,0,0,0,0,0,1,1,0,0,0,1,1,1,0.9,0.9826,1.0
+Chronic Renal Failure in Cats_36,Chronic Renal Failure in Cats,0,0,0,0,0,1,1,0,0,0,1,1,1,0.9,0.9826,1.0
+Chronic Renal Failure in Cats_37,Chronic Renal Failure in Cats,0,0,0,0,0,1,1,0,0,0,1,1,1,0.9,0.9826,1.0
+Chronic Renal Failure in Cats_38,Chronic Renal Failure in Cats,0,0,0,0,0,1,1,0,0,0,1,1,1,0.9,0.9826,1.0
+Chronic Renal Failure in Cats_39,Chronic Renal Failure in Cats,0,0,0,0,0,1,1,0,0,0,1,1,1,0.9,0.9826,1.0
+Chronic Renal Failure in Cats_40,Chronic Renal Failure in Cats,0,0,0,0,0,1,1,0,0,0,1,1,1,0.9,0.9826,1.0
+Chronic Renal Failure in Cats_41,Chronic Renal Failure in Cats,0,0,0,0,0,1,1,0,0,0,0,1,1,0.77,0.3435,0.8
+Chronic Renal Failure in Cats_42,Chronic Renal Failure in Cats,0,0,0,0,0,1,1,0,0,0,1,1,1,0.9,0.9826,1.0
+Chronic Renal Failure in Cats_43,Chronic Renal Failure in Cats,0,0,0,0,0,1,1,0,0,0,1,1,1,0.9,0.9826,1.0
+Chronic Renal Failure in Cats_44,Chronic Renal Failure in Cats,0,0,0,0,0,1,1,0,0,0,0,1,1,0.77,0.3435,0.8
+Chronic Renal Failure in Cats_45,Chronic Renal Failure in Cats,0,0,0,0,0,1,1,0,0,0,0,1,1,0.77,0.3435,0.8
+Chronic Renal Failure in Cats_46,Chronic Renal Failure in Cats,0,0,0,0,0,1,1,0,0,0,0,1,1,0.77,0.3435,0.8
+Chronic Renal Failure in Cats_47,Chronic Renal Failure in Cats,0,0,0,0,0,1,1,0,0,0,0,1,1,0.77,0.3435,0.8
+Chronic Renal Failure in Cats_48,Chronic Renal Failure in Cats,0,0,0,0,0,1,1,0,0,0,1,1,1,0.9,0.9826,1.0
+Chronic Renal Failure in Cats_49,Chronic Renal Failure in Cats,0,0,0,0,0,1,1,0,0,0,1,1,1,0.9,0.9826,1.0
+Chronic Renal Failure in Cats_50,Chronic Renal Failure in Cats,0,0,0,0,0,1,1,0,0,0,1,1,1,0.9,0.9826,1.0
+Kidney Disease in Cats_1,Kidney Disease in Cats,0,0,0,0,0,1,1,1,0,0,0,1,1,0.9,0.9704,1.0
+Kidney Disease in Cats_2,Kidney Disease in Cats,0,0,0,0,0,1,1,0,0,0,0,1,0,0.6,0.4374,0.6
+Kidney Disease in Cats_3,Kidney Disease in Cats,0,0,0,0,0,1,1,1,0,0,0,1,0,0.73,0.9204,0.8
+Kidney Disease in Cats_4,Kidney Disease in Cats,0,0,0,0,0,1,1,0,0,0,0,1,1,0.77,0.6007,0.8
+Kidney Disease in Cats_5,Kidney Disease in Cats,0,0,0,0,0,1,1,0,0,0,0,1,1,0.77,0.6007,0.8
+Kidney Disease in Cats_6,Kidney Disease in Cats,0,0,0,0,0,1,1,1,0,0,0,1,1,0.9,0.9704,1.0
+Kidney Disease in Cats_7,Kidney Disease in Cats,0,0,0,0,0,1,1,1,0,0,0,1,1,0.9,0.9704,1.0
+Kidney Disease in Cats_8,Kidney Disease in Cats,0,0,0,0,0,1,1,0,0,0,0,1,1,0.77,0.6007,0.8
+Kidney Disease in Cats_9,Kidney Disease in Cats,0,0,0,0,0,1,1,0,0,0,0,1,1,0.77,0.6007,0.8
+Kidney Disease in Cats_10,Kidney Disease in Cats,0,0,0,0,0,1,1,0,0,0,0,1,1,0.77,0.6007,0.8
+Kidney Disease in Cats_11,Kidney Disease in Cats,0,0,0,0,0,1,1,0,0,0,0,1,1,0.77,0.6007,0.8
+Kidney Disease in Cats_12,Kidney Disease in Cats,0,0,0,0,0,1,1,1,0,0,0,1,1,0.9,0.9704,1.0
+Kidney Disease in Cats_13,Kidney Disease in Cats,0,0,0,0,0,1,1,1,0,0,0,1,1,0.9,0.9704,1.0
+Kidney Disease in Cats_14,Kidney Disease in Cats,0,0,0,0,0,1,1,1,0,0,0,1,1,0.9,0.9704,1.0
+Kidney Disease in Cats_15,Kidney Disease in Cats,0,0,0,0,0,1,1,1,0,0,0,1,1,0.9,0.9704,1.0
+Kidney Disease in Cats_16,Kidney Disease in Cats,0,0,0,0,0,1,1,1,0,0,0,1,1,0.9,0.9704,1.0
+Kidney Disease in Cats_17,Kidney Disease in Cats,0,0,0,0,0,1,1,0,0,0,0,1,1,0.77,0.6007,0.8
+Kidney Disease in Cats_18,Kidney Disease in Cats,0,0,0,0,0,1,1,1,0,0,0,1,1,0.9,0.9704,1.0
+Kidney Disease in Cats_19,Kidney Disease in Cats,0,0,0,0,0,1,1,0,0,0,0,0,1,0.6,0.7638,0.6
+Kidney Disease in Cats_20,Kidney Disease in Cats,0,0,0,0,0,1,1,0,0,0,0,1,1,0.77,0.6007,0.8
+Kidney Disease in Cats_21,Kidney Disease in Cats,0,0,0,0,0,1,1,1,0,0,0,1,1,0.9,0.9704,1.0
+Kidney Disease in Cats_22,Kidney Disease in Cats,0,0,0,0,0,1,1,0,0,0,0,1,1,0.77,0.6007,0.8
+Kidney Disease in Cats_23,Kidney Disease in Cats,0,0,0,0,0,1,1,1,0,0,0,1,1,0.9,0.9704,1.0
+Kidney Disease in Cats_24,Kidney Disease in Cats,0,0,0,0,0,1,1,0,0,0,0,1,1,0.77,0.6007,0.8
+Kidney Disease in Cats_25,Kidney Disease in Cats,0,0,0,0,0,1,1,0,0,0,0,1,1,0.77,0.6007,0.8
+Kidney Disease in Cats_26,Kidney Disease in Cats,0,0,0,0,0,1,1,0,0,0,0,0,1,0.6,0.7638,0.6
+Kidney Disease in Cats_27,Kidney Disease in Cats,0,0,0,0,0,1,1,1,0,0,0,1,1,0.9,0.9704,1.0
+Kidney Disease in Cats_28,Kidney Disease in Cats,0,0,0,0,0,1,1,1,0,0,0,1,1,0.9,0.9704,1.0
+Kidney Disease in Cats_29,Kidney Disease in Cats,0,0,0,0,0,1,1,1,0,0,0,1,1,0.9,0.9704,1.0
+Kidney Disease in Cats_30,Kidney Disease in Cats,0,0,0,0,0,1,1,1,0,0,0,0,1,0.73,0.9523,0.8
+Kidney Disease in Cats_31,Kidney Disease in Cats,0,0,0,0,0,1,1,1,0,0,0,1,0,0.73,0.9204,0.8
+Kidney Disease in Cats_32,Kidney Disease in Cats,0,0,0,0,0,1,1,1,0,0,0,1,1,0.9,0.9704,1.0
+Kidney Disease in Cats_33,Kidney Disease in Cats,0,0,0,0,0,1,1,0,0,0,0,1,1,0.77,0.6007,0.8
+Kidney Disease in Cats_34,Kidney Disease in Cats,0,0,0,0,0,1,1,1,0,0,0,1,1,0.9,0.9704,1.0
+Kidney Disease in Cats_35,Kidney Disease in Cats,0,0,0,0,0,1,1,0,0,0,0,1,1,0.77,0.6007,0.8
+Kidney Disease in Cats_36,Kidney Disease in Cats,0,0,0,0,0,1,1,1,0,0,0,1,1,0.9,0.9704,1.0
+Kidney Disease in Cats_37,Kidney Disease in Cats,0,0,0,0,0,1,1,1,0,0,0,1,1,0.9,0.9704,1.0
+Kidney Disease in Cats_38,Kidney Disease in Cats,0,0,0,0,0,1,1,1,0,0,0,1,1,0.9,0.9704,1.0
+Kidney Disease in Cats_39,Kidney Disease in Cats,0,0,0,0,0,1,1,1,0,0,0,1,1,0.9,0.9704,1.0
+Kidney Disease in Cats_40,Kidney Disease in Cats,0,0,0,0,0,1,1,1,0,0,0,1,1,0.9,0.9704,1.0
+Kidney Disease in Cats_41,Kidney Disease in Cats,0,0,0,0,0,1,1,1,0,0,0,1,1,0.9,0.9704,1.0
+Kidney Disease in Cats_42,Kidney Disease in Cats,0,0,0,0,0,1,1,0,0,0,0,1,1,0.77,0.6007,0.8
+Kidney Disease in Cats_43,Kidney Disease in Cats,0,0,0,0,0,1,1,0,0,0,0,1,0,0.6,0.4374,0.6
+Kidney Disease in Cats_44,Kidney Disease in Cats,0,0,0,0,0,1,1,1,0,0,0,1,1,0.9,0.9704,1.0
+Kidney Disease in Cats_45,Kidney Disease in Cats,0,0,0,0,0,1,1,1,0,0,0,1,0,0.73,0.9204,0.8
+Kidney Disease in Cats_46,Kidney Disease in Cats,0,0,0,0,0,1,1,0,0,0,0,1,1,0.77,0.6007,0.8
+Kidney Disease in Cats_47,Kidney Disease in Cats,0,0,0,0,0,1,1,0,0,0,0,1,1,0.77,0.6007,0.8
+Kidney Disease in Cats_48,Kidney Disease in Cats,0,0,0,0,0,1,1,1,0,0,0,1,1,0.9,0.9704,1.0
+Kidney Disease in Cats_49,Kidney Disease in Cats,0,0,0,0,0,1,1,0,0,0,0,0,1,0.6,0.7638,0.6
+Kidney Disease in Cats_50,Kidney Disease in Cats,0,0,0,0,0,1,1,0,0,0,0,1,1,0.77,0.6007,0.8
+Kidney Failure in Cats_1,Kidney Failure in Cats,0,1,0,1,0,0,0,1,0,0,0,1,1,0.9,0.9831,1.0
+Kidney Failure in Cats_2,Kidney Failure in Cats,0,1,0,1,0,0,0,0,0,0,0,1,1,0.73,0.9821,0.8
+Kidney Failure in Cats_3,Kidney Failure in Cats,0,1,0,1,0,0,0,1,0,0,0,1,1,0.9,0.9831,1.0
+Kidney Failure in Cats_4,Kidney Failure in Cats,0,1,0,1,0,0,0,1,0,0,0,1,1,0.9,0.9831,1.0
+Kidney Failure in Cats_5,Kidney Failure in Cats,0,1,0,1,0,0,0,0,0,0,0,1,1,0.73,0.9821,0.8
+Kidney Failure in Cats_6,Kidney Failure in Cats,0,0,0,1,0,0,0,1,0,0,0,1,1,0.73,0.8829,0.8
+Kidney Failure in Cats_7,Kidney Failure in Cats,0,1,0,1,0,0,0,1,0,0,0,1,1,0.9,0.9831,1.0
+Kidney Failure in Cats_8,Kidney Failure in Cats,0,1,0,1,0,0,0,0,0,0,0,1,1,0.73,0.9821,0.8
+Kidney Failure in Cats_9,Kidney Failure in Cats,0,1,0,1,0,0,0,0,0,0,0,1,1,0.73,0.9821,0.8
+Kidney Failure in Cats_10,Kidney Failure in Cats,0,1,0,1,0,0,0,0,0,0,0,1,0,0.56,0.9661,0.6
+Kidney Failure in Cats_11,Kidney Failure in Cats,0,1,0,1,0,0,0,0,0,0,0,1,1,0.73,0.9821,0.8
+Kidney Failure in Cats_12,Kidney Failure in Cats,0,1,0,1,0,0,0,0,0,0,0,1,1,0.73,0.9821,0.8
+Kidney Failure in Cats_13,Kidney Failure in Cats,0,1,0,1,0,0,0,1,0,0,0,1,1,0.9,0.9831,1.0
+Kidney Failure in Cats_14,Kidney Failure in Cats,0,1,0,1,0,0,0,1,0,0,0,1,1,0.9,0.9831,1.0
+Kidney Failure in Cats_15,Kidney Failure in Cats,0,1,0,1,0,0,0,0,0,0,0,1,1,0.73,0.9821,0.8
+Kidney Failure in Cats_16,Kidney Failure in Cats,0,1,0,1,0,0,0,1,0,0,0,1,1,0.9,0.9831,1.0
+Kidney Failure in Cats_17,Kidney Failure in Cats,0,1,0,1,0,0,0,1,0,0,0,1,1,0.9,0.9831,1.0
+Kidney Failure in Cats_18,Kidney Failure in Cats,0,1,0,1,0,0,0,0,0,0,0,1,1,0.73,0.9821,0.8
+Kidney Failure in Cats_19,Kidney Failure in Cats,0,1,0,1,0,0,0,0,0,0,0,1,1,0.73,0.9821,0.8
+Kidney Failure in Cats_20,Kidney Failure in Cats,0,1,0,1,0,0,0,1,0,0,0,1,1,0.9,0.9831,1.0
+Kidney Failure in Cats_21,Kidney Failure in Cats,0,1,0,1,0,0,0,0,0,0,0,1,1,0.73,0.9821,0.8
+Kidney Failure in Cats_22,Kidney Failure in Cats,0,0,0,1,0,0,0,1,0,0,0,1,1,0.73,0.8829,0.8
+Kidney Failure in Cats_23,Kidney Failure in Cats,0,0,0,1,0,0,0,1,0,0,0,1,1,0.73,0.8829,0.8
+Kidney Failure in Cats_24,Kidney Failure in Cats,0,1,0,1,0,0,0,0,0,0,0,1,1,0.73,0.9821,0.8
+Kidney Failure in Cats_25,Kidney Failure in Cats,0,1,0,1,0,0,0,1,0,0,0,1,1,0.9,0.9831,1.0
+Kidney Failure in Cats_26,Kidney Failure in Cats,0,1,0,1,0,0,0,1,0,0,0,1,1,0.9,0.9831,1.0
+Kidney Failure in Cats_27,Kidney Failure in Cats,0,1,0,1,0,0,0,1,0,0,0,1,1,0.9,0.9831,1.0
+Kidney Failure in Cats_28,Kidney Failure in Cats,0,1,0,1,0,0,0,0,0,0,0,1,1,0.73,0.9821,0.8
+Kidney Failure in Cats_29,Kidney Failure in Cats,0,1,0,1,0,0,0,1,0,0,0,1,1,0.9,0.9831,1.0
+Kidney Failure in Cats_30,Kidney Failure in Cats,0,1,0,1,0,0,0,1,0,0,0,1,1,0.9,0.9831,1.0
+Kidney Failure in Cats_31,Kidney Failure in Cats,0,0,0,1,0,0,0,0,0,0,0,1,1,0.56,0.9043,0.6
+Kidney Failure in Cats_32,Kidney Failure in Cats,0,1,0,1,0,0,0,1,0,0,0,1,1,0.9,0.9831,1.0
+Kidney Failure in Cats_33,Kidney Failure in Cats,0,1,0,1,0,0,0,0,0,0,0,1,1,0.73,0.9821,0.8
+Kidney Failure in Cats_34,Kidney Failure in Cats,0,1,0,1,0,0,0,1,0,0,0,1,1,0.9,0.9831,1.0
+Kidney Failure in Cats_35,Kidney Failure in Cats,0,1,0,1,0,0,0,1,0,0,0,1,1,0.9,0.9831,1.0
+Kidney Failure in Cats_36,Kidney Failure in Cats,0,1,0,1,0,0,0,1,0,0,0,1,1,0.9,0.9831,1.0
+Kidney Failure in Cats_37,Kidney Failure in Cats,0,1,0,1,0,0,0,0,0,0,0,1,1,0.73,0.9821,0.8
+Kidney Failure in Cats_38,Kidney Failure in Cats,0,1,0,1,0,0,0,1,0,0,0,1,1,0.9,0.9831,1.0
+Kidney Failure in Cats_39,Kidney Failure in Cats,0,1,0,1,0,0,0,1,0,0,0,1,1,0.9,0.9831,1.0
+Kidney Failure in Cats_40,Kidney Failure in Cats,0,1,0,1,0,0,0,1,0,0,0,1,0,0.73,0.9669,0.8
+Kidney Failure in Cats_41,Kidney Failure in Cats,0,1,0,1,0,0,0,1,0,0,0,1,1,0.9,0.9831,1.0
+Kidney Failure in Cats_42,Kidney Failure in Cats,0,1,0,1,0,0,0,1,0,0,0,1,1,0.9,0.9831,1.0
+Kidney Failure in Cats_43,Kidney Failure in Cats,0,1,0,1,0,0,0,0,0,0,0,1,1,0.73,0.9821,0.8
+Kidney Failure in Cats_44,Kidney Failure in Cats,0,1,0,1,0,0,0,1,0,0,0,1,1,0.9,0.9831,1.0
+Kidney Failure in Cats_45,Kidney Failure in Cats,0,1,0,1,0,0,0,0,0,0,0,1,1,0.73,0.9821,0.8
+Kidney Failure in Cats_46,Kidney Failure in Cats,0,1,0,1,0,0,0,1,0,0,0,1,1,0.9,0.9831,1.0
+Kidney Failure in Cats_47,Kidney Failure in Cats,0,1,0,1,0,0,0,1,0,0,0,1,1,0.9,0.9831,1.0
+Kidney Failure in Cats_48,Kidney Failure in Cats,0,1,0,1,0,0,0,0,0,0,0,1,1,0.73,0.9821,0.8
+Kidney Failure in Cats_49,Kidney Failure in Cats,0,1,0,1,0,0,0,1,0,0,0,1,1,0.9,0.9831,1.0
+Kidney Failure in Cats_50,Kidney Failure in Cats,0,1,0,1,0,0,0,1,0,0,0,1,0,0.73,0.9669,0.8
+Kidney Infections in Cats_1,Kidney Infections in Cats,1,0,0,0,1,1,0,1,0,0,0,1,0,0.85,0.9866,1.0
+Kidney Infections in Cats_2,Kidney Infections in Cats,1,0,0,0,1,0,0,1,0,0,0,1,0,0.72,0.9626,0.8
+Kidney Infections in Cats_3,Kidney Infections in Cats,1,0,0,0,1,0,0,1,0,0,0,1,0,0.72,0.9626,0.8
+Kidney Infections in Cats_4,Kidney Infections in Cats,1,0,0,0,1,1,0,1,0,0,0,1,0,0.85,0.9866,1.0
+Kidney Infections in Cats_5,Kidney Infections in Cats,1,0,0,0,1,1,0,1,0,0,0,1,0,0.85,0.9866,1.0
+Kidney Infections in Cats_6,Kidney Infections in Cats,1,0,0,0,1,1,0,1,0,0,0,1,0,0.85,0.9866,1.0
+Kidney Infections in Cats_7,Kidney Infections in Cats,1,0,0,0,1,0,0,1,0,0,0,1,0,0.72,0.9626,0.8
+Kidney Infections in Cats_8,Kidney Infections in Cats,1,0,0,0,1,0,0,1,0,0,0,1,0,0.72,0.9626,0.8
+Kidney Infections in Cats_9,Kidney Infections in Cats,1,0,0,0,1,1,0,1,0,0,0,1,0,0.85,0.9866,1.0
+Kidney Infections in Cats_10,Kidney Infections in Cats,1,0,0,0,1,1,0,1,0,0,0,1,0,0.85,0.9866,1.0
+Kidney Infections in Cats_11,Kidney Infections in Cats,1,0,0,0,1,1,0,1,0,0,0,1,0,0.85,0.9866,1.0
+Kidney Infections in Cats_12,Kidney Infections in Cats,1,0,0,0,1,1,0,1,0,0,0,1,0,0.85,0.9866,1.0
+Kidney Infections in Cats_13,Kidney Infections in Cats,1,0,0,0,1,1,0,1,0,0,0,1,0,0.85,0.9866,1.0
+Kidney Infections in Cats_14,Kidney Infections in Cats,1,0,0,0,1,1,0,1,0,0,0,1,0,0.85,0.9866,1.0
+Kidney Infections in Cats_15,Kidney Infections in Cats,1,0,0,0,1,0,0,1,0,0,0,1,0,0.72,0.9626,0.8
+Kidney Infections in Cats_16,Kidney Infections in Cats,1,0,0,0,1,1,0,1,0,0,0,1,0,0.85,0.9866,1.0
+Kidney Infections in Cats_17,Kidney Infections in Cats,1,0,0,0,1,1,0,1,0,0,0,1,0,0.85,0.9866,1.0
+Kidney Infections in Cats_18,Kidney Infections in Cats,1,0,0,0,1,1,0,1,0,0,0,1,0,0.85,0.9866,1.0
+Kidney Infections in Cats_19,Kidney Infections in Cats,1,0,0,0,1,0,0,1,0,0,0,1,0,0.72,0.9626,0.8
+Kidney Infections in Cats_20,Kidney Infections in Cats,1,0,0,0,1,0,0,1,0,0,0,1,0,0.72,0.9626,0.8
+Kidney Infections in Cats_21,Kidney Infections in Cats,1,0,0,0,1,1,0,1,0,0,0,1,0,0.85,0.9866,1.0
+Kidney Infections in Cats_22,Kidney Infections in Cats,1,0,0,0,1,1,0,1,0,0,0,1,0,0.85,0.9866,1.0
+Kidney Infections in Cats_23,Kidney Infections in Cats,1,0,0,0,1,1,0,0,0,0,0,1,0,0.68,0.978,0.8
+Kidney Infections in Cats_24,Kidney Infections in Cats,1,0,0,0,1,1,0,1,0,0,0,1,0,0.85,0.9866,1.0
+Kidney Infections in Cats_25,Kidney Infections in Cats,1,0,0,0,1,1,0,1,0,0,0,0,0,0.68,0.9645,0.8
+Kidney Infections in Cats_26,Kidney Infections in Cats,1,0,0,0,1,1,0,1,0,0,0,1,0,0.85,0.9866,1.0
+Kidney Infections in Cats_27,Kidney Infections in Cats,1,0,0,0,1,0,0,1,0,0,0,1,0,0.72,0.9626,0.8
+Kidney Infections in Cats_28,Kidney Infections in Cats,1,0,0,0,1,1,0,1,0,0,0,1,0,0.85,0.9866,1.0
+Kidney Infections in Cats_29,Kidney Infections in Cats,1,0,0,0,1,1,0,1,0,0,0,1,0,0.85,0.9866,1.0
+Kidney Infections in Cats_30,Kidney Infections in Cats,1,0,0,0,1,1,0,1,0,0,0,1,0,0.85,0.9866,1.0
+Kidney Stones in Cats_1,Kidney Stones in Cats,0,0,1,0,0,1,0,0,1,1,0,0,0,0.85,0.9895,1.0
+Kidney Stones in Cats_2,Kidney Stones in Cats,0,0,1,0,0,1,0,0,1,1,0,0,0,0.85,0.9895,1.0
+Kidney Stones in Cats_3,Kidney Stones in Cats,0,0,1,0,0,1,0,0,0,1,0,0,0,0.69,0.9846,0.75
+Kidney Stones in Cats_4,Kidney Stones in Cats,0,0,1,0,0,1,0,0,1,1,0,0,0,0.85,0.9895,1.0
+Kidney Stones in Cats_5,Kidney Stones in Cats,0,0,1,0,0,1,0,0,0,1,0,0,0,0.69,0.9846,0.75
+Kidney Stones in Cats_6,Kidney Stones in Cats,0,0,1,0,0,1,0,0,1,1,0,0,0,0.85,0.9895,1.0
+Kidney Stones in Cats_7,Kidney Stones in Cats,0,0,1,0,0,1,0,0,1,1,0,0,0,0.85,0.9895,1.0
+Kidney Stones in Cats_8,Kidney Stones in Cats,0,0,1,0,0,1,0,0,0,1,0,0,0,0.69,0.9846,0.75
+Kidney Stones in Cats_9,Kidney Stones in Cats,0,0,1,0,0,0,0,0,1,0,0,0,0,0.42,0.4547,0.5
+Kidney Stones in Cats_10,Kidney Stones in Cats,0,0,1,0,0,1,0,0,1,1,0,0,0,0.85,0.9895,1.0
+Kidney Stones in Cats_11,Kidney Stones in Cats,0,0,1,0,0,1,0,0,0,1,0,0,0,0.69,0.9846,0.75
+Kidney Stones in Cats_12,Kidney Stones in Cats,0,0,1,0,0,1,0,0,0,1,0,0,0,0.69,0.9846,0.75
+Kidney Stones in Cats_13,Kidney Stones in Cats,0,0,1,0,0,1,0,0,1,1,0,0,0,0.85,0.9895,1.0
+Kidney Stones in Cats_14,Kidney Stones in Cats,0,0,1,0,0,1,0,0,1,1,0,0,0,0.85,0.9895,1.0
+Kidney Stones in Cats_15,Kidney Stones in Cats,0,0,1,0,0,1,0,0,0,1,0,0,0,0.69,0.9846,0.75
+Kidney Stones in Cats_16,Kidney Stones in Cats,0,0,1,0,0,1,0,0,0,1,0,0,0,0.69,0.9846,0.75
+Kidney Stones in Cats_17,Kidney Stones in Cats,0,0,1,0,0,1,0,0,1,1,0,0,0,0.85,0.9895,1.0
+Kidney Stones in Cats_18,Kidney Stones in Cats,0,0,1,0,0,1,0,0,1,1,0,0,0,0.85,0.9895,1.0
+Kidney Stones in Cats_19,Kidney Stones in Cats,0,0,1,0,0,1,0,0,0,1,0,0,0,0.69,0.9846,0.75
+Kidney Stones in Cats_20,Kidney Stones in Cats,0,0,1,0,0,1,0,0,0,1,0,0,0,0.69,0.9846,0.75
+Kidney Stones in Cats_21,Kidney Stones in Cats,0,0,1,0,0,1,0,0,0,1,0,0,0,0.69,0.9846,0.75
+Kidney Stones in Cats_22,Kidney Stones in Cats,0,0,1,0,0,1,0,0,0,1,0,0,0,0.69,0.9846,0.75
+Kidney Stones in Cats_23,Kidney Stones in Cats,0,0,1,0,0,0,0,0,0,1,0,0,0,0.48,0.7321,0.5
+Kidney Stones in Cats_24,Kidney Stones in Cats,0,0,1,0,0,0,0,0,1,1,0,0,0,0.64,0.8502,0.75
+Kidney Stones in Cats_25,Kidney Stones in Cats,0,0,1,0,0,1,0,0,1,1,0,0,0,0.85,0.9895,1.0
+Kidney Stones in Cats_26,Kidney Stones in Cats,0,0,1,0,0,1,0,0,0,1,0,0,0,0.69,0.9846,0.75
+Kidney Stones in Cats_27,Kidney Stones in Cats,0,0,1,0,0,1,0,0,1,1,0,0,0,0.85,0.9895,1.0
+Kidney Stones in Cats_28,Kidney Stones in Cats,0,0,1,0,0,1,0,0,0,1,0,0,0,0.69,0.9846,0.75
+Kidney Stones in Cats_29,Kidney Stones in Cats,0,0,1,0,0,1,0,0,1,1,0,0,0,0.85,0.9895,1.0
+Kidney Stones in Cats_30,Kidney Stones in Cats,0,0,1,0,0,1,0,0,1,1,0,0,0,0.85,0.9895,1.0

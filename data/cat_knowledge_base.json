@@ -2,7 +2,7 @@
   "rules": [
       {   
         "illness": "Ameba Infection in Cats",
-        "type": "Parasitic (Protozoal)",
+        "type": "Parasitic",
         "confidence": 0.8,
         "age_range": "Kitten, Adult",
         "breed": "Any",
@@ -185,7 +185,7 @@
     },
     {
       "illness": "Babesiosis in Cats",
-      "type": "Parasitic (Blood)",
+      "type": "Parasitic",
       "confidence": 0.8,
       "age_range": "Any",
       "breed": "Any",
@@ -304,7 +304,7 @@
         },
         {
           "illness": "Bacterial Infection (B. bronchiseptica) in Cats",
-          "type": "Bacterial (Respiratory)",
+          "type": "Bacterial",
           "confidence": 0.85,
           "age_range": "Kitten, Adult",
           "breed": "Any",
@@ -368,7 +368,7 @@
         },
         {
           "illness": "Bacterial Infection (Campylobacteriosis) in Cats",
-          "type": "Bacterial (Gastrointestinal)",
+          "type": "Bacterial",
           "confidence": 0.85,
           "age_range": "Kitten, Adult",
           "breed": "Any",
@@ -423,7 +423,7 @@
         },
         {
           "illness": "Bacterial Infection (Leptospirosis) in Cats",
-          "type": "Bacterial (Zoonotic)",
+          "type": "Bacterial",
           "confidence": 0.85,
           "age_range": "Kitten, Adult",
           "breed": "Outdoor-prone, Rural-roaming",
@@ -542,7 +542,7 @@
         },
         {
           "illness": "Calicivirus in Cats",
-          "type": "Viral (Respiratory)",
+          "type": "Viral",
           "confidence": 0.9,
           "age_range": "Kitten, Adult",
           "breed": "Any",
@@ -679,7 +679,7 @@
         },
         {
           "illness": "Cerebellar Hypoplasia in Cats",
-          "type": "Neurological (Congenital)",
+          "type": "Neurological",
           "confidence": 0.9,
           "age_range": "Kitten",
           "breed": "Any",
@@ -780,7 +780,7 @@
         },
         {
           "illness": "Coccidia in Cats",
-          "type": "Parasitic (Protozoal)",
+          "type": "Parasitic",
           "confidence": 0.85,
           "age_range": "Kitten",
           "breed": "Any",
@@ -835,7 +835,7 @@
       },
       {
           "illness": "Congestive Heart Failure in Cats",
-          "type": "Cardiac",
+          "type": "Cardiovascular",
           "confidence": 0.9,
           "age_range": "Senior",
           "breed": "Any",
@@ -890,7 +890,7 @@
       },
       {
           "illness": "Demodectic Mange in Cats",
-          "type": "Parasitic (Skin Mite)",
+          "type": "Parasitic",
           "confidence": 0.8,
           "age_range": "Any",
           "breed": "Immunocompromised-prone",
@@ -1000,7 +1000,7 @@
       },
       {
           "illness": "Diabetes in Cats",
-          "type": "Endocrine",
+          "type": "Metabolic",
           "confidence": 0.9,
           "age_range": "Adult, Senior",
           "breed": "Any",
@@ -1055,7 +1055,7 @@
       },
       {
           "illness": "Ehrlichiosis in Cats",
-          "type": "Parasitic (Tick-borne)",
+          "type": "Parasitic",
           "confidence": 0.85,
           "age_range": "Any",
           "breed": "Outdoor-prone",
@@ -1165,7 +1165,7 @@
       },
       {
           "illness": "Feline Distemper (Panleukopenia)",
-          "type": "Viral (Gastrointestinal)",
+          "type": "Viral",
           "confidence": 0.9,
           "age_range": "Kitten",
           "breed": "Any",
@@ -1256,7 +1256,7 @@
         },
         {
           "illness": "Feline Herpesvirus 1 (FHV-1) Infection",
-          "type": "Viral (Respiratory)",
+          "type": "Viral",
           "confidence": 0.9,
           "age_range": "Kitten, Adult",
           "breed": "Any",
@@ -1338,7 +1338,7 @@
         },
         {
           "illness": "Feline Hypertrophic Cardiomyopathy (HCM) in Cats",
-          "type": "Cardiac",
+          "type": "Cardiovascular",
           "confidence": 0.9,
           "age_range": "Adult, Senior",
           "breed": "Maine Coon, Ragdoll prone",
@@ -1393,7 +1393,7 @@
         },
         {
           "illness": "Giardia in Cats",
-          "type": "Parasitic (Protozoal)",
+          "type": "Parasitic",
           "confidence": 0.85,
           "age_range": "Any",
           "breed": "Outdoor, multi-cat prone",
@@ -1448,7 +1448,7 @@
         },
         {
           "illness": "Gingivitis in Cats",
-          "type": "Dental (Inflammatory)",
+          "type": "Dental",
           "confidence": 0.85,
           "age_range": "Adult",
           "breed": "Any",
@@ -1503,7 +1503,7 @@
       },
       {
           "illness": "Heartworm Disease in Cats",
-          "type": "Parasitic (Cardiopulmonary)",
+          "type": "Parasitic",
           "confidence": 0.9,
           "age_range": "Any",
           "breed": "Outdoor-prone",
@@ -1604,7 +1604,7 @@
       },
       {
           "illness": "Hookworms in Cats",
-          "type": "Parasitic (Intestinal)",
+          "type": "Parasitic",
           "confidence": 0.85,
           "age_range": "Kitten",
           "breed": "Any",
@@ -1769,7 +1769,7 @@
           },
           {
               "illness": "Kidney Infections in Cats",
-              "type": "Renal (Infectious)",
+              "type": "Bacterial",
               "confidence": 0.85,
               "age_range": "Adult",
               "breed": "Any",
@@ -1824,7 +1824,7 @@
             },
             {
               "illness": "Kidney Stones in Cats",
-              "type": "Renal (Urological)",
+              "type": "Renal",
               "confidence": 0.85,
               "age_range": "Adult",
               "breed": "Any",
@@ -1870,7 +1870,7 @@
             },
             {
               "illness": "Luxating Patellas in Cats",
-              "type": "Musculoskeletal (Joint)",
+              "type": "Musculoskeletal",
               "confidence": 0.8,
               "age_range": "Any",
               "breed": "Small, purebred prone",
@@ -1916,7 +1916,7 @@
             },
             {
               "illness": "Periodontal Disease in Cats",
-              "type": "Dental (Advanced)",
+              "type": "Dental",
               "confidence": 0.9,
               "age_range": "Adult, Senior",
               "breed": "Any",
@@ -1971,7 +1971,7 @@
             },
             {
               "illness": "Rabies in Cats",
-              "type": "Viral (Neurological)",
+              "type": "Viral",
               "confidence": 0.95,
               "age_range": "Any",
               "breed": "Outdoor/feral prone",
@@ -2053,7 +2053,7 @@
             },
             {
               "illness": "Roundworms in Cats",
-              "type": "Parasitic (Intestinal)",
+              "type": "Parasitic",
               "confidence": 0.85,
               "age_range": "Kitten",
               "breed": "Any",
@@ -2108,7 +2108,7 @@
             },
             {
               "illness": "Stomatitis in Cats",
-              "type": "Dental (Inflammatory)",
+              "type": "Dental",
               "confidence": 0.85,
               "age_range": "Adult",
               "breed": "Any",
@@ -2163,7 +2163,7 @@
             },
             {
               "illness": "Tapeworms in Cats",
-              "type": "Parasitic (Intestinal)",
+              "type": "Parasitic",
               "confidence": 0.85,
               "age_range": "Any",
               "breed": "Flea-prone, outdoor cats",
@@ -2218,7 +2218,7 @@
             },
             {
               "illness": "Tooth Resorption in Cats",
-              "type": "Dental (Degenerative)",
+              "type": "Dental",
               "confidence": 0.85,
               "age_range": "Adult, Senior",
               "breed": "Any",
@@ -2264,7 +2264,7 @@
             },
             {
               "illness": "Toxoplasmosis in Cats",
-              "type": "Parasitic (Protozoal)",
+              "type": "Parasitic",
               "confidence": 0.85,
               "age_range": "Any",
               "breed": "Outdoor/hunting cats",
@@ -2314,61 +2314,6 @@
                   "priority": 2,
                   "duration_range": "3-5 days",
                   "subtype": "Watery, Yellowish"
-                }
-              ]
-            },
-            {
-              "illness": "Vestibular Disease in Cats",
-              "type": "Neurological (Inner Ear)",
-              "confidence": 0.85,
-              "age_range": "Senior",
-              "breed": "Any",
-              "size": "Any",
-              "symptoms": [
-                {
-                  "name": "Head tilt",
-                  "stage": "Early",
-                  "weight": 0.5,
-                  "severity": "Medium",
-                  "priority": 3,
-                  "duration_range": "3-6 days",
-                  "subtype": ""
-                },
-                {
-                  "name": "Loss of balance",
-                  "stage": "Any",
-                  "weight": 0.4,
-                  "severity": "Medium",
-                  "priority": 2,
-                  "duration_range": "3-6 days",
-                  "subtype": ""
-                },
-                {
-                  "name": "Walking in circles",
-                  "stage": "Any",
-                  "weight": 0.4,
-                  "severity": "Medium",
-                  "priority": 2,
-                  "duration_range": "3-6 days",
-                  "subtype": ""
-                },
-                {
-                  "name": "Rapid eye movement",
-                  "stage": "Any",
-                  "weight": 0.4,
-                  "severity": "Low",
-                  "priority": 2,
-                  "duration_range": "1-2 days",
-                  "subtype": ""
-                },
-                {
-                  "name": "Nausea",
-                  "stage": "Any",
-                  "weight": 0.3,
-                  "severity": "Low",
-                  "priority": 2,
-                  "duration_range": "1-2 days",
-                  "subtype": ""
                 }
               ]
             }

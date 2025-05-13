@@ -1,0 +1,96 @@
+Test Case ID,Illness,Bad Breath,Bleeding Gums,Decreased Appetite,Discolored Teeth,Drooling,Dropping Food,Excessive Drooling,Facial Swelling,Inflamed Gums,Loose Teeth,Nasal Discharge,Oral Pain,Pawing at Face,Red Gums,Reduced Appetite,Reluctance to Chew,Swelling Below Eye,Swollen Gums,Weight Loss,FC_Confidence,GB_Confidence,Symptom_Match_Ratio
+Periodontal Disease_1,Periodontal Disease,0,1,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0.47,0.9814,0.5
+Periodontal Disease_2,Periodontal Disease,0,1,0,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0.36,0.9635,0.4
+Periodontal Disease_3,Periodontal Disease,1,1,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,1,0.54,0.9822,0.6
+Periodontal Disease_4,Periodontal Disease,0,1,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,1,0.47,0.9839,0.5
+Periodontal Disease_5,Periodontal Disease,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,1,0.29,0.9321,0.3
+Periodontal Disease_6,Periodontal Disease,0,1,0,0,0,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0.47,0.9862,0.5
+Periodontal Disease_7,Periodontal Disease,0,0,0,1,0,1,1,0,1,1,0,0,0,0,1,0,0,0,0,0.55,0.9867,0.6
+Periodontal Disease_8,Periodontal Disease,0,0,0,1,0,1,0,0,1,1,1,0,0,0,0,0,0,0,0,0.45,0.9671,0.5
+Periodontal Disease_9,Periodontal Disease,0,1,0,0,0,1,1,0,1,1,0,0,0,0,0,0,0,0,1,0.56,0.9882,0.6
+Periodontal Disease_10,Periodontal Disease,0,1,0,0,0,1,0,0,1,1,0,0,0,0,1,0,0,0,1,0.56,0.9853,0.6
+Periodontal Disease_11,Periodontal Disease,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,1,0.37,0.9457,0.4
+Periodontal Disease_12,Periodontal Disease,0,1,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0.38,0.9775,0.4
+Periodontal Disease_13,Periodontal Disease,0,1,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0.47,0.9814,0.5
+Periodontal Disease_14,Periodontal Disease,1,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0.46,0.9766,0.5
+Periodontal Disease_15,Periodontal Disease,0,1,0,0,0,1,0,0,1,1,1,0,0,0,0,0,0,0,0,0.46,0.9787,0.5
+Periodontal Disease_16,Periodontal Disease,1,1,0,0,0,1,0,0,1,1,1,0,0,0,0,0,0,0,0,0.55,0.9766,0.6
+Periodontal Disease_17,Periodontal Disease,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0.38,0.9707,0.4
+Periodontal Disease_18,Periodontal Disease,0,1,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0.38,0.9775,0.4
+Periodontal Disease_19,Periodontal Disease,0,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0.3,0.9423,0.3
+Periodontal Disease_20,Periodontal Disease,1,1,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0.56,0.985,0.6
+Periodontal Disease_21,Periodontal Disease,0,1,0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0.47,0.9712,0.5
+Periodontal Disease_22,Periodontal Disease,0,1,0,1,0,1,0,0,1,1,1,0,0,0,0,0,0,0,1,0.64,0.9904,0.7
+Periodontal Disease_23,Periodontal Disease,0,1,0,1,0,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0.56,0.989,0.6
+Periodontal Disease_24,Periodontal Disease,0,1,0,1,0,1,0,0,1,1,1,0,0,0,1,0,0,0,1,0.73,0.9924,0.8
+Periodontal Disease_25,Periodontal Disease,0,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0.3,0.9423,0.3
+Periodontal Disease_26,Periodontal Disease,1,0,0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0.55,0.9827,0.6
+Periodontal Disease_27,Periodontal Disease,0,1,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0.47,0.9814,0.5
+Periodontal Disease_28,Periodontal Disease,1,1,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0.56,0.985,0.6
+Periodontal Disease_29,Periodontal Disease,0,1,0,1,0,1,0,0,1,1,0,0,0,0,1,0,0,0,0,0.56,0.9778,0.6
+Periodontal Disease_30,Periodontal Disease,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0.38,0.9673,0.4
+Periodontal Disease_31,Periodontal Disease,1,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,1,0.47,0.9733,0.5
+Periodontal Disease_32,Periodontal Disease,0,0,0,1,0,1,0,0,1,1,0,0,0,0,1,0,0,0,1,0.55,0.9847,0.6
+Periodontal Disease_33,Periodontal Disease,0,1,0,0,0,1,0,0,1,1,0,0,0,0,1,0,0,0,0,0.47,0.978,0.5
+Periodontal Disease_34,Periodontal Disease,0,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0.37,0.9447,0.4
+Periodontal Disease_35,Periodontal Disease,1,1,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0.56,0.985,0.6
+Periodontal Disease_36,Periodontal Disease,1,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,1,0.45,0.9634,0.5
+Periodontal Disease_37,Periodontal Disease,0,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,1,0.38,0.9683,0.4
+Periodontal Disease_38,Periodontal Disease,0,1,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,1,0.47,0.9774,0.5
+Periodontal Disease_39,Periodontal Disease,0,1,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,1,0.47,0.9839,0.5
+Periodontal Disease_40,Periodontal Disease,0,1,0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0.56,0.986,0.6
+Periodontal Disease_41,Periodontal Disease,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0.38,0.9673,0.4
+Periodontal Disease_42,Periodontal Disease,1,0,0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0.55,0.9827,0.6
+Periodontal Disease_43,Periodontal Disease,0,0,0,0,0,1,0,0,1,1,1,0,0,0,1,0,0,0,1,0.54,0.9834,0.6
+Periodontal Disease_44,Periodontal Disease,0,1,0,0,0,1,0,0,1,1,1,0,0,0,0,0,0,0,0,0.46,0.9787,0.5
+Periodontal Disease_45,Periodontal Disease,1,1,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,1,0.56,0.9802,0.6
+Periodontal Disease_46,Periodontal Disease,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0236,0.0
+Periodontal Disease_47,Periodontal Disease,0,1,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0.47,0.9814,0.5
+Periodontal Disease_48,Periodontal Disease,0,1,0,1,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0.47,0.9812,0.5
+Periodontal Disease_49,Periodontal Disease,0,1,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0.38,0.9722,0.4
+Periodontal Disease_50,Periodontal Disease,0,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0.3,0.9423,0.3
+Tooth Root Abscess_1,Tooth Root Abscess,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0.13,0.5594,0.142857143
+Tooth Root Abscess_2,Tooth Root Abscess,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0.26,0.9035,0.285714286
+Tooth Root Abscess_3,Tooth Root Abscess,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0.39,0.9841,0.428571429
+Tooth Root Abscess_4,Tooth Root Abscess,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,1,1,0,0,0.51,0.9906,0.571428571
+Tooth Root Abscess_5,Tooth Root Abscess,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0.13,0.5564,0.142857143
+Tooth Root Abscess_6,Tooth Root Abscess,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0.26,0.9088,0.285714286
+Tooth Root Abscess_7,Tooth Root Abscess,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0.51,0.9594,0.571428571
+Tooth Root Abscess_8,Tooth Root Abscess,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,1,0,0,0.39,0.9717,0.428571429
+Tooth Root Abscess_9,Tooth Root Abscess,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0.13,0.5594,0.142857143
+Tooth Root Abscess_10,Tooth Root Abscess,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0.13,0.5594,0.142857143
+Tooth Root Abscess_11,Tooth Root Abscess,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0.26,0.5795,0.285714286
+Tooth Root Abscess_12,Tooth Root Abscess,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0.39,0.9455,0.428571429
+Tooth Root Abscess_13,Tooth Root Abscess,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0.26,0.8783,0.285714286
+Tooth Root Abscess_14,Tooth Root Abscess,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0.26,0.8783,0.285714286
+Tooth Root Abscess_15,Tooth Root Abscess,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0.26,0.5795,0.285714286
+Tooth Root Abscess_16,Tooth Root Abscess,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0.13,0.5594,0.142857143
+Tooth Root Abscess_17,Tooth Root Abscess,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0.26,0.9035,0.285714286
+Tooth Root Abscess_18,Tooth Root Abscess,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0.13,0.5594,0.142857143
+Tooth Root Abscess_19,Tooth Root Abscess,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0.39,0.9841,0.428571429
+Tooth Root Abscess_20,Tooth Root Abscess,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0.26,0.9036,0.285714286
+Tooth Root Abscess_21,Tooth Root Abscess,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0.26,0.9035,0.285714286
+Tooth Root Abscess_22,Tooth Root Abscess,0,0,0,0,0,0,0,1,0,0,0,1,1,0,0,1,0,0,0,0.51,0.9906,0.571428571
+Tooth Root Abscess_23,Tooth Root Abscess,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0.26,0.9088,0.285714286
+Tooth Root Abscess_24,Tooth Root Abscess,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0.13,0.5594,0.142857143
+Tooth Root Abscess_25,Tooth Root Abscess,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0.13,0.5594,0.142857143
+Tooth Root Abscess_26,Tooth Root Abscess,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0.13,0.5594,0.142857143
+Tooth Root Abscess_27,Tooth Root Abscess,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0.13,0.5594,0.142857143
+Tooth Root Abscess_28,Tooth Root Abscess,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0.39,0.9166,0.428571429
+Tooth Root Abscess_29,Tooth Root Abscess,1,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0.51,0.9771,0.571428571
+Tooth Root Abscess_30,Tooth Root Abscess,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0.39,0.9455,0.428571429
+Cavities (Dental Caries)_1,Cavities (Dental Caries),0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0.13,0.2941,0.142857143
+Cavities (Dental Caries)_2,Cavities (Dental Caries),0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0.39,0.6799,0.428571429
+Cavities (Dental Caries)_3,Cavities (Dental Caries),0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0.13,0.2941,0.142857143
+Cavities (Dental Caries)_4,Cavities (Dental Caries),0,0,0,1,0,0,0,0,0,1,0,1,0,1,0,0,0,1,0,0.64,0.9908,0.714285714
+Cavities (Dental Caries)_5,Cavities (Dental Caries),1,0,0,0,0,0,0,0,0,1,0,1,0,1,0,0,0,1,0,0.64,0.9898,0.714285714
+Cavities (Dental Caries)_6,Cavities (Dental Caries),0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0.13,0.2941,0.142857143
+Cavities (Dental Caries)_7,Cavities (Dental Caries),0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0.26,0.9756,0.285714286
+Cavities (Dental Caries)_8,Cavities (Dental Caries),0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0.39,0.9439,0.428571429
+Cavities (Dental Caries)_9,Cavities (Dental Caries),0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0.13,0.2941,0.142857143
+Cavities (Dental Caries)_10,Cavities (Dental Caries),0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0.26,0.8035,0.285714286
+Cavities (Dental Caries)_11,Cavities (Dental Caries),0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0.13,0.2941,0.142857143
+Cavities (Dental Caries)_12,Cavities (Dental Caries),0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0.39,0.9896,0.428571429
+Cavities (Dental Caries)_13,Cavities (Dental Caries),0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0.13,0.2941,0.142857143
+Cavities (Dental Caries)_14,Cavities (Dental Caries),1,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0.39,0.9161,0.428571429
+Cavities (Dental Caries)_15,Cavities (Dental Caries),1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0.26,0.3168,0.285714286

@@ -1,0 +1,301 @@
+Test Case ID,Illness,Bloating,Breathing difficulty,Coughing,Dehydration,Diarrhea,Difficulty breathing,Dull coat,Eye discharge,Fever,Gas,Hair loss,Increased appetite,Itching,Lethargy,Loss of appetite,Nosebleeds,Pale gums,Poor coat,Scabs,Scooting,Segments in stool,Skin redness,Soft stool,Swollen lymph nodes,Thickened skin,Vomiting,Weakness,Weight loss,Worms in stool,FC_Confidence,GB_Confidence,Symptom_Match_Ratio
+Ameba Infection in Cats_1,Ameba Infection in Cats,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0.64,0.418,0.8
+Ameba Infection in Cats_2,Ameba Infection in Cats,0,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0.8,0.4865,1.0
+Ameba Infection in Cats_3,Ameba Infection in Cats,0,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0.8,0.4865,1.0
+Ameba Infection in Cats_4,Ameba Infection in Cats,0,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0.68,0.8625,0.8
+Ameba Infection in Cats_5,Ameba Infection in Cats,0,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0.8,0.4865,1.0
+Ameba Infection in Cats_6,Ameba Infection in Cats,0,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0.68,0.8625,0.8
+Ameba Infection in Cats_7,Ameba Infection in Cats,0,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0.68,0.8625,0.8
+Ameba Infection in Cats_8,Ameba Infection in Cats,0,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0.68,0.8625,0.8
+Ameba Infection in Cats_9,Ameba Infection in Cats,0,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0.68,0.8625,0.8
+Ameba Infection in Cats_10,Ameba Infection in Cats,0,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0.8,0.4865,1.0
+Ameba Infection in Cats_11,Ameba Infection in Cats,0,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0.8,0.4865,1.0
+Ameba Infection in Cats_12,Ameba Infection in Cats,0,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0.8,0.4865,1.0
+Ameba Infection in Cats_13,Ameba Infection in Cats,0,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0.68,0.8625,0.8
+Ameba Infection in Cats_14,Ameba Infection in Cats,0,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0.8,0.4865,1.0
+Ameba Infection in Cats_15,Ameba Infection in Cats,0,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0.68,0.8625,0.8
+Babesiosis in Cats_1,Babesiosis in Cats,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0.8,0.9884,1.0
+Babesiosis in Cats_2,Babesiosis in Cats,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0.8,0.9884,1.0
+Babesiosis in Cats_3,Babesiosis in Cats,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0.8,0.9884,1.0
+Babesiosis in Cats_4,Babesiosis in Cats,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0.67,0.9381,0.8
+Babesiosis in Cats_5,Babesiosis in Cats,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0.8,0.9884,1.0
+Babesiosis in Cats_6,Babesiosis in Cats,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0.8,0.9884,1.0
+Babesiosis in Cats_7,Babesiosis in Cats,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0.8,0.9884,1.0
+Babesiosis in Cats_8,Babesiosis in Cats,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0.8,0.9884,1.0
+Babesiosis in Cats_9,Babesiosis in Cats,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0.67,0.9632,0.8
+Babesiosis in Cats_10,Babesiosis in Cats,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0.8,0.9884,1.0
+Babesiosis in Cats_11,Babesiosis in Cats,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0.67,0.9632,0.8
+Babesiosis in Cats_12,Babesiosis in Cats,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0.46,0.9716,0.6
+Babesiosis in Cats_13,Babesiosis in Cats,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0.8,0.9884,1.0
+Babesiosis in Cats_14,Babesiosis in Cats,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0.67,0.9381,0.8
+Babesiosis in Cats_15,Babesiosis in Cats,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0.67,0.9632,0.8
+Coccidia in Cats_1,Coccidia in Cats,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0.72,0.8626,0.8
+Coccidia in Cats_2,Coccidia in Cats,0,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0.72,0.9639,0.8
+Coccidia in Cats_3,Coccidia in Cats,0,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0.85,0.4282,1.0
+Coccidia in Cats_4,Coccidia in Cats,0,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0.72,0.9639,0.8
+Coccidia in Cats_5,Coccidia in Cats,0,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0.72,0.9639,0.8
+Coccidia in Cats_6,Coccidia in Cats,0,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0.85,0.4282,1.0
+Coccidia in Cats_7,Coccidia in Cats,0,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0.85,0.4282,1.0
+Coccidia in Cats_8,Coccidia in Cats,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0.72,0.8626,0.8
+Coccidia in Cats_9,Coccidia in Cats,0,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0.85,0.4282,1.0
+Coccidia in Cats_10,Coccidia in Cats,0,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0.85,0.4282,1.0
+Coccidia in Cats_11,Coccidia in Cats,0,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0.85,0.4282,1.0
+Coccidia in Cats_12,Coccidia in Cats,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0.58,0.9677,0.6
+Coccidia in Cats_13,Coccidia in Cats,0,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0.85,0.4282,1.0
+Coccidia in Cats_14,Coccidia in Cats,0,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0.85,0.4282,1.0
+Coccidia in Cats_15,Coccidia in Cats,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0.58,0.9677,0.6
+Demodectic Mange in Cats_1,Demodectic Mange in Cats,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0.8,0.9879,1.0
+Demodectic Mange in Cats_2,Demodectic Mange in Cats,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0.67,0.9936,0.8
+Demodectic Mange in Cats_3,Demodectic Mange in Cats,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0.8,0.9879,1.0
+Demodectic Mange in Cats_4,Demodectic Mange in Cats,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0.55,0.9697,0.6
+Demodectic Mange in Cats_5,Demodectic Mange in Cats,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0.67,0.9948,0.8
+Demodectic Mange in Cats_6,Demodectic Mange in Cats,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0.8,0.9879,1.0
+Demodectic Mange in Cats_7,Demodectic Mange in Cats,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0.8,0.9879,1.0
+Demodectic Mange in Cats_8,Demodectic Mange in Cats,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0.51,0.9812,0.6
+Demodectic Mange in Cats_9,Demodectic Mange in Cats,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0.55,0.9697,0.6
+Demodectic Mange in Cats_10,Demodectic Mange in Cats,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0.55,0.9697,0.6
+Demodectic Mange in Cats_11,Demodectic Mange in Cats,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0.67,0.9948,0.8
+Demodectic Mange in Cats_12,Demodectic Mange in Cats,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0.51,0.9812,0.6
+Demodectic Mange in Cats_13,Demodectic Mange in Cats,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0.67,0.9936,0.8
+Demodectic Mange in Cats_14,Demodectic Mange in Cats,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0.51,0.9828,0.6
+Demodectic Mange in Cats_15,Demodectic Mange in Cats,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0.8,0.9879,1.0
+Ehrlichiosis in Cats_1,Ehrlichiosis in Cats,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0.54,0.7827,0.6
+Ehrlichiosis in Cats_2,Ehrlichiosis in Cats,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0.72,0.9783,0.8
+Ehrlichiosis in Cats_3,Ehrlichiosis in Cats,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0.58,0.9288,0.6
+Ehrlichiosis in Cats_4,Ehrlichiosis in Cats,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0.72,0.9783,0.8
+Ehrlichiosis in Cats_5,Ehrlichiosis in Cats,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0.72,0.9886,0.8
+Ehrlichiosis in Cats_6,Ehrlichiosis in Cats,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0.58,0.9288,0.6
+Ehrlichiosis in Cats_7,Ehrlichiosis in Cats,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0,1,0,0.85,0.991,1.0
+Ehrlichiosis in Cats_8,Ehrlichiosis in Cats,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0.72,0.9783,0.8
+Ehrlichiosis in Cats_9,Ehrlichiosis in Cats,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0.72,0.9886,0.8
+Ehrlichiosis in Cats_10,Ehrlichiosis in Cats,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0.72,0.9783,0.8
+Ehrlichiosis in Cats_11,Ehrlichiosis in Cats,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0.72,0.9783,0.8
+Ehrlichiosis in Cats_12,Ehrlichiosis in Cats,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0,1,0,0.85,0.991,1.0
+Ehrlichiosis in Cats_13,Ehrlichiosis in Cats,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0,1,0,0.85,0.991,1.0
+Ehrlichiosis in Cats_14,Ehrlichiosis in Cats,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0.72,0.9783,0.8
+Ehrlichiosis in Cats_15,Ehrlichiosis in Cats,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0.58,0.9288,0.6
+Giardia in Cats_1,Giardia in Cats,0,0,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0.85,0.9848,1.0
+Giardia in Cats_2,Giardia in Cats,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0.58,0.9596,0.6
+Giardia in Cats_3,Giardia in Cats,0,0,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0.85,0.9848,1.0
+Giardia in Cats_4,Giardia in Cats,0,0,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0.72,0.9569,0.8
+Giardia in Cats_5,Giardia in Cats,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0.72,0.9848,0.8
+Giardia in Cats_6,Giardia in Cats,0,0,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0.72,0.9569,0.8
+Giardia in Cats_7,Giardia in Cats,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0.58,0.9596,0.6
+Giardia in Cats_8,Giardia in Cats,0,0,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0.85,0.9848,1.0
+Giardia in Cats_9,Giardia in Cats,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0.58,0.9596,0.6
+Giardia in Cats_10,Giardia in Cats,0,0,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0.85,0.9848,1.0
+Giardia in Cats_11,Giardia in Cats,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0.72,0.9848,0.8
+Giardia in Cats_12,Giardia in Cats,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0.72,0.9848,0.8
+Giardia in Cats_13,Giardia in Cats,0,0,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0.67,0.963,0.8
+Giardia in Cats_14,Giardia in Cats,0,0,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0.85,0.9848,1.0
+Giardia in Cats_15,Giardia in Cats,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0.58,0.9596,0.6
+Giardia in Cats_16,Giardia in Cats,0,0,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0.85,0.9848,1.0
+Giardia in Cats_17,Giardia in Cats,0,0,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0.85,0.9848,1.0
+Giardia in Cats_18,Giardia in Cats,0,0,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0.85,0.9848,1.0
+Giardia in Cats_19,Giardia in Cats,0,0,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0.85,0.9848,1.0
+Giardia in Cats_20,Giardia in Cats,0,0,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0.72,0.9569,0.8
+Giardia in Cats_21,Giardia in Cats,0,0,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0.72,0.9569,0.8
+Giardia in Cats_22,Giardia in Cats,0,0,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0.85,0.9848,1.0
+Giardia in Cats_23,Giardia in Cats,0,0,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0.85,0.9848,1.0
+Giardia in Cats_24,Giardia in Cats,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0.72,0.9848,0.8
+Giardia in Cats_25,Giardia in Cats,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0.58,0.9596,0.6
+Giardia in Cats_26,Giardia in Cats,0,0,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0.85,0.9848,1.0
+Giardia in Cats_27,Giardia in Cats,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0.72,0.9848,0.8
+Giardia in Cats_28,Giardia in Cats,0,0,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0.85,0.9848,1.0
+Giardia in Cats_29,Giardia in Cats,0,0,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0.85,0.9848,1.0
+Giardia in Cats_30,Giardia in Cats,0,0,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0.85,0.9848,1.0
+Heartworm Disease in Cats_1,Heartworm Disease in Cats,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0.76,0.9834,0.8
+Heartworm Disease in Cats_2,Heartworm Disease in Cats,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0.76,0.9834,0.8
+Heartworm Disease in Cats_3,Heartworm Disease in Cats,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0.57,0.3068,0.6
+Heartworm Disease in Cats_4,Heartworm Disease in Cats,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0.9,0.9831,1.0
+Heartworm Disease in Cats_5,Heartworm Disease in Cats,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0.76,0.9834,0.8
+Heartworm Disease in Cats_6,Heartworm Disease in Cats,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0.76,0.9794,0.8
+Heartworm Disease in Cats_7,Heartworm Disease in Cats,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0.9,0.9831,1.0
+Heartworm Disease in Cats_8,Heartworm Disease in Cats,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0.76,0.9794,0.8
+Heartworm Disease in Cats_9,Heartworm Disease in Cats,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0.9,0.9831,1.0
+Heartworm Disease in Cats_10,Heartworm Disease in Cats,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0.76,0.9834,0.8
+Heartworm Disease in Cats_11,Heartworm Disease in Cats,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0.76,0.9794,0.8
+Heartworm Disease in Cats_12,Heartworm Disease in Cats,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0.62,0.9802,0.6
+Heartworm Disease in Cats_13,Heartworm Disease in Cats,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0.9,0.9831,1.0
+Heartworm Disease in Cats_14,Heartworm Disease in Cats,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0.76,0.9794,0.8
+Heartworm Disease in Cats_15,Heartworm Disease in Cats,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0.76,0.9794,0.8
+Hookworms in Cats_1,Hookworms in Cats,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0.85,0.9857,1.0
+Hookworms in Cats_2,Hookworms in Cats,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0.85,0.9857,1.0
+Hookworms in Cats_3,Hookworms in Cats,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0.72,0.9602,0.8
+Hookworms in Cats_4,Hookworms in Cats,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0.72,0.9602,0.8
+Hookworms in Cats_5,Hookworms in Cats,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0.58,0.9581,0.6
+Hookworms in Cats_6,Hookworms in Cats,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0.72,0.985,0.8
+Hookworms in Cats_7,Hookworms in Cats,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0.72,0.9602,0.8
+Hookworms in Cats_8,Hookworms in Cats,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0.72,0.9602,0.8
+Hookworms in Cats_9,Hookworms in Cats,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0.72,0.985,0.8
+Hookworms in Cats_10,Hookworms in Cats,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0.72,0.9602,0.8
+Hookworms in Cats_11,Hookworms in Cats,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0.72,0.985,0.8
+Hookworms in Cats_12,Hookworms in Cats,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0.85,0.9857,1.0
+Hookworms in Cats_13,Hookworms in Cats,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0.58,0.9581,0.6
+Hookworms in Cats_14,Hookworms in Cats,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0.72,0.985,0.8
+Hookworms in Cats_15,Hookworms in Cats,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0.72,0.9602,0.8
+Hookworms in Cats_16,Hookworms in Cats,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0.72,0.985,0.8
+Hookworms in Cats_17,Hookworms in Cats,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0.58,0.9581,0.6
+Hookworms in Cats_18,Hookworms in Cats,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0.58,0.9581,0.6
+Hookworms in Cats_19,Hookworms in Cats,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0.72,0.9602,0.8
+Hookworms in Cats_20,Hookworms in Cats,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0.72,0.985,0.8
+Hookworms in Cats_21,Hookworms in Cats,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0.67,0.9685,0.8
+Hookworms in Cats_22,Hookworms in Cats,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0.58,0.9581,0.6
+Hookworms in Cats_23,Hookworms in Cats,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0.54,0.8432,0.6
+Hookworms in Cats_24,Hookworms in Cats,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0.85,0.9857,1.0
+Hookworms in Cats_25,Hookworms in Cats,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0.72,0.985,0.8
+Hookworms in Cats_26,Hookworms in Cats,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0.58,0.9581,0.6
+Hookworms in Cats_27,Hookworms in Cats,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0.85,0.9857,1.0
+Hookworms in Cats_28,Hookworms in Cats,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0.85,0.9857,1.0
+Hookworms in Cats_29,Hookworms in Cats,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0.85,0.9857,1.0
+Hookworms in Cats_30,Hookworms in Cats,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0.85,0.9857,1.0
+Roundworms in Cats_1,Roundworms in Cats,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0.85,0.9881,1.0
+Roundworms in Cats_2,Roundworms in Cats,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0.53,0.9106,0.6
+Roundworms in Cats_3,Roundworms in Cats,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0.57,0.9713,0.6
+Roundworms in Cats_4,Roundworms in Cats,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0.65,0.9684,0.8
+Roundworms in Cats_5,Roundworms in Cats,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0.73,0.9792,0.8
+Roundworms in Cats_6,Roundworms in Cats,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0.85,0.9881,1.0
+Roundworms in Cats_7,Roundworms in Cats,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0.69,0.9848,0.8
+Roundworms in Cats_8,Roundworms in Cats,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0.85,0.9881,1.0
+Roundworms in Cats_9,Roundworms in Cats,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0.85,0.9881,1.0
+Roundworms in Cats_10,Roundworms in Cats,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0.85,0.9881,1.0
+Roundworms in Cats_11,Roundworms in Cats,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0.85,0.9881,1.0
+Roundworms in Cats_12,Roundworms in Cats,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0.73,0.9792,0.8
+Roundworms in Cats_13,Roundworms in Cats,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0.85,0.9881,1.0
+Roundworms in Cats_14,Roundworms in Cats,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0.85,0.9881,1.0
+Roundworms in Cats_15,Roundworms in Cats,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0.73,0.9792,0.8
+Roundworms in Cats_16,Roundworms in Cats,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0.85,0.9881,1.0
+Roundworms in Cats_17,Roundworms in Cats,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0.73,0.9792,0.8
+Roundworms in Cats_18,Roundworms in Cats,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0.85,0.9881,1.0
+Roundworms in Cats_19,Roundworms in Cats,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0.73,0.9792,0.8
+Roundworms in Cats_20,Roundworms in Cats,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0.73,0.9792,0.8
+Roundworms in Cats_21,Roundworms in Cats,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0.85,0.9881,1.0
+Roundworms in Cats_22,Roundworms in Cats,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0.85,0.9881,1.0
+Roundworms in Cats_23,Roundworms in Cats,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0.73,0.9792,0.8
+Roundworms in Cats_24,Roundworms in Cats,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0.73,0.9792,0.8
+Roundworms in Cats_25,Roundworms in Cats,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0.85,0.9881,1.0
+Roundworms in Cats_26,Roundworms in Cats,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0.73,0.9792,0.8
+Roundworms in Cats_27,Roundworms in Cats,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0.73,0.9792,0.8
+Roundworms in Cats_28,Roundworms in Cats,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0.57,0.9713,0.6
+Roundworms in Cats_29,Roundworms in Cats,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0.73,0.9792,0.8
+Roundworms in Cats_30,Roundworms in Cats,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0.73,0.9792,0.8
+Roundworms in Cats_31,Roundworms in Cats,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0.73,0.9792,0.8
+Roundworms in Cats_32,Roundworms in Cats,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0.73,0.9792,0.8
+Roundworms in Cats_33,Roundworms in Cats,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0.85,0.9881,1.0
+Roundworms in Cats_34,Roundworms in Cats,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0.85,0.9881,1.0
+Roundworms in Cats_35,Roundworms in Cats,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0.85,0.9881,1.0
+Roundworms in Cats_36,Roundworms in Cats,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0.85,0.9881,1.0
+Roundworms in Cats_37,Roundworms in Cats,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0.85,0.9881,1.0
+Roundworms in Cats_38,Roundworms in Cats,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0.85,0.9881,1.0
+Roundworms in Cats_39,Roundworms in Cats,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0.85,0.9881,1.0
+Roundworms in Cats_40,Roundworms in Cats,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0.73,0.9792,0.8
+Roundworms in Cats_41,Roundworms in Cats,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0.85,0.9881,1.0
+Roundworms in Cats_42,Roundworms in Cats,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0.85,0.9881,1.0
+Roundworms in Cats_43,Roundworms in Cats,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0.85,0.9881,1.0
+Roundworms in Cats_44,Roundworms in Cats,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0.85,0.9881,1.0
+Roundworms in Cats_45,Roundworms in Cats,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0.85,0.9881,1.0
+Roundworms in Cats_46,Roundworms in Cats,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0.73,0.9792,0.8
+Roundworms in Cats_47,Roundworms in Cats,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0.73,0.9792,0.8
+Roundworms in Cats_48,Roundworms in Cats,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0.85,0.9881,1.0
+Roundworms in Cats_49,Roundworms in Cats,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0.85,0.9881,1.0
+Roundworms in Cats_50,Roundworms in Cats,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0.53,0.9106,0.6
+Tapeworms in Cats_1,Tapeworms in Cats,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,1,0,0.73,0.9837,0.8
+Tapeworms in Cats_2,Tapeworms in Cats,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,1,0,0.73,0.9837,0.8
+Tapeworms in Cats_3,Tapeworms in Cats,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,1,0,0.73,0.9837,0.8
+Tapeworms in Cats_4,Tapeworms in Cats,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,1,0,0.73,0.9837,0.8
+Tapeworms in Cats_5,Tapeworms in Cats,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,1,0,0.85,0.9893,1.0
+Tapeworms in Cats_6,Tapeworms in Cats,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,1,0,0.85,0.9893,1.0
+Tapeworms in Cats_7,Tapeworms in Cats,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,1,0,0.85,0.9893,1.0
+Tapeworms in Cats_8,Tapeworms in Cats,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,1,0,0.85,0.9893,1.0
+Tapeworms in Cats_9,Tapeworms in Cats,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,1,0,0.85,0.9893,1.0
+Tapeworms in Cats_10,Tapeworms in Cats,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,1,0,0.85,0.9893,1.0
+Tapeworms in Cats_11,Tapeworms in Cats,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,1,0,0.85,0.9893,1.0
+Tapeworms in Cats_12,Tapeworms in Cats,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,1,0,0.73,0.9837,0.8
+Tapeworms in Cats_13,Tapeworms in Cats,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0.69,0.9815,0.8
+Tapeworms in Cats_14,Tapeworms in Cats,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,1,0,0.73,0.9837,0.8
+Tapeworms in Cats_15,Tapeworms in Cats,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,1,0,0.85,0.9893,1.0
+Tapeworms in Cats_16,Tapeworms in Cats,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,1,0,0.85,0.9893,1.0
+Tapeworms in Cats_17,Tapeworms in Cats,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,1,0,0.85,0.9893,1.0
+Tapeworms in Cats_18,Tapeworms in Cats,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,1,0,0.73,0.9837,0.8
+Tapeworms in Cats_19,Tapeworms in Cats,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,1,0,0.53,0.9138,0.6
+Tapeworms in Cats_20,Tapeworms in Cats,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,1,0,0.85,0.9893,1.0
+Tapeworms in Cats_21,Tapeworms in Cats,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,1,0,0.73,0.9837,0.8
+Tapeworms in Cats_22,Tapeworms in Cats,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0.69,0.9838,0.8
+Tapeworms in Cats_23,Tapeworms in Cats,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,1,0,0.85,0.9893,1.0
+Tapeworms in Cats_24,Tapeworms in Cats,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,1,0,0.85,0.9893,1.0
+Tapeworms in Cats_25,Tapeworms in Cats,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,1,0,0.85,0.9893,1.0
+Tapeworms in Cats_26,Tapeworms in Cats,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,1,0,0.65,0.9702,0.8
+Tapeworms in Cats_27,Tapeworms in Cats,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,1,0,0.73,0.9837,0.8
+Tapeworms in Cats_28,Tapeworms in Cats,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,1,0,0.85,0.9893,1.0
+Tapeworms in Cats_29,Tapeworms in Cats,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,1,0,0.73,0.9837,0.8
+Tapeworms in Cats_30,Tapeworms in Cats,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,1,0,0.85,0.9893,1.0
+Tapeworms in Cats_31,Tapeworms in Cats,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0.57,0.9731,0.6
+Tapeworms in Cats_32,Tapeworms in Cats,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,1,0,0.85,0.9893,1.0
+Tapeworms in Cats_33,Tapeworms in Cats,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,1,0,0.65,0.9702,0.8
+Tapeworms in Cats_34,Tapeworms in Cats,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,1,0,0.85,0.9893,1.0
+Tapeworms in Cats_35,Tapeworms in Cats,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0.69,0.9838,0.8
+Tapeworms in Cats_36,Tapeworms in Cats,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,1,0,0.73,0.9837,0.8
+Tapeworms in Cats_37,Tapeworms in Cats,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,1,0,0.85,0.9893,1.0
+Tapeworms in Cats_38,Tapeworms in Cats,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,1,0,0.85,0.9893,1.0
+Tapeworms in Cats_39,Tapeworms in Cats,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,1,0,0.85,0.9893,1.0
+Tapeworms in Cats_40,Tapeworms in Cats,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,1,0,0.85,0.9893,1.0
+Tapeworms in Cats_41,Tapeworms in Cats,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,1,0,0.73,0.9837,0.8
+Tapeworms in Cats_42,Tapeworms in Cats,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,1,0,0.85,0.9893,1.0
+Tapeworms in Cats_43,Tapeworms in Cats,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,1,0,0.85,0.9893,1.0
+Tapeworms in Cats_44,Tapeworms in Cats,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,1,0,0.73,0.9837,0.8
+Tapeworms in Cats_45,Tapeworms in Cats,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,1,0,0.85,0.9893,1.0
+Tapeworms in Cats_46,Tapeworms in Cats,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,1,0,0.85,0.9893,1.0
+Tapeworms in Cats_47,Tapeworms in Cats,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,1,0,0.85,0.9893,1.0
+Tapeworms in Cats_48,Tapeworms in Cats,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,1,0,0.85,0.9893,1.0
+Tapeworms in Cats_49,Tapeworms in Cats,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,1,0,0.73,0.9837,0.8
+Tapeworms in Cats_50,Tapeworms in Cats,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,1,0,0.85,0.9893,1.0
+Toxoplasmosis in Cats_1,Toxoplasmosis in Cats,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.72,0.9852,0.8
+Toxoplasmosis in Cats_2,Toxoplasmosis in Cats,0,0,0,0,0,1,0,1,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.85,0.9859,1.0
+Toxoplasmosis in Cats_3,Toxoplasmosis in Cats,0,0,0,0,0,1,0,1,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.85,0.9859,1.0
+Toxoplasmosis in Cats_4,Toxoplasmosis in Cats,0,0,0,0,0,1,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.72,0.9765,0.8
+Toxoplasmosis in Cats_5,Toxoplasmosis in Cats,0,0,0,0,0,1,0,1,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.85,0.9859,1.0
+Toxoplasmosis in Cats_6,Toxoplasmosis in Cats,0,0,0,0,0,1,0,1,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.85,0.9859,1.0
+Toxoplasmosis in Cats_7,Toxoplasmosis in Cats,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.72,0.9852,0.8
+Toxoplasmosis in Cats_8,Toxoplasmosis in Cats,0,0,0,0,0,1,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.72,0.9765,0.8
+Toxoplasmosis in Cats_9,Toxoplasmosis in Cats,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.72,0.9852,0.8
+Toxoplasmosis in Cats_10,Toxoplasmosis in Cats,0,0,0,0,0,1,0,1,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.85,0.9859,1.0
+Toxoplasmosis in Cats_11,Toxoplasmosis in Cats,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.72,0.9852,0.8
+Toxoplasmosis in Cats_12,Toxoplasmosis in Cats,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.72,0.9852,0.8
+Toxoplasmosis in Cats_13,Toxoplasmosis in Cats,0,0,0,0,0,1,0,1,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.85,0.9859,1.0
+Toxoplasmosis in Cats_14,Toxoplasmosis in Cats,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.58,0.9627,0.6
+Toxoplasmosis in Cats_15,Toxoplasmosis in Cats,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.72,0.9852,0.8
+Toxoplasmosis in Cats_16,Toxoplasmosis in Cats,0,0,0,0,0,1,0,1,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.85,0.9859,1.0
+Toxoplasmosis in Cats_17,Toxoplasmosis in Cats,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.58,0.9627,0.6
+Toxoplasmosis in Cats_18,Toxoplasmosis in Cats,0,0,0,0,0,1,0,1,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.85,0.9859,1.0
+Toxoplasmosis in Cats_19,Toxoplasmosis in Cats,0,0,0,0,0,1,0,1,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.85,0.9859,1.0
+Toxoplasmosis in Cats_20,Toxoplasmosis in Cats,0,0,0,0,0,1,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.72,0.9765,0.8
+Toxoplasmosis in Cats_21,Toxoplasmosis in Cats,0,0,0,0,0,1,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.72,0.9765,0.8
+Toxoplasmosis in Cats_22,Toxoplasmosis in Cats,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.72,0.9852,0.8
+Toxoplasmosis in Cats_23,Toxoplasmosis in Cats,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.54,0.7787,0.6
+Toxoplasmosis in Cats_24,Toxoplasmosis in Cats,0,0,0,0,0,1,0,1,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.85,0.9859,1.0
+Toxoplasmosis in Cats_25,Toxoplasmosis in Cats,0,0,0,0,0,1,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.72,0.9765,0.8
+Toxoplasmosis in Cats_26,Toxoplasmosis in Cats,0,0,0,0,0,1,0,1,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.85,0.9859,1.0
+Toxoplasmosis in Cats_27,Toxoplasmosis in Cats,0,0,0,0,0,1,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.72,0.9765,0.8
+Toxoplasmosis in Cats_28,Toxoplasmosis in Cats,0,0,0,0,0,1,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.72,0.9765,0.8
+Toxoplasmosis in Cats_29,Toxoplasmosis in Cats,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.72,0.9852,0.8
+Toxoplasmosis in Cats_30,Toxoplasmosis in Cats,0,0,0,0,0,1,0,1,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.85,0.9859,1.0
+Toxoplasmosis in Cats_31,Toxoplasmosis in Cats,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.4,0.4026,0.4
+Toxoplasmosis in Cats_32,Toxoplasmosis in Cats,0,0,0,0,0,1,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.72,0.9765,0.8
+Toxoplasmosis in Cats_33,Toxoplasmosis in Cats,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.58,0.9627,0.6
+Toxoplasmosis in Cats_34,Toxoplasmosis in Cats,0,0,0,0,0,1,0,1,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.85,0.9859,1.0
+Toxoplasmosis in Cats_35,Toxoplasmosis in Cats,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.58,0.9627,0.6
+Toxoplasmosis in Cats_36,Toxoplasmosis in Cats,0,0,0,0,0,1,0,1,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.85,0.9859,1.0
+Toxoplasmosis in Cats_37,Toxoplasmosis in Cats,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.72,0.9852,0.8
+Toxoplasmosis in Cats_38,Toxoplasmosis in Cats,0,0,0,0,0,1,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.72,0.9765,0.8
+Toxoplasmosis in Cats_39,Toxoplasmosis in Cats,0,0,0,0,0,1,0,1,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.85,0.9859,1.0
+Toxoplasmosis in Cats_40,Toxoplasmosis in Cats,0,0,0,0,0,0,0,1,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.67,0.9219,0.8
+Toxoplasmosis in Cats_41,Toxoplasmosis in Cats,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.72,0.9852,0.8
+Toxoplasmosis in Cats_42,Toxoplasmosis in Cats,0,0,0,0,0,1,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.72,0.9765,0.8
+Toxoplasmosis in Cats_43,Toxoplasmosis in Cats,0,0,0,0,0,1,0,1,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.85,0.9859,1.0
+Toxoplasmosis in Cats_44,Toxoplasmosis in Cats,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.54,0.9085,0.6
+Toxoplasmosis in Cats_45,Toxoplasmosis in Cats,0,0,0,0,0,1,0,1,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.85,0.9859,1.0
+Toxoplasmosis in Cats_46,Toxoplasmosis in Cats,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.72,0.9852,0.8
+Toxoplasmosis in Cats_47,Toxoplasmosis in Cats,0,0,0,0,0,1,0,1,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.85,0.9859,1.0
+Toxoplasmosis in Cats_48,Toxoplasmosis in Cats,0,0,0,0,0,1,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.72,0.9765,0.8
+Toxoplasmosis in Cats_49,Toxoplasmosis in Cats,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.58,0.9627,0.6
+Toxoplasmosis in Cats_50,Toxoplasmosis in Cats,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.54,0.9607,0.6

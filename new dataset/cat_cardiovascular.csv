@@ -1,0 +1,61 @@
+Test Case ID,Illness,Breathing difficulty,Coughing,Lethargy,Loss of appetite,Panting,Rapid breathing,Sudden collapse,Swollen belly,Weakness,FC_Confidence,GB_Confidence,Symptom_Match_Ratio
+Congestive Heart Failure in Cats_1,Congestive Heart Failure in Cats,1,1,1,0,0,0,0,1,0,0.76,0.9872,0.8
+Congestive Heart Failure in Cats_2,Congestive Heart Failure in Cats,1,1,1,1,0,0,0,1,0,0.9,0.9906,1.0
+Congestive Heart Failure in Cats_3,Congestive Heart Failure in Cats,1,1,1,0,0,0,0,1,0,0.76,0.9872,0.8
+Congestive Heart Failure in Cats_4,Congestive Heart Failure in Cats,1,1,1,1,0,0,0,1,0,0.9,0.9906,1.0
+Congestive Heart Failure in Cats_5,Congestive Heart Failure in Cats,1,1,1,0,0,0,0,1,0,0.76,0.9872,0.8
+Congestive Heart Failure in Cats_6,Congestive Heart Failure in Cats,1,1,1,0,0,0,0,1,0,0.76,0.9872,0.8
+Congestive Heart Failure in Cats_7,Congestive Heart Failure in Cats,1,1,1,0,0,0,0,1,0,0.76,0.9872,0.8
+Congestive Heart Failure in Cats_8,Congestive Heart Failure in Cats,1,1,1,1,0,0,0,1,0,0.9,0.9906,1.0
+Congestive Heart Failure in Cats_9,Congestive Heart Failure in Cats,1,1,1,0,0,0,0,1,0,0.76,0.9872,0.8
+Congestive Heart Failure in Cats_10,Congestive Heart Failure in Cats,1,1,1,1,0,0,0,1,0,0.9,0.9906,1.0
+Congestive Heart Failure in Cats_11,Congestive Heart Failure in Cats,1,1,1,0,0,0,0,1,0,0.76,0.9872,0.8
+Congestive Heart Failure in Cats_12,Congestive Heart Failure in Cats,1,1,1,1,0,0,0,1,0,0.9,0.9906,1.0
+Congestive Heart Failure in Cats_13,Congestive Heart Failure in Cats,1,1,1,1,0,0,0,1,0,0.9,0.9906,1.0
+Congestive Heart Failure in Cats_14,Congestive Heart Failure in Cats,1,1,1,1,0,0,0,0,0,0.71,0.9646,0.8
+Congestive Heart Failure in Cats_15,Congestive Heart Failure in Cats,1,1,1,1,0,0,0,1,0,0.9,0.9906,1.0
+Congestive Heart Failure in Cats_16,Congestive Heart Failure in Cats,1,1,1,1,0,0,0,1,0,0.9,0.9906,1.0
+Congestive Heart Failure in Cats_17,Congestive Heart Failure in Cats,1,1,1,1,0,0,0,1,0,0.9,0.9906,1.0
+Congestive Heart Failure in Cats_18,Congestive Heart Failure in Cats,1,0,1,1,0,0,0,1,0,0.76,0.9805,0.8
+Congestive Heart Failure in Cats_19,Congestive Heart Failure in Cats,1,1,1,1,0,0,0,1,0,0.9,0.9906,1.0
+Congestive Heart Failure in Cats_20,Congestive Heart Failure in Cats,1,1,1,1,0,0,0,1,0,0.9,0.9906,1.0
+Congestive Heart Failure in Cats_21,Congestive Heart Failure in Cats,1,1,1,1,0,0,0,1,0,0.9,0.9906,1.0
+Congestive Heart Failure in Cats_22,Congestive Heart Failure in Cats,1,1,1,0,0,0,0,1,0,0.76,0.9872,0.8
+Congestive Heart Failure in Cats_23,Congestive Heart Failure in Cats,1,0,1,1,0,0,0,1,0,0.76,0.9805,0.8
+Congestive Heart Failure in Cats_24,Congestive Heart Failure in Cats,1,1,1,0,0,0,0,1,0,0.76,0.9872,0.8
+Congestive Heart Failure in Cats_25,Congestive Heart Failure in Cats,1,1,1,0,0,0,0,1,0,0.76,0.9872,0.8
+Congestive Heart Failure in Cats_26,Congestive Heart Failure in Cats,1,1,1,1,0,0,0,1,0,0.9,0.9906,1.0
+Congestive Heart Failure in Cats_27,Congestive Heart Failure in Cats,1,1,1,1,0,0,0,1,0,0.9,0.9906,1.0
+Congestive Heart Failure in Cats_28,Congestive Heart Failure in Cats,1,1,1,0,0,0,0,1,0,0.76,0.9872,0.8
+Congestive Heart Failure in Cats_29,Congestive Heart Failure in Cats,1,1,1,1,0,0,0,1,0,0.9,0.9906,1.0
+Congestive Heart Failure in Cats_30,Congestive Heart Failure in Cats,1,1,1,1,0,0,0,1,0,0.9,0.9906,1.0
+Feline Hypertrophic Cardiomyopathy (HCM) in Cats_1,Feline Hypertrophic Cardiomyopathy (HCM) in Cats,0,0,1,0,1,1,1,0,1,0.9,0.9902,1.0
+Feline Hypertrophic Cardiomyopathy (HCM) in Cats_2,Feline Hypertrophic Cardiomyopathy (HCM) in Cats,0,0,1,0,1,1,1,0,1,0.9,0.9902,1.0
+Feline Hypertrophic Cardiomyopathy (HCM) in Cats_3,Feline Hypertrophic Cardiomyopathy (HCM) in Cats,0,0,1,0,1,1,1,0,1,0.9,0.9902,1.0
+Feline Hypertrophic Cardiomyopathy (HCM) in Cats_4,Feline Hypertrophic Cardiomyopathy (HCM) in Cats,0,0,1,0,1,1,1,0,1,0.9,0.9902,1.0
+Feline Hypertrophic Cardiomyopathy (HCM) in Cats_5,Feline Hypertrophic Cardiomyopathy (HCM) in Cats,0,0,1,0,1,1,1,0,1,0.9,0.9902,1.0
+Feline Hypertrophic Cardiomyopathy (HCM) in Cats_6,Feline Hypertrophic Cardiomyopathy (HCM) in Cats,0,0,1,0,1,1,1,0,1,0.9,0.9902,1.0
+Feline Hypertrophic Cardiomyopathy (HCM) in Cats_7,Feline Hypertrophic Cardiomyopathy (HCM) in Cats,0,0,1,0,1,1,1,0,1,0.9,0.9902,1.0
+Feline Hypertrophic Cardiomyopathy (HCM) in Cats_8,Feline Hypertrophic Cardiomyopathy (HCM) in Cats,0,0,1,0,1,1,1,0,1,0.9,0.9902,1.0
+Feline Hypertrophic Cardiomyopathy (HCM) in Cats_9,Feline Hypertrophic Cardiomyopathy (HCM) in Cats,0,0,1,0,1,1,1,0,1,0.9,0.9902,1.0
+Feline Hypertrophic Cardiomyopathy (HCM) in Cats_10,Feline Hypertrophic Cardiomyopathy (HCM) in Cats,0,0,0,0,0,1,0,0,1,0.37,0.9191,0.4
+Feline Hypertrophic Cardiomyopathy (HCM) in Cats_11,Feline Hypertrophic Cardiomyopathy (HCM) in Cats,0,0,1,0,1,1,1,0,1,0.9,0.9902,1.0
+Feline Hypertrophic Cardiomyopathy (HCM) in Cats_12,Feline Hypertrophic Cardiomyopathy (HCM) in Cats,0,0,1,0,1,1,1,0,1,0.9,0.9902,1.0
+Feline Hypertrophic Cardiomyopathy (HCM) in Cats_13,Feline Hypertrophic Cardiomyopathy (HCM) in Cats,0,0,0,0,1,1,1,0,1,0.74,0.9916,0.8
+Feline Hypertrophic Cardiomyopathy (HCM) in Cats_14,Feline Hypertrophic Cardiomyopathy (HCM) in Cats,0,0,1,0,1,1,1,0,1,0.9,0.9902,1.0
+Feline Hypertrophic Cardiomyopathy (HCM) in Cats_15,Feline Hypertrophic Cardiomyopathy (HCM) in Cats,0,0,1,0,1,1,1,0,1,0.9,0.9902,1.0
+Feline Hypertrophic Cardiomyopathy (HCM) in Cats_16,Feline Hypertrophic Cardiomyopathy (HCM) in Cats,0,0,1,0,1,1,1,0,1,0.9,0.9902,1.0
+Feline Hypertrophic Cardiomyopathy (HCM) in Cats_17,Feline Hypertrophic Cardiomyopathy (HCM) in Cats,0,0,1,0,1,1,1,0,1,0.9,0.9902,1.0
+Feline Hypertrophic Cardiomyopathy (HCM) in Cats_18,Feline Hypertrophic Cardiomyopathy (HCM) in Cats,0,0,0,0,1,1,0,0,1,0.53,0.9833,0.6
+Feline Hypertrophic Cardiomyopathy (HCM) in Cats_19,Feline Hypertrophic Cardiomyopathy (HCM) in Cats,0,0,1,0,0,1,1,0,1,0.74,0.9844,0.8
+Feline Hypertrophic Cardiomyopathy (HCM) in Cats_20,Feline Hypertrophic Cardiomyopathy (HCM) in Cats,0,0,1,0,1,1,1,0,1,0.9,0.9902,1.0
+Feline Hypertrophic Cardiomyopathy (HCM) in Cats_21,Feline Hypertrophic Cardiomyopathy (HCM) in Cats,0,0,1,0,1,1,1,0,1,0.9,0.9902,1.0
+Feline Hypertrophic Cardiomyopathy (HCM) in Cats_22,Feline Hypertrophic Cardiomyopathy (HCM) in Cats,0,0,1,0,1,1,1,0,1,0.9,0.9902,1.0
+Feline Hypertrophic Cardiomyopathy (HCM) in Cats_23,Feline Hypertrophic Cardiomyopathy (HCM) in Cats,0,0,1,0,1,1,0,0,1,0.7,0.9824,0.8
+Feline Hypertrophic Cardiomyopathy (HCM) in Cats_24,Feline Hypertrophic Cardiomyopathy (HCM) in Cats,0,0,1,0,1,1,1,0,1,0.9,0.9902,1.0
+Feline Hypertrophic Cardiomyopathy (HCM) in Cats_25,Feline Hypertrophic Cardiomyopathy (HCM) in Cats,0,0,1,0,1,1,1,0,1,0.9,0.9902,1.0
+Feline Hypertrophic Cardiomyopathy (HCM) in Cats_26,Feline Hypertrophic Cardiomyopathy (HCM) in Cats,0,0,1,0,1,1,1,0,1,0.9,0.9902,1.0
+Feline Hypertrophic Cardiomyopathy (HCM) in Cats_27,Feline Hypertrophic Cardiomyopathy (HCM) in Cats,0,0,1,0,1,1,1,0,1,0.9,0.9902,1.0
+Feline Hypertrophic Cardiomyopathy (HCM) in Cats_28,Feline Hypertrophic Cardiomyopathy (HCM) in Cats,0,0,1,0,1,1,0,0,1,0.7,0.9824,0.8
+Feline Hypertrophic Cardiomyopathy (HCM) in Cats_29,Feline Hypertrophic Cardiomyopathy (HCM) in Cats,0,0,1,0,1,1,0,0,1,0.7,0.9824,0.8
+Feline Hypertrophic Cardiomyopathy (HCM) in Cats_30,Feline Hypertrophic Cardiomyopathy (HCM) in Cats,0,0,1,0,1,1,1,0,1,0.9,0.9902,1.0

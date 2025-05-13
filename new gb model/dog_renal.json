@@ -1,0 +1,18 @@
+{
+  "Abdominal Pain": 0.025643799136761083,
+  "Bad Breath": 0.005598923857633175,
+  "Blood in Urine": 0.08568814608331858,
+  "Decreased Appetite": 0.0056663052536572245,
+  "Diarrhea": 0.18590607616439728,
+  "Difficulty Urinating": 0.17897214293045943,
+  "Edema (Swelling)": 0.0417503266422214,
+  "Frequent Urination": 0.011702667454364423,
+  "Increased Thirst": 0.06450930065434252,
+  "Increased Urination": 0.058836950779384466,
+  "Lethargy": 0.004631911537430536,
+  "Mouth Ulcers": 0.12920020184726694,
+  "Nausea": 0.09249354248844067,
+  "Proteinuria (Foamy Urine)": 0.07386813054797005,
+  "Vomiting": 0.022876964134316613,
+  "Weight Loss": 0.01265461048803566
+}

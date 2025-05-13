@@ -1,0 +1,201 @@
+Test Case ID,Illness,Blood in Urine,Bluish Gums,Bruising,Collapse,Coughing,Dark Urine,Difficulty Breathing,Distended Abdomen,Excessive Bleeding,Exercise Intolerance,Fainting,Fatigue,Jaundice,Lethargy,Nosebleeds,Pale Gums,Petechiae,Rapid Breathing,Rapid Heart Rate,Stunted Growth,Weakness,Weight Loss,FC_Confidence,GB_Confidence,Symptom_Match_Ratio
+Thrombocytopenia_1,Thrombocytopenia,1,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,0,0,0,0.9,0.9834,1.0
+Thrombocytopenia_2,Thrombocytopenia,1,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,0,0,0,0.9,0.9834,1.0
+Thrombocytopenia_3,Thrombocytopenia,1,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,0,0,0,0.9,0.9834,1.0
+Thrombocytopenia_4,Thrombocytopenia,1,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,0,0,0,0.9,0.9834,1.0
+Thrombocytopenia_5,Thrombocytopenia,1,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,0,0,0,0.9,0.9834,1.0
+Thrombocytopenia_6,Thrombocytopenia,1,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,0,0,0,0.9,0.9834,1.0
+Thrombocytopenia_7,Thrombocytopenia,1,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,0,0,0,0.9,0.9834,1.0
+Thrombocytopenia_8,Thrombocytopenia,1,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,0,0,0,0.9,0.9834,1.0
+Thrombocytopenia_9,Thrombocytopenia,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0.78,0.9682,0.8
+Thrombocytopenia_10,Thrombocytopenia,1,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,0,0,0,0.9,0.9834,1.0
+Thrombocytopenia_11,Thrombocytopenia,1,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,0,0,0,0.9,0.9834,1.0
+Thrombocytopenia_12,Thrombocytopenia,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0.78,0.9682,0.8
+Thrombocytopenia_13,Thrombocytopenia,1,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,0,0,0,0.9,0.9834,1.0
+Thrombocytopenia_14,Thrombocytopenia,1,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,0,0,0,0.9,0.9834,1.0
+Thrombocytopenia_15,Thrombocytopenia,1,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,0,0,0,0.9,0.9834,1.0
+Thrombocytopenia_16,Thrombocytopenia,1,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,0,0,0,0.9,0.9834,1.0
+Thrombocytopenia_17,Thrombocytopenia,1,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,0,0,0,0.9,0.9834,1.0
+Thrombocytopenia_18,Thrombocytopenia,1,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,0,0,0,0.9,0.9834,1.0
+Thrombocytopenia_19,Thrombocytopenia,1,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0.78,0.9526,0.8
+Thrombocytopenia_20,Thrombocytopenia,1,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,0,0,0,0.9,0.9834,1.0
+Thrombocytopenia_21,Thrombocytopenia,1,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,0,0,0,0.9,0.9834,1.0
+Thrombocytopenia_22,Thrombocytopenia,1,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,0,0,0,0.9,0.9834,1.0
+Thrombocytopenia_23,Thrombocytopenia,1,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,0,0,0,0.9,0.9834,1.0
+Thrombocytopenia_24,Thrombocytopenia,1,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,0,0,0,0.9,0.9834,1.0
+Thrombocytopenia_25,Thrombocytopenia,1,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,0,0,0,0.9,0.9834,1.0
+Thrombocytopenia_26,Thrombocytopenia,1,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,0,0,0,0.9,0.9834,1.0
+Thrombocytopenia_27,Thrombocytopenia,1,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,0,0,0,0.9,0.9834,1.0
+Thrombocytopenia_28,Thrombocytopenia,1,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,0,0,0,0.9,0.9834,1.0
+Thrombocytopenia_29,Thrombocytopenia,1,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,0,0,0,0.9,0.9834,1.0
+Thrombocytopenia_30,Thrombocytopenia,1,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,0,0,0,0.9,0.9834,1.0
+Hemolytic Anemia_1,Hemolytic Anemia,0,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,1,0,0.75,0.9624,0.833333333
+Hemolytic Anemia_2,Hemolytic Anemia,0,0,0,0,0,1,0,0,0,0,0,1,1,0,0,1,0,0,1,0,1,0,0.9,0.9899,1.0
+Hemolytic Anemia_3,Hemolytic Anemia,0,0,0,0,0,1,0,0,0,0,0,1,1,0,0,1,0,0,1,0,1,0,0.9,0.9899,1.0
+Hemolytic Anemia_4,Hemolytic Anemia,0,0,0,0,0,1,0,0,0,0,0,1,1,0,0,1,0,0,1,0,1,0,0.9,0.9899,1.0
+Hemolytic Anemia_5,Hemolytic Anemia,0,0,0,0,0,1,0,0,0,0,0,1,1,0,0,1,0,0,1,0,1,0,0.9,0.9899,1.0
+Hemolytic Anemia_6,Hemolytic Anemia,0,0,0,0,0,1,0,0,0,0,0,1,1,0,0,1,0,0,1,0,1,0,0.9,0.9899,1.0
+Hemolytic Anemia_7,Hemolytic Anemia,0,0,0,0,0,1,0,0,0,0,0,1,1,0,0,1,0,0,1,0,1,0,0.9,0.9899,1.0
+Hemolytic Anemia_8,Hemolytic Anemia,0,0,0,0,0,1,0,0,0,0,0,1,1,0,0,1,0,0,1,0,1,0,0.9,0.9899,1.0
+Hemolytic Anemia_9,Hemolytic Anemia,0,0,0,0,0,1,0,0,0,0,0,1,1,0,0,1,0,0,1,0,1,0,0.9,0.9899,1.0
+Hemolytic Anemia_10,Hemolytic Anemia,0,0,0,0,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0.6,0.9323,0.666666667
+Hemolytic Anemia_11,Hemolytic Anemia,0,0,0,0,0,1,0,0,0,0,0,1,1,0,0,1,0,0,1,0,1,0,0.9,0.9899,1.0
+Hemolytic Anemia_12,Hemolytic Anemia,0,0,0,0,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,1,0,0.75,0.9491,0.833333333
+Hemolytic Anemia_13,Hemolytic Anemia,0,0,0,0,0,1,0,0,0,0,0,1,1,0,0,1,0,0,1,0,1,0,0.9,0.9899,1.0
+Hemolytic Anemia_14,Hemolytic Anemia,0,0,0,0,0,1,0,0,0,0,0,1,1,0,0,1,0,0,1,0,1,0,0.9,0.9899,1.0
+Hemolytic Anemia_15,Hemolytic Anemia,0,0,0,0,0,1,0,0,0,0,0,1,1,0,0,1,0,0,1,0,1,0,0.9,0.9899,1.0
+Dilated Cardiomyopathy_1,Dilated Cardiomyopathy,0,0,0,0,1,0,1,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0.8,0.9314,0.857142857
+Dilated Cardiomyopathy_2,Dilated Cardiomyopathy,0,0,0,0,1,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0,1,1,0.8,0.9561,0.857142857
+Dilated Cardiomyopathy_3,Dilated Cardiomyopathy,0,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,1,0,0,0,1,0.7,0.8927,0.714285714
+Dilated Cardiomyopathy_4,Dilated Cardiomyopathy,0,0,0,0,1,0,1,0,0,1,0,0,0,1,0,0,0,1,0,0,1,1,0.9,0.9728,1.0
+Dilated Cardiomyopathy_5,Dilated Cardiomyopathy,0,0,0,0,1,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0,1,1,0.8,0.9561,0.857142857
+Dilated Cardiomyopathy_6,Dilated Cardiomyopathy,0,0,0,0,1,0,1,0,0,1,0,0,0,1,0,0,0,1,0,0,1,1,0.9,0.9728,1.0
+Dilated Cardiomyopathy_7,Dilated Cardiomyopathy,0,0,0,0,1,0,1,0,0,1,0,0,0,1,0,0,0,1,0,0,1,1,0.9,0.9728,1.0
+Dilated Cardiomyopathy_8,Dilated Cardiomyopathy,0,0,0,0,1,0,1,0,0,1,0,0,0,1,0,0,0,1,0,0,1,1,0.9,0.9728,1.0
+Dilated Cardiomyopathy_9,Dilated Cardiomyopathy,0,0,0,0,1,0,1,0,0,1,0,0,0,1,0,0,0,1,0,0,1,1,0.9,0.9728,1.0
+Dilated Cardiomyopathy_10,Dilated Cardiomyopathy,0,0,0,0,1,0,1,0,0,1,0,0,0,1,0,0,0,1,0,0,1,1,0.9,0.9728,1.0
+Dilated Cardiomyopathy_11,Dilated Cardiomyopathy,0,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,1,0,0,1,1,0.8,0.9276,0.857142857
+Dilated Cardiomyopathy_12,Dilated Cardiomyopathy,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,1,0,0,1,1,0.8,0.9537,0.857142857
+Dilated Cardiomyopathy_13,Dilated Cardiomyopathy,0,0,0,0,1,0,1,0,0,1,0,0,0,1,0,0,0,1,0,0,1,1,0.9,0.9728,1.0
+Dilated Cardiomyopathy_14,Dilated Cardiomyopathy,0,0,0,0,1,0,1,0,0,1,0,0,0,1,0,0,0,1,0,0,1,1,0.9,0.9728,1.0
+Dilated Cardiomyopathy_15,Dilated Cardiomyopathy,0,0,0,0,1,0,1,0,0,1,0,0,0,1,0,0,0,1,0,0,1,1,0.9,0.9728,1.0
+Dilated Cardiomyopathy_16,Dilated Cardiomyopathy,0,0,0,0,1,0,1,0,0,1,0,0,0,1,0,0,0,1,0,0,1,1,0.9,0.9728,1.0
+Dilated Cardiomyopathy_17,Dilated Cardiomyopathy,0,0,0,0,1,0,1,0,0,1,0,0,0,1,0,0,0,1,0,0,1,1,0.9,0.9728,1.0
+Dilated Cardiomyopathy_18,Dilated Cardiomyopathy,0,0,0,0,1,0,1,0,0,1,0,0,0,1,0,0,0,1,0,0,1,1,0.9,0.9728,1.0
+Dilated Cardiomyopathy_19,Dilated Cardiomyopathy,0,0,0,0,1,0,1,0,0,1,0,0,0,1,0,0,0,1,0,0,1,1,0.9,0.9728,1.0
+Dilated Cardiomyopathy_20,Dilated Cardiomyopathy,0,0,0,0,1,0,1,0,0,1,0,0,0,1,0,0,0,1,0,0,1,1,0.9,0.9728,1.0
+Dilated Cardiomyopathy_21,Dilated Cardiomyopathy,0,0,0,0,1,0,1,0,0,1,0,0,0,1,0,0,0,1,0,0,1,1,0.9,0.9728,1.0
+Dilated Cardiomyopathy_22,Dilated Cardiomyopathy,0,0,0,0,1,0,1,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0.8,0.9314,0.857142857
+Dilated Cardiomyopathy_23,Dilated Cardiomyopathy,0,0,0,0,1,0,1,0,0,1,0,0,0,1,0,0,0,1,0,0,1,1,0.9,0.9728,1.0
+Dilated Cardiomyopathy_24,Dilated Cardiomyopathy,0,0,0,0,1,0,1,0,0,1,0,0,0,1,0,0,0,1,0,0,1,1,0.9,0.9728,1.0
+Dilated Cardiomyopathy_25,Dilated Cardiomyopathy,0,0,0,0,1,0,1,0,0,1,0,0,0,1,0,0,0,1,0,0,1,1,0.9,0.9728,1.0
+Dilated Cardiomyopathy_26,Dilated Cardiomyopathy,0,0,0,0,1,0,1,0,0,1,0,0,0,1,0,0,0,1,0,0,1,1,0.9,0.9728,1.0
+Dilated Cardiomyopathy_27,Dilated Cardiomyopathy,0,0,0,0,1,0,1,0,0,1,0,0,0,1,0,0,0,1,0,0,1,1,0.9,0.9728,1.0
+Dilated Cardiomyopathy_28,Dilated Cardiomyopathy,0,0,0,0,1,0,1,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0.8,0.9314,0.857142857
+Dilated Cardiomyopathy_29,Dilated Cardiomyopathy,0,0,0,0,1,0,1,0,0,1,0,0,0,1,0,0,0,1,0,0,1,1,0.9,0.9728,1.0
+Dilated Cardiomyopathy_30,Dilated Cardiomyopathy,0,0,0,0,1,0,1,0,0,1,0,0,0,1,0,0,0,1,0,0,1,1,0.9,0.9728,1.0
+Congestive Heart Failure_1,Congestive Heart Failure,0,0,0,0,1,0,1,1,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0.8,0.9337,0.857142857
+Congestive Heart Failure_2,Congestive Heart Failure,0,0,0,0,1,0,1,1,0,1,0,0,0,1,0,0,0,1,0,0,1,0,0.9,0.9812,1.0
+Congestive Heart Failure_3,Congestive Heart Failure,0,0,0,0,1,0,1,1,0,1,0,0,0,1,0,0,0,1,0,0,1,0,0.9,0.9812,1.0
+Congestive Heart Failure_4,Congestive Heart Failure,0,0,0,0,1,0,1,1,0,1,0,0,0,1,0,0,0,1,0,0,1,0,0.9,0.9812,1.0
+Congestive Heart Failure_5,Congestive Heart Failure,0,0,0,0,1,0,1,1,0,1,0,0,0,1,0,0,0,1,0,0,1,0,0.9,0.9812,1.0
+Congestive Heart Failure_6,Congestive Heart Failure,0,0,0,0,1,0,1,1,0,1,0,0,0,1,0,0,0,1,0,0,1,0,0.9,0.9812,1.0
+Congestive Heart Failure_7,Congestive Heart Failure,0,0,0,0,1,0,1,1,0,0,0,0,0,1,0,0,0,1,0,0,1,0,0.8,0.9575,0.857142857
+Congestive Heart Failure_8,Congestive Heart Failure,0,0,0,0,1,0,1,1,0,1,0,0,0,1,0,0,0,1,0,0,1,0,0.9,0.9812,1.0
+Congestive Heart Failure_9,Congestive Heart Failure,0,0,0,0,1,0,1,1,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0.8,0.9337,0.857142857
+Congestive Heart Failure_10,Congestive Heart Failure,0,0,0,0,1,0,1,1,0,1,0,0,0,1,0,0,0,0,0,0,1,0,0.8,0.9601,0.857142857
+Congestive Heart Failure_11,Congestive Heart Failure,0,0,0,0,1,0,1,1,0,1,0,0,0,1,0,0,0,1,0,0,1,0,0.9,0.9812,1.0
+Congestive Heart Failure_12,Congestive Heart Failure,0,0,0,0,1,0,1,1,0,1,0,0,0,1,0,0,0,1,0,0,1,0,0.9,0.9812,1.0
+Congestive Heart Failure_13,Congestive Heart Failure,0,0,0,0,1,0,1,1,0,1,0,0,0,1,0,0,0,0,0,0,1,0,0.8,0.9601,0.857142857
+Congestive Heart Failure_14,Congestive Heart Failure,0,0,0,0,1,0,1,1,0,1,0,0,0,1,0,0,0,1,0,0,1,0,0.9,0.9812,1.0
+Congestive Heart Failure_15,Congestive Heart Failure,0,0,0,0,1,0,1,1,0,1,0,0,0,1,0,0,0,1,0,0,1,0,0.9,0.9812,1.0
+Congestive Heart Failure_16,Congestive Heart Failure,0,0,0,0,1,0,1,1,0,1,0,0,0,1,0,0,0,1,0,0,1,0,0.9,0.9812,1.0
+Congestive Heart Failure_17,Congestive Heart Failure,0,0,0,0,1,0,1,1,0,1,0,0,0,1,0,0,0,1,0,0,1,0,0.9,0.9812,1.0
+Congestive Heart Failure_18,Congestive Heart Failure,0,0,0,0,1,0,1,1,0,1,0,0,0,1,0,0,0,1,0,0,1,0,0.9,0.9812,1.0
+Congestive Heart Failure_19,Congestive Heart Failure,0,0,0,0,1,0,1,1,0,1,0,0,0,1,0,0,0,1,0,0,1,0,0.9,0.9812,1.0
+Congestive Heart Failure_20,Congestive Heart Failure,0,0,0,0,1,0,1,1,0,1,0,0,0,1,0,0,0,1,0,0,1,0,0.9,0.9812,1.0
+Congestive Heart Failure_21,Congestive Heart Failure,0,0,0,0,1,0,1,1,0,1,0,0,0,1,0,0,0,1,0,0,1,0,0.9,0.9812,1.0
+Congestive Heart Failure_22,Congestive Heart Failure,0,0,0,0,1,0,1,1,0,1,0,0,0,1,0,0,0,1,0,0,1,0,0.9,0.9812,1.0
+Congestive Heart Failure_23,Congestive Heart Failure,0,0,0,0,1,0,1,1,0,1,0,0,0,1,0,0,0,1,0,0,1,0,0.9,0.9812,1.0
+Congestive Heart Failure_24,Congestive Heart Failure,0,0,0,0,1,0,1,1,0,1,0,0,0,1,0,0,0,1,0,0,1,0,0.9,0.9812,1.0
+Congestive Heart Failure_25,Congestive Heart Failure,0,0,0,0,1,0,1,1,0,1,0,0,0,0,0,0,0,1,0,0,1,0,0.8,0.968,0.857142857
+Congestive Heart Failure_26,Congestive Heart Failure,0,0,0,0,1,0,1,1,0,1,0,0,0,1,0,0,0,1,0,0,1,0,0.9,0.9812,1.0
+Congestive Heart Failure_27,Congestive Heart Failure,0,0,0,0,1,0,1,1,0,1,0,0,0,1,0,0,0,1,0,0,1,0,0.9,0.9812,1.0
+Congestive Heart Failure_28,Congestive Heart Failure,0,0,0,0,1,0,1,1,0,1,0,0,0,0,0,0,0,1,0,0,1,0,0.8,0.968,0.857142857
+Congestive Heart Failure_29,Congestive Heart Failure,0,0,0,0,1,0,1,1,0,1,0,0,0,1,0,0,0,1,0,0,1,0,0.9,0.9812,1.0
+Congestive Heart Failure_30,Congestive Heart Failure,0,0,0,0,1,0,1,0,0,1,0,0,0,1,0,0,0,1,0,0,1,0,0.8,0.6877,0.857142857
+Congestive Heart Failure_31,Congestive Heart Failure,0,0,0,0,1,0,1,1,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0.8,0.9337,0.857142857
+Congestive Heart Failure_32,Congestive Heart Failure,0,0,0,0,1,0,1,1,0,1,0,0,0,1,0,0,0,1,0,0,1,0,0.9,0.9812,1.0
+Congestive Heart Failure_33,Congestive Heart Failure,0,0,0,0,1,0,1,1,0,1,0,0,0,1,0,0,0,1,0,0,1,0,0.9,0.9812,1.0
+Congestive Heart Failure_34,Congestive Heart Failure,0,0,0,0,1,0,1,1,0,1,0,0,0,1,0,0,0,1,0,0,1,0,0.9,0.9812,1.0
+Congestive Heart Failure_35,Congestive Heart Failure,0,0,0,0,1,0,1,1,0,1,0,0,0,1,0,0,0,1,0,0,1,0,0.9,0.9812,1.0
+Congestive Heart Failure_36,Congestive Heart Failure,0,0,0,0,1,0,1,1,0,1,0,0,0,1,0,0,0,1,0,0,1,0,0.9,0.9812,1.0
+Congestive Heart Failure_37,Congestive Heart Failure,0,0,0,0,1,0,1,1,0,1,0,0,0,1,0,0,0,1,0,0,1,0,0.9,0.9812,1.0
+Congestive Heart Failure_38,Congestive Heart Failure,0,0,0,0,1,0,1,1,0,1,0,0,0,1,0,0,0,1,0,0,1,0,0.9,0.9812,1.0
+Congestive Heart Failure_39,Congestive Heart Failure,0,0,0,0,1,0,1,1,0,1,0,0,0,1,0,0,0,1,0,0,1,0,0.9,0.9812,1.0
+Congestive Heart Failure_40,Congestive Heart Failure,0,0,0,0,1,0,1,1,0,0,0,0,0,1,0,0,0,1,0,0,1,0,0.8,0.9575,0.857142857
+Congestive Heart Failure_41,Congestive Heart Failure,0,0,0,0,1,0,1,1,0,1,0,0,0,1,0,0,0,1,0,0,1,0,0.9,0.9812,1.0
+Congestive Heart Failure_42,Congestive Heart Failure,0,0,0,0,1,0,1,1,0,1,0,0,0,1,0,0,0,1,0,0,1,0,0.9,0.9812,1.0
+Congestive Heart Failure_43,Congestive Heart Failure,0,0,0,0,1,0,1,1,0,1,0,0,0,1,0,0,0,1,0,0,1,0,0.9,0.9812,1.0
+Congestive Heart Failure_44,Congestive Heart Failure,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0.6,0.8911,0.571428571
+Congestive Heart Failure_45,Congestive Heart Failure,0,0,0,0,1,0,1,1,0,1,0,0,0,1,0,0,0,1,0,0,1,0,0.9,0.9812,1.0
+Congestive Heart Failure_46,Congestive Heart Failure,0,0,0,0,1,0,1,1,0,1,0,0,0,1,0,0,0,0,0,0,1,0,0.8,0.9601,0.857142857
+Congestive Heart Failure_47,Congestive Heart Failure,0,0,0,0,1,0,1,1,0,1,0,0,0,1,0,0,0,1,0,0,1,0,0.9,0.9812,1.0
+Congestive Heart Failure_48,Congestive Heart Failure,0,0,0,0,1,0,1,1,0,1,0,0,0,1,0,0,0,1,0,0,1,0,0.9,0.9812,1.0
+Congestive Heart Failure_49,Congestive Heart Failure,0,0,0,0,1,0,1,1,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0.8,0.9337,0.857142857
+Congestive Heart Failure_50,Congestive Heart Failure,0,0,0,0,1,0,1,1,0,1,0,0,0,1,0,0,0,1,0,0,1,0,0.9,0.9812,1.0
+Aortic Stenosis_1,Aortic Stenosis,0,0,0,1,0,0,1,0,0,1,1,0,0,1,0,0,0,1,0,0,0,0,0.9,0.9883,1.0
+Aortic Stenosis_2,Aortic Stenosis,0,0,0,1,0,0,1,0,0,1,1,0,0,1,0,0,0,1,0,0,0,0,0.9,0.9883,1.0
+Aortic Stenosis_3,Aortic Stenosis,0,0,0,1,0,0,1,0,0,1,1,0,0,1,0,0,0,1,0,0,0,0,0.9,0.9883,1.0
+Aortic Stenosis_4,Aortic Stenosis,0,0,0,1,0,0,1,0,0,1,1,0,0,1,0,0,0,1,0,0,0,0,0.9,0.9883,1.0
+Aortic Stenosis_5,Aortic Stenosis,0,0,0,1,0,0,1,0,0,1,1,0,0,1,0,0,0,1,0,0,0,0,0.9,0.9883,1.0
+Aortic Stenosis_6,Aortic Stenosis,0,0,0,1,0,0,1,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0.81,0.9823,0.833333333
+Aortic Stenosis_7,Aortic Stenosis,0,0,0,1,0,0,1,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0.81,0.9864,0.833333333
+Aortic Stenosis_8,Aortic Stenosis,0,0,0,1,0,0,1,0,0,1,1,0,0,1,0,0,0,1,0,0,0,0,0.9,0.9883,1.0
+Aortic Stenosis_9,Aortic Stenosis,0,0,0,1,0,0,1,0,0,1,1,0,0,1,0,0,0,1,0,0,0,0,0.9,0.9883,1.0
+Aortic Stenosis_10,Aortic Stenosis,0,0,0,1,0,0,1,0,0,1,1,0,0,1,0,0,0,1,0,0,0,0,0.9,0.9883,1.0
+Aortic Stenosis_11,Aortic Stenosis,0,0,0,1,0,0,1,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0.81,0.9823,0.833333333
+Aortic Stenosis_12,Aortic Stenosis,0,0,0,1,0,0,1,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0.81,0.9816,0.833333333
+Aortic Stenosis_13,Aortic Stenosis,0,0,0,1,0,0,1,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0.81,0.9864,0.833333333
+Aortic Stenosis_14,Aortic Stenosis,0,0,0,1,0,0,1,0,0,1,1,0,0,1,0,0,0,1,0,0,0,0,0.9,0.9883,1.0
+Aortic Stenosis_15,Aortic Stenosis,0,0,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,1,0,0,0,0,0.71,0.9712,0.833333333
+Pulmonary Hypertension_1,Pulmonary Hypertension,0,1,0,0,1,0,1,0,0,1,1,0,0,1,0,0,0,1,0,0,0,0,0.9,0.9854,1.0
+Pulmonary Hypertension_2,Pulmonary Hypertension,0,1,0,0,1,0,1,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0.8,0.9869,0.857142857
+Pulmonary Hypertension_3,Pulmonary Hypertension,0,1,0,0,1,0,1,0,0,1,1,0,0,1,0,0,0,1,0,0,0,0,0.9,0.9854,1.0
+Pulmonary Hypertension_4,Pulmonary Hypertension,0,1,0,0,1,0,1,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0.8,0.9869,0.857142857
+Pulmonary Hypertension_5,Pulmonary Hypertension,0,1,0,0,1,0,1,0,0,1,1,0,0,1,0,0,0,1,0,0,0,0,0.9,0.9854,1.0
+Pulmonary Hypertension_6,Pulmonary Hypertension,0,0,0,0,1,0,1,0,0,1,1,0,0,1,0,0,0,1,0,0,0,0,0.8,0.9539,0.857142857
+Pulmonary Hypertension_7,Pulmonary Hypertension,0,1,0,0,1,0,1,0,0,1,1,0,0,1,0,0,0,1,0,0,0,0,0.9,0.9854,1.0
+Pulmonary Hypertension_8,Pulmonary Hypertension,0,0,0,0,1,0,1,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0.7,0.3152,0.714285714
+Pulmonary Hypertension_9,Pulmonary Hypertension,0,1,0,0,1,0,1,0,0,1,1,0,0,1,0,0,0,1,0,0,0,0,0.9,0.9854,1.0
+Pulmonary Hypertension_10,Pulmonary Hypertension,0,0,0,0,1,0,1,0,0,1,1,0,0,1,0,0,0,1,0,0,0,0,0.8,0.9539,0.857142857
+Pulmonary Hypertension_11,Pulmonary Hypertension,0,1,0,0,1,0,1,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0.8,0.9869,0.857142857
+Pulmonary Hypertension_12,Pulmonary Hypertension,0,1,0,0,1,0,1,0,0,1,1,0,0,1,0,0,0,1,0,0,0,0,0.9,0.9854,1.0
+Pulmonary Hypertension_13,Pulmonary Hypertension,0,1,0,0,1,0,1,0,0,1,1,0,0,1,0,0,0,1,0,0,0,0,0.9,0.9854,1.0
+Pulmonary Hypertension_14,Pulmonary Hypertension,0,1,0,0,1,0,1,0,0,1,1,0,0,1,0,0,0,1,0,0,0,0,0.9,0.9854,1.0
+Pulmonary Hypertension_15,Pulmonary Hypertension,0,1,0,0,1,0,1,0,0,1,1,0,0,1,0,0,0,1,0,0,0,0,0.9,0.9854,1.0
+Heart Valve Dysplasia_1,Heart Valve Dysplasia,0,0,0,0,1,0,1,0,0,1,0,0,0,1,0,0,0,1,0,1,0,0,0.9,0.282,1.0
+Heart Valve Dysplasia_2,Heart Valve Dysplasia,0,0,0,0,1,0,1,0,0,1,0,0,0,1,0,0,0,1,0,1,0,0,0.9,0.282,1.0
+Heart Valve Dysplasia_3,Heart Valve Dysplasia,0,0,0,0,1,0,1,0,0,1,0,0,0,1,0,0,0,1,0,1,0,0,0.9,0.282,1.0
+Heart Valve Dysplasia_4,Heart Valve Dysplasia,0,0,0,0,1,0,1,0,0,1,0,0,0,1,0,0,0,1,0,1,0,0,0.9,0.282,1.0
+Heart Valve Dysplasia_5,Heart Valve Dysplasia,0,0,0,0,1,0,1,0,0,1,0,0,0,1,0,0,0,1,0,1,0,0,0.9,0.282,1.0
+Heart Valve Dysplasia_6,Heart Valve Dysplasia,0,0,0,0,1,0,1,0,0,1,0,0,0,1,0,0,0,1,0,1,0,0,0.9,0.282,1.0
+Heart Valve Dysplasia_7,Heart Valve Dysplasia,0,0,0,0,1,0,1,0,0,1,0,0,0,1,0,0,0,1,0,1,0,0,0.9,0.282,1.0
+Heart Valve Dysplasia_8,Heart Valve Dysplasia,0,0,0,0,1,0,1,0,0,1,0,0,0,1,0,0,0,1,0,1,0,0,0.9,0.282,1.0
+Heart Valve Dysplasia_9,Heart Valve Dysplasia,0,0,0,0,1,0,1,0,0,1,0,0,0,1,0,0,0,1,0,1,0,0,0.9,0.282,1.0
+Heart Valve Dysplasia_10,Heart Valve Dysplasia,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,1,0,1,0,0,0.79,0.9798,0.833333333
+Heart Valve Dysplasia_11,Heart Valve Dysplasia,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,1,0,1,0,0,0.79,0.9798,0.833333333
+Heart Valve Dysplasia_12,Heart Valve Dysplasia,0,0,0,0,1,0,1,0,0,1,0,0,0,1,0,0,0,1,0,1,0,0,0.9,0.282,1.0
+Heart Valve Dysplasia_13,Heart Valve Dysplasia,0,0,0,0,1,0,1,0,0,1,0,0,0,1,0,0,0,1,0,1,0,0,0.9,0.282,1.0
+Heart Valve Dysplasia_14,Heart Valve Dysplasia,0,0,0,0,1,0,1,0,0,1,0,0,0,1,0,0,0,1,0,1,0,0,0.9,0.282,1.0
+Heart Valve Dysplasia_15,Heart Valve Dysplasia,0,0,0,0,1,0,1,0,0,1,0,0,0,1,0,0,0,1,0,1,0,0,0.9,0.282,1.0
+Patent Ductus Arteriosus_1,Patent Ductus Arteriosus,0,0,0,0,1,0,1,0,0,1,0,0,0,1,0,0,0,1,0,1,0,0,0.9,0.644,1.0
+Patent Ductus Arteriosus_2,Patent Ductus Arteriosus,0,0,0,0,1,0,1,0,0,1,0,0,0,1,0,0,0,1,0,1,0,0,0.9,0.644,1.0
+Patent Ductus Arteriosus_3,Patent Ductus Arteriosus,0,0,0,0,1,0,1,0,0,1,0,0,0,1,0,0,0,1,0,1,0,0,0.9,0.644,1.0
+Patent Ductus Arteriosus_4,Patent Ductus Arteriosus,0,0,0,0,1,0,1,0,0,1,0,0,0,1,0,0,0,1,0,1,0,0,0.9,0.644,1.0
+Patent Ductus Arteriosus_5,Patent Ductus Arteriosus,0,0,0,0,1,0,1,0,0,1,0,0,0,1,0,0,0,1,0,1,0,0,0.9,0.644,1.0
+Patent Ductus Arteriosus_6,Patent Ductus Arteriosus,0,0,0,0,1,0,1,0,0,1,0,0,0,1,0,0,0,1,0,1,0,0,0.9,0.644,1.0
+Patent Ductus Arteriosus_7,Patent Ductus Arteriosus,0,0,0,0,1,0,1,0,0,1,0,0,0,1,0,0,0,1,0,1,0,0,0.9,0.644,1.0
+Patent Ductus Arteriosus_8,Patent Ductus Arteriosus,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,1,0,1,0,0,0.79,0.0047,0.833333333
+Patent Ductus Arteriosus_9,Patent Ductus Arteriosus,0,0,0,0,1,0,1,0,0,1,0,0,0,1,0,0,0,0,0,1,0,0,0.79,0.9276,0.833333333
+Patent Ductus Arteriosus_10,Patent Ductus Arteriosus,0,0,0,0,1,0,1,0,0,1,0,0,0,1,0,0,0,1,0,1,0,0,0.9,0.644,1.0
+Patent Ductus Arteriosus_11,Patent Ductus Arteriosus,0,0,0,0,1,0,1,0,0,1,0,0,0,1,0,0,0,1,0,1,0,0,0.9,0.644,1.0
+Patent Ductus Arteriosus_12,Patent Ductus Arteriosus,0,0,0,0,1,0,1,0,0,1,0,0,0,1,0,0,0,1,0,1,0,0,0.9,0.644,1.0
+Patent Ductus Arteriosus_13,Patent Ductus Arteriosus,0,0,0,0,1,0,1,0,0,1,0,0,0,1,0,0,0,0,0,1,0,0,0.79,0.9276,0.833333333
+Patent Ductus Arteriosus_14,Patent Ductus Arteriosus,0,0,0,0,1,0,1,0,0,1,0,0,0,1,0,0,0,1,0,1,0,0,0.9,0.644,1.0
+Patent Ductus Arteriosus_15,Patent Ductus Arteriosus,0,0,0,0,1,0,1,0,0,1,0,0,0,1,0,0,0,1,0,1,0,0,0.9,0.644,1.0
+Patent Ductus Arteriosus_16,Patent Ductus Arteriosus,0,0,0,0,1,0,1,0,0,1,0,0,0,1,0,0,0,1,0,1,0,0,0.9,0.644,1.0
+Patent Ductus Arteriosus_17,Patent Ductus Arteriosus,0,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,1,0,1,0,0,0.79,0.9173,0.833333333
+Patent Ductus Arteriosus_18,Patent Ductus Arteriosus,0,0,0,0,1,0,1,0,0,1,0,0,0,1,0,0,0,1,0,1,0,0,0.9,0.644,1.0
+Patent Ductus Arteriosus_19,Patent Ductus Arteriosus,0,0,0,0,1,0,1,0,0,1,0,0,0,1,0,0,0,1,0,1,0,0,0.9,0.644,1.0
+Patent Ductus Arteriosus_20,Patent Ductus Arteriosus,0,0,0,0,1,0,1,0,0,1,0,0,0,1,0,0,0,1,0,1,0,0,0.9,0.644,1.0
+Patent Ductus Arteriosus_21,Patent Ductus Arteriosus,0,0,0,0,1,0,1,0,0,1,0,0,0,1,0,0,0,1,0,1,0,0,0.9,0.644,1.0
+Patent Ductus Arteriosus_22,Patent Ductus Arteriosus,0,0,0,0,1,0,1,0,0,1,0,0,0,1,0,0,0,1,0,1,0,0,0.9,0.644,1.0
+Patent Ductus Arteriosus_23,Patent Ductus Arteriosus,0,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,1,0,1,0,0,0.79,0.9173,0.833333333
+Patent Ductus Arteriosus_24,Patent Ductus Arteriosus,0,0,0,0,1,0,1,0,0,1,0,0,0,1,0,0,0,1,0,1,0,0,0.9,0.644,1.0
+Patent Ductus Arteriosus_25,Patent Ductus Arteriosus,0,0,0,0,1,0,1,0,0,1,0,0,0,1,0,0,0,1,0,1,0,0,0.9,0.644,1.0
+Patent Ductus Arteriosus_26,Patent Ductus Arteriosus,0,0,0,0,1,0,1,0,0,1,0,0,0,1,0,0,0,1,0,1,0,0,0.9,0.644,1.0
+Patent Ductus Arteriosus_27,Patent Ductus Arteriosus,0,0,0,0,1,0,1,0,0,1,0,0,0,1,0,0,0,1,0,1,0,0,0.9,0.644,1.0
+Patent Ductus Arteriosus_28,Patent Ductus Arteriosus,0,0,0,0,1,0,1,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0.79,0.1202,0.833333333
+Patent Ductus Arteriosus_29,Patent Ductus Arteriosus,0,0,0,0,1,0,1,0,0,1,0,0,0,1,0,0,0,1,0,1,0,0,0.9,0.644,1.0
+Patent Ductus Arteriosus_30,Patent Ductus Arteriosus,0,0,0,0,1,0,1,0,0,1,0,0,0,1,0,0,0,1,0,1,0,0,0.9,0.644,1.0
