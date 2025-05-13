@@ -1,0 +1,15 @@
+{
+  "canine parvovirus": {
+    "boost_if_contains": ["bloody"],
+    "boost_factor": 2.5
+  },
+  "canine enteric coronavirus": {
+    "penalty_if_contains": ["bloody"],
+    "penalty_factor": 0.6
+  },
+
+  "rabies": {
+    "boost_if_contains": ["aggression", "unprovoked", "sudden", "paralysis", "seizures", "fever"],
+    "boost_factor": 2.0
+  }
+}

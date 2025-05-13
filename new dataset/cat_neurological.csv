@@ -1,0 +1,31 @@
+Test Case ID,Illness,Collapse,Confusion,Drooling,Falling Over,Head tremors,Seizures,Stiffness,Uncoordinated movement,Wobbling,FC_Confidence,GB_Confidence,Symptom_Match_Ratio
+Cerebellar Hypoplasia in Cats_1,Cerebellar Hypoplasia in Cats,0,0,0,0,1,0,0,1,1,0.73,0.9812,0.75
+Cerebellar Hypoplasia in Cats_2,Cerebellar Hypoplasia in Cats,0,0,0,1,1,0,0,1,1,0.9,0.9887,1.0
+Cerebellar Hypoplasia in Cats_3,Cerebellar Hypoplasia in Cats,0,0,0,1,1,0,0,1,1,0.9,0.9887,1.0
+Cerebellar Hypoplasia in Cats_4,Cerebellar Hypoplasia in Cats,0,0,0,1,1,0,0,1,1,0.9,0.9887,1.0
+Cerebellar Hypoplasia in Cats_5,Cerebellar Hypoplasia in Cats,0,0,0,1,1,0,0,1,1,0.9,0.9887,1.0
+Cerebellar Hypoplasia in Cats_6,Cerebellar Hypoplasia in Cats,0,0,0,1,1,0,0,1,1,0.9,0.9887,1.0
+Cerebellar Hypoplasia in Cats_7,Cerebellar Hypoplasia in Cats,0,0,0,0,1,0,0,1,1,0.73,0.9812,0.75
+Cerebellar Hypoplasia in Cats_8,Cerebellar Hypoplasia in Cats,0,0,0,1,1,0,0,1,1,0.9,0.9887,1.0
+Cerebellar Hypoplasia in Cats_9,Cerebellar Hypoplasia in Cats,0,0,0,0,1,0,0,1,1,0.73,0.9812,0.75
+Cerebellar Hypoplasia in Cats_10,Cerebellar Hypoplasia in Cats,0,0,0,1,1,0,0,1,1,0.9,0.9887,1.0
+Cerebellar Hypoplasia in Cats_11,Cerebellar Hypoplasia in Cats,0,0,0,0,1,0,0,1,1,0.73,0.9812,0.75
+Cerebellar Hypoplasia in Cats_12,Cerebellar Hypoplasia in Cats,0,0,0,1,1,0,0,1,1,0.9,0.9887,1.0
+Cerebellar Hypoplasia in Cats_13,Cerebellar Hypoplasia in Cats,0,0,0,1,1,0,0,1,1,0.9,0.9887,1.0
+Cerebellar Hypoplasia in Cats_14,Cerebellar Hypoplasia in Cats,0,0,0,1,1,0,0,1,1,0.9,0.9887,1.0
+Cerebellar Hypoplasia in Cats_15,Cerebellar Hypoplasia in Cats,0,0,0,1,1,0,0,1,1,0.9,0.9887,1.0
+Epilepsy in Cats_1,Epilepsy in Cats,1,1,1,0,0,1,1,0,0,0.85,0.9893,1.0
+Epilepsy in Cats_2,Epilepsy in Cats,0,0,1,0,0,1,1,0,0,0.57,0.949,0.6
+Epilepsy in Cats_3,Epilepsy in Cats,1,1,1,0,0,1,1,0,0,0.85,0.9893,1.0
+Epilepsy in Cats_4,Epilepsy in Cats,1,1,1,0,0,1,1,0,0,0.85,0.9893,1.0
+Epilepsy in Cats_5,Epilepsy in Cats,1,0,0,0,0,1,1,0,0,0.57,0.9735,0.6
+Epilepsy in Cats_6,Epilepsy in Cats,1,0,0,0,0,1,1,0,0,0.57,0.9735,0.6
+Epilepsy in Cats_7,Epilepsy in Cats,1,1,1,0,0,1,1,0,0,0.85,0.9893,1.0
+Epilepsy in Cats_8,Epilepsy in Cats,1,0,0,0,0,1,1,0,0,0.57,0.9735,0.6
+Epilepsy in Cats_9,Epilepsy in Cats,1,1,0,0,0,1,1,0,0,0.71,0.9921,0.8
+Epilepsy in Cats_10,Epilepsy in Cats,1,1,1,0,0,1,1,0,0,0.85,0.9893,1.0
+Epilepsy in Cats_11,Epilepsy in Cats,1,0,1,0,0,1,1,0,0,0.71,0.9913,0.8
+Epilepsy in Cats_12,Epilepsy in Cats,1,1,0,0,0,1,1,0,0,0.71,0.9921,0.8
+Epilepsy in Cats_13,Epilepsy in Cats,1,0,1,0,0,1,1,0,0,0.71,0.9913,0.8
+Epilepsy in Cats_14,Epilepsy in Cats,1,1,0,0,0,1,0,0,0,0.52,0.9781,0.6
+Epilepsy in Cats_15,Epilepsy in Cats,1,0,1,0,0,1,1,0,0,0.71,0.9913,0.8

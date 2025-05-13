@@ -3688,7 +3688,7 @@
       ]
     },
     {
-      "illness": "Legg-Calv\u00e9-Perthes Syndrome",
+      "illness": "Legg-Calve-Perthes Syndrome",
       "type": "Musculoskeletal",
       "confidence": 0.9,
       "age_range": "Puppy",
@@ -3739,116 +3739,6 @@
           "priority": 3,
           "duration_range": "14-60 days",
           "subtype": "Hip Joint"
-        }
-      ]
-    },
-    {
-      "illness": "Panosteitis",
-      "type": "Musculoskeletal",
-      "confidence": 0.9,
-      "age_range": "Adult",
-      "breed": "Large",
-      "size": "Large",
-      "symptoms": [
-        {
-          "name": "Intermittent Lameness",
-          "stage": "Any",
-          "weight": 0.2,
-          "severity": "Low",
-          "priority": 3,
-          "duration_range": "3-21 days",
-          "subtype": ""
-        },
-        {
-          "name": "Pain",
-          "stage": "Early",
-          "weight": 0.2,
-          "severity": "Medium",
-          "priority": 3,
-          "duration_range": "3-21 days",
-          "subtype": "Localized, Intermittent"
-        },
-        {
-          "name": "Reluctance to Move",
-          "stage": "Any",
-          "weight": 0.2,
-          "severity": "Low",
-          "priority": 3,
-          "duration_range": "",
-          "subtype": ""
-        },
-        {
-          "name": "Shifting Leg Lameness",
-          "stage": "Any",
-          "weight": 0.2,
-          "severity": "Low",
-          "priority": 3,
-          "duration_range": "3-21 days",
-          "subtype": ""
-        },
-        {
-          "name": "Weight Loss",
-          "stage": "Late",
-          "weight": 0.2,
-          "severity": "Low",
-          "priority": 3,
-          "duration_range": "7-30 days",
-          "subtype": ""
-        }
-      ]
-    },
-    {
-      "illness": "Legg-Calv\u00e9-Perthes Syndrome",
-      "type": "Musculoskeletal",
-      "confidence": 0.9,
-      "age_range": "Puppy",
-      "breed": "Toy",
-      "size": "Small",
-      "symptoms": [
-        {
-          "name": "Difficulty Walking",
-          "stage": "Any",
-          "weight": 0.2,
-          "severity": "Low",
-          "priority": 3,
-          "duration_range": "7-30 days",
-          "subtype": ""
-        },
-        {
-          "name": "Hip Pain",
-          "stage": "Early",
-          "weight": 0.2,
-          "severity": "Medium",
-          "priority": 3,
-          "duration_range": "7-30 days",
-          "subtype": "Progressive"
-        },
-        {
-          "name": "Lameness",
-          "stage": "Any",
-          "weight": 0.2,
-          "severity": "Low",
-          "priority": 3,
-          "duration_range": "7-30 days",
-          "subtype": "Unilateral, Progressive"
-        },
-        {
-          "name": "Muscle Atrophy",
-          "stage": "Any",
-          "weight": 0.2,
-          "severity": "Low",
-          "priority": 3,
-          "duration_range": "14-60 days",
-          "subtype": ""
-        },
-        {
-          "name": "Stiffness",
-          "stage": "Any",
-          "weight": 0.2,
-          "severity": "Low",
-          "priority": 3,
-          "duration_range": "7-30 days",
-          "subtype": ""
         }
       ]
     },
@@ -5591,88 +5481,6 @@
           "priority": 3,
           "duration_range": "",
           "subtype": ""
-        }
-      ]
-    },
-    {
-      "illness": "Diabetes Mellitus",
-      "type": "Metabolic",
-      "confidence": 0.9,
-      "age_range": "Senior",
-      "breed": "Samoyed",
-      "size": "Medium",
-      "symptoms": [
-        {
-          "name": "Cataracts",
-          "weight": 0.2,
-          "priority": 2,
-          "severity": "Medium",
-          "duration_range": "7-30 days",
-          "subtype": "",
-          "stage": "Any"
-        },
-        {
-          "name": "Dehydration",
-          "weight": 0.4,
-          "priority": 1,
-          "severity": "High",
-          "duration_range": "3-7 days",
-          "subtype": "",
-          "stage": "Any"
-        },
-        {
-          "name": "Increased Appetite",
-          "weight": 0.2,
-          "priority": 3,
-          "severity": "Low",
-          "duration_range": "5-10 days",
-          "subtype": "",
-          "stage": "Any"
-        },
-        {
-          "name": "Increased Thirst",
-          "weight": 0.4,
-          "priority": 2,
-          "severity": "Medium",
-          "duration_range": "3-7 days",
-          "subtype": "",
-          "stage": "Any"
-        },
-        {
-          "name": "Increased Urination",
-          "weight": 0.4,
-          "priority": 2,
-          "severity": "Medium",
-          "duration_range": "3-7 days",
-          "subtype": "",
-          "stage": "Any"
-        },
-        {
-          "name": "Lethargy",
-          "weight": 0.2,
-          "priority": 3,
-          "severity": "Low",
-          "duration_range": "3-5 days",
-          "subtype": "",
-          "stage": "Any"
-        },
-        {
-          "name": "Recurrent Infections",
-          "weight": 0.4,
-          "priority": 2,
-          "severity": "Medium",
-          "duration_range": "7-30 days",
-          "subtype": "",
-          "stage": "Any"
-        },
-        {
-          "name": "Weight Loss",
-          "weight": 0.2,
-          "priority": 2,
-          "severity": "Medium",
-          "duration_range": "5-10 days",
-          "subtype": "",
-          "stage": "Any"
         }
       ]
     },

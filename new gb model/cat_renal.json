@@ -1,0 +1,15 @@
+{
+  "Abdominal Pain": 0.0980399685312835,
+  "Bad Breath": 0.056888506713167294,
+  "Blood in urine": 0.057795503633734806,
+  "Dehydration": 0.1205430614787822,
+  "Fever": 0.051816614276458596,
+  "Frequent urination": 0.07057696037896989,
+  "Increased thirst": 0.12015286266743778,
+  "Lethargy": 0.1042877070887342,
+  "Licking genitals": 0.01050389942110947,
+  "Painful urination": 0.07967746987510838,
+  "Poor coat": 0.13724062570328763,
+  "Vomiting": 0.03791312864995851,
+  "Weight loss": 0.054563691581967895
+}

@@ -1,0 +1,81 @@
+Test Case ID,Illness,Difficulty jumping,Difficulty moving,Irritability,Less grooming,Limping,Pain when touched,Reluctance to move,Skipping Gait,Stiffness,Sudden leg stretching,FC_Confidence,GB_Confidence,Symptom_Match_Ratio
+Arthritis in Cats_1,Arthritis in Cats,1,0,1,1,0,0,0,0,1,0,0.67,0.987,0.8
+Arthritis in Cats_2,Arthritis in Cats,1,0,1,1,1,0,0,0,1,0,0.85,0.991,1.0
+Arthritis in Cats_3,Arthritis in Cats,0,0,1,1,1,0,0,0,1,0,0.67,0.9876,0.8
+Arthritis in Cats_4,Arthritis in Cats,1,0,0,1,1,0,0,0,1,0,0.72,0.985,0.8
+Arthritis in Cats_5,Arthritis in Cats,1,0,1,1,1,0,0,0,1,0,0.85,0.991,1.0
+Arthritis in Cats_6,Arthritis in Cats,1,0,1,1,1,0,0,0,1,0,0.85,0.991,1.0
+Arthritis in Cats_7,Arthritis in Cats,1,0,1,1,1,0,0,0,1,0,0.85,0.991,1.0
+Arthritis in Cats_8,Arthritis in Cats,1,0,1,1,1,0,0,0,1,0,0.85,0.991,1.0
+Arthritis in Cats_9,Arthritis in Cats,1,0,1,1,1,0,0,0,1,0,0.85,0.991,1.0
+Arthritis in Cats_10,Arthritis in Cats,1,0,1,1,1,0,0,0,1,0,0.85,0.991,1.0
+Arthritis in Cats_11,Arthritis in Cats,1,0,1,1,1,0,0,0,1,0,0.85,0.991,1.0
+Arthritis in Cats_12,Arthritis in Cats,1,0,1,1,1,0,0,0,1,0,0.85,0.991,1.0
+Arthritis in Cats_13,Arthritis in Cats,1,0,1,1,1,0,0,0,1,0,0.85,0.991,1.0
+Arthritis in Cats_14,Arthritis in Cats,1,0,1,1,0,0,0,0,1,0,0.67,0.987,0.8
+Arthritis in Cats_15,Arthritis in Cats,1,0,1,1,1,0,0,0,1,0,0.85,0.991,1.0
+Arthritis in Cats_16,Arthritis in Cats,1,0,1,1,1,0,0,0,1,0,0.85,0.991,1.0
+Arthritis in Cats_17,Arthritis in Cats,1,0,1,1,1,0,0,0,1,0,0.85,0.991,1.0
+Arthritis in Cats_18,Arthritis in Cats,1,0,1,1,1,0,0,0,1,0,0.85,0.991,1.0
+Arthritis in Cats_19,Arthritis in Cats,1,0,0,1,1,0,0,0,1,0,0.72,0.985,0.8
+Arthritis in Cats_20,Arthritis in Cats,1,0,1,1,1,0,0,0,1,0,0.85,0.991,1.0
+Arthritis in Cats_21,Arthritis in Cats,1,0,1,1,1,0,0,0,1,0,0.85,0.991,1.0
+Arthritis in Cats_22,Arthritis in Cats,0,0,1,1,1,0,0,0,1,0,0.67,0.9876,0.8
+Arthritis in Cats_23,Arthritis in Cats,1,0,1,1,1,0,0,0,1,0,0.85,0.991,1.0
+Arthritis in Cats_24,Arthritis in Cats,1,0,1,1,1,0,0,0,1,0,0.85,0.991,1.0
+Arthritis in Cats_25,Arthritis in Cats,1,0,1,1,1,0,0,0,1,0,0.85,0.991,1.0
+Arthritis in Cats_26,Arthritis in Cats,1,0,1,1,1,0,0,0,1,0,0.85,0.991,1.0
+Arthritis in Cats_27,Arthritis in Cats,1,0,1,1,1,0,0,0,1,0,0.85,0.991,1.0
+Arthritis in Cats_28,Arthritis in Cats,1,0,1,1,1,0,0,0,1,0,0.85,0.991,1.0
+Arthritis in Cats_29,Arthritis in Cats,1,0,0,1,1,0,0,0,1,0,0.72,0.985,0.8
+Arthritis in Cats_30,Arthritis in Cats,1,0,1,1,1,0,0,0,1,0,0.85,0.991,1.0
+Arthritis in Cats_31,Arthritis in Cats,1,0,1,0,1,0,0,0,1,0,0.72,0.9862,0.8
+Arthritis in Cats_32,Arthritis in Cats,0,0,1,0,1,0,0,0,1,0,0.54,0.9529,0.6
+Arthritis in Cats_33,Arthritis in Cats,1,0,1,1,1,0,0,0,1,0,0.85,0.991,1.0
+Arthritis in Cats_34,Arthritis in Cats,1,0,1,1,1,0,0,0,1,0,0.85,0.991,1.0
+Arthritis in Cats_35,Arthritis in Cats,1,0,1,1,0,0,0,0,1,0,0.67,0.987,0.8
+Arthritis in Cats_36,Arthritis in Cats,1,0,1,1,1,0,0,0,1,0,0.85,0.991,1.0
+Arthritis in Cats_37,Arthritis in Cats,1,0,1,1,1,0,0,0,1,0,0.85,0.991,1.0
+Arthritis in Cats_38,Arthritis in Cats,1,0,1,1,1,0,0,0,1,0,0.85,0.991,1.0
+Arthritis in Cats_39,Arthritis in Cats,1,0,1,1,1,0,0,0,1,0,0.85,0.991,1.0
+Arthritis in Cats_40,Arthritis in Cats,1,0,1,1,1,0,0,0,1,0,0.85,0.991,1.0
+Arthritis in Cats_41,Arthritis in Cats,1,0,1,1,1,0,0,0,1,0,0.85,0.991,1.0
+Arthritis in Cats_42,Arthritis in Cats,0,0,1,1,1,0,0,0,1,0,0.67,0.9876,0.8
+Arthritis in Cats_43,Arthritis in Cats,1,0,1,1,1,0,0,0,1,0,0.85,0.991,1.0
+Arthritis in Cats_44,Arthritis in Cats,1,0,1,1,0,0,0,0,1,0,0.67,0.987,0.8
+Arthritis in Cats_45,Arthritis in Cats,1,0,1,1,1,0,0,0,1,0,0.85,0.991,1.0
+Arthritis in Cats_46,Arthritis in Cats,1,0,1,1,1,0,0,0,1,0,0.85,0.991,1.0
+Arthritis in Cats_47,Arthritis in Cats,1,0,1,1,1,0,0,0,1,0,0.85,0.991,1.0
+Arthritis in Cats_48,Arthritis in Cats,1,0,1,1,0,0,0,0,1,0,0.67,0.987,0.8
+Arthritis in Cats_49,Arthritis in Cats,1,0,1,1,1,0,0,0,1,0,0.85,0.991,1.0
+Arthritis in Cats_50,Arthritis in Cats,1,0,0,1,1,0,0,0,1,0,0.72,0.985,0.8
+Hip Dysplasia in Cats_1,Hip Dysplasia in Cats,0,1,0,0,1,1,0,0,1,0,0.85,0.9899,1.0
+Hip Dysplasia in Cats_2,Hip Dysplasia in Cats,0,1,0,0,1,1,0,0,1,0,0.85,0.9899,1.0
+Hip Dysplasia in Cats_3,Hip Dysplasia in Cats,0,1,0,0,1,1,0,0,1,0,0.85,0.9899,1.0
+Hip Dysplasia in Cats_4,Hip Dysplasia in Cats,0,1,0,0,1,1,0,0,1,0,0.85,0.9899,1.0
+Hip Dysplasia in Cats_5,Hip Dysplasia in Cats,0,1,0,0,1,1,0,0,1,0,0.85,0.9899,1.0
+Hip Dysplasia in Cats_6,Hip Dysplasia in Cats,0,1,0,0,1,1,0,0,1,0,0.85,0.9899,1.0
+Hip Dysplasia in Cats_7,Hip Dysplasia in Cats,0,1,0,0,1,1,0,0,1,0,0.85,0.9899,1.0
+Hip Dysplasia in Cats_8,Hip Dysplasia in Cats,0,1,0,0,1,1,0,0,1,0,0.85,0.9899,1.0
+Hip Dysplasia in Cats_9,Hip Dysplasia in Cats,0,1,0,0,1,0,0,0,1,0,0.65,0.9748,0.75
+Hip Dysplasia in Cats_10,Hip Dysplasia in Cats,0,1,0,0,1,1,0,0,1,0,0.85,0.9899,1.0
+Hip Dysplasia in Cats_11,Hip Dysplasia in Cats,0,1,0,0,1,1,0,0,0,0,0.65,0.9777,0.75
+Hip Dysplasia in Cats_12,Hip Dysplasia in Cats,0,1,0,0,1,1,0,0,0,0,0.65,0.9777,0.75
+Hip Dysplasia in Cats_13,Hip Dysplasia in Cats,0,1,0,0,1,1,0,0,1,0,0.85,0.9899,1.0
+Hip Dysplasia in Cats_14,Hip Dysplasia in Cats,0,1,0,0,1,1,0,0,1,0,0.85,0.9899,1.0
+Hip Dysplasia in Cats_15,Hip Dysplasia in Cats,0,1,0,0,1,1,0,0,1,0,0.85,0.9899,1.0
+Luxating Patellas in Cats_1,Luxating Patellas in Cats,0,0,0,0,1,0,1,1,0,0,0.6,0.9941,0.75
+Luxating Patellas in Cats_2,Luxating Patellas in Cats,0,0,0,0,1,0,1,1,0,1,0.8,0.9927,1.0
+Luxating Patellas in Cats_3,Luxating Patellas in Cats,0,0,0,0,1,0,1,1,0,1,0.8,0.9927,1.0
+Luxating Patellas in Cats_4,Luxating Patellas in Cats,0,0,0,0,1,0,0,1,0,1,0.65,0.9871,0.75
+Luxating Patellas in Cats_5,Luxating Patellas in Cats,0,0,0,0,1,0,0,1,0,1,0.65,0.9871,0.75
+Luxating Patellas in Cats_6,Luxating Patellas in Cats,0,0,0,0,1,0,0,1,0,0,0.45,0.9122,0.5
+Luxating Patellas in Cats_7,Luxating Patellas in Cats,0,0,0,0,0,0,0,1,0,1,0.45,0.9787,0.5
+Luxating Patellas in Cats_8,Luxating Patellas in Cats,0,0,0,0,1,0,0,1,0,1,0.65,0.9871,0.75
+Luxating Patellas in Cats_9,Luxating Patellas in Cats,0,0,0,0,0,0,0,1,0,0,0.25,0.8683,0.25
+Luxating Patellas in Cats_10,Luxating Patellas in Cats,0,0,0,0,1,0,1,1,0,0,0.6,0.9941,0.75
+Luxating Patellas in Cats_11,Luxating Patellas in Cats,0,0,0,0,1,0,1,1,0,0,0.6,0.9941,0.75
+Luxating Patellas in Cats_12,Luxating Patellas in Cats,0,0,0,0,1,0,1,1,0,0,0.6,0.9941,0.75
+Luxating Patellas in Cats_13,Luxating Patellas in Cats,0,0,0,0,1,0,0,1,0,0,0.45,0.9122,0.5
+Luxating Patellas in Cats_14,Luxating Patellas in Cats,0,0,0,0,1,0,1,1,0,1,0.8,0.9927,1.0
+Luxating Patellas in Cats_15,Luxating Patellas in Cats,0,0,0,0,1,0,1,1,0,1,0.8,0.9927,1.0

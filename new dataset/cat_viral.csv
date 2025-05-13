@@ -1,0 +1,166 @@
+Test Case ID,Illness,Aggression,Dehydration,Diarrhea,Difficulty swallowing,Disorientation,Drooling,Excessive drooling,Eye discharge,Eye redness,Fever,Hiding,Lethargy,Limping,Loss of appetite,Mouth ulcers,Nasal discharge,Paralysis,Seizures,Sneezing,Squinting,Sudden behavior changes,Unsteadiness,Vomiting,Weight loss,FC_Confidence,GB_Confidence,Symptom_Match_Ratio
+Calicivirus in Cats_1,Calicivirus in Cats,0,0,0,0,0,1,0,0,0,1,0,1,0,0,1,1,0,0,1,0,0,0,0,0,0.64,0.9816,0.666666667
+Calicivirus in Cats_2,Calicivirus in Cats,0,0,0,0,0,1,0,1,0,1,0,1,1,0,1,1,0,0,1,0,0,0,0,0,0.82,0.9918,0.888888889
+Calicivirus in Cats_3,Calicivirus in Cats,0,0,0,0,0,0,0,1,0,1,0,1,1,1,1,1,0,0,1,0,0,0,0,0,0.8,0.8428,0.888888889
+Calicivirus in Cats_4,Calicivirus in Cats,0,0,0,0,0,1,0,1,0,1,0,1,0,1,1,1,0,0,1,0,0,0,0,0,0.82,0.9896,0.888888889
+Calicivirus in Cats_5,Calicivirus in Cats,0,0,0,0,0,1,0,1,0,0,0,1,0,1,1,1,0,0,1,0,0,0,0,0,0.72,0.9852,0.777777778
+Calicivirus in Cats_6,Calicivirus in Cats,0,0,0,0,0,1,0,1,0,1,0,1,0,1,1,1,0,0,1,0,0,0,0,0,0.82,0.9896,0.888888889
+Calicivirus in Cats_7,Calicivirus in Cats,0,0,0,0,0,1,0,1,0,1,0,1,0,0,1,1,0,0,1,0,0,0,0,0,0.75,0.9867,0.777777778
+Calicivirus in Cats_8,Calicivirus in Cats,0,0,0,0,0,1,0,1,0,1,0,0,1,1,1,1,0,0,1,0,0,0,0,0,0.82,0.992,0.888888889
+Calicivirus in Cats_9,Calicivirus in Cats,0,0,0,0,0,1,0,1,0,1,0,1,1,1,1,1,0,0,1,0,0,0,0,0,0.9,0.9925,1.0
+Calicivirus in Cats_10,Calicivirus in Cats,0,0,0,0,0,1,0,1,0,0,0,1,1,1,1,1,0,0,1,0,0,0,0,0,0.8,0.9908,0.888888889
+Calicivirus in Cats_11,Calicivirus in Cats,0,0,0,0,0,1,0,1,0,1,0,1,1,1,1,1,0,0,1,0,0,0,0,0,0.9,0.9925,1.0
+Calicivirus in Cats_12,Calicivirus in Cats,0,0,0,0,0,1,0,1,0,1,0,1,1,0,1,1,0,0,1,0,0,0,0,0,0.82,0.9918,0.888888889
+Calicivirus in Cats_13,Calicivirus in Cats,0,0,0,0,0,1,0,1,0,1,0,1,1,1,1,1,0,0,1,0,0,0,0,0,0.9,0.9925,1.0
+Calicivirus in Cats_14,Calicivirus in Cats,0,0,0,0,0,1,0,1,0,1,0,0,1,1,1,1,0,0,1,0,0,0,0,0,0.82,0.992,0.888888889
+Calicivirus in Cats_15,Calicivirus in Cats,0,0,0,0,0,1,0,1,0,1,0,0,1,0,1,1,0,0,1,0,0,0,0,0,0.75,0.9913,0.777777778
+Calicivirus in Cats_16,Calicivirus in Cats,0,0,0,0,0,1,0,1,0,1,0,1,1,1,1,1,0,0,1,0,0,0,0,0,0.9,0.9925,1.0
+Calicivirus in Cats_17,Calicivirus in Cats,0,0,0,0,0,1,0,1,0,1,0,0,0,1,1,1,0,0,1,0,0,0,0,0,0.75,0.9876,0.777777778
+Calicivirus in Cats_18,Calicivirus in Cats,0,0,0,0,0,1,0,1,0,1,0,1,0,1,1,1,0,0,1,0,0,0,0,0,0.82,0.9896,0.888888889
+Calicivirus in Cats_19,Calicivirus in Cats,0,0,0,0,0,1,0,1,0,1,0,1,1,1,1,1,0,0,1,0,0,0,0,0,0.9,0.9925,1.0
+Calicivirus in Cats_20,Calicivirus in Cats,0,0,0,0,0,1,0,1,0,1,0,1,0,0,1,1,0,0,1,0,0,0,0,0,0.75,0.9867,0.777777778
+Calicivirus in Cats_21,Calicivirus in Cats,0,0,0,0,0,1,0,1,0,1,0,1,1,1,1,1,0,0,1,0,0,0,0,0,0.9,0.9925,1.0
+Calicivirus in Cats_22,Calicivirus in Cats,0,0,0,0,0,1,0,1,0,1,0,1,0,1,1,1,0,0,1,0,0,0,0,0,0.82,0.9896,0.888888889
+Calicivirus in Cats_23,Calicivirus in Cats,0,0,0,0,0,1,0,1,0,1,0,1,0,1,1,1,0,0,1,0,0,0,0,0,0.82,0.9896,0.888888889
+Calicivirus in Cats_24,Calicivirus in Cats,0,0,0,0,0,1,0,1,0,1,0,1,1,1,1,1,0,0,1,0,0,0,0,0,0.9,0.9925,1.0
+Calicivirus in Cats_25,Calicivirus in Cats,0,0,0,0,0,1,0,1,0,1,0,1,1,0,1,1,0,0,1,0,0,0,0,0,0.82,0.9918,0.888888889
+Calicivirus in Cats_26,Calicivirus in Cats,0,0,0,0,0,1,0,1,0,1,0,1,1,1,1,1,0,0,1,0,0,0,0,0,0.9,0.9925,1.0
+Calicivirus in Cats_27,Calicivirus in Cats,0,0,0,0,0,1,0,1,0,1,0,1,1,1,1,1,0,0,1,0,0,0,0,0,0.9,0.9925,1.0
+Calicivirus in Cats_28,Calicivirus in Cats,0,0,0,0,0,1,0,1,0,1,0,0,0,1,1,1,0,0,1,0,0,0,0,0,0.75,0.9876,0.777777778
+Calicivirus in Cats_29,Calicivirus in Cats,0,0,0,0,0,1,0,1,0,1,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0.67,0.9846,0.666666667
+Calicivirus in Cats_30,Calicivirus in Cats,0,0,0,0,0,1,0,1,0,1,0,1,1,0,1,1,0,0,1,0,0,0,0,0,0.82,0.9918,0.888888889
+Calicivirus in Cats_31,Calicivirus in Cats,0,0,0,0,0,1,0,1,0,1,0,1,1,0,1,1,0,0,1,0,0,0,0,0,0.82,0.9918,0.888888889
+Calicivirus in Cats_32,Calicivirus in Cats,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,1,0,0,1,0,0,0,0,0,0.69,0.9866,0.777777778
+Calicivirus in Cats_33,Calicivirus in Cats,0,0,0,0,0,1,0,1,0,1,0,1,0,1,1,1,0,0,1,0,0,0,0,0,0.82,0.9896,0.888888889
+Calicivirus in Cats_34,Calicivirus in Cats,0,0,0,0,0,1,0,1,0,1,0,0,1,1,1,1,0,0,1,0,0,0,0,0,0.82,0.992,0.888888889
+Calicivirus in Cats_35,Calicivirus in Cats,0,0,0,0,0,1,0,1,0,1,0,0,1,1,1,1,0,0,1,0,0,0,0,0,0.82,0.992,0.888888889
+Calicivirus in Cats_36,Calicivirus in Cats,0,0,0,0,0,1,0,1,0,1,0,0,1,1,1,1,0,0,1,0,0,0,0,0,0.82,0.992,0.888888889
+Calicivirus in Cats_37,Calicivirus in Cats,0,0,0,0,0,1,0,1,0,1,0,1,1,0,1,1,0,0,1,0,0,0,0,0,0.82,0.9918,0.888888889
+Calicivirus in Cats_38,Calicivirus in Cats,0,0,0,0,0,1,0,1,0,1,0,1,0,0,1,1,0,0,1,0,0,0,0,0,0.75,0.9867,0.777777778
+Calicivirus in Cats_39,Calicivirus in Cats,0,0,0,0,0,1,0,1,0,1,0,0,1,1,1,1,0,0,1,0,0,0,0,0,0.82,0.992,0.888888889
+Calicivirus in Cats_40,Calicivirus in Cats,0,0,0,0,0,1,0,1,0,1,0,1,1,1,1,1,0,0,1,0,0,0,0,0,0.9,0.9925,1.0
+Calicivirus in Cats_41,Calicivirus in Cats,0,0,0,0,0,1,0,1,0,1,0,1,1,0,1,0,0,0,1,0,0,0,0,0,0.72,0.9862,0.777777778
+Calicivirus in Cats_42,Calicivirus in Cats,0,0,0,0,0,1,0,1,0,1,0,0,0,1,1,1,0,0,1,0,0,0,0,0,0.75,0.9876,0.777777778
+Calicivirus in Cats_43,Calicivirus in Cats,0,0,0,0,0,1,0,1,0,1,0,1,0,0,1,1,0,0,1,0,0,0,0,0,0.75,0.9867,0.777777778
+Calicivirus in Cats_44,Calicivirus in Cats,0,0,0,0,0,1,0,1,0,1,0,0,0,1,1,1,0,0,1,0,0,0,0,0,0.75,0.9876,0.777777778
+Calicivirus in Cats_45,Calicivirus in Cats,0,0,0,0,0,1,0,1,0,0,0,0,1,0,1,1,0,0,1,0,0,0,0,0,0.64,0.9867,0.666666667
+Calicivirus in Cats_46,Calicivirus in Cats,0,0,0,0,0,1,0,0,0,1,0,1,1,1,1,1,0,0,1,0,0,0,0,0,0.8,0.9891,0.888888889
+Calicivirus in Cats_47,Calicivirus in Cats,0,0,0,0,0,1,0,1,0,1,0,0,1,1,1,1,0,0,1,0,0,0,0,0,0.82,0.992,0.888888889
+Calicivirus in Cats_48,Calicivirus in Cats,0,0,0,0,0,1,0,1,0,1,0,0,0,1,1,1,0,0,1,0,0,0,0,0,0.75,0.9876,0.777777778
+Calicivirus in Cats_49,Calicivirus in Cats,0,0,0,0,0,1,0,1,0,1,0,1,0,1,1,1,0,0,1,0,0,0,0,0,0.82,0.9896,0.888888889
+Calicivirus in Cats_50,Calicivirus in Cats,0,0,0,0,0,1,0,1,0,1,0,0,1,1,1,1,0,0,1,0,0,0,0,0,0.82,0.992,0.888888889
+Feline Distemper (Panleukopenia)_1,Feline Distemper (Panleukopenia),0,1,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,1,1,1,0.76,0.9596,0.777777778
+Feline Distemper (Panleukopenia)_2,Feline Distemper (Panleukopenia),0,1,1,0,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,1,1,1,0.84,0.9906,0.888888889
+Feline Distemper (Panleukopenia)_3,Feline Distemper (Panleukopenia),0,1,1,0,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,1,1,1,0.84,0.9906,0.888888889
+Feline Distemper (Panleukopenia)_4,Feline Distemper (Panleukopenia),0,1,1,0,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,1,1,1,0.84,0.9906,0.888888889
+Feline Distemper (Panleukopenia)_5,Feline Distemper (Panleukopenia),0,1,1,0,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0.67,0.9748,0.666666667
+Feline Distemper (Panleukopenia)_6,Feline Distemper (Panleukopenia),0,1,1,0,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,0,1,1,0.76,0.9775,0.777777778
+Feline Distemper (Panleukopenia)_7,Feline Distemper (Panleukopenia),0,1,1,0,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0.67,0.9748,0.666666667
+Feline Distemper (Panleukopenia)_8,Feline Distemper (Panleukopenia),0,1,1,0,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,1,1,0,0.76,0.9884,0.777777778
+Feline Distemper (Panleukopenia)_9,Feline Distemper (Panleukopenia),0,1,1,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,1,1,0,0.65,0.9852,0.666666667
+Feline Distemper (Panleukopenia)_10,Feline Distemper (Panleukopenia),0,1,1,0,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,1,1,1,0.84,0.9906,0.888888889
+Feline Distemper (Panleukopenia)_11,Feline Distemper (Panleukopenia),0,1,1,0,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,0,1,1,0.76,0.9775,0.777777778
+Feline Distemper (Panleukopenia)_12,Feline Distemper (Panleukopenia),0,1,1,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,0,0,0,1,1,0.82,0.9916,0.888888889
+Feline Distemper (Panleukopenia)_13,Feline Distemper (Panleukopenia),0,1,1,0,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,0,1,1,0.76,0.9775,0.777777778
+Feline Distemper (Panleukopenia)_14,Feline Distemper (Panleukopenia),0,1,1,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,0,0,1,1,0,0.82,0.9939,0.888888889
+Feline Distemper (Panleukopenia)_15,Feline Distemper (Panleukopenia),0,1,1,0,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0.67,0.9748,0.666666667
+Feline Distemper (Panleukopenia)_16,Feline Distemper (Panleukopenia),0,1,1,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,0,0,1,1,0,0.82,0.9939,0.888888889
+Feline Distemper (Panleukopenia)_17,Feline Distemper (Panleukopenia),0,1,1,0,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,1,1,1,0.84,0.9906,0.888888889
+Feline Distemper (Panleukopenia)_18,Feline Distemper (Panleukopenia),0,1,1,0,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,1,1,1,0.84,0.9906,0.888888889
+Feline Distemper (Panleukopenia)_19,Feline Distemper (Panleukopenia),0,0,1,0,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,1,1,0,0.65,0.748,0.666666667
+Feline Distemper (Panleukopenia)_20,Feline Distemper (Panleukopenia),0,1,1,0,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,1,1,0,0.76,0.9884,0.777777778
+Feline Distemper (Panleukopenia)_21,Feline Distemper (Panleukopenia),0,1,1,0,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,0,1,1,0.76,0.9775,0.777777778
+Feline Distemper (Panleukopenia)_22,Feline Distemper (Panleukopenia),0,1,1,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,0,0,1,1,1,0.9,0.9944,1.0
+Feline Distemper (Panleukopenia)_23,Feline Distemper (Panleukopenia),0,1,1,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,0,0,1,1,1,0.9,0.9944,1.0
+Feline Distemper (Panleukopenia)_24,Feline Distemper (Panleukopenia),0,1,1,0,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,1,1,1,0.84,0.9906,0.888888889
+Feline Distemper (Panleukopenia)_25,Feline Distemper (Panleukopenia),0,1,1,0,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0.67,0.9748,0.666666667
+Feline Distemper (Panleukopenia)_26,Feline Distemper (Panleukopenia),0,1,1,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,0,0,0,1,0,0.73,0.9911,0.777777778
+Feline Distemper (Panleukopenia)_27,Feline Distemper (Panleukopenia),0,1,1,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,0,0,1,1,1,0.9,0.9944,1.0
+Feline Distemper (Panleukopenia)_28,Feline Distemper (Panleukopenia),0,1,1,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,0,0,0,1,1,0.82,0.9916,0.888888889
+Feline Distemper (Panleukopenia)_29,Feline Distemper (Panleukopenia),0,1,1,0,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,0,1,1,0.76,0.9775,0.777777778
+Feline Distemper (Panleukopenia)_30,Feline Distemper (Panleukopenia),0,1,1,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,0,0,0,1,1,0.82,0.9916,0.888888889
+Feline Distemper (Panleukopenia)_31,Feline Distemper (Panleukopenia),0,1,1,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,0,0,0,1,1,0.82,0.9916,0.888888889
+Feline Distemper (Panleukopenia)_32,Feline Distemper (Panleukopenia),0,1,1,0,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0.67,0.9748,0.666666667
+Feline Distemper (Panleukopenia)_33,Feline Distemper (Panleukopenia),0,1,1,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,0,0,1,1,0,0.82,0.9939,0.888888889
+Feline Distemper (Panleukopenia)_34,Feline Distemper (Panleukopenia),0,1,1,0,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,0,1,1,0.76,0.9775,0.777777778
+Feline Distemper (Panleukopenia)_35,Feline Distemper (Panleukopenia),0,1,1,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,0,0,0,1,1,0.82,0.9916,0.888888889
+Feline Distemper (Panleukopenia)_36,Feline Distemper (Panleukopenia),0,1,1,0,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,0,1,1,0.76,0.9775,0.777777778
+Feline Distemper (Panleukopenia)_37,Feline Distemper (Panleukopenia),0,1,1,0,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0.67,0.9748,0.666666667
+Feline Distemper (Panleukopenia)_38,Feline Distemper (Panleukopenia),0,1,1,0,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,0,1,1,0.76,0.9775,0.777777778
+Feline Distemper (Panleukopenia)_39,Feline Distemper (Panleukopenia),0,1,1,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0.59,0.8101,0.555555556
+Feline Distemper (Panleukopenia)_40,Feline Distemper (Panleukopenia),0,1,1,0,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,1,1,1,0.84,0.9906,0.888888889
+Feline Distemper (Panleukopenia)_41,Feline Distemper (Panleukopenia),0,1,1,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,1,1,1,0.73,0.9861,0.777777778
+Feline Distemper (Panleukopenia)_42,Feline Distemper (Panleukopenia),0,1,1,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0.65,0.9632,0.666666667
+Feline Distemper (Panleukopenia)_43,Feline Distemper (Panleukopenia),0,1,1,0,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,0,1,1,0.76,0.9775,0.777777778
+Feline Distemper (Panleukopenia)_44,Feline Distemper (Panleukopenia),0,0,1,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,0,0,0,1,0,0.62,0.74,0.666666667
+Feline Distemper (Panleukopenia)_45,Feline Distemper (Panleukopenia),0,1,1,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,0,0,1,1,0,0.82,0.9939,0.888888889
+Feline Distemper (Panleukopenia)_46,Feline Distemper (Panleukopenia),0,1,1,0,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,1,1,0,0.76,0.9884,0.777777778
+Feline Distemper (Panleukopenia)_47,Feline Distemper (Panleukopenia),0,1,1,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,0,0,1,1,1,0.9,0.9944,1.0
+Feline Distemper (Panleukopenia)_48,Feline Distemper (Panleukopenia),0,1,1,0,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,1,1,1,0.84,0.9906,0.888888889
+Feline Distemper (Panleukopenia)_49,Feline Distemper (Panleukopenia),0,1,1,0,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,0,1,1,0.76,0.9775,0.777777778
+Feline Distemper (Panleukopenia)_50,Feline Distemper (Panleukopenia),0,1,1,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1,1,0,0.67,0.9751,0.666666667
+Feline Herpesvirus 1 (FHV-1) Infection_1,Feline Herpesvirus 1 (FHV-1) Infection,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,1,0,0,1,1,0,0,0,0,0.8,0.9925,0.875
+Feline Herpesvirus 1 (FHV-1) Infection_2,Feline Herpesvirus 1 (FHV-1) Infection,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,1,0,0,1,1,0,0,0,0,0.8,0.9887,0.875
+Feline Herpesvirus 1 (FHV-1) Infection_3,Feline Herpesvirus 1 (FHV-1) Infection,0,0,0,0,0,0,0,1,1,1,0,1,0,1,0,1,0,0,1,0,0,0,0,0,0.8,0.9869,0.875
+Feline Herpesvirus 1 (FHV-1) Infection_4,Feline Herpesvirus 1 (FHV-1) Infection,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,1,0,0,1,1,0,0,0,0,0.8,0.9925,0.875
+Feline Herpesvirus 1 (FHV-1) Infection_5,Feline Herpesvirus 1 (FHV-1) Infection,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,1,0,0,1,1,0,0,0,0,0.71,0.9692,0.75
+Feline Herpesvirus 1 (FHV-1) Infection_6,Feline Herpesvirus 1 (FHV-1) Infection,0,0,0,0,0,0,0,1,1,1,0,1,0,1,0,1,0,0,1,1,0,0,0,0,0.9,0.9931,1.0
+Feline Herpesvirus 1 (FHV-1) Infection_7,Feline Herpesvirus 1 (FHV-1) Infection,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,1,0,0,1,1,0,0,0,0,0.61,0.9818,0.625
+Feline Herpesvirus 1 (FHV-1) Infection_8,Feline Herpesvirus 1 (FHV-1) Infection,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0.71,0.9916,0.75
+Feline Herpesvirus 1 (FHV-1) Infection_9,Feline Herpesvirus 1 (FHV-1) Infection,0,0,0,0,0,0,0,1,1,1,0,1,0,1,0,1,0,0,1,0,0,0,0,0,0.8,0.9869,0.875
+Feline Herpesvirus 1 (FHV-1) Infection_10,Feline Herpesvirus 1 (FHV-1) Infection,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,1,0,0,1,1,0,0,0,0,0.71,0.9692,0.75
+Feline Herpesvirus 1 (FHV-1) Infection_11,Feline Herpesvirus 1 (FHV-1) Infection,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0.51,0.7913,0.5
+Feline Herpesvirus 1 (FHV-1) Infection_12,Feline Herpesvirus 1 (FHV-1) Infection,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,1,0,0,1,1,0,0,0,0,0.8,0.9925,0.875
+Feline Herpesvirus 1 (FHV-1) Infection_13,Feline Herpesvirus 1 (FHV-1) Infection,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,1,0,0,1,1,0,0,0,0,0.8,0.9887,0.875
+Feline Herpesvirus 1 (FHV-1) Infection_14,Feline Herpesvirus 1 (FHV-1) Infection,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0.58,0.9447,0.625
+Feline Herpesvirus 1 (FHV-1) Infection_15,Feline Herpesvirus 1 (FHV-1) Infection,0,0,0,0,0,0,0,1,0,1,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0.61,0.9101,0.625
+Feline Herpesvirus 1 (FHV-1) Infection_16,Feline Herpesvirus 1 (FHV-1) Infection,0,0,0,0,0,0,0,1,0,1,0,1,0,1,0,1,0,0,1,0,0,0,0,0,0.71,0.8137,0.75
+Feline Herpesvirus 1 (FHV-1) Infection_17,Feline Herpesvirus 1 (FHV-1) Infection,0,0,0,0,0,0,0,1,0,1,0,1,0,0,0,1,0,0,1,1,0,0,0,0,0.71,0.9873,0.75
+Feline Herpesvirus 1 (FHV-1) Infection_18,Feline Herpesvirus 1 (FHV-1) Infection,0,0,0,0,0,0,0,1,1,0,0,1,0,1,0,1,0,0,1,1,0,0,0,0,0.8,0.9906,0.875
+Feline Herpesvirus 1 (FHV-1) Infection_19,Feline Herpesvirus 1 (FHV-1) Infection,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,1,0,0,1,1,0,0,0,0,0.8,0.9925,0.875
+Feline Herpesvirus 1 (FHV-1) Infection_20,Feline Herpesvirus 1 (FHV-1) Infection,0,0,0,0,0,0,0,1,1,1,0,1,0,1,0,1,0,0,1,0,0,0,0,0,0.8,0.9869,0.875
+Feline Herpesvirus 1 (FHV-1) Infection_21,Feline Herpesvirus 1 (FHV-1) Infection,0,0,0,0,0,0,0,1,0,1,0,1,0,1,0,1,0,0,1,1,0,0,0,0,0.8,0.986,0.875
+Feline Herpesvirus 1 (FHV-1) Infection_22,Feline Herpesvirus 1 (FHV-1) Infection,0,0,0,0,0,0,0,1,1,1,0,1,0,1,0,1,0,0,1,1,0,0,0,0,0.9,0.9931,1.0
+Feline Herpesvirus 1 (FHV-1) Infection_23,Feline Herpesvirus 1 (FHV-1) Infection,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0.71,0.9916,0.75
+Feline Herpesvirus 1 (FHV-1) Infection_24,Feline Herpesvirus 1 (FHV-1) Infection,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,1,0,0,1,1,0,0,0,0,0.8,0.9925,0.875
+Feline Herpesvirus 1 (FHV-1) Infection_25,Feline Herpesvirus 1 (FHV-1) Infection,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,1,0,0,1,1,0,0,0,0,0.71,0.9879,0.75
+Feline Herpesvirus 1 (FHV-1) Infection_26,Feline Herpesvirus 1 (FHV-1) Infection,0,0,0,0,0,0,0,0,1,1,0,1,0,1,0,1,0,0,1,1,0,0,0,0,0.77,0.983,0.875
+Feline Herpesvirus 1 (FHV-1) Infection_27,Feline Herpesvirus 1 (FHV-1) Infection,0,0,0,0,0,0,0,1,0,1,0,1,0,1,0,1,0,0,1,1,0,0,0,0,0.8,0.986,0.875
+Feline Herpesvirus 1 (FHV-1) Infection_28,Feline Herpesvirus 1 (FHV-1) Infection,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,1,0,0,1,1,0,0,0,0,0.8,0.9887,0.875
+Feline Herpesvirus 1 (FHV-1) Infection_29,Feline Herpesvirus 1 (FHV-1) Infection,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,1,0,0,1,1,0,0,0,0,0.71,0.9692,0.75
+Feline Herpesvirus 1 (FHV-1) Infection_30,Feline Herpesvirus 1 (FHV-1) Infection,0,0,0,0,0,0,0,1,0,1,0,1,0,1,0,1,0,0,1,1,0,0,0,0,0.8,0.986,0.875
+Feline Herpesvirus 1 (FHV-1) Infection_31,Feline Herpesvirus 1 (FHV-1) Infection,0,0,0,0,0,0,0,1,0,1,0,1,0,1,0,1,0,0,1,1,0,0,0,0,0.8,0.986,0.875
+Feline Herpesvirus 1 (FHV-1) Infection_32,Feline Herpesvirus 1 (FHV-1) Infection,0,0,0,0,0,0,0,1,1,1,0,1,0,1,0,1,0,0,1,1,0,0,0,0,0.9,0.9931,1.0
+Feline Herpesvirus 1 (FHV-1) Infection_33,Feline Herpesvirus 1 (FHV-1) Infection,0,0,0,0,0,0,0,1,0,1,0,1,0,0,0,1,0,0,1,1,0,0,0,0,0.71,0.9873,0.75
+Feline Herpesvirus 1 (FHV-1) Infection_34,Feline Herpesvirus 1 (FHV-1) Infection,0,0,0,0,0,0,0,1,1,1,0,1,0,1,0,1,0,0,1,1,0,0,0,0,0.9,0.9931,1.0
+Feline Herpesvirus 1 (FHV-1) Infection_35,Feline Herpesvirus 1 (FHV-1) Infection,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,1,0,0,1,1,0,0,0,0,0.8,0.9925,0.875
+Feline Herpesvirus 1 (FHV-1) Infection_36,Feline Herpesvirus 1 (FHV-1) Infection,0,0,0,0,0,0,0,1,1,1,0,1,0,1,0,1,0,0,1,1,0,0,0,0,0.9,0.9931,1.0
+Feline Herpesvirus 1 (FHV-1) Infection_37,Feline Herpesvirus 1 (FHV-1) Infection,0,0,0,0,0,0,0,1,1,1,0,1,0,1,0,1,0,0,1,1,0,0,0,0,0.9,0.9931,1.0
+Feline Herpesvirus 1 (FHV-1) Infection_38,Feline Herpesvirus 1 (FHV-1) Infection,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0.51,0.9625,0.5
+Feline Herpesvirus 1 (FHV-1) Infection_39,Feline Herpesvirus 1 (FHV-1) Infection,0,0,0,0,0,0,0,1,1,1,0,1,0,1,0,1,0,0,1,0,0,0,0,0,0.8,0.9869,0.875
+Feline Herpesvirus 1 (FHV-1) Infection_40,Feline Herpesvirus 1 (FHV-1) Infection,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0.71,0.9383,0.75
+Feline Herpesvirus 1 (FHV-1) Infection_41,Feline Herpesvirus 1 (FHV-1) Infection,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,1,0,0,1,1,0,0,0,0,0.8,0.9925,0.875
+Feline Herpesvirus 1 (FHV-1) Infection_42,Feline Herpesvirus 1 (FHV-1) Infection,0,0,0,0,0,0,0,1,0,1,0,1,0,0,0,1,0,0,1,1,0,0,0,0,0.71,0.9873,0.75
+Feline Herpesvirus 1 (FHV-1) Infection_43,Feline Herpesvirus 1 (FHV-1) Infection,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0.71,0.9887,0.75
+Feline Herpesvirus 1 (FHV-1) Infection_44,Feline Herpesvirus 1 (FHV-1) Infection,0,0,0,0,0,0,0,1,1,1,0,1,0,1,0,0,0,0,1,1,0,0,0,0,0.77,0.9842,0.875
+Feline Herpesvirus 1 (FHV-1) Infection_45,Feline Herpesvirus 1 (FHV-1) Infection,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0.71,0.9887,0.75
+Feline Herpesvirus 1 (FHV-1) Infection_46,Feline Herpesvirus 1 (FHV-1) Infection,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0.61,0.9775,0.625
+Feline Herpesvirus 1 (FHV-1) Infection_47,Feline Herpesvirus 1 (FHV-1) Infection,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0.71,0.9916,0.75
+Feline Herpesvirus 1 (FHV-1) Infection_48,Feline Herpesvirus 1 (FHV-1) Infection,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,1,0,0,1,1,0,0,0,0,0.8,0.9925,0.875
+Feline Herpesvirus 1 (FHV-1) Infection_49,Feline Herpesvirus 1 (FHV-1) Infection,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,1,0,0,1,1,0,0,0,0,0.8,0.9887,0.875
+Feline Herpesvirus 1 (FHV-1) Infection_50,Feline Herpesvirus 1 (FHV-1) Infection,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,1,1,0,0,0,0,0.58,0.9254,0.625
+Rabies in Cats_1,Rabies in Cats,1,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0.73,0.9888,0.75
+Rabies in Cats_2,Rabies in Cats,1,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0.7,0.9908,0.75
+Rabies in Cats_3,Rabies in Cats,1,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0.7,0.9908,0.75
+Rabies in Cats_4,Rabies in Cats,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0.6,0.9851,0.625
+Rabies in Cats_5,Rabies in Cats,1,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0.7,0.9908,0.75
+Rabies in Cats_6,Rabies in Cats,1,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,0,0,0.82,0.9913,0.875
+Rabies in Cats_7,Rabies in Cats,1,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,1,1,0,0,0.82,0.9911,0.875
+Rabies in Cats_8,Rabies in Cats,1,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0.7,0.9908,0.75
+Rabies in Cats_9,Rabies in Cats,1,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,1,1,0,0,1,1,0,0,0.95,0.9913,1.0
+Rabies in Cats_10,Rabies in Cats,1,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,1,1,0,0,1,1,0,0,0.95,0.9913,1.0
+Rabies in Cats_11,Rabies in Cats,1,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0.6,0.9884,0.625
+Rabies in Cats_12,Rabies in Cats,1,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0.7,0.9908,0.75
+Rabies in Cats_13,Rabies in Cats,1,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,0,0,0.82,0.9913,0.875
+Rabies in Cats_14,Rabies in Cats,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0.57,0.5517,0.625
+Rabies in Cats_15,Rabies in Cats,1,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0.6,0.9884,0.625

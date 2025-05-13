@@ -1,0 +1,146 @@
+Test Case ID,Illness,Abdominal Pain,Bad Breath,Blood in Urine,Decreased Appetite,Diarrhea,Difficulty Urinating,Edema (Swelling),Frequent Urination,Increased Thirst,Increased Urination,Lethargy,Mouth Ulcers,Nausea,Proteinuria (Foamy Urine),Vomiting,Weight Loss,FC_Confidence,GB_Confidence,Symptom_Match_Ratio
+Chronic Kidney Disease (CKD)_1,Chronic Kidney Disease (CKD),0,0,0,0,0,0,0,0,1,0,0,1,1,0,1,0,0.39,0.9218,0.4
+Chronic Kidney Disease (CKD)_2,Chronic Kidney Disease (CKD),0,0,0,0,0,0,0,0,1,0,0,1,1,0,1,0,0.39,0.9218,0.4
+Chronic Kidney Disease (CKD)_3,Chronic Kidney Disease (CKD),0,0,0,0,0,0,0,0,1,0,0,1,1,0,1,0,0.39,0.9218,0.4
+Chronic Kidney Disease (CKD)_4,Chronic Kidney Disease (CKD),0,0,0,1,0,0,0,0,1,1,0,1,1,0,1,0,0.57,0.9805,0.6
+Chronic Kidney Disease (CKD)_5,Chronic Kidney Disease (CKD),0,1,0,0,1,0,0,0,0,1,0,0,1,0,1,0,0.45,0.012,0.5
+Chronic Kidney Disease (CKD)_6,Chronic Kidney Disease (CKD),0,0,0,0,0,0,0,0,0,1,0,1,1,0,1,1,0.48,0.9049,0.5
+Chronic Kidney Disease (CKD)_7,Chronic Kidney Disease (CKD),0,0,0,0,0,0,0,0,1,1,0,1,1,0,1,0,0.48,0.9733,0.5
+Chronic Kidney Disease (CKD)_8,Chronic Kidney Disease (CKD),0,0,0,0,0,0,0,0,1,1,1,0,1,0,1,0,0.47,0.4619,0.5
+Chronic Kidney Disease (CKD)_9,Chronic Kidney Disease (CKD),0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0.3,0.6904,0.3
+Chronic Kidney Disease (CKD)_10,Chronic Kidney Disease (CKD),0,0,0,0,0,0,0,0,0,1,1,1,0,0,1,0,0.38,0.7033,0.4
+Chronic Kidney Disease (CKD)_11,Chronic Kidney Disease (CKD),0,0,0,0,0,0,0,0,1,1,0,1,1,0,1,0,0.48,0.9733,0.5
+Chronic Kidney Disease (CKD)_12,Chronic Kidney Disease (CKD),0,0,0,1,0,0,0,0,1,0,1,1,1,0,1,1,0.65,0.9697,0.7
+Chronic Kidney Disease (CKD)_13,Chronic Kidney Disease (CKD),0,1,0,0,0,0,0,0,1,1,0,1,1,0,1,0,0.57,0.9852,0.6
+Chronic Kidney Disease (CKD)_14,Chronic Kidney Disease (CKD),0,0,0,0,0,0,0,0,0,1,1,1,1,0,1,1,0.56,0.9299,0.6
+Chronic Kidney Disease (CKD)_15,Chronic Kidney Disease (CKD),0,1,0,1,0,0,0,0,1,0,0,1,1,0,1,0,0.56,0.9372,0.6
+Chronic Kidney Disease (CKD)_16,Chronic Kidney Disease (CKD),0,0,0,0,0,0,0,0,1,1,0,1,1,0,1,0,0.48,0.9733,0.5
+Chronic Kidney Disease (CKD)_17,Chronic Kidney Disease (CKD),0,0,0,1,0,0,0,0,1,0,0,1,1,0,1,1,0.56,0.9638,0.6
+Chronic Kidney Disease (CKD)_18,Chronic Kidney Disease (CKD),0,1,0,0,0,0,0,0,0,1,1,1,1,0,1,0,0.56,0.9449,0.6
+Chronic Kidney Disease (CKD)_19,Chronic Kidney Disease (CKD),0,0,0,1,0,0,0,0,1,1,0,1,1,0,1,0,0.57,0.9805,0.6
+Chronic Kidney Disease (CKD)_20,Chronic Kidney Disease (CKD),0,1,0,0,1,0,0,0,1,1,1,1,1,0,1,0,0.73,0.9415,0.8
+Chronic Kidney Disease (CKD)_21,Chronic Kidney Disease (CKD),0,0,0,0,1,0,0,0,1,1,0,1,1,0,1,1,0.65,0.8617,0.7
+Chronic Kidney Disease (CKD)_22,Chronic Kidney Disease (CKD),0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0.3,0.6904,0.3
+Chronic Kidney Disease (CKD)_23,Chronic Kidney Disease (CKD),0,0,0,0,1,0,0,0,1,0,0,1,1,0,1,0,0.47,0.59,0.5
+Chronic Kidney Disease (CKD)_24,Chronic Kidney Disease (CKD),0,0,0,1,0,0,0,0,1,1,0,1,1,0,1,0,0.57,0.9805,0.6
+Chronic Kidney Disease (CKD)_25,Chronic Kidney Disease (CKD),0,0,0,0,0,0,0,0,1,1,0,1,1,0,1,1,0.57,0.9741,0.6
+Chronic Kidney Disease (CKD)_26,Chronic Kidney Disease (CKD),0,0,0,1,0,0,0,0,1,0,0,1,1,0,1,0,0.48,0.9409,0.5
+Chronic Kidney Disease (CKD)_27,Chronic Kidney Disease (CKD),0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0.37,0.9188,0.4
+Chronic Kidney Disease (CKD)_28,Chronic Kidney Disease (CKD),0,1,0,1,0,0,0,0,1,1,0,1,1,0,1,0,0.65,0.9855,0.7
+Chronic Kidney Disease (CKD)_29,Chronic Kidney Disease (CKD),0,1,0,0,1,0,0,0,0,1,0,1,0,0,1,1,0.54,0.3761,0.6
+Chronic Kidney Disease (CKD)_30,Chronic Kidney Disease (CKD),0,0,0,0,0,0,0,0,1,1,0,1,1,0,1,0,0.48,0.9733,0.5
+Chronic Kidney Disease (CKD)_31,Chronic Kidney Disease (CKD),0,1,0,0,0,0,0,0,1,1,0,1,0,0,1,1,0.56,0.9564,0.6
+Chronic Kidney Disease (CKD)_32,Chronic Kidney Disease (CKD),0,1,0,0,0,0,0,0,1,0,0,1,1,0,1,0,0.48,0.9335,0.5
+Chronic Kidney Disease (CKD)_33,Chronic Kidney Disease (CKD),0,0,0,1,0,0,0,0,1,1,0,1,1,0,1,0,0.57,0.9805,0.6
+Chronic Kidney Disease (CKD)_34,Chronic Kidney Disease (CKD),0,0,0,1,0,0,0,0,1,1,1,1,1,0,0,0,0.55,0.9723,0.6
+Chronic Kidney Disease (CKD)_35,Chronic Kidney Disease (CKD),0,0,0,1,0,0,0,0,0,0,0,1,1,0,1,1,0.47,0.7534,0.5
+Chronic Kidney Disease (CKD)_36,Chronic Kidney Disease (CKD),0,0,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0.39,0.7404,0.4
+Chronic Kidney Disease (CKD)_37,Chronic Kidney Disease (CKD),0,0,0,0,1,0,0,0,1,1,0,1,1,0,1,1,0.65,0.8617,0.7
+Chronic Kidney Disease (CKD)_38,Chronic Kidney Disease (CKD),0,1,0,1,0,0,0,0,1,1,0,1,1,0,1,0,0.65,0.9855,0.7
+Chronic Kidney Disease (CKD)_39,Chronic Kidney Disease (CKD),0,0,0,1,1,0,0,0,1,1,1,1,1,0,1,0,0.73,0.9054,0.8
+Chronic Kidney Disease (CKD)_40,Chronic Kidney Disease (CKD),0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0.3,0.6384,0.3
+Chronic Kidney Disease (CKD)_41,Chronic Kidney Disease (CKD),0,0,0,1,0,0,0,0,0,1,0,1,1,0,1,0,0.48,0.9173,0.5
+Chronic Kidney Disease (CKD)_42,Chronic Kidney Disease (CKD),0,0,0,0,0,0,0,0,1,1,1,1,1,0,1,0,0.57,0.9777,0.6
+Chronic Kidney Disease (CKD)_43,Chronic Kidney Disease (CKD),0,0,0,0,0,0,0,0,1,1,0,1,1,0,1,0,0.48,0.9733,0.5
+Chronic Kidney Disease (CKD)_44,Chronic Kidney Disease (CKD),0,0,0,0,1,0,0,0,1,0,0,1,1,0,1,0,0.47,0.59,0.5
+Chronic Kidney Disease (CKD)_45,Chronic Kidney Disease (CKD),0,0,0,1,0,0,0,0,1,1,1,1,1,0,1,0,0.65,0.9839,0.7
+Chronic Kidney Disease (CKD)_46,Chronic Kidney Disease (CKD),0,0,0,1,0,0,0,0,1,0,1,1,1,0,1,1,0.65,0.9697,0.7
+Chronic Kidney Disease (CKD)_47,Chronic Kidney Disease (CKD),0,0,0,0,0,0,0,0,1,1,1,1,1,0,1,0,0.57,0.9777,0.6
+Chronic Kidney Disease (CKD)_48,Chronic Kidney Disease (CKD),0,0,0,0,1,0,0,0,1,1,0,1,1,0,1,0,0.56,0.8339,0.6
+Chronic Kidney Disease (CKD)_49,Chronic Kidney Disease (CKD),0,1,0,0,0,0,0,0,1,0,0,1,1,0,1,0,0.48,0.9335,0.5
+Chronic Kidney Disease (CKD)_50,Chronic Kidney Disease (CKD),0,0,0,0,0,0,0,0,1,0,0,1,1,0,1,1,0.48,0.9416,0.5
+Chronic Renal Failure_1,Chronic Renal Failure,0,0,0,1,1,0,0,0,0,1,0,0,0,0,1,0,0.45,0.8906,0.4
+Chronic Renal Failure_2,Chronic Renal Failure,0,0,0,0,1,0,0,0,1,0,0,0,0,0,1,0,0.38,0.8714,0.3
+Chronic Renal Failure_3,Chronic Renal Failure,0,0,0,0,1,0,0,0,0,0,1,0,1,0,1,0,0.45,0.6187,0.4
+Chronic Renal Failure_4,Chronic Renal Failure,0,0,0,0,1,0,0,0,1,0,1,0,0,0,1,0,0.45,0.6779,0.4
+Chronic Renal Failure_5,Chronic Renal Failure,0,1,0,0,1,0,0,0,0,1,1,1,0,0,1,0,0.6,0.3856,0.6
+Chronic Renal Failure_6,Chronic Renal Failure,0,0,0,1,1,0,0,0,0,0,0,1,1,0,1,0,0.52,0.8836,0.5
+Chronic Renal Failure_7,Chronic Renal Failure,0,0,0,0,1,0,0,0,1,0,0,0,0,0,1,1,0.45,0.8484,0.4
+Chronic Renal Failure_8,Chronic Renal Failure,0,0,0,1,1,0,0,0,1,0,1,0,1,0,1,0,0.6,0.8823,0.6
+Chronic Renal Failure_9,Chronic Renal Failure,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0.38,0.8512,0.3
+Chronic Renal Failure_10,Chronic Renal Failure,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0.23,0.5922,0.2
+Chronic Renal Failure_11,Chronic Renal Failure,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0.3,0.5307,0.2
+Chronic Renal Failure_12,Chronic Renal Failure,0,0,0,0,1,0,0,0,1,0,1,0,0,0,1,0,0.45,0.6779,0.4
+Chronic Renal Failure_13,Chronic Renal Failure,0,0,0,0,1,0,0,0,0,1,0,1,1,0,1,1,0.6,0.6456,0.6
+Chronic Renal Failure_14,Chronic Renal Failure,0,1,0,0,1,0,0,0,1,1,1,1,0,0,1,1,0.75,0.0592,0.8
+Chronic Renal Failure_15,Chronic Renal Failure,0,0,0,0,1,0,0,0,1,0,0,0,0,0,1,1,0.45,0.8484,0.4
+Chronic Renal Failure_16,Chronic Renal Failure,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0.38,0.5807,0.3
+Chronic Renal Failure_17,Chronic Renal Failure,0,1,0,1,1,0,0,0,0,0,1,0,1,0,1,0,0.6,0.9045,0.6
+Chronic Renal Failure_18,Chronic Renal Failure,0,1,0,1,1,0,0,0,1,1,0,1,0,0,1,0,0.67,0.8179,0.7
+Chronic Renal Failure_19,Chronic Renal Failure,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0.38,0.8512,0.3
+Chronic Renal Failure_20,Chronic Renal Failure,0,1,0,0,1,0,0,0,0,0,1,1,0,0,1,0,0.52,0.7569,0.5
+Chronic Renal Failure_21,Chronic Renal Failure,0,1,0,0,1,0,0,0,1,1,0,0,0,0,1,0,0.52,0.9648,0.5
+Chronic Renal Failure_22,Chronic Renal Failure,0,0,0,0,1,0,0,0,1,0,0,0,0,0,1,1,0.45,0.8484,0.4
+Chronic Renal Failure_23,Chronic Renal Failure,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0.38,0.8619,0.3
+Chronic Renal Failure_24,Chronic Renal Failure,0,0,0,0,1,0,0,0,0,0,0,1,0,0,1,1,0.45,0.7242,0.4
+Chronic Renal Failure_25,Chronic Renal Failure,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0.38,0.8619,0.3
+Chronic Renal Failure_26,Chronic Renal Failure,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0.38,0.5807,0.3
+Chronic Renal Failure_27,Chronic Renal Failure,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0.3,0.5307,0.2
+Chronic Renal Failure_28,Chronic Renal Failure,0,1,0,1,1,0,0,0,0,0,0,0,1,0,1,0,0.52,0.961,0.5
+Chronic Renal Failure_29,Chronic Renal Failure,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0.3,0.5307,0.2
+Chronic Renal Failure_30,Chronic Renal Failure,0,0,0,0,1,0,0,0,0,1,0,1,0,0,1,0,0.45,0.7316,0.4
+Chronic Renal Failure_31,Chronic Renal Failure,0,0,0,0,1,0,0,0,1,0,0,0,0,0,1,0,0.38,0.8714,0.3
+Chronic Renal Failure_32,Chronic Renal Failure,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0.23,0.2933,0.2
+Chronic Renal Failure_33,Chronic Renal Failure,0,0,0,1,1,0,0,0,0,0,0,0,1,0,1,0,0.45,0.8669,0.4
+Chronic Renal Failure_34,Chronic Renal Failure,0,1,0,0,1,0,0,0,1,0,0,0,1,0,1,0,0.52,0.9614,0.5
+Chronic Renal Failure_35,Chronic Renal Failure,0,1,0,1,1,0,0,0,0,0,0,1,0,0,1,0,0.52,0.9487,0.5
+Chronic Renal Failure_36,Chronic Renal Failure,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0.38,0.8512,0.3
+Chronic Renal Failure_37,Chronic Renal Failure,0,0,0,0,1,0,0,0,1,1,0,1,0,0,1,0,0.52,0.6393,0.5
+Chronic Renal Failure_38,Chronic Renal Failure,0,0,0,1,1,0,0,0,1,0,0,0,0,0,1,0,0.45,0.9359,0.4
+Chronic Renal Failure_39,Chronic Renal Failure,0,0,0,0,1,0,0,0,0,0,0,1,1,0,1,0,0.45,0.817,0.4
+Chronic Renal Failure_40,Chronic Renal Failure,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,1,0.38,0.4515,0.3
+Chronic Renal Failure_41,Chronic Renal Failure,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0.38,0.5807,0.3
+Chronic Renal Failure_42,Chronic Renal Failure,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0.15,0.2953,0.1
+Chronic Renal Failure_43,Chronic Renal Failure,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0.23,0.6633,0.2
+Chronic Renal Failure_44,Chronic Renal Failure,0,0,0,0,1,0,0,0,0,0,0,0,1,0,1,1,0.45,0.7839,0.4
+Chronic Renal Failure_45,Chronic Renal Failure,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0.3,0.2445,0.3
+Chronic Renal Failure_46,Chronic Renal Failure,0,0,0,0,1,0,0,0,1,1,0,0,0,0,1,0,0.45,0.885,0.4
+Chronic Renal Failure_47,Chronic Renal Failure,0,1,0,0,1,0,0,0,0,1,0,0,1,0,1,0,0.52,0.9729,0.5
+Chronic Renal Failure_48,Chronic Renal Failure,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0.3,0.5307,0.2
+Chronic Renal Failure_49,Chronic Renal Failure,0,1,0,0,1,0,0,0,1,0,0,0,0,0,1,0,0.45,0.953,0.4
+Chronic Renal Failure_50,Chronic Renal Failure,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0.23,0.8018,0.2
+Kidney Stones_1,Kidney Stones,1,0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0.62,0.9861,0.666666667
+Kidney Stones_2,Kidney Stones,1,0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0.62,0.9861,0.666666667
+Kidney Stones_3,Kidney Stones,0,0,1,0,0,1,0,1,0,0,0,0,0,0,1,0,0.71,0.9783,0.666666667
+Kidney Stones_4,Kidney Stones,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0.62,0.9525,0.5
+Kidney Stones_5,Kidney Stones,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0.62,0.9525,0.5
+Kidney Stones_6,Kidney Stones,0,0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0.52,0.9765,0.5
+Kidney Stones_7,Kidney Stones,1,0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0.62,0.9861,0.666666667
+Kidney Stones_8,Kidney Stones,0,0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0.52,0.9765,0.5
+Kidney Stones_9,Kidney Stones,1,0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0.62,0.9861,0.666666667
+Kidney Stones_10,Kidney Stones,1,0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0.62,0.9861,0.666666667
+Kidney Stones_11,Kidney Stones,1,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0.71,0.974,0.666666667
+Kidney Stones_12,Kidney Stones,1,0,1,0,0,1,0,1,0,0,0,0,0,0,1,0,0.81,0.9864,0.833333333
+Kidney Stones_13,Kidney Stones,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0.43,0.5796,0.333333333
+Kidney Stones_14,Kidney Stones,1,0,1,0,0,1,0,0,0,0,1,0,0,0,1,0,0.81,0.952,0.833333333
+Kidney Stones_15,Kidney Stones,1,0,1,0,0,1,0,1,0,0,0,0,0,0,1,0,0.81,0.9864,0.833333333
+Kidney Stones_16,Kidney Stones,1,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0.71,0.974,0.666666667
+Kidney Stones_17,Kidney Stones,0,0,1,0,0,1,0,1,0,0,0,0,0,0,1,0,0.71,0.9783,0.666666667
+Kidney Stones_18,Kidney Stones,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0.52,0.9723,0.5
+Kidney Stones_19,Kidney Stones,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0.43,0.9418,0.333333333
+Kidney Stones_20,Kidney Stones,0,0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0.52,0.9765,0.5
+Kidney Stones_21,Kidney Stones,1,0,1,0,0,1,0,1,0,0,1,0,0,0,0,0,0.71,0.9852,0.833333333
+Kidney Stones_22,Kidney Stones,1,0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0.62,0.9626,0.666666667
+Kidney Stones_23,Kidney Stones,1,0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0.62,0.9861,0.666666667
+Kidney Stones_24,Kidney Stones,0,0,1,0,0,1,0,1,0,0,0,0,0,0,1,0,0.71,0.9783,0.666666667
+Kidney Stones_25,Kidney Stones,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0.43,0.9418,0.333333333
+Kidney Stones_26,Kidney Stones,1,0,1,0,0,1,0,1,0,0,0,0,0,0,1,0,0.81,0.9864,0.833333333
+Kidney Stones_27,Kidney Stones,0,0,1,0,0,1,0,1,0,0,1,0,0,0,1,0,0.81,0.9727,0.833333333
+Kidney Stones_28,Kidney Stones,1,0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0.62,0.9626,0.666666667
+Kidney Stones_29,Kidney Stones,0,0,1,0,0,1,0,1,0,0,0,0,0,0,1,0,0.71,0.9783,0.666666667
+Kidney Stones_30,Kidney Stones,0,0,1,0,0,1,0,1,0,0,1,0,0,0,1,0,0.81,0.9727,0.833333333
+Glomerulonephritis_1,Glomerulonephritis,0,0,1,0,0,0,1,0,0,0,1,0,0,1,0,1,0.9,0.9935,1.0
+Glomerulonephritis_2,Glomerulonephritis,0,0,1,0,0,0,1,0,0,0,0,0,0,1,0,0,0.66,0.9841,0.6
+Glomerulonephritis_3,Glomerulonephritis,0,0,1,0,0,0,1,0,0,0,0,0,0,1,0,1,0.78,0.9937,0.8
+Glomerulonephritis_4,Glomerulonephritis,0,0,1,0,0,0,1,0,0,0,0,0,0,1,0,1,0.78,0.9937,0.8
+Glomerulonephritis_5,Glomerulonephritis,0,0,1,0,0,0,1,0,0,0,1,0,0,1,0,0,0.78,0.9866,0.8
+Glomerulonephritis_6,Glomerulonephritis,0,0,1,0,0,0,0,0,0,0,1,0,0,1,0,0,0.66,0.9459,0.6
+Glomerulonephritis_7,Glomerulonephritis,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0.66,0.9211,0.6
+Glomerulonephritis_8,Glomerulonephritis,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0.66,0.9211,0.6
+Glomerulonephritis_9,Glomerulonephritis,0,0,1,0,0,0,1,0,0,0,1,0,0,1,0,1,0.9,0.9935,1.0
+Glomerulonephritis_10,Glomerulonephritis,0,0,1,0,0,0,1,0,0,0,0,0,0,1,0,0,0.66,0.9841,0.6
+Glomerulonephritis_11,Glomerulonephritis,0,0,1,0,0,0,0,0,0,0,1,0,0,1,0,0,0.66,0.9459,0.6
+Glomerulonephritis_12,Glomerulonephritis,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0.54,0.7087,0.4
+Glomerulonephritis_13,Glomerulonephritis,0,0,1,0,0,0,1,0,0,0,0,0,0,1,0,0,0.66,0.9841,0.6
+Glomerulonephritis_14,Glomerulonephritis,0,0,1,0,0,0,1,0,0,0,0,0,0,1,0,1,0.78,0.9937,0.8
+Glomerulonephritis_15,Glomerulonephritis,0,0,1,0,0,0,1,0,0,0,0,0,0,1,0,1,0.78,0.9937,0.8

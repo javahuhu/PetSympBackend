@@ -1,0 +1,196 @@
+Test Case ID,Illness,Abdominal Pain,Bad Odor,Coughing,Diarrhea,Draining wounds,Eye discharge,Fever,Foul odor from wound,Frequent urination,Jaundice,Lethargy,Loss of appetite,Mucus in stool,Nasal discharge,Pain,Pain when touched,Pus or discharge,Skin lumps,Skin wounds,Sneezing,Swelling,Swollen joints,Vomiting,Weakness,Weight loss,FC_Confidence,GB_Confidence,Symptom_Match_Ratio
+Anaerobic Bacterial Infections in Cats_1,Anaerobic Bacterial Infections in Cats,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,1,1,0,1,0,1,0,0,0,0,0.8,0.9896,1.0
+Anaerobic Bacterial Infections in Cats_2,Anaerobic Bacterial Infections in Cats,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,1,1,0,1,0,1,0,0,0,0,0.8,0.9896,1.0
+Anaerobic Bacterial Infections in Cats_3,Anaerobic Bacterial Infections in Cats,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,1,1,0,1,0,1,0,0,0,0,0.8,0.9896,1.0
+Anaerobic Bacterial Infections in Cats_4,Anaerobic Bacterial Infections in Cats,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,1,1,0,1,0,1,0,0,0,0,0.8,0.9896,1.0
+Anaerobic Bacterial Infections in Cats_5,Anaerobic Bacterial Infections in Cats,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,1,1,0,0,0,1,0,0,0,0,0.67,0.9866,0.857142857
+Anaerobic Bacterial Infections in Cats_6,Anaerobic Bacterial Infections in Cats,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,1,1,0,1,0,1,0,0,0,0,0.8,0.9896,1.0
+Anaerobic Bacterial Infections in Cats_7,Anaerobic Bacterial Infections in Cats,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,1,1,0,1,0,1,0,0,0,0,0.8,0.9896,1.0
+Anaerobic Bacterial Infections in Cats_8,Anaerobic Bacterial Infections in Cats,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,1,1,0,1,0,1,0,0,0,0,0.8,0.9896,1.0
+Anaerobic Bacterial Infections in Cats_9,Anaerobic Bacterial Infections in Cats,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,1,1,0,1,0,1,0,0,0,0,0.8,0.9896,1.0
+Anaerobic Bacterial Infections in Cats_10,Anaerobic Bacterial Infections in Cats,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,1,1,0,1,0,1,0,0,0,0,0.8,0.9896,1.0
+Anaerobic Bacterial Infections in Cats_11,Anaerobic Bacterial Infections in Cats,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,1,1,0,1,0,1,0,0,0,0,0.8,0.9896,1.0
+Anaerobic Bacterial Infections in Cats_12,Anaerobic Bacterial Infections in Cats,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,1,1,0,1,0,1,0,0,0,0,0.8,0.9896,1.0
+Anaerobic Bacterial Infections in Cats_13,Anaerobic Bacterial Infections in Cats,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,1,1,0,1,0,1,0,0,0,0,0.67,0.9819,0.857142857
+Anaerobic Bacterial Infections in Cats_14,Anaerobic Bacterial Infections in Cats,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,1,1,0,1,0,1,0,0,0,0,0.8,0.9896,1.0
+Anaerobic Bacterial Infections in Cats_15,Anaerobic Bacterial Infections in Cats,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,1,1,0,1,0,1,0,0,0,0,0.8,0.9896,1.0
+Anaerobic Bacterial Infections in Cats_16,Anaerobic Bacterial Infections in Cats,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0.7,0.9797,0.857142857
+Anaerobic Bacterial Infections in Cats_17,Anaerobic Bacterial Infections in Cats,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,1,1,0,1,0,1,0,0,0,0,0.8,0.9896,1.0
+Anaerobic Bacterial Infections in Cats_18,Anaerobic Bacterial Infections in Cats,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,1,0,1,0,1,0,0,0,0,0.7,0.9859,0.857142857
+Anaerobic Bacterial Infections in Cats_19,Anaerobic Bacterial Infections in Cats,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,1,1,0,1,0,1,0,0,0,0,0.8,0.9896,1.0
+Anaerobic Bacterial Infections in Cats_20,Anaerobic Bacterial Infections in Cats,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,1,1,0,0,0,1,0,0,0,0,0.67,0.9866,0.857142857
+Anaerobic Bacterial Infections in Cats_21,Anaerobic Bacterial Infections in Cats,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,1,1,0,1,0,1,0,0,0,0,0.8,0.9896,1.0
+Anaerobic Bacterial Infections in Cats_22,Anaerobic Bacterial Infections in Cats,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,1,0,1,0,1,0,0,0,0,0.7,0.9859,0.857142857
+Anaerobic Bacterial Infections in Cats_23,Anaerobic Bacterial Infections in Cats,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0.7,0.9797,0.857142857
+Anaerobic Bacterial Infections in Cats_24,Anaerobic Bacterial Infections in Cats,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,1,1,0,1,0,1,0,0,0,0,0.8,0.9896,1.0
+Anaerobic Bacterial Infections in Cats_25,Anaerobic Bacterial Infections in Cats,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,1,1,0,1,0,1,0,0,0,0,0.8,0.9896,1.0
+Anaerobic Bacterial Infections in Cats_26,Anaerobic Bacterial Infections in Cats,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,1,1,0,1,0,1,0,0,0,0,0.8,0.9896,1.0
+Anaerobic Bacterial Infections in Cats_27,Anaerobic Bacterial Infections in Cats,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,1,1,0,1,0,1,0,0,0,0,0.8,0.9896,1.0
+Anaerobic Bacterial Infections in Cats_28,Anaerobic Bacterial Infections in Cats,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,1,1,0,1,0,1,0,0,0,0,0.8,0.9896,1.0
+Anaerobic Bacterial Infections in Cats_29,Anaerobic Bacterial Infections in Cats,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,1,1,0,1,0,1,0,0,0,0,0.8,0.9896,1.0
+Anaerobic Bacterial Infections in Cats_30,Anaerobic Bacterial Infections in Cats,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,1,1,0,0,0,1,0,0,0,0,0.67,0.9866,0.857142857
+Bacterial Infection (Actinomycosis) in Cats_1,Bacterial Infection (Actinomycosis) in Cats,0,1,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0.8,0.9903,1.0
+Bacterial Infection (Actinomycosis) in Cats_2,Bacterial Infection (Actinomycosis) in Cats,0,1,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0.65,0.9858,0.833333333
+Bacterial Infection (Actinomycosis) in Cats_3,Bacterial Infection (Actinomycosis) in Cats,0,1,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0.8,0.9903,1.0
+Bacterial Infection (Actinomycosis) in Cats_4,Bacterial Infection (Actinomycosis) in Cats,0,1,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0.8,0.9903,1.0
+Bacterial Infection (Actinomycosis) in Cats_5,Bacterial Infection (Actinomycosis) in Cats,0,1,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0.8,0.9903,1.0
+Bacterial Infection (Actinomycosis) in Cats_6,Bacterial Infection (Actinomycosis) in Cats,0,1,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0.8,0.9903,1.0
+Bacterial Infection (Actinomycosis) in Cats_7,Bacterial Infection (Actinomycosis) in Cats,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0.55,0.9877,0.666666667
+Bacterial Infection (Actinomycosis) in Cats_8,Bacterial Infection (Actinomycosis) in Cats,0,1,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0.8,0.9903,1.0
+Bacterial Infection (Actinomycosis) in Cats_9,Bacterial Infection (Actinomycosis) in Cats,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0.69,0.9841,0.833333333
+Bacterial Infection (Actinomycosis) in Cats_10,Bacterial Infection (Actinomycosis) in Cats,0,1,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0.8,0.9903,1.0
+Bacterial Infection (Actinomycosis) in Cats_11,Bacterial Infection (Actinomycosis) in Cats,0,1,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0.65,0.9858,0.833333333
+Bacterial Infection (Actinomycosis) in Cats_12,Bacterial Infection (Actinomycosis) in Cats,0,0,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0.69,0.9873,0.833333333
+Bacterial Infection (Actinomycosis) in Cats_13,Bacterial Infection (Actinomycosis) in Cats,0,1,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0.8,0.9903,1.0
+Bacterial Infection (Actinomycosis) in Cats_14,Bacterial Infection (Actinomycosis) in Cats,0,1,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0.8,0.9903,1.0
+Bacterial Infection (Actinomycosis) in Cats_15,Bacterial Infection (Actinomycosis) in Cats,0,1,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0.8,0.9903,1.0
+Bacterial Infection (B. bronchiseptica) in Cats_1,Bacterial Infection (B. bronchiseptica) in Cats,0,0,1,0,0,1,1,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0.85,0.9867,1.0
+Bacterial Infection (B. bronchiseptica) in Cats_2,Bacterial Infection (B. bronchiseptica) in Cats,0,0,1,0,0,1,1,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0.85,0.9867,1.0
+Bacterial Infection (B. bronchiseptica) in Cats_3,Bacterial Infection (B. bronchiseptica) in Cats,0,0,1,0,0,1,1,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0.85,0.9867,1.0
+Bacterial Infection (B. bronchiseptica) in Cats_4,Bacterial Infection (B. bronchiseptica) in Cats,0,0,1,0,0,1,1,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0.85,0.9867,1.0
+Bacterial Infection (B. bronchiseptica) in Cats_5,Bacterial Infection (B. bronchiseptica) in Cats,0,0,1,0,0,1,1,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0.85,0.9867,1.0
+Bacterial Infection (B. bronchiseptica) in Cats_6,Bacterial Infection (B. bronchiseptica) in Cats,0,0,1,0,0,1,1,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0.85,0.9867,1.0
+Bacterial Infection (B. bronchiseptica) in Cats_7,Bacterial Infection (B. bronchiseptica) in Cats,0,0,1,0,0,1,1,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0.85,0.9867,1.0
+Bacterial Infection (B. bronchiseptica) in Cats_8,Bacterial Infection (B. bronchiseptica) in Cats,0,0,1,0,0,1,1,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0.85,0.9867,1.0
+Bacterial Infection (B. bronchiseptica) in Cats_9,Bacterial Infection (B. bronchiseptica) in Cats,0,0,1,0,0,1,1,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0.85,0.9867,1.0
+Bacterial Infection (B. bronchiseptica) in Cats_10,Bacterial Infection (B. bronchiseptica) in Cats,0,0,1,0,0,1,1,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0.85,0.9867,1.0
+Bacterial Infection (B. bronchiseptica) in Cats_11,Bacterial Infection (B. bronchiseptica) in Cats,0,0,1,0,0,1,1,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0.85,0.9867,1.0
+Bacterial Infection (B. bronchiseptica) in Cats_12,Bacterial Infection (B. bronchiseptica) in Cats,0,0,1,0,0,1,1,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0.85,0.9867,1.0
+Bacterial Infection (B. bronchiseptica) in Cats_13,Bacterial Infection (B. bronchiseptica) in Cats,0,0,1,0,0,1,1,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0.85,0.9867,1.0
+Bacterial Infection (B. bronchiseptica) in Cats_14,Bacterial Infection (B. bronchiseptica) in Cats,0,0,1,0,0,1,1,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0.85,0.9867,1.0
+Bacterial Infection (B. bronchiseptica) in Cats_15,Bacterial Infection (B. bronchiseptica) in Cats,0,0,1,0,0,1,1,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0.85,0.9867,1.0
+Bacterial Infection (B. bronchiseptica) in Cats_16,Bacterial Infection (B. bronchiseptica) in Cats,0,0,1,0,0,1,1,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0.85,0.9867,1.0
+Bacterial Infection (B. bronchiseptica) in Cats_17,Bacterial Infection (B. bronchiseptica) in Cats,0,0,1,0,0,1,1,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0.85,0.9867,1.0
+Bacterial Infection (B. bronchiseptica) in Cats_18,Bacterial Infection (B. bronchiseptica) in Cats,0,0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0.62,0.9666,0.666666667
+Bacterial Infection (B. bronchiseptica) in Cats_19,Bacterial Infection (B. bronchiseptica) in Cats,0,0,1,0,0,1,1,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0.85,0.9867,1.0
+Bacterial Infection (B. bronchiseptica) in Cats_20,Bacterial Infection (B. bronchiseptica) in Cats,0,0,1,0,0,1,1,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0.85,0.9867,1.0
+Bacterial Infection (B. bronchiseptica) in Cats_21,Bacterial Infection (B. bronchiseptica) in Cats,0,0,1,0,0,1,1,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0.85,0.9867,1.0
+Bacterial Infection (B. bronchiseptica) in Cats_22,Bacterial Infection (B. bronchiseptica) in Cats,0,0,1,0,0,1,1,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0.85,0.9867,1.0
+Bacterial Infection (B. bronchiseptica) in Cats_23,Bacterial Infection (B. bronchiseptica) in Cats,0,0,1,0,0,1,1,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0.85,0.9867,1.0
+Bacterial Infection (B. bronchiseptica) in Cats_24,Bacterial Infection (B. bronchiseptica) in Cats,0,0,1,0,0,1,1,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0.85,0.9867,1.0
+Bacterial Infection (B. bronchiseptica) in Cats_25,Bacterial Infection (B. bronchiseptica) in Cats,0,0,1,0,0,1,1,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0.85,0.9867,1.0
+Bacterial Infection (B. bronchiseptica) in Cats_26,Bacterial Infection (B. bronchiseptica) in Cats,0,0,1,0,0,1,1,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0.85,0.9867,1.0
+Bacterial Infection (B. bronchiseptica) in Cats_27,Bacterial Infection (B. bronchiseptica) in Cats,0,0,1,0,0,1,1,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0.85,0.9867,1.0
+Bacterial Infection (B. bronchiseptica) in Cats_28,Bacterial Infection (B. bronchiseptica) in Cats,0,0,1,0,0,1,1,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0.85,0.9867,1.0
+Bacterial Infection (B. bronchiseptica) in Cats_29,Bacterial Infection (B. bronchiseptica) in Cats,0,0,0,0,0,1,1,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0.7,0.721,0.833333333
+Bacterial Infection (B. bronchiseptica) in Cats_30,Bacterial Infection (B. bronchiseptica) in Cats,0,0,0,0,0,1,1,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0.7,0.721,0.833333333
+Bacterial Infection (Campylobacteriosis) in Cats_1,Bacterial Infection (Campylobacteriosis) in Cats,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,1,0.72,0.9785,0.8
+Bacterial Infection (Campylobacteriosis) in Cats_2,Bacterial Infection (Campylobacteriosis) in Cats,0,0,0,1,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0.54,0.9337,0.6
+Bacterial Infection (Campylobacteriosis) in Cats_3,Bacterial Infection (Campylobacteriosis) in Cats,0,0,0,1,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0.72,0.9751,0.8
+Bacterial Infection (Campylobacteriosis) in Cats_4,Bacterial Infection (Campylobacteriosis) in Cats,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0.58,0.9787,0.6
+Bacterial Infection (Campylobacteriosis) in Cats_5,Bacterial Infection (Campylobacteriosis) in Cats,0,0,0,1,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,1,0.85,0.9716,1.0
+Bacterial Infection (Campylobacteriosis) in Cats_6,Bacterial Infection (Campylobacteriosis) in Cats,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,1,0.72,0.9785,0.8
+Bacterial Infection (Campylobacteriosis) in Cats_7,Bacterial Infection (Campylobacteriosis) in Cats,0,0,0,1,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0.72,0.9751,0.8
+Bacterial Infection (Campylobacteriosis) in Cats_8,Bacterial Infection (Campylobacteriosis) in Cats,0,0,0,1,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0.72,0.9751,0.8
+Bacterial Infection (Campylobacteriosis) in Cats_9,Bacterial Infection (Campylobacteriosis) in Cats,0,0,0,1,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,1,0.85,0.9716,1.0
+Bacterial Infection (Campylobacteriosis) in Cats_10,Bacterial Infection (Campylobacteriosis) in Cats,0,0,0,1,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,1,0.85,0.9716,1.0
+Bacterial Infection (Campylobacteriosis) in Cats_11,Bacterial Infection (Campylobacteriosis) in Cats,0,0,0,1,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,1,0.85,0.9716,1.0
+Bacterial Infection (Campylobacteriosis) in Cats_12,Bacterial Infection (Campylobacteriosis) in Cats,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0.58,0.9787,0.6
+Bacterial Infection (Campylobacteriosis) in Cats_13,Bacterial Infection (Campylobacteriosis) in Cats,0,0,0,1,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,1,0.85,0.9716,1.0
+Bacterial Infection (Campylobacteriosis) in Cats_14,Bacterial Infection (Campylobacteriosis) in Cats,0,0,0,1,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,1,0.85,0.9716,1.0
+Bacterial Infection (Campylobacteriosis) in Cats_15,Bacterial Infection (Campylobacteriosis) in Cats,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0.58,0.9787,0.6
+Bacterial Infection (Campylobacteriosis) in Cats_16,Bacterial Infection (Campylobacteriosis) in Cats,0,0,0,1,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0.72,0.9751,0.8
+Bacterial Infection (Campylobacteriosis) in Cats_17,Bacterial Infection (Campylobacteriosis) in Cats,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0.58,0.9787,0.6
+Bacterial Infection (Campylobacteriosis) in Cats_18,Bacterial Infection (Campylobacteriosis) in Cats,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0.4,0.5313,0.4
+Bacterial Infection (Campylobacteriosis) in Cats_19,Bacterial Infection (Campylobacteriosis) in Cats,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,1,0.72,0.9785,0.8
+Bacterial Infection (Campylobacteriosis) in Cats_20,Bacterial Infection (Campylobacteriosis) in Cats,0,0,0,1,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0.72,0.9751,0.8
+Bacterial Infection (Campylobacteriosis) in Cats_21,Bacterial Infection (Campylobacteriosis) in Cats,0,0,0,1,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,1,0.85,0.9716,1.0
+Bacterial Infection (Campylobacteriosis) in Cats_22,Bacterial Infection (Campylobacteriosis) in Cats,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0.58,0.9787,0.6
+Bacterial Infection (Campylobacteriosis) in Cats_23,Bacterial Infection (Campylobacteriosis) in Cats,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,1,0.72,0.9785,0.8
+Bacterial Infection (Campylobacteriosis) in Cats_24,Bacterial Infection (Campylobacteriosis) in Cats,0,0,0,1,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,1,0.85,0.9716,1.0
+Bacterial Infection (Campylobacteriosis) in Cats_25,Bacterial Infection (Campylobacteriosis) in Cats,0,0,0,1,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0.72,0.9751,0.8
+Bacterial Infection (Campylobacteriosis) in Cats_26,Bacterial Infection (Campylobacteriosis) in Cats,0,0,0,1,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,1,0.85,0.9716,1.0
+Bacterial Infection (Campylobacteriosis) in Cats_27,Bacterial Infection (Campylobacteriosis) in Cats,0,0,0,1,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0.72,0.9751,0.8
+Bacterial Infection (Campylobacteriosis) in Cats_28,Bacterial Infection (Campylobacteriosis) in Cats,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,1,0.72,0.9785,0.8
+Bacterial Infection (Campylobacteriosis) in Cats_29,Bacterial Infection (Campylobacteriosis) in Cats,0,0,0,1,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0.72,0.9751,0.8
+Bacterial Infection (Campylobacteriosis) in Cats_30,Bacterial Infection (Campylobacteriosis) in Cats,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0.54,0.6202,0.6
+Bacterial Infection (Leptospirosis) in Cats_1,Bacterial Infection (Leptospirosis) in Cats,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0.63,0.9477,0.666666667
+Bacterial Infection (Leptospirosis) in Cats_2,Bacterial Infection (Leptospirosis) in Cats,0,0,0,1,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0.7,0.9844,0.833333333
+Bacterial Infection (Leptospirosis) in Cats_3,Bacterial Infection (Leptospirosis) in Cats,0,0,0,1,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0.85,0.9868,1.0
+Bacterial Infection (Leptospirosis) in Cats_4,Bacterial Infection (Leptospirosis) in Cats,0,0,0,1,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0.85,0.9868,1.0
+Bacterial Infection (Leptospirosis) in Cats_5,Bacterial Infection (Leptospirosis) in Cats,0,0,0,1,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0.85,0.9868,1.0
+Bacterial Infection (Leptospirosis) in Cats_6,Bacterial Infection (Leptospirosis) in Cats,0,0,0,1,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0.85,0.9868,1.0
+Bacterial Infection (Leptospirosis) in Cats_7,Bacterial Infection (Leptospirosis) in Cats,0,0,0,1,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0.85,0.9868,1.0
+Bacterial Infection (Leptospirosis) in Cats_8,Bacterial Infection (Leptospirosis) in Cats,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0.74,0.9879,0.833333333
+Bacterial Infection (Leptospirosis) in Cats_9,Bacterial Infection (Leptospirosis) in Cats,0,0,0,1,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0.85,0.9868,1.0
+Bacterial Infection (Leptospirosis) in Cats_10,Bacterial Infection (Leptospirosis) in Cats,0,0,0,1,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0.85,0.9868,1.0
+Bacterial Infection (Leptospirosis) in Cats_11,Bacterial Infection (Leptospirosis) in Cats,0,0,0,1,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0.85,0.9868,1.0
+Bacterial Infection (Leptospirosis) in Cats_12,Bacterial Infection (Leptospirosis) in Cats,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0.63,0.9477,0.666666667
+Bacterial Infection (Leptospirosis) in Cats_13,Bacterial Infection (Leptospirosis) in Cats,0,0,0,1,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0.74,0.9489,0.833333333
+Bacterial Infection (Leptospirosis) in Cats_14,Bacterial Infection (Leptospirosis) in Cats,0,0,0,1,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0.85,0.9868,1.0
+Bacterial Infection (Leptospirosis) in Cats_15,Bacterial Infection (Leptospirosis) in Cats,0,0,0,1,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0.85,0.9868,1.0
+Bacterial Infection (Leptospirosis) in Cats_16,Bacterial Infection (Leptospirosis) in Cats,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0.7,0.9743,0.833333333
+Bacterial Infection (Leptospirosis) in Cats_17,Bacterial Infection (Leptospirosis) in Cats,0,0,0,1,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0.85,0.9868,1.0
+Bacterial Infection (Leptospirosis) in Cats_18,Bacterial Infection (Leptospirosis) in Cats,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0.7,0.9743,0.833333333
+Bacterial Infection (Leptospirosis) in Cats_19,Bacterial Infection (Leptospirosis) in Cats,0,0,0,1,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0.85,0.9868,1.0
+Bacterial Infection (Leptospirosis) in Cats_20,Bacterial Infection (Leptospirosis) in Cats,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0.63,0.9477,0.666666667
+Bacterial Infection (Leptospirosis) in Cats_21,Bacterial Infection (Leptospirosis) in Cats,0,0,0,1,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0.85,0.9868,1.0
+Bacterial Infection (Leptospirosis) in Cats_22,Bacterial Infection (Leptospirosis) in Cats,0,0,0,1,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0.74,0.9489,0.833333333
+Bacterial Infection (Leptospirosis) in Cats_23,Bacterial Infection (Leptospirosis) in Cats,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0.74,0.9879,0.833333333
+Bacterial Infection (Leptospirosis) in Cats_24,Bacterial Infection (Leptospirosis) in Cats,0,0,0,1,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0.85,0.9868,1.0
+Bacterial Infection (Leptospirosis) in Cats_25,Bacterial Infection (Leptospirosis) in Cats,0,0,0,1,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.59,0.9511,0.666666667
+Bacterial Infection (Leptospirosis) in Cats_26,Bacterial Infection (Leptospirosis) in Cats,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.48,0.9581,0.5
+Bacterial Infection (Leptospirosis) in Cats_27,Bacterial Infection (Leptospirosis) in Cats,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0.74,0.9879,0.833333333
+Bacterial Infection (Leptospirosis) in Cats_28,Bacterial Infection (Leptospirosis) in Cats,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0.74,0.9879,0.833333333
+Bacterial Infection (Leptospirosis) in Cats_29,Bacterial Infection (Leptospirosis) in Cats,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0.74,0.9879,0.833333333
+Bacterial Infection (Leptospirosis) in Cats_30,Bacterial Infection (Leptospirosis) in Cats,0,0,0,1,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0.85,0.9868,1.0
+Bacterial Infection (Streptococcus) in Cats_1,Bacterial Infection (Streptococcus) in Cats,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0.38,0.9491,0.4
+Bacterial Infection (Streptococcus) in Cats_2,Bacterial Infection (Streptococcus) in Cats,0,0,1,0,0,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0.8,0.9881,1.0
+Bacterial Infection (Streptococcus) in Cats_3,Bacterial Infection (Streptococcus) in Cats,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0.67,0.9774,0.8
+Bacterial Infection (Streptococcus) in Cats_4,Bacterial Infection (Streptococcus) in Cats,0,0,0,0,0,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0.67,0.9839,0.8
+Bacterial Infection (Streptococcus) in Cats_5,Bacterial Infection (Streptococcus) in Cats,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0.51,0.9831,0.6
+Bacterial Infection (Streptococcus) in Cats_6,Bacterial Infection (Streptococcus) in Cats,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0.55,0.9624,0.6
+Bacterial Infection (Streptococcus) in Cats_7,Bacterial Infection (Streptococcus) in Cats,0,0,1,0,0,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0.8,0.9881,1.0
+Bacterial Infection (Streptococcus) in Cats_8,Bacterial Infection (Streptococcus) in Cats,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0.67,0.9774,0.8
+Bacterial Infection (Streptococcus) in Cats_9,Bacterial Infection (Streptococcus) in Cats,0,0,1,0,0,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0.8,0.9881,1.0
+Bacterial Infection (Streptococcus) in Cats_10,Bacterial Infection (Streptococcus) in Cats,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0.55,0.9624,0.6
+Bacterial Infection (Streptococcus) in Cats_11,Bacterial Infection (Streptococcus) in Cats,0,0,0,0,0,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0.67,0.9839,0.8
+Bacterial Infection (Streptococcus) in Cats_12,Bacterial Infection (Streptococcus) in Cats,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0.55,0.9624,0.6
+Bacterial Infection (Streptococcus) in Cats_13,Bacterial Infection (Streptococcus) in Cats,0,0,0,0,0,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0.67,0.9839,0.8
+Bacterial Infection (Streptococcus) in Cats_14,Bacterial Infection (Streptococcus) in Cats,0,0,1,0,0,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0.8,0.9881,1.0
+Bacterial Infection (Streptococcus) in Cats_15,Bacterial Infection (Streptococcus) in Cats,0,0,0,0,0,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0.67,0.9839,0.8
+Bacterial Infection (Streptococcus) in Cats_16,Bacterial Infection (Streptococcus) in Cats,0,0,0,0,0,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0.67,0.9839,0.8
+Bacterial Infection (Streptococcus) in Cats_17,Bacterial Infection (Streptococcus) in Cats,0,0,1,0,0,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0.8,0.9881,1.0
+Bacterial Infection (Streptococcus) in Cats_18,Bacterial Infection (Streptococcus) in Cats,0,0,0,0,0,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0.67,0.9839,0.8
+Bacterial Infection (Streptococcus) in Cats_19,Bacterial Infection (Streptococcus) in Cats,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0.67,0.9774,0.8
+Bacterial Infection (Streptococcus) in Cats_20,Bacterial Infection (Streptococcus) in Cats,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0.67,0.9774,0.8
+Bacterial Infection (Streptococcus) in Cats_21,Bacterial Infection (Streptococcus) in Cats,0,0,1,0,0,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0.8,0.9881,1.0
+Bacterial Infection (Streptococcus) in Cats_22,Bacterial Infection (Streptococcus) in Cats,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0.55,0.9624,0.6
+Bacterial Infection (Streptococcus) in Cats_23,Bacterial Infection (Streptococcus) in Cats,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0.67,0.9774,0.8
+Bacterial Infection (Streptococcus) in Cats_24,Bacterial Infection (Streptococcus) in Cats,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0.67,0.9774,0.8
+Bacterial Infection (Streptococcus) in Cats_25,Bacterial Infection (Streptococcus) in Cats,0,0,0,0,0,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0.67,0.9839,0.8
+Bacterial Infection (Streptococcus) in Cats_26,Bacterial Infection (Streptococcus) in Cats,0,0,1,0,0,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0.8,0.9881,1.0
+Bacterial Infection (Streptococcus) in Cats_27,Bacterial Infection (Streptococcus) in Cats,0,0,0,0,0,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0.67,0.9839,0.8
+Bacterial Infection (Streptococcus) in Cats_28,Bacterial Infection (Streptococcus) in Cats,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0.55,0.9624,0.6
+Bacterial Infection (Streptococcus) in Cats_29,Bacterial Infection (Streptococcus) in Cats,0,0,0,0,0,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0.67,0.9839,0.8
+Bacterial Infection (Streptococcus) in Cats_30,Bacterial Infection (Streptococcus) in Cats,0,0,0,0,0,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0.67,0.9839,0.8
+Kidney Infections in Cats_1,Kidney Infections in Cats,1,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0.85,0.9866,1.0
+Kidney Infections in Cats_2,Kidney Infections in Cats,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0.72,0.9626,0.8
+Kidney Infections in Cats_3,Kidney Infections in Cats,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0.72,0.9626,0.8
+Kidney Infections in Cats_4,Kidney Infections in Cats,1,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0.85,0.9866,1.0
+Kidney Infections in Cats_5,Kidney Infections in Cats,1,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0.85,0.9866,1.0
+Kidney Infections in Cats_6,Kidney Infections in Cats,1,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0.85,0.9866,1.0
+Kidney Infections in Cats_7,Kidney Infections in Cats,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0.72,0.9626,0.8
+Kidney Infections in Cats_8,Kidney Infections in Cats,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0.72,0.9626,0.8
+Kidney Infections in Cats_9,Kidney Infections in Cats,1,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0.85,0.9866,1.0
+Kidney Infections in Cats_10,Kidney Infections in Cats,1,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0.85,0.9866,1.0
+Kidney Infections in Cats_11,Kidney Infections in Cats,1,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0.85,0.9866,1.0
+Kidney Infections in Cats_12,Kidney Infections in Cats,1,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0.85,0.9866,1.0
+Kidney Infections in Cats_13,Kidney Infections in Cats,1,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0.85,0.9866,1.0
+Kidney Infections in Cats_14,Kidney Infections in Cats,1,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0.85,0.9866,1.0
+Kidney Infections in Cats_15,Kidney Infections in Cats,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0.72,0.9626,0.8
+Kidney Infections in Cats_16,Kidney Infections in Cats,1,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0.85,0.9866,1.0
+Kidney Infections in Cats_17,Kidney Infections in Cats,1,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0.85,0.9866,1.0
+Kidney Infections in Cats_18,Kidney Infections in Cats,1,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0.85,0.9866,1.0
+Kidney Infections in Cats_19,Kidney Infections in Cats,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0.72,0.9626,0.8
+Kidney Infections in Cats_20,Kidney Infections in Cats,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0.72,0.9626,0.8
+Kidney Infections in Cats_21,Kidney Infections in Cats,1,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0.85,0.9866,1.0
+Kidney Infections in Cats_22,Kidney Infections in Cats,1,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0.85,0.9866,1.0
+Kidney Infections in Cats_23,Kidney Infections in Cats,1,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0.68,0.978,0.8
+Kidney Infections in Cats_24,Kidney Infections in Cats,1,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0.85,0.9866,1.0
+Kidney Infections in Cats_25,Kidney Infections in Cats,1,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.68,0.9645,0.8
+Kidney Infections in Cats_26,Kidney Infections in Cats,1,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0.85,0.9866,1.0
+Kidney Infections in Cats_27,Kidney Infections in Cats,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0.72,0.9626,0.8
+Kidney Infections in Cats_28,Kidney Infections in Cats,1,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0.85,0.9866,1.0
+Kidney Infections in Cats_29,Kidney Infections in Cats,1,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0.85,0.9866,1.0
+Kidney Infections in Cats_30,Kidney Infections in Cats,1,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0.85,0.9866,1.0

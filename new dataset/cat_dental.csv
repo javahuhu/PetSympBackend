@@ -1,0 +1,281 @@
+Test Case ID,Illness,Bad Breath,Bleeding gums,Chattering jaw,Difficulty eating,Drooling,Dropping food,Gum recession,Loose teeth,Mouth pain,Painful chewing,Pawing at mouth,Red gums,Swelling face,Swollen gums,FC_Confidence,GB_Confidence,Symptom_Match_Ratio
+Cat Tooth Abscess_1,Cat Tooth Abscess,1,0,0,0,1,0,0,0,0,1,0,0,1,0,0.85,0.9884,1.0
+Cat Tooth Abscess_2,Cat Tooth Abscess,1,0,0,0,1,0,0,0,0,1,0,0,1,0,0.85,0.9884,1.0
+Cat Tooth Abscess_3,Cat Tooth Abscess,1,0,0,0,1,0,0,0,0,0,0,0,1,0,0.65,0.8915,0.75
+Cat Tooth Abscess_4,Cat Tooth Abscess,1,0,0,0,0,0,0,0,0,1,0,0,1,0,0.65,0.983,0.75
+Cat Tooth Abscess_5,Cat Tooth Abscess,1,0,0,0,1,0,0,0,0,1,0,0,1,0,0.85,0.9884,1.0
+Cat Tooth Abscess_6,Cat Tooth Abscess,1,0,0,0,1,0,0,0,0,1,0,0,1,0,0.85,0.9884,1.0
+Cat Tooth Abscess_7,Cat Tooth Abscess,1,0,0,0,1,0,0,0,0,1,0,0,1,0,0.85,0.9884,1.0
+Cat Tooth Abscess_8,Cat Tooth Abscess,1,0,0,0,1,0,0,0,0,1,0,0,1,0,0.85,0.9884,1.0
+Cat Tooth Abscess_9,Cat Tooth Abscess,1,0,0,0,1,0,0,0,0,1,0,0,1,0,0.85,0.9884,1.0
+Cat Tooth Abscess_10,Cat Tooth Abscess,1,0,0,0,1,0,0,0,0,1,0,0,1,0,0.85,0.9884,1.0
+Cat Tooth Abscess_11,Cat Tooth Abscess,1,0,0,0,0,0,0,0,0,1,0,0,1,0,0.65,0.983,0.75
+Cat Tooth Abscess_12,Cat Tooth Abscess,1,0,0,0,1,0,0,0,0,1,0,0,1,0,0.85,0.9884,1.0
+Cat Tooth Abscess_13,Cat Tooth Abscess,1,0,0,0,0,0,0,0,0,1,0,0,1,0,0.65,0.983,0.75
+Cat Tooth Abscess_14,Cat Tooth Abscess,1,0,0,0,1,0,0,0,0,1,0,0,1,0,0.85,0.9884,1.0
+Cat Tooth Abscess_15,Cat Tooth Abscess,1,0,0,0,1,0,0,0,0,1,0,0,1,0,0.85,0.9884,1.0
+Cat Tooth Abscess_16,Cat Tooth Abscess,1,0,0,0,1,0,0,0,0,1,0,0,1,0,0.85,0.9884,1.0
+Cat Tooth Abscess_17,Cat Tooth Abscess,1,0,0,0,1,0,0,0,0,1,0,0,1,0,0.85,0.9884,1.0
+Cat Tooth Abscess_18,Cat Tooth Abscess,1,0,0,0,1,0,0,0,0,1,0,0,1,0,0.85,0.9884,1.0
+Cat Tooth Abscess_19,Cat Tooth Abscess,1,0,0,0,1,0,0,0,0,1,0,0,1,0,0.85,0.9884,1.0
+Cat Tooth Abscess_20,Cat Tooth Abscess,1,0,0,0,1,0,0,0,0,1,0,0,1,0,0.85,0.9884,1.0
+Cat Tooth Abscess_21,Cat Tooth Abscess,1,0,0,0,0,0,0,0,0,1,0,0,1,0,0.65,0.983,0.75
+Cat Tooth Abscess_22,Cat Tooth Abscess,1,0,0,0,1,0,0,0,0,1,0,0,1,0,0.85,0.9884,1.0
+Cat Tooth Abscess_23,Cat Tooth Abscess,0,0,0,0,1,0,0,0,0,1,0,0,1,0,0.65,0.9785,0.75
+Cat Tooth Abscess_24,Cat Tooth Abscess,1,0,0,0,0,0,0,0,0,1,0,0,1,0,0.65,0.983,0.75
+Cat Tooth Abscess_25,Cat Tooth Abscess,1,0,0,0,1,0,0,0,0,1,0,0,1,0,0.85,0.9884,1.0
+Cat Tooth Abscess_26,Cat Tooth Abscess,1,0,0,0,1,0,0,0,0,1,0,0,1,0,0.85,0.9884,1.0
+Cat Tooth Abscess_27,Cat Tooth Abscess,1,0,0,0,1,0,0,0,0,1,0,0,1,0,0.85,0.9884,1.0
+Cat Tooth Abscess_28,Cat Tooth Abscess,1,0,0,0,1,0,0,0,0,1,0,0,1,0,0.85,0.9884,1.0
+Cat Tooth Abscess_29,Cat Tooth Abscess,1,0,0,0,1,0,0,0,0,1,0,0,1,0,0.85,0.9884,1.0
+Cat Tooth Abscess_30,Cat Tooth Abscess,0,0,0,0,1,0,0,0,0,1,0,0,1,0,0.65,0.9785,0.75
+Cat Tooth Abscess_31,Cat Tooth Abscess,1,0,0,0,1,0,0,0,0,1,0,0,1,0,0.85,0.9884,1.0
+Cat Tooth Abscess_32,Cat Tooth Abscess,1,0,0,0,1,0,0,0,0,1,0,0,1,0,0.85,0.9884,1.0
+Cat Tooth Abscess_33,Cat Tooth Abscess,1,0,0,0,1,0,0,0,0,1,0,0,1,0,0.85,0.9884,1.0
+Cat Tooth Abscess_34,Cat Tooth Abscess,1,0,0,0,1,0,0,0,0,1,0,0,1,0,0.85,0.9884,1.0
+Cat Tooth Abscess_35,Cat Tooth Abscess,1,0,0,0,1,0,0,0,0,1,0,0,1,0,0.85,0.9884,1.0
+Cat Tooth Abscess_36,Cat Tooth Abscess,1,0,0,0,1,0,0,0,0,1,0,0,1,0,0.85,0.9884,1.0
+Cat Tooth Abscess_37,Cat Tooth Abscess,1,0,0,0,1,0,0,0,0,1,0,0,1,0,0.85,0.9884,1.0
+Cat Tooth Abscess_38,Cat Tooth Abscess,0,0,0,0,1,0,0,0,0,1,0,0,1,0,0.65,0.9785,0.75
+Cat Tooth Abscess_39,Cat Tooth Abscess,1,0,0,0,1,0,0,0,0,1,0,0,1,0,0.85,0.9884,1.0
+Cat Tooth Abscess_40,Cat Tooth Abscess,0,0,0,0,1,0,0,0,0,1,0,0,1,0,0.65,0.9785,0.75
+Cat Tooth Abscess_41,Cat Tooth Abscess,1,0,0,0,1,0,0,0,0,1,0,0,1,0,0.85,0.9884,1.0
+Cat Tooth Abscess_42,Cat Tooth Abscess,1,0,0,0,1,0,0,0,0,1,0,0,1,0,0.85,0.9884,1.0
+Cat Tooth Abscess_43,Cat Tooth Abscess,1,0,0,0,1,0,0,0,0,1,0,0,1,0,0.85,0.9884,1.0
+Cat Tooth Abscess_44,Cat Tooth Abscess,1,0,0,0,1,0,0,0,0,1,0,0,1,0,0.85,0.9884,1.0
+Cat Tooth Abscess_45,Cat Tooth Abscess,1,0,0,0,1,0,0,0,0,1,0,0,1,0,0.85,0.9884,1.0
+Cat Tooth Abscess_46,Cat Tooth Abscess,1,0,0,0,1,0,0,0,0,1,0,0,1,0,0.85,0.9884,1.0
+Cat Tooth Abscess_47,Cat Tooth Abscess,1,0,0,0,1,0,0,0,0,1,0,0,1,0,0.85,0.9884,1.0
+Cat Tooth Abscess_48,Cat Tooth Abscess,1,0,0,0,1,0,0,0,0,1,0,0,1,0,0.85,0.9884,1.0
+Cat Tooth Abscess_49,Cat Tooth Abscess,1,0,0,0,1,0,0,0,0,1,0,0,1,0,0.85,0.9884,1.0
+Cat Tooth Abscess_50,Cat Tooth Abscess,1,0,0,0,1,0,0,0,0,1,0,0,1,0,0.85,0.9884,1.0
+Dental Issues in Cats_1,Dental Issues in Cats,1,0,0,1,1,0,0,0,0,0,1,0,0,1,0.85,0.9902,1.0
+Dental Issues in Cats_2,Dental Issues in Cats,1,0,0,1,1,0,0,0,0,0,1,0,0,1,0.85,0.9902,1.0
+Dental Issues in Cats_3,Dental Issues in Cats,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0.58,0.9086,0.6
+Dental Issues in Cats_4,Dental Issues in Cats,1,0,0,1,1,0,0,0,0,0,1,0,0,1,0.85,0.9902,1.0
+Dental Issues in Cats_5,Dental Issues in Cats,1,0,0,1,1,0,0,0,0,0,1,0,0,1,0.85,0.9902,1.0
+Dental Issues in Cats_6,Dental Issues in Cats,1,0,0,1,1,0,0,0,0,0,1,0,0,1,0.85,0.9902,1.0
+Dental Issues in Cats_7,Dental Issues in Cats,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0.72,0.9834,0.8
+Dental Issues in Cats_8,Dental Issues in Cats,1,0,0,1,1,0,0,0,0,0,1,0,0,1,0.85,0.9902,1.0
+Dental Issues in Cats_9,Dental Issues in Cats,1,0,0,1,1,0,0,0,0,0,1,0,0,1,0.85,0.9902,1.0
+Dental Issues in Cats_10,Dental Issues in Cats,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0.72,0.9834,0.8
+Dental Issues in Cats_11,Dental Issues in Cats,1,0,0,1,1,0,0,0,0,0,1,0,0,1,0.85,0.9902,1.0
+Dental Issues in Cats_12,Dental Issues in Cats,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0.72,0.9834,0.8
+Dental Issues in Cats_13,Dental Issues in Cats,1,0,0,1,1,0,0,0,0,0,1,0,0,1,0.85,0.9902,1.0
+Dental Issues in Cats_14,Dental Issues in Cats,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0.72,0.9834,0.8
+Dental Issues in Cats_15,Dental Issues in Cats,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0.54,0.9706,0.6
+Dental Issues in Cats_16,Dental Issues in Cats,1,0,0,1,1,0,0,0,0,0,1,0,0,1,0.85,0.9902,1.0
+Dental Issues in Cats_17,Dental Issues in Cats,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0.72,0.9834,0.8
+Dental Issues in Cats_18,Dental Issues in Cats,1,0,0,1,1,0,0,0,0,0,1,0,0,1,0.85,0.9902,1.0
+Dental Issues in Cats_19,Dental Issues in Cats,1,0,0,1,1,0,0,0,0,0,1,0,0,1,0.85,0.9902,1.0
+Dental Issues in Cats_20,Dental Issues in Cats,1,0,0,1,1,0,0,0,0,0,1,0,0,1,0.85,0.9902,1.0
+Dental Issues in Cats_21,Dental Issues in Cats,1,0,0,1,1,0,0,0,0,0,1,0,0,1,0.85,0.9902,1.0
+Dental Issues in Cats_22,Dental Issues in Cats,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0.72,0.9834,0.8
+Dental Issues in Cats_23,Dental Issues in Cats,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0.72,0.9834,0.8
+Dental Issues in Cats_24,Dental Issues in Cats,1,0,0,0,1,0,0,0,0,0,1,0,0,1,0.67,0.9725,0.8
+Dental Issues in Cats_25,Dental Issues in Cats,1,0,0,1,1,0,0,0,0,0,1,0,0,1,0.85,0.9902,1.0
+Dental Issues in Cats_26,Dental Issues in Cats,1,0,0,1,1,0,0,0,0,0,1,0,0,1,0.85,0.9902,1.0
+Dental Issues in Cats_27,Dental Issues in Cats,1,0,0,1,1,0,0,0,0,0,1,0,0,1,0.85,0.9902,1.0
+Dental Issues in Cats_28,Dental Issues in Cats,1,0,0,1,1,0,0,0,0,0,1,0,0,1,0.85,0.9902,1.0
+Dental Issues in Cats_29,Dental Issues in Cats,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0.72,0.9834,0.8
+Dental Issues in Cats_30,Dental Issues in Cats,1,0,0,1,1,0,0,0,0,0,1,0,0,1,0.85,0.9902,1.0
+Dental Issues in Cats_31,Dental Issues in Cats,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0.72,0.9834,0.8
+Dental Issues in Cats_32,Dental Issues in Cats,1,0,0,1,1,0,0,0,0,0,1,0,0,0,0.72,0.9517,0.8
+Dental Issues in Cats_33,Dental Issues in Cats,1,0,0,1,1,0,0,0,0,0,1,0,0,1,0.85,0.9902,1.0
+Dental Issues in Cats_34,Dental Issues in Cats,1,0,0,1,1,0,0,0,0,0,1,0,0,1,0.85,0.9902,1.0
+Dental Issues in Cats_35,Dental Issues in Cats,1,0,0,0,1,0,0,0,0,0,0,0,0,1,0.54,0.8701,0.6
+Dental Issues in Cats_36,Dental Issues in Cats,1,0,0,0,1,0,0,0,0,0,0,0,0,1,0.54,0.8701,0.6
+Dental Issues in Cats_37,Dental Issues in Cats,1,0,0,1,1,0,0,0,0,0,1,0,0,1,0.85,0.9902,1.0
+Dental Issues in Cats_38,Dental Issues in Cats,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0.72,0.9834,0.8
+Dental Issues in Cats_39,Dental Issues in Cats,1,0,0,1,1,0,0,0,0,0,1,0,0,1,0.85,0.9902,1.0
+Dental Issues in Cats_40,Dental Issues in Cats,1,0,0,1,1,0,0,0,0,0,1,0,0,1,0.85,0.9902,1.0
+Dental Issues in Cats_41,Dental Issues in Cats,1,0,0,1,1,0,0,0,0,0,1,0,0,1,0.85,0.9902,1.0
+Dental Issues in Cats_42,Dental Issues in Cats,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0.72,0.9834,0.8
+Dental Issues in Cats_43,Dental Issues in Cats,1,0,0,1,0,0,0,0,0,0,1,0,0,1,0.67,0.987,0.8
+Dental Issues in Cats_44,Dental Issues in Cats,1,0,0,1,1,0,0,0,0,0,1,0,0,1,0.85,0.9902,1.0
+Dental Issues in Cats_45,Dental Issues in Cats,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0.72,0.9834,0.8
+Dental Issues in Cats_46,Dental Issues in Cats,1,0,0,1,1,0,0,0,0,0,1,0,0,1,0.85,0.9902,1.0
+Dental Issues in Cats_47,Dental Issues in Cats,1,0,0,1,1,0,0,0,0,0,1,0,0,1,0.85,0.9902,1.0
+Dental Issues in Cats_48,Dental Issues in Cats,1,0,0,0,1,0,0,0,0,0,1,0,0,1,0.67,0.9725,0.8
+Dental Issues in Cats_49,Dental Issues in Cats,1,0,0,1,1,0,0,0,0,0,1,0,0,1,0.85,0.9902,1.0
+Dental Issues in Cats_50,Dental Issues in Cats,1,0,0,1,1,0,0,0,0,0,1,0,0,0,0.72,0.9517,0.8
+Gingivitis in Cats_1,Gingivitis in Cats,1,0,0,0,1,0,0,0,0,0,0,1,0,1,0.72,0.9718,0.8
+Gingivitis in Cats_2,Gingivitis in Cats,1,0,0,0,1,0,0,0,0,0,0,1,0,1,0.72,0.9718,0.8
+Gingivitis in Cats_3,Gingivitis in Cats,1,1,0,0,1,0,0,0,0,0,0,1,0,1,0.85,0.9888,1.0
+Gingivitis in Cats_4,Gingivitis in Cats,1,1,0,0,1,0,0,0,0,0,0,1,0,1,0.85,0.9888,1.0
+Gingivitis in Cats_5,Gingivitis in Cats,1,0,0,0,1,0,0,0,0,0,0,1,0,1,0.72,0.9718,0.8
+Gingivitis in Cats_6,Gingivitis in Cats,1,1,0,0,1,0,0,0,0,0,0,1,0,1,0.85,0.9888,1.0
+Gingivitis in Cats_7,Gingivitis in Cats,0,0,0,0,1,0,0,0,0,0,0,1,0,1,0.54,0.9627,0.6
+Gingivitis in Cats_8,Gingivitis in Cats,1,1,0,0,1,0,0,0,0,0,0,1,0,1,0.85,0.9888,1.0
+Gingivitis in Cats_9,Gingivitis in Cats,1,0,0,0,1,0,0,0,0,0,0,1,0,1,0.72,0.9718,0.8
+Gingivitis in Cats_10,Gingivitis in Cats,1,1,0,0,1,0,0,0,0,0,0,1,0,1,0.85,0.9888,1.0
+Gingivitis in Cats_11,Gingivitis in Cats,1,1,0,0,1,0,0,0,0,0,0,1,0,1,0.85,0.9888,1.0
+Gingivitis in Cats_12,Gingivitis in Cats,1,0,0,0,1,0,0,0,0,0,0,1,0,1,0.72,0.9718,0.8
+Gingivitis in Cats_13,Gingivitis in Cats,1,1,0,0,1,0,0,0,0,0,0,1,0,1,0.85,0.9888,1.0
+Gingivitis in Cats_14,Gingivitis in Cats,1,1,0,0,1,0,0,0,0,0,0,1,0,1,0.85,0.9888,1.0
+Gingivitis in Cats_15,Gingivitis in Cats,1,1,0,0,1,0,0,0,0,0,0,1,0,1,0.85,0.9888,1.0
+Gingivitis in Cats_16,Gingivitis in Cats,1,1,0,0,1,0,0,0,0,0,0,1,0,1,0.85,0.9888,1.0
+Gingivitis in Cats_17,Gingivitis in Cats,0,1,0,0,1,0,0,0,0,0,0,1,0,1,0.67,0.9831,0.8
+Gingivitis in Cats_18,Gingivitis in Cats,1,1,0,0,1,0,0,0,0,0,0,1,0,1,0.85,0.9888,1.0
+Gingivitis in Cats_19,Gingivitis in Cats,1,1,0,0,1,0,0,0,0,0,0,1,0,1,0.85,0.9888,1.0
+Gingivitis in Cats_20,Gingivitis in Cats,0,1,0,0,1,0,0,0,0,0,0,1,0,1,0.67,0.9831,0.8
+Gingivitis in Cats_21,Gingivitis in Cats,1,1,0,0,1,0,0,0,0,0,0,1,0,1,0.85,0.9888,1.0
+Gingivitis in Cats_22,Gingivitis in Cats,1,1,0,0,1,0,0,0,0,0,0,1,0,1,0.85,0.9888,1.0
+Gingivitis in Cats_23,Gingivitis in Cats,1,0,0,0,1,0,0,0,0,0,0,1,0,1,0.72,0.9718,0.8
+Gingivitis in Cats_24,Gingivitis in Cats,1,0,0,0,1,0,0,0,0,0,0,1,0,1,0.72,0.9718,0.8
+Gingivitis in Cats_25,Gingivitis in Cats,1,0,0,0,1,0,0,0,0,0,0,1,0,1,0.72,0.9718,0.8
+Gingivitis in Cats_26,Gingivitis in Cats,1,1,0,0,1,0,0,0,0,0,0,1,0,1,0.85,0.9888,1.0
+Gingivitis in Cats_27,Gingivitis in Cats,1,1,0,0,1,0,0,0,0,0,0,1,0,1,0.85,0.9888,1.0
+Gingivitis in Cats_28,Gingivitis in Cats,1,1,0,0,0,0,0,0,0,0,0,1,0,1,0.72,0.9698,0.8
+Gingivitis in Cats_29,Gingivitis in Cats,0,0,0,0,1,0,0,0,0,0,0,1,0,1,0.54,0.9627,0.6
+Gingivitis in Cats_30,Gingivitis in Cats,1,1,0,0,1,0,0,0,0,0,0,1,0,1,0.85,0.9888,1.0
+Gingivitis in Cats_31,Gingivitis in Cats,1,1,0,0,1,0,0,0,0,0,0,1,0,1,0.85,0.9888,1.0
+Gingivitis in Cats_32,Gingivitis in Cats,1,0,0,0,1,0,0,0,0,0,0,1,0,1,0.72,0.9718,0.8
+Gingivitis in Cats_33,Gingivitis in Cats,1,0,0,0,1,0,0,0,0,0,0,1,0,1,0.72,0.9718,0.8
+Gingivitis in Cats_34,Gingivitis in Cats,1,0,0,0,1,0,0,0,0,0,0,1,0,1,0.72,0.9718,0.8
+Gingivitis in Cats_35,Gingivitis in Cats,1,1,0,0,1,0,0,0,0,0,0,1,0,1,0.85,0.9888,1.0
+Gingivitis in Cats_36,Gingivitis in Cats,1,1,0,0,1,0,0,0,0,0,0,1,0,1,0.85,0.9888,1.0
+Gingivitis in Cats_37,Gingivitis in Cats,1,1,0,0,1,0,0,0,0,0,0,1,0,1,0.85,0.9888,1.0
+Gingivitis in Cats_38,Gingivitis in Cats,1,0,0,0,1,0,0,0,0,0,0,1,0,1,0.72,0.9718,0.8
+Gingivitis in Cats_39,Gingivitis in Cats,1,1,0,0,1,0,0,0,0,0,0,1,0,1,0.85,0.9888,1.0
+Gingivitis in Cats_40,Gingivitis in Cats,1,1,0,0,1,0,0,0,0,0,0,1,0,1,0.85,0.9888,1.0
+Gingivitis in Cats_41,Gingivitis in Cats,1,0,0,0,1,0,0,0,0,0,0,1,0,1,0.72,0.9718,0.8
+Gingivitis in Cats_42,Gingivitis in Cats,1,1,0,0,1,0,0,0,0,0,0,1,0,1,0.85,0.9888,1.0
+Gingivitis in Cats_43,Gingivitis in Cats,1,1,0,0,1,0,0,0,0,0,0,1,0,1,0.85,0.9888,1.0
+Gingivitis in Cats_44,Gingivitis in Cats,1,1,0,0,1,0,0,0,0,0,0,1,0,1,0.85,0.9888,1.0
+Gingivitis in Cats_45,Gingivitis in Cats,1,1,0,0,1,0,0,0,0,0,0,1,0,1,0.85,0.9888,1.0
+Gingivitis in Cats_46,Gingivitis in Cats,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0.36,0.8812,0.4
+Gingivitis in Cats_47,Gingivitis in Cats,0,0,0,0,1,0,0,0,0,0,0,1,0,1,0.54,0.9627,0.6
+Gingivitis in Cats_48,Gingivitis in Cats,1,1,0,0,1,0,0,0,0,0,0,1,0,1,0.85,0.9888,1.0
+Gingivitis in Cats_49,Gingivitis in Cats,1,0,0,0,1,0,0,0,0,0,0,1,0,1,0.72,0.9718,0.8
+Gingivitis in Cats_50,Gingivitis in Cats,1,0,0,0,1,0,0,0,0,0,0,1,0,1,0.72,0.9718,0.8
+Periodontal Disease in Cats_1,Periodontal Disease in Cats,1,0,0,0,1,0,1,1,0,0,0,0,0,0,0.76,0.984,0.8
+Periodontal Disease in Cats_2,Periodontal Disease in Cats,1,1,0,0,1,0,1,1,0,0,0,0,0,0,0.9,0.9906,1.0
+Periodontal Disease in Cats_3,Periodontal Disease in Cats,1,1,0,0,1,0,1,1,0,0,0,0,0,0,0.9,0.9906,1.0
+Periodontal Disease in Cats_4,Periodontal Disease in Cats,1,1,0,0,1,0,1,1,0,0,0,0,0,0,0.9,0.9906,1.0
+Periodontal Disease in Cats_5,Periodontal Disease in Cats,1,1,0,0,0,0,1,1,0,0,0,0,0,0,0.76,0.9903,0.8
+Periodontal Disease in Cats_6,Periodontal Disease in Cats,1,1,0,0,1,0,0,1,0,0,0,0,0,0,0.71,0.9813,0.8
+Periodontal Disease in Cats_7,Periodontal Disease in Cats,1,1,0,0,1,0,1,1,0,0,0,0,0,0,0.9,0.9906,1.0
+Periodontal Disease in Cats_8,Periodontal Disease in Cats,1,0,0,0,1,0,1,1,0,0,0,0,0,0,0.76,0.984,0.8
+Periodontal Disease in Cats_9,Periodontal Disease in Cats,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0.57,0.9103,0.6
+Periodontal Disease in Cats_10,Periodontal Disease in Cats,1,1,0,0,1,0,1,1,0,0,0,0,0,0,0.9,0.9906,1.0
+Periodontal Disease in Cats_11,Periodontal Disease in Cats,1,1,0,0,1,0,1,1,0,0,0,0,0,0,0.9,0.9906,1.0
+Periodontal Disease in Cats_12,Periodontal Disease in Cats,1,1,0,0,1,0,1,1,0,0,0,0,0,0,0.9,0.9906,1.0
+Periodontal Disease in Cats_13,Periodontal Disease in Cats,1,1,0,0,1,0,1,1,0,0,0,0,0,0,0.9,0.9906,1.0
+Periodontal Disease in Cats_14,Periodontal Disease in Cats,1,1,0,0,1,0,1,1,0,0,0,0,0,0,0.9,0.9906,1.0
+Periodontal Disease in Cats_15,Periodontal Disease in Cats,1,1,0,0,0,0,1,1,0,0,0,0,0,0,0.76,0.9903,0.8
+Periodontal Disease in Cats_16,Periodontal Disease in Cats,1,0,0,0,1,0,1,1,0,0,0,0,0,0,0.76,0.984,0.8
+Periodontal Disease in Cats_17,Periodontal Disease in Cats,1,1,0,0,0,0,1,1,0,0,0,0,0,0,0.76,0.9903,0.8
+Periodontal Disease in Cats_18,Periodontal Disease in Cats,1,1,0,0,1,0,1,1,0,0,0,0,0,0,0.9,0.9906,1.0
+Periodontal Disease in Cats_19,Periodontal Disease in Cats,1,1,0,0,1,0,1,1,0,0,0,0,0,0,0.9,0.9906,1.0
+Periodontal Disease in Cats_20,Periodontal Disease in Cats,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0.62,0.9845,0.6
+Periodontal Disease in Cats_21,Periodontal Disease in Cats,1,1,0,0,0,0,1,1,0,0,0,0,0,0,0.76,0.9903,0.8
+Periodontal Disease in Cats_22,Periodontal Disease in Cats,1,0,0,0,1,0,1,1,0,0,0,0,0,0,0.76,0.984,0.8
+Periodontal Disease in Cats_23,Periodontal Disease in Cats,1,1,0,0,0,0,1,1,0,0,0,0,0,0,0.76,0.9903,0.8
+Periodontal Disease in Cats_24,Periodontal Disease in Cats,1,1,0,0,0,0,1,1,0,0,0,0,0,0,0.76,0.9903,0.8
+Periodontal Disease in Cats_25,Periodontal Disease in Cats,1,1,0,0,1,0,1,1,0,0,0,0,0,0,0.9,0.9906,1.0
+Periodontal Disease in Cats_26,Periodontal Disease in Cats,1,1,0,0,0,0,1,1,0,0,0,0,0,0,0.76,0.9903,0.8
+Periodontal Disease in Cats_27,Periodontal Disease in Cats,1,1,0,0,0,0,1,1,0,0,0,0,0,0,0.76,0.9903,0.8
+Periodontal Disease in Cats_28,Periodontal Disease in Cats,1,1,0,0,1,0,0,1,0,0,0,0,0,0,0.71,0.9813,0.8
+Periodontal Disease in Cats_29,Periodontal Disease in Cats,1,1,0,0,1,0,1,1,0,0,0,0,0,0,0.9,0.9906,1.0
+Periodontal Disease in Cats_30,Periodontal Disease in Cats,1,0,0,0,1,0,1,1,0,0,0,0,0,0,0.76,0.984,0.8
+Periodontal Disease in Cats_31,Periodontal Disease in Cats,1,0,0,0,1,0,1,1,0,0,0,0,0,0,0.76,0.984,0.8
+Periodontal Disease in Cats_32,Periodontal Disease in Cats,1,1,0,0,1,0,1,1,0,0,0,0,0,0,0.9,0.9906,1.0
+Periodontal Disease in Cats_33,Periodontal Disease in Cats,1,1,0,0,1,0,1,1,0,0,0,0,0,0,0.9,0.9906,1.0
+Periodontal Disease in Cats_34,Periodontal Disease in Cats,1,1,0,0,1,0,1,1,0,0,0,0,0,0,0.9,0.9906,1.0
+Periodontal Disease in Cats_35,Periodontal Disease in Cats,1,1,0,0,1,0,1,1,0,0,0,0,0,0,0.9,0.9906,1.0
+Periodontal Disease in Cats_36,Periodontal Disease in Cats,1,1,0,0,1,0,0,1,0,0,0,0,0,0,0.71,0.9813,0.8
+Periodontal Disease in Cats_37,Periodontal Disease in Cats,1,0,0,0,1,0,1,1,0,0,0,0,0,0,0.76,0.984,0.8
+Periodontal Disease in Cats_38,Periodontal Disease in Cats,1,1,0,0,0,0,1,1,0,0,0,0,0,0,0.76,0.9903,0.8
+Periodontal Disease in Cats_39,Periodontal Disease in Cats,1,1,0,0,0,0,1,1,0,0,0,0,0,0,0.76,0.9903,0.8
+Periodontal Disease in Cats_40,Periodontal Disease in Cats,1,1,0,0,0,0,1,1,0,0,0,0,0,0,0.76,0.9903,0.8
+Periodontal Disease in Cats_41,Periodontal Disease in Cats,1,1,0,0,1,0,1,1,0,0,0,0,0,0,0.9,0.9906,1.0
+Periodontal Disease in Cats_42,Periodontal Disease in Cats,1,0,0,0,1,0,1,1,0,0,0,0,0,0,0.76,0.984,0.8
+Periodontal Disease in Cats_43,Periodontal Disease in Cats,1,0,0,0,1,0,1,1,0,0,0,0,0,0,0.76,0.984,0.8
+Periodontal Disease in Cats_44,Periodontal Disease in Cats,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0.62,0.9845,0.6
+Periodontal Disease in Cats_45,Periodontal Disease in Cats,1,0,0,0,1,0,1,1,0,0,0,0,0,0,0.76,0.984,0.8
+Periodontal Disease in Cats_46,Periodontal Disease in Cats,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0.62,0.9845,0.6
+Periodontal Disease in Cats_47,Periodontal Disease in Cats,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0.62,0.9845,0.6
+Periodontal Disease in Cats_48,Periodontal Disease in Cats,1,1,0,0,0,0,1,1,0,0,0,0,0,0,0.76,0.9903,0.8
+Periodontal Disease in Cats_49,Periodontal Disease in Cats,1,1,0,0,1,0,1,1,0,0,0,0,0,0,0.9,0.9906,1.0
+Periodontal Disease in Cats_50,Periodontal Disease in Cats,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0.43,0.9256,0.4
+Stomatitis in Cats_1,Stomatitis in Cats,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0.72,0.9871,0.8
+Stomatitis in Cats_2,Stomatitis in Cats,1,0,0,1,1,0,0,0,1,0,0,1,0,0,0.85,0.9884,1.0
+Stomatitis in Cats_3,Stomatitis in Cats,0,0,0,1,1,0,0,0,1,0,0,0,0,0,0.58,0.9741,0.6
+Stomatitis in Cats_4,Stomatitis in Cats,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0.72,0.9871,0.8
+Stomatitis in Cats_5,Stomatitis in Cats,1,0,0,1,1,0,0,0,1,0,0,1,0,0,0.85,0.9884,1.0
+Stomatitis in Cats_6,Stomatitis in Cats,1,0,0,1,1,0,0,0,1,0,0,1,0,0,0.85,0.9884,1.0
+Stomatitis in Cats_7,Stomatitis in Cats,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0.72,0.9871,0.8
+Stomatitis in Cats_8,Stomatitis in Cats,1,0,0,1,1,0,0,0,1,0,0,0,0,0,0.72,0.9702,0.8
+Stomatitis in Cats_9,Stomatitis in Cats,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0.72,0.9871,0.8
+Stomatitis in Cats_10,Stomatitis in Cats,1,0,0,1,1,0,0,0,1,0,0,1,0,0,0.85,0.9884,1.0
+Stomatitis in Cats_11,Stomatitis in Cats,1,0,0,1,1,0,0,0,1,0,0,0,0,0,0.72,0.9702,0.8
+Stomatitis in Cats_12,Stomatitis in Cats,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0.72,0.9871,0.8
+Stomatitis in Cats_13,Stomatitis in Cats,1,0,0,1,1,0,0,0,1,0,0,0,0,0,0.72,0.9702,0.8
+Stomatitis in Cats_14,Stomatitis in Cats,1,0,0,1,1,0,0,0,1,0,0,1,0,0,0.85,0.9884,1.0
+Stomatitis in Cats_15,Stomatitis in Cats,1,0,0,1,1,0,0,0,1,0,0,1,0,0,0.85,0.9884,1.0
+Stomatitis in Cats_16,Stomatitis in Cats,0,0,0,1,1,0,0,0,1,0,0,0,0,0,0.58,0.9741,0.6
+Stomatitis in Cats_17,Stomatitis in Cats,1,0,0,1,1,0,0,0,1,0,0,0,0,0,0.72,0.9702,0.8
+Stomatitis in Cats_18,Stomatitis in Cats,0,0,0,1,0,0,0,0,1,0,0,1,0,0,0.54,0.9801,0.6
+Stomatitis in Cats_19,Stomatitis in Cats,0,0,0,1,1,0,0,0,1,0,0,0,0,0,0.58,0.9741,0.6
+Stomatitis in Cats_20,Stomatitis in Cats,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0.72,0.9871,0.8
+Stomatitis in Cats_21,Stomatitis in Cats,1,0,0,1,1,0,0,0,1,0,0,0,0,0,0.72,0.9702,0.8
+Stomatitis in Cats_22,Stomatitis in Cats,1,0,0,1,1,0,0,0,1,0,0,1,0,0,0.85,0.9884,1.0
+Stomatitis in Cats_23,Stomatitis in Cats,1,0,0,1,1,0,0,0,1,0,0,1,0,0,0.85,0.9884,1.0
+Stomatitis in Cats_24,Stomatitis in Cats,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0.72,0.9871,0.8
+Stomatitis in Cats_25,Stomatitis in Cats,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0.72,0.9871,0.8
+Stomatitis in Cats_26,Stomatitis in Cats,1,0,0,1,1,0,0,0,1,0,0,1,0,0,0.85,0.9884,1.0
+Stomatitis in Cats_27,Stomatitis in Cats,1,0,0,1,1,0,0,0,1,0,0,0,0,0,0.72,0.9702,0.8
+Stomatitis in Cats_28,Stomatitis in Cats,0,0,0,1,0,0,0,0,1,0,0,1,0,0,0.54,0.9801,0.6
+Stomatitis in Cats_29,Stomatitis in Cats,1,0,0,1,0,0,0,0,1,0,0,1,0,0,0.67,0.9819,0.8
+Stomatitis in Cats_30,Stomatitis in Cats,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0.72,0.9871,0.8
+Tooth Resorption in Cats_1,Tooth Resorption in Cats,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0.85,0.9902,1.0
+Tooth Resorption in Cats_2,Tooth Resorption in Cats,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0.85,0.9902,1.0
+Tooth Resorption in Cats_3,Tooth Resorption in Cats,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0.85,0.9902,1.0
+Tooth Resorption in Cats_4,Tooth Resorption in Cats,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0.85,0.9902,1.0
+Tooth Resorption in Cats_5,Tooth Resorption in Cats,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0.85,0.9902,1.0
+Tooth Resorption in Cats_6,Tooth Resorption in Cats,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0.85,0.9902,1.0
+Tooth Resorption in Cats_7,Tooth Resorption in Cats,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0.85,0.9902,1.0
+Tooth Resorption in Cats_8,Tooth Resorption in Cats,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0.85,0.9902,1.0
+Tooth Resorption in Cats_9,Tooth Resorption in Cats,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0.85,0.9902,1.0
+Tooth Resorption in Cats_10,Tooth Resorption in Cats,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0.85,0.9902,1.0
+Tooth Resorption in Cats_11,Tooth Resorption in Cats,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0.85,0.9902,1.0
+Tooth Resorption in Cats_12,Tooth Resorption in Cats,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0.85,0.9902,1.0
+Tooth Resorption in Cats_13,Tooth Resorption in Cats,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0.69,0.9754,0.75
+Tooth Resorption in Cats_14,Tooth Resorption in Cats,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0.85,0.9902,1.0
+Tooth Resorption in Cats_15,Tooth Resorption in Cats,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0.85,0.9902,1.0
+Tooth Resorption in Cats_16,Tooth Resorption in Cats,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0.69,0.9754,0.75
+Tooth Resorption in Cats_17,Tooth Resorption in Cats,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0.69,0.9754,0.75
+Tooth Resorption in Cats_18,Tooth Resorption in Cats,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0.69,0.9754,0.75
+Tooth Resorption in Cats_19,Tooth Resorption in Cats,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0.85,0.9902,1.0
+Tooth Resorption in Cats_20,Tooth Resorption in Cats,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0.85,0.9902,1.0
+Tooth Resorption in Cats_21,Tooth Resorption in Cats,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0.85,0.9902,1.0
+Tooth Resorption in Cats_22,Tooth Resorption in Cats,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0.85,0.9902,1.0
+Tooth Resorption in Cats_23,Tooth Resorption in Cats,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0.85,0.9902,1.0
+Tooth Resorption in Cats_24,Tooth Resorption in Cats,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0.85,0.9902,1.0
+Tooth Resorption in Cats_25,Tooth Resorption in Cats,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0.85,0.9902,1.0
+Tooth Resorption in Cats_26,Tooth Resorption in Cats,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0.48,0.8466,0.5
+Tooth Resorption in Cats_27,Tooth Resorption in Cats,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0.85,0.9902,1.0
+Tooth Resorption in Cats_28,Tooth Resorption in Cats,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0.85,0.9902,1.0
+Tooth Resorption in Cats_29,Tooth Resorption in Cats,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0.69,0.9754,0.75
+Tooth Resorption in Cats_30,Tooth Resorption in Cats,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0.85,0.9902,1.0
+Tooth Resorption in Cats_31,Tooth Resorption in Cats,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0.85,0.9902,1.0
+Tooth Resorption in Cats_32,Tooth Resorption in Cats,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0.69,0.9754,0.75
+Tooth Resorption in Cats_33,Tooth Resorption in Cats,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0.69,0.9754,0.75
+Tooth Resorption in Cats_34,Tooth Resorption in Cats,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0.69,0.9754,0.75
+Tooth Resorption in Cats_35,Tooth Resorption in Cats,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0.85,0.9902,1.0
+Tooth Resorption in Cats_36,Tooth Resorption in Cats,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0.69,0.9754,0.75
+Tooth Resorption in Cats_37,Tooth Resorption in Cats,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0.69,0.9754,0.75
+Tooth Resorption in Cats_38,Tooth Resorption in Cats,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0.69,0.9754,0.75
+Tooth Resorption in Cats_39,Tooth Resorption in Cats,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0.69,0.9754,0.75
+Tooth Resorption in Cats_40,Tooth Resorption in Cats,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0.69,0.9754,0.75
+Tooth Resorption in Cats_41,Tooth Resorption in Cats,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0.85,0.9902,1.0
+Tooth Resorption in Cats_42,Tooth Resorption in Cats,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0.69,0.9754,0.75
+Tooth Resorption in Cats_43,Tooth Resorption in Cats,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0.85,0.9902,1.0
+Tooth Resorption in Cats_44,Tooth Resorption in Cats,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0.85,0.9902,1.0
+Tooth Resorption in Cats_45,Tooth Resorption in Cats,0,0,1,0,0,1,0,0,0,0,1,0,0,0,0.64,0.9798,0.75
+Tooth Resorption in Cats_46,Tooth Resorption in Cats,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0.85,0.9902,1.0
+Tooth Resorption in Cats_47,Tooth Resorption in Cats,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0.85,0.9902,1.0
+Tooth Resorption in Cats_48,Tooth Resorption in Cats,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0.85,0.9902,1.0
+Tooth Resorption in Cats_49,Tooth Resorption in Cats,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0.85,0.9902,1.0
+Tooth Resorption in Cats_50,Tooth Resorption in Cats,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0.85,0.9902,1.0
