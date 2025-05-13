@@ -1,160 +1,205 @@
 {
-    "owner": "Sample",
+    "owner": "Test Three",
     "symptoms": [
-        "aggression",
-        "fever"
+        "coughing",
+        "lethargy",
+        "fever",
+        "gagging",
+        "retching"
     ],
     "pet_type": "dog",
     "pet_info": {
-        "age": "0",
-        "breed": "Shih Tzu",
-        "size": "Small",
-        "age_range": "Puppy"
+        "age": "4",
+        "breed": "Corgi",
+        "size": "Medium",
+        "age_range": "Adult"
     },
     "user_answers": {
-        "aggression": {
-            "How long has your pet had aggression?": "1-3 days",
-            "What type of aggression is it? (Sudden, Unprovoked)": "sudden"
+        "coughing": {
+            "How long has your pet had coughing?": "8-14 days",
+            "What type of coughing is it? (Dry, Honking, Intermittent, Occasional, Persistent, Wet, Worse at night)": "dry"
+        },
+        "lethargy": {
+            "How long has your pet had lethargy?": "1-3 days",
+            "What type of lethargy is it? (Constant, Intermittent)": "intermittent"
         },
         "fever": {
             "How long has your pet had fever?": "1-3 days"
+        },
+        "gagging": {
+            "How long has your pet had gagging?": "1-3 days"
+        },
+        "retching": {
+            "How long has your pet had retching?": "1-3 days",
+            "What type of retching is it? (Dry, Non-productive)": "dry"
         }
     },
     "possible_diagnosis": [
         {
-            "illness": "Rabies",
-            "matched_symptoms": [
-                "aggression",
-                "fever"
-            ],
-            "confidence_fc": 0.09,
-            "confidence_gb": 0.16,
-            "confidence_ab": 0.14,
-            "type": "Viral",
-            "age_specificity": "Any",
-            "size_specificity": "Any",
-            "subtype_coverage": 16.67,
-            "confidence_ab_raw": 0.14,
-            "confidence_softmax": 0.3434
-        },
-        {
             "illness": "Kennel Cough",
             "matched_symptoms": [
-                "fever"
+                "coughing",
+                "fever",
+                "gagging",
+                "lethargy",
+                "retching"
             ],
-            "confidence_fc": 0.16,
-            "confidence_gb": 0.0886,
-            "confidence_ab": 0.1138,
+            "confidence_fc": 0.5364,
+            "confidence_gb": 1.0,
+            "confidence_ab": 0.9985,
             "type": "Viral",
             "age_specificity": "Any",
             "size_specificity": "Any",
-            "subtype_coverage": 0.0,
-            "confidence_ab_raw": 0.1138,
-            "confidence_softmax": 0.3345
+            "subtype_coverage": 40.0,
+            "confidence_ab_raw": 0.9985,
+            "confidence_softmax": 0.9996
         },
         {
             "illness": "Canine Respiratory Coronavirus",
             "matched_symptoms": [
-                "fever"
+                "coughing",
+                "fever",
+                "lethargy"
             ],
-            "confidence_fc": 0.16,
-            "confidence_gb": 0.0886,
-            "confidence_ab": 0.0759,
+            "confidence_fc": 0.3733,
+            "confidence_gb": 0.0,
+            "confidence_ab": 0.1728,
             "type": "Viral",
             "age_specificity": "Any",
             "size_specificity": "Any",
-            "subtype_coverage": 0.0,
-            "confidence_ab_raw": 0.0759,
-            "confidence_softmax": 0.3221
+            "subtype_coverage": 20.0,
+            "confidence_ab_raw": 0.1728,
+            "confidence_softmax": 0.0003
         },
         {
             "illness": "Canine Influenza",
             "matched_symptoms": [
-                "fever"
+                "coughing",
+                "fever",
+                "lethargy"
             ],
-            "confidence_fc": 0.18,
-            "confidence_gb": 0.1012,
-            "confidence_ab": 0.0759,
+            "confidence_fc": 0.3937,
+            "confidence_gb": 0.0,
+            "confidence_ab": 0.1344,
             "type": "Viral",
             "age_specificity": "Any",
             "size_specificity": "Any",
             "subtype_coverage": 0.0,
-            "confidence_ab_raw": 0.0759,
-            "confidence_softmax": 0.0
-        },
-        {
-            "illness": "Canine Parvovirus",
-            "matched_symptoms": [
-                "fever"
-            ],
-            "confidence_fc": 0.15,
-            "confidence_gb": 0.1012,
-            "confidence_ab": 0.0759,
-            "type": "Viral",
-            "age_specificity": "Puppy",
-            "size_specificity": "Any",
-            "subtype_coverage": 0.0,
-            "confidence_ab_raw": 0.0759,
-            "confidence_softmax": 0.0
-        },
-        {
-            "illness": "Canine Minute Virus",
-            "matched_symptoms": [
-                "fever"
-            ],
-            "confidence_fc": 0.13,
-            "confidence_gb": 0.038,
-            "confidence_ab": 0.0506,
-            "type": "Viral",
-            "age_specificity": "Any",
-            "size_specificity": "Any",
-            "subtype_coverage": 0.0,
-            "confidence_ab_raw": 0.0506,
-            "confidence_softmax": 0.0
-        },
-        {
-            "illness": "Canine Distemper",
-            "matched_symptoms": [
-                "fever"
-            ],
-            "confidence_fc": 0.09,
-            "confidence_gb": 0.0253,
-            "confidence_ab": 0.038,
-            "type": "Viral",
-            "age_specificity": "Puppy",
-            "size_specificity": "Any",
-            "subtype_coverage": 0.0,
-            "confidence_ab_raw": 0.038,
-            "confidence_softmax": 0.0
+            "confidence_ab_raw": 0.1344,
+            "confidence_softmax": 0.0002
         },
         {
             "illness": "Canine Herpesvirus",
             "matched_symptoms": [
-                "fever"
+                "coughing",
+                "fever",
+                "lethargy"
             ],
-            "confidence_fc": 0.09,
-            "confidence_gb": 0.0253,
-            "confidence_ab": 0.038,
+            "confidence_fc": 0.1998,
+            "confidence_gb": 0.0,
+            "confidence_ab": 0.0768,
             "type": "Viral",
             "age_specificity": "Any",
             "size_specificity": "Any",
             "subtype_coverage": 0.0,
-            "confidence_ab_raw": 0.038,
+            "confidence_ab_raw": 0.0768,
             "confidence_softmax": 0.0
         },
         {
             "illness": "Infectious Canine Hepatitis",
             "matched_symptoms": [
-                "fever"
+                "coughing",
+                "fever",
+                "lethargy"
             ],
-            "confidence_fc": 0.07,
-            "confidence_gb": 0.0253,
-            "confidence_ab": 0.038,
+            "confidence_fc": 0.1593,
+            "confidence_gb": 0.0,
+            "confidence_ab": 0.0768,
+            "type": "Viral",
+            "age_specificity": "Any",
+            "size_specificity": "Any",
+            "subtype_coverage": 20.0,
+            "confidence_ab_raw": 0.0768,
+            "confidence_softmax": 0.0
+        },
+        {
+            "illness": "Canine Minute Virus",
+            "matched_symptoms": [
+                "fever",
+                "lethargy"
+            ],
+            "confidence_fc": 0.1864,
+            "confidence_gb": 0.0,
+            "confidence_ab": 0.0576,
+            "type": "Viral",
+            "age_specificity": "Any",
+            "size_specificity": "Any",
+            "subtype_coverage": 16.67,
+            "confidence_ab_raw": 0.0576,
+            "confidence_softmax": 0.0
+        },
+        {
+            "illness": "Canine Distemper",
+            "matched_symptoms": [
+                "coughing",
+                "fever",
+                "lethargy"
+            ],
+            "confidence_fc": 0.2192,
+            "confidence_gb": 0.0,
+            "confidence_ab": 0.0384,
+            "type": "Viral",
+            "age_specificity": "Puppy",
+            "size_specificity": "Any",
+            "subtype_coverage": 0.0,
+            "confidence_ab_raw": 0.0384,
+            "confidence_softmax": 0.0
+        },
+        {
+            "illness": "Canine Enteric Coronavirus",
+            "matched_symptoms": [
+                "lethargy"
+            ],
+            "confidence_fc": 0.1463,
+            "confidence_gb": 0.0,
+            "confidence_ab": 0.0192,
+            "type": "Viral",
+            "age_specificity": "Puppy",
+            "size_specificity": "Any",
+            "subtype_coverage": 0.0,
+            "confidence_ab_raw": 0.0192,
+            "confidence_softmax": 0.0
+        },
+        {
+            "illness": "Canine Parvovirus",
+            "matched_symptoms": [
+                "fever",
+                "lethargy"
+            ],
+            "confidence_fc": 0.225,
+            "confidence_gb": 0.0,
+            "confidence_ab": 0.0192,
+            "type": "Viral",
+            "age_specificity": "Puppy",
+            "size_specificity": "Any",
+            "subtype_coverage": 0.0,
+            "confidence_ab_raw": 0.0192,
+            "confidence_softmax": 0.0
+        },
+        {
+            "illness": "Rabies",
+            "matched_symptoms": [
+                "fever",
+                "lethargy"
+            ],
+            "confidence_fc": 0.0947,
+            "confidence_gb": 0.0,
+            "confidence_ab": 0.0192,
             "type": "Viral",
             "age_specificity": "Any",
             "size_specificity": "Any",
             "subtype_coverage": 0.0,
-            "confidence_ab_raw": 0.038,
+            "confidence_ab_raw": 0.0192,
             "confidence_softmax": 0.0
         }
     ]
