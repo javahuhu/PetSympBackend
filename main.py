@@ -144,11 +144,15 @@ def align_features(feature_vector, expected_features):
     return feature_vector[expected_features]
 
 
-def adjust_confidence_with_followups(confidence, symptom_details, illness_name, user_answers, pet_type):
+def adjust_confidence_with_followups(
+    confidence, symptom_details, illness_name, user_answers, pet_type
+):
     pet = pet_type.strip().lower()
     followups = DOG_FOLLOWUPS if pet == "dog" else CAT_FOLLOWUPS if pet == "cat" else {}
 
-    illness_rule = next((r for r in knowledge_base if r["illness"] == illness_name), None)
+    illness_rule = next(
+        (r for r in knowledge_base if r["illness"] == illness_name), None
+    )
     if not illness_rule:
         return round(min(confidence, 1.0), 4)
 
@@ -181,26 +185,27 @@ def adjust_confidence_with_followups(confidence, symptom_details, illness_name, 
     if "boost_if_contains" in rule_cfg:
         for symptom_answers in user_answers.values():
             for val in symptom_answers.values():
-                if any(keyword in val.lower() for keyword in rule_cfg["boost_if_contains"]):
-                    total_multiplier = max(total_multiplier, rule_cfg.get("boost_factor", 1.5))
+                if any(
+                    keyword in val.lower() for keyword in rule_cfg["boost_if_contains"]
+                ):
+                    total_multiplier = max(
+                        total_multiplier, rule_cfg.get("boost_factor", 1.5)
+                    )
 
     # Dynamic penalty
     if "penalty_if_contains" in rule_cfg:
         for symptom_answers in user_answers.values():
             for val in symptom_answers.values():
-                if any(keyword in val.lower() for keyword in rule_cfg["penalty_if_contains"]):
-                    total_multiplier = min(total_multiplier, rule_cfg.get("penalty_factor", 0.7))
+                if any(
+                    keyword in val.lower()
+                    for keyword in rule_cfg["penalty_if_contains"]
+                ):
+                    total_multiplier = min(
+                        total_multiplier, rule_cfg.get("penalty_factor", 0.7)
+                    )
 
     total_multiplier = min(max(total_multiplier, 0.5), 3.0)
     return round(min(confidence * total_multiplier, 1.0), 4)
-
-def normalize_user_answers(user_answers):
-    return {
-        k.lower().strip(): {
-            q.lower().strip(): v.lower().strip()
-            for q, v in v.items()
-        } for k, v in user_answers.items()
-    }
 
 
 def forward_chaining(fact_base):
@@ -208,26 +213,45 @@ def forward_chaining(fact_base):
 
     possible_diagnoses = []
     for rule in knowledge_base:
-        total_weight = sum(symptom["weight"] for symptom in rule["symptoms"])
+        rule_symptoms = rule["symptoms"]
+
+        # Weighted match ratio
+        total_weight = sum(symptom["weight"] for symptom in rule_symptoms)
         matched_weight = sum(
             symptom["weight"]
-            for symptom in rule["symptoms"]
+            for symptom in rule_symptoms
             if symptom["name"].lower().strip() in user_symptoms
         )
-        if matched_weight > 0:
-            match_ratio = matched_weight / total_weight
-            confidence_fc = round(rule["confidence"] * match_ratio, 2)
+        match_ratio_weight = matched_weight / max(total_weight, 1)
+
+        # Count-based match ratio
+        total_count = len(rule_symptoms)
+        matched_count = sum(
+            1
+            for symptom in rule_symptoms
+            if symptom["name"].lower().strip() in user_symptoms
+        )
+        match_ratio_count = matched_count / max(total_count, 1)
+
+        # Combine both ratios
+        combined_ratio = (match_ratio_weight + match_ratio_count) / 2
+
+        # Final FC score
+        confidence_fc = round(rule["confidence"] * combined_ratio, 4)
+
+        if matched_count > 0:
             possible_diagnoses.append(
                 {
                     "illness": rule["illness"],
                     "matched_symptoms": [
                         s["name"].lower().strip()
-                        for s in rule["symptoms"]
+                        for s in rule_symptoms
                         if s["name"].lower().strip() in user_symptoms
                     ],
                     "confidence_fc": confidence_fc,
                 }
             )
+
     return possible_diagnoses
 
 
@@ -269,8 +293,14 @@ def gradient_boosting_ranking(
 
         # ✅ Pattern Ratio Boost for GB (after rule is loaded)
         rule_symptom_count = len(rule.get("symptoms", [])) if rule else 0
-        pattern_ratio = len(diagnosis["matched_symptoms"]) / max(rule_symptom_count, 1)
+        matched_symptom_count = len(diagnosis["matched_symptoms"])
+        pattern_ratio = matched_symptom_count / max(rule_symptom_count, 1)
         boost_factor = 0.5 + 1.5 * pattern_ratio  # ranges from 0.5 to 2.0
+
+        # 🚫 NEW: Penalize low match counts (<= 2)
+        if matched_symptom_count <= 2:
+            boost_factor *= 0.6  # reduce inflation when symptom match is weak
+
         gb_confidence *= boost_factor
         gb_confidence = min(gb_confidence, 1.0)
 
@@ -372,7 +402,11 @@ def adaboost_ranking(
         ab_confidence = ab_raw
         if predicted_label == diagnosis["illness"]:
             ab_confidence += 0.2
-        blended_score = 0.2 * fc_score + 0.5 * gb_score + 0.3 * ab_confidence
+        blended_score = 0.35 * fc_score + 0.4 * gb_score + 0.25 * ab_confidence
+
+        # 🚫 NEW: Penalize blended_score for weak symptom matches (≤ 2)
+        if len(diagnosis["matched_symptoms"]) <= 2:
+            blended_score *= 0.7  # reduce confidence when weak pattern match
 
         penalty = 1.0
         rule = next(
@@ -405,7 +439,7 @@ def adaboost_ranking(
                         subtype_matched += 1
                         break
             subtype_ratio = subtype_matched / subtype_total if subtype_total > 0 else 0
-            subtype_boost = 0.75 + 0.25 * subtype_ratio  # increase effect slightly
+            subtype_boost = 0.5 + 1.0 * subtype_ratio
             blended_score *= subtype_boost
 
             # ✅ Apply additional penalties based on profile mismatch
@@ -419,18 +453,16 @@ def adaboost_ranking(
                 pet_breed.title(), ""
             ).lower()
 
-            # ❗ Stronger penalty if age does not match
             if rule_age != "any" and rule_age != pet_age:
-                penalty *= 0.5  # was 0.7
-            # ❗ Stricter breed mismatch penalty
+                penalty *= 0.5
             if rule_breed != "any" and rule_breed not in [
                 pet_breed,
                 pet_breed_category,
             ]:
-                penalty *= 0.7  # was 0.85
-            # ❗ Stricter size mismatch penalty
+                penalty *= 0.7
             if rule_size != "any" and rule_size != pet_size:
-                penalty *= 0.7  # was 0.85
+                penalty *= 0.7
+
         adjusted_score = round(blended_score * penalty, 2)
 
         final_confidence_ab = adjust_confidence_with_followups(
@@ -474,28 +506,36 @@ def apply_softmax_to_confidences(diagnoses, threshold=0.0):
     top_diagnoses = diagnoses[:top_k]
     rest = diagnoses[top_k:]
 
-    # Apply softmax to top 3
+    # Apply rescaled softmax to top 3
     scores = np.array([d["confidence_ab"] for d in top_diagnoses], dtype=float)
-    exp_scores = np.exp(scores)
+
+    # Optional: scale up the scores to exaggerate differences
+    scaled_scores = scores * 10  # You can adjust this factor
+
+    # Apply softmax
+    exp_scores = np.exp(
+        scaled_scores - np.max(scaled_scores)
+    )  # for numerical stability
     softmax_probs = exp_scores / np.sum(exp_scores)
 
     for i, d in enumerate(top_diagnoses):
         d["confidence_softmax"] = round(float(softmax_probs[i]), 4)
 
-    # Assign 0.0 to the rest (or skip entirely if preferred)
+    # Assign 0.0 to the rest
     for d in rest:
         d["confidence_softmax"] = 0.0
 
     all_diagnoses = top_diagnoses + rest
 
-    # Optional: filter only top-k if threshold is enabled
+    # Optional: filter by threshold
     if threshold > 0.0:
         all_diagnoses = [
-            d for d in all_diagnoses if d["confidence_softmax"] >= threshold or d not in top_diagnoses
+            d
+            for d in all_diagnoses
+            if d["confidence_softmax"] >= threshold or d not in top_diagnoses
         ]
 
     return all_diagnoses
-
 
 
 def compute_subtype_coverage(illness_rule, user_answers):

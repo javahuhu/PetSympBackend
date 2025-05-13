@@ -9,7 +9,7 @@
   },
 
   "rabies": {
-    "boost_if_contains": ["aggression", "unprovoked", "sudden", "paralysis", "seizures", "fever"],
+    "boost_if_contains": ["aggression", "unprovoked","sudden", "paralysis", "seizures", "fever"],
     "boost_factor": 2.0
   }
 }
